@@ -2,17 +2,27 @@
 title = "My First testpage"
 type = "onepage"
 +++
+# Make Copyright and Licenses Computer Readable!
+We're working to make managing copyrights and licenses in free and open
+source software easier. These best practices are meant to demonstrate how 
+to add copyright and license information to a project in ways which allow
+for more automation.
+
+There's still work to do, but we hope you'll help us by adopting these
+practices and <a href="#feedback">leaving your feedback</a>.
+
                      Step | Action
 --------------------------|----------------------
 ![1. ](/img/one_sm.png)   | Provide the exact text of each license used, in verbatim form, without removing any existing license texts. <a href="#one">[read more]</a>
-![2. ](/img/two_sm.png)   | Do something more
-![3. ](/img/three_sm.png) | Do something even more
+![2. ](/img/two_sm.png)   | Include a copyright notice and license in each file, with a consistent style, with a reference to the license text and an appropriate SPDX License Identifier. <a href="#two">[read more]</a>
+![3. ](/img/three_sm.png) | Provide an inventory for included software, but only if you can generate it automatically! <a href="#three">[read more]</a>
 
 
 # Background
 The FSFE has launched a project to develop and raise awareness of best practices
 for the expression of license and copyright information in free and open
-source projects. The project is intended to facilitate management of source code
+source projects. 
+The project is intended to facilitate management of source code
 by making licensing and copyright information more consistent in how it is
 added to source code in ways which allow for automating many of
 the processes involved.
@@ -88,6 +98,7 @@ Keep in mind:
 [^1]: https://spdx.org/licenses/
 [^2]: https://github.com/spdx/license-list
 
+<a name="two"></a>
 ### Include a copyright notice and license in each file
 You should ensure all files in your project have a header file, and
 that all header files have the same format. Even if your project has a
@@ -182,6 +193,7 @@ Keep in mind:
  * Make references to the license text and the SPDX identifier from each source code file
  * Include license and copyright information also for files which can not include a proper header by including this information in a separate file with the ending ".license"
 
+<a name="three"></a>
 ### Provide an inventory for included software
 Aside from the license files included in the project, and the file level
 copyright information, you may include a bill of material for your project,
@@ -214,13 +226,7 @@ Keep in mind:
  * Don't create a bill of material if you can't generate it automatically
  * If you generate one automatically, it's helpful to include one
  * Make your bill of material conformant to the SPDX specification
-
-## Further recommendations
-Aside from following the best practices above, we recommend that as a next
-step, you consider using ScanCode or FOSSology on your project, to verify
-that these tools can read and understand the licenses of your software.
-
-
+ * It doesn't hurt to run your project through ScanCode or FOSSology, to make sure these tools can parse and understand your project's licensing.
 
 ## Future development
 These best practices hint at the need for license stewards to make available
