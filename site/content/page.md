@@ -38,37 +38,12 @@ practices and <a href="#feedback">leaving your feedback</a>.
   </tr>
 </table>
 
+<hr />
 
-# Background
-The FSFE has launched a project to develop and raise awareness of best practices
-for the expression of license and copyright information in free and open
-source projects. 
-The project is intended to facilitate management of source code
-by making licensing and copyright information more consistent in how it is
-added to source code in ways which allow for automating many of
-the processes involved.
-
-This is a concern for any free and open source software developer,
-user or distributor. Incorrect license and copyright information can
-lead to situations where software developers are not credited for
-the work they have done, where the license or copyright information is
-misunderstood or where using a software project becomes a burdensome
-process due to the inability to use automated tools.
-
-The best practices we've identified and worked to describe in this
-text are based on existing sources for best practices,
-but we have identified and revised the practices which can facilitate
-automation.
-
-We've also sought to identify practices which will be easy for software
-developers to adopt and will work more on this to develop material
-suitable for anyone wishing to help us make copyrights and licensing
-information computer readable.
-
-## Best practices
+# Best practices
 
 <a name="one"></a>
-### Provide the exact text of each license used
+## Provide the exact text of each license used
 Free and open source software licenses are standardised and have standard
 texts. Regardless of which license you use, you should include the
 license text in your project. You should also include the license text of
@@ -120,7 +95,7 @@ Keep in mind:
 [^2]: https://github.com/spdx/license-list
 
 <a name="two"></a>
-### Include a copyright notice and license in each file
+## Include a copyright notice and license in each file
 You should ensure all files in your project have a header file, and
 that all header files have the same format. Even if your project has a
 header file which looks different from other projects, it helps to have
@@ -215,7 +190,7 @@ Keep in mind:
  * Include license and copyright information also for files which can not include a proper header by including this information in a separate file with the ending ".license"
 
 <a name="three"></a>
-### Provide an inventory for included software
+## Provide an inventory for included software
 Aside from the license files included in the project, and the file level
 copyright information, you may include a bill of material for your project,
 but you should only do so if this is generated automatically.
@@ -250,8 +225,7 @@ Keep in mind:
  * It doesn't hurt to run your project through ScanCode or FOSSology, to make sure these tools can parse and understand your project's licensing.
 
 <a name="future"></a>
-
-## Future development
+# Future development
 These best practices hint at the need for license stewards to make available
 authoritative text versions of their licenses including their published checksum.
 When and if this happens, we would recommend using the license stewards'
@@ -269,11 +243,46 @@ greater amount of automation would be beneficial even on a project level,
 for instance by having an appropriate "lint" checker for copyright information
 as part of the build process.
 
+# Background
+The FSFE has launched a project to develop and raise awareness of best practices
+for the expression of license and copyright information in free and open
+source projects. 
+The project is intended to facilitate management of source code
+by making licensing and copyright information more consistent in how it is
+added to source code in ways which allow for automating many of
+the processes involved.
+
+This is a concern for any free and open source software developer,
+user or distributor. Incorrect license and copyright information can
+lead to situations where software developers are not credited for
+the work they have done, where the license or copyright information is
+misunderstood or where using a software project becomes a burdensome
+process due to the inability to use automated tools.
+
+The best practices we've identified and worked to describe in this
+text are based on existing sources for best practices,
+but we have identified and revised the practices which can facilitate
+automation.
+
+We've also sought to identify practices which will be easy for software
+developers to adopt and will work more on this to develop material
+suitable for anyone wishing to help us make copyrights and licensing
+information computer readable.
+
 <a name="feedback"></a>
-## Leaving Feedback
+# Leaving Feedback
 We'd love to hear what you think of these practices, how to improve them, or
 how to work together on some of the <a href="#future">future challenges</a>
 we've identified.
 
 To get in touch with us, just shoot a mail to contact@fsfe.org and we'll
-get back to you right away!
+get back to you right away! You can also look at our <a href="https://fsfe.org/contact/">contact information for FSFE</a> for some other ways in which to reach out to us.
+
+If you want to reach a human right away, or send encrypted e-mail (GnuPG
+style), this project's loving caretakers are:
+
+ * Jonas Öberg <jonas@fsfe.org>
+ * Matthias Kirschner <mk@fsfe.org>
+
+
+
