@@ -3,6 +3,8 @@ title = "My First testpage"
 type = "onepage"
 +++
 
+![1. ](/static/img/one_sm.png) Do something
+
 # Background
 The FSFE has launched a project to develop and raise awareness of best practices
 for the expression of license and copyright information in free and open
