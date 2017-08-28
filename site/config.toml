@@ -19,6 +19,5 @@ paginate        = 5
   googleAnalytics = ""
 
   name = "FSFE e.V."
-  description = "Here is a description of your site."
   pageNotFoundTitle = "404 - Page not found"
 
