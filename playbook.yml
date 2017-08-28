@@ -13,7 +13,7 @@
         state: started
         restart: yes
         env:
-          HUGO_BASE_URL: https://reuse.fsfe.org:443/
+          HUGO_BASE_URL: https://reuse.fsfe.org/
           VIRTUAL_HOST: reuse.fsfe.org
           LETSENCRYPT_HOST: reuse.fsfe.org
           LETSENCRYPT_EMAIL: jonas@fsfe.org
