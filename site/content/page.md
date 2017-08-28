@@ -12,6 +12,8 @@ for more automation.
 There's still work to do, but we hope you'll help us by adopting these
 practices and <a href="#feedback">leaving your feedback</a>.
 
+<br style="margin: 3em;" />
+
 <table>
   <tr>
     <td>
@@ -37,8 +39,7 @@ practices and <a href="#feedback">leaving your feedback</a>.
     </td>
   </tr>
 </table>
-
-<hr />
+<br style="margin: 6em;" />
 
 # Best practices
 
