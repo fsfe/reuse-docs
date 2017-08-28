@@ -8,7 +8,6 @@ paginate        = 5
 [params]
   title       = "REUSE"
   subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
-  copyright   = "Released under the MIT license."
   authorImage = "r.png"
   orgurl      = "https://fsfe.org/"
 
