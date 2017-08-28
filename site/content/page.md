@@ -15,14 +15,14 @@ practices and <a href="#feedback">leaving your feedback</a>.
 <table>
   <tr>
     <td>
-![1.](/img/one_sm.png)
+     <img alt="1. " src="/img/one_sm.png" />
     </td>
     <td>Provide the exact text of each license used, in verbatim form, without removing any existing license texts. <a href="#one">[read more]</a>
     </td>
   </tr>
   <tr>
     <td>
-![2.](/img/two_sm.png)
+     <img alt="2. " src="/img/two_sm.png" />
     </td>
     <td>
       Include a copyright notice and license in each file, with a consistent style, with a reference to the license text and an appropriate SPDX License Identifier. <a href="#two">[read more]</a>
@@ -30,7 +30,7 @@ practices and <a href="#feedback">leaving your feedback</a>.
   </tr>
   <tr>
     <td>
-![3.](/img/three_sm.png)
+     <img alt="3. " src="/img/three_sm.png" />
     </td>
     <td>
      Provide an inventory for included software, but only if you can generate it automatically! <a href="#three">[read more]</a>
