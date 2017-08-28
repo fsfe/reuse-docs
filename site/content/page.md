@@ -3,7 +3,7 @@ title = "My First testpage"
 type = "onepage"
 +++
 
-![1. ](/static/img/one_sm.png) Do something
+![1. ](/img/one_sm.png) Do something
 
 # Background
 The FSFE has launched a project to develop and raise awareness of best practices
