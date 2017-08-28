@@ -249,6 +249,8 @@ Keep in mind:
  * Make your bill of material conformant to the SPDX specification
  * It doesn't hurt to run your project through ScanCode or FOSSology, to make sure these tools can parse and understand your project's licensing.
 
+<a name="future"></a>
+
 ## Future development
 These best practices hint at the need for license stewards to make available
 authoritative text versions of their licenses including their published checksum.
@@ -267,3 +269,11 @@ greater amount of automation would be beneficial even on a project level,
 for instance by having an appropriate "lint" checker for copyright information
 as part of the build process.
 
+<a name="feedback"></a>
+## Leaving Feedback
+We'd love to hear what you think of these practices, how to improve them, or
+how to work together on some of the <a href="#future">future challenges</a>
+we've identified.
+
+To get in touch with us, just shoot a mail to contact@fsfe.org and we'll
+get back to you right away!
