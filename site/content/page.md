@@ -4,7 +4,7 @@ type = "onepage"
 +++
                      Step | Action
 --------------------------|----------------------
-![1. ](/img/one_sm.png)   | Do something
+![1. ](/img/one_sm.png)   | Provide the exact text of each license used, in verbatim form, without removing any existing license texts. <a href="#one">[read more]</a>
 ![2. ](/img/two_sm.png)   | Do something more
 ![3. ](/img/three_sm.png) | Do something even more
 
@@ -36,6 +36,7 @@ information computer readable.
 
 ## Best practices
 
+<a name="one"></a>
 ### Provide the exact text of each license used
 Free and open source software licenses are standardised and have standard
 texts. Regardless of which license you use, you should include the
