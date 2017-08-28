@@ -1,0 +1,20 @@
+---
+- hosts: lund.fsfeurope.org
+  remote_user: root
+
+  tasks:
+    - name: build the container
+      command: docker build -t reuse .
+
+    - name: run 
+      docker_container:
+        name: reuse
+        image: reuse
+        state: started
+        restart: yes
+        env:
+          HUGO_BASE_URL: https://reuse.fsfe.org/
+          VIRTUAL_HOST: reuse.fsfe.org
+          LETSENCRYPT_HOST: reuse.fsfe.org
+          LETSENCRYPT_EMAIL: jonas@fsfe.org
+

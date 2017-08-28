@@ -1,0 +1,35 @@
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.border-top {
+    border-top: 2px solid #eee;
+}
+.border-bottom {
+    border-bottom: 10px solid #eee;
+}
+
+.add-padding-bottom {
+    padding-bottom: 10px;
+}
+
+header, footer {
+  border-right: 20px solid #eee;
+  text-align: right;
+}
+.add-padding-right {
+  padding-right: 10px;
+}
+
+@media print, screen and (max-width: 960px) {
+  header {
+    padding-right: 0;
+    border-right: 0 solid #eee;
+  }
+  header .text-right {
+    text-align: center;
+  }
+}
+

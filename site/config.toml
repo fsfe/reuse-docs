@@ -1,0 +1,24 @@
+baseurl         = "https://reuse.fsfe.org/"
+languageCode    = "en-us"
+title           = "REUSE"
+theme           = "sp-minimal"
+disqusShortname = ""
+paginate        = 5
+
+[params]
+  title       = "REUSE"
+  subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
+  copyright   = "Released under the MIT license."
+  authorImage = "logo.png"
+
+  #"single" or "single"
+  renderType = "multi"
+  #"simple" or "original"
+  themeStyle = "simple"
+
+  googleAnalytics = ""
+
+  name = "EM"
+  description = "Here is a description of your site."
+  pageNotFoundTitle = "404 - Page not found"
+

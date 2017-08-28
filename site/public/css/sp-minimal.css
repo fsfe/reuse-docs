@@ -1,0 +1,50 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css');
+
+pre {
+    border-radius: 0;
+}
+
+.s200 {
+    width: 200px;
+    height: 200px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+.remove-margin-bottom {
+    margin-bottom: 0;
+}
+
+.pagination ul {
+  list-style: none;
+    padding: 0;
+    background: #f4f4f4;
+    border-radius: 0;
+    border: 1px solid #e0e0e0;
+    display: inline-block;
+}
+.pagination li {
+  float: left;
+  border-right: 1px solid #e0e0e0;
+}
+.pagination ul a {
+    line-height: 1;
+    font-size: 11px;
+    color: #999;
+    display: block;
+    text-align: center;
+    padding: 6px 6px;
+    min-width: 2em;
+}
+
+a.category {
+  background-color: #ddd;
+  padding-right: .2em;
+  padding-left: .2em;
+}
+
+
