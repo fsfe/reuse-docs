@@ -2,7 +2,7 @@
 title = "My First testpage"
 type = "onepage"
 +++
-
+                     Step | Action
 --------------------------|----------------------
 ![1. ](/img/one_sm.png)   | Do something
 ![2. ](/img/two_sm.png)   | Do something more
