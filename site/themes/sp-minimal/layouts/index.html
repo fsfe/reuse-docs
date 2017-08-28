@@ -1,0 +1,22 @@
+{{ partial "head" . }}
+<body><div class="wrapper">
+
+{{ partial "header" . }}
+
+{{ if eq .Site.Params.renderType "single" }}
+  {{ range .Data.Pages }}
+    {{ if eq .Type "onepage" }}
+      <section>
+      {{ .Content }}
+      </section> 
+    {{ end }}
+  {{ end }}
+{{ else }}
+  <section>
+    {{ partial "post-list" . }}
+    <div class="pagination"> {{ template "_internal/pagination.html" . }} </div>
+  </section>
+{{ end }}
+
+{{ partial "footer" . }}
+</div>{{ partial "js" . }}</body></html>

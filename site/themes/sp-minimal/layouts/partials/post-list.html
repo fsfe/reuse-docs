@@ -1,0 +1,26 @@
+{{ $paginator := .Paginate (where .Data.Pages.ByDate.Reverse "Type" "post") }}
+{{ range $paginator.Pages }}
+  <p class="remove-margin-bottom"><small>
+    <time datetime="{{ .Date.Format "02 January 2006" }}">{{ .Date.Format "02 January 2006" }}</time>
+  </small></p>
+
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+
+  <p>
+    {{ if .Description }}
+      {{ .Description | markdownify }}
+      ...
+      <a href="{{ .Permalink }}" rel="full-article">
+      Read more <i class="fa fa-angle-double-right"></i></a>
+    {{ else }}
+      {{ .Summary | plainify | safeHTML }}
+      {{ if .Truncated }}
+      ...
+      <a href="{{ .Permalink }}" style="height:28px">
+      Read more <i class="fa fa-angle-double-right"></i></a>
+      {{ end }}
+    {{ end }}
+  </p>
+{{ end }}
+
+

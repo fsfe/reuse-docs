@@ -1,0 +1,16 @@
+{{ if not (eq .Site.Params.renderType "single") }}
+  {{ partial "head" . }}
+
+  <body><div class="wrapper">
+
+  {{ partial "header" . }}
+
+  <section>
+  {{ partial "post-list" . }}
+    <div class="pagination"> {{ template "_internal/pagination.html" . }} </div>
+  </section>
+
+  {{ partial "footer" . }}
+
+  </div>{{ partial "js" . }}</body></html>
+{{ end }}

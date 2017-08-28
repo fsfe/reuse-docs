@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+    <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
+    <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
+    {{ .Hugo.Generator }}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico">
+
+    {{ "<!-- Stylesheets -->" | safeHTML }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/styles.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/sp-minimal.css">
+    {{ if eq .Site.Params.themeStyle "simple"}}
+      <link rel="stylesheet" href="{{ .Site.BaseURL }}css/sp-minimal-simple.css">
+    {{ end }}
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/default.min.css">
+</head>

@@ -1,7 +1,7 @@
 baseurl         = "https://reuse.fsfe.org/"
 languageCode    = "en-us"
 title           = "REUSE"
-theme           = "sp-minimal-fsfe"
+theme           = "sp-minimal"
 disqusShortname = ""
 paginate        = 5
 

@@ -1,0 +1,33 @@
+{{ if not (eq .Site.Params.renderType "single") }}
+  {{ partial "head" . }}
+
+  <body><div class="wrapper">
+  {{ partial "header" . }}
+
+  <section>
+    <p class="remove-margin-bottom">
+      <time datetime="{{ .Date.Format "02 January 2006" }}">{{ .Date.Format "02 January 2006" }}</time>
+    </p>
+
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    {{ if isset .Site.Params "disqusShortname" }}
+      {{ if not (eq .Params.comments false) }}
+        {{ template "_internal/disqus.html" . }}
+      {{ end }}
+    {{ end }}
+
+    {{ if isset .Params "tags" }}
+      <p class="categories"><small>
+        Tags:
+          {{ range .Params.tags }}
+            <a class="category" href="{{ $.Site.BaseURL }}tags/{{ . | urlize | lower }}">{{ . }}</a>
+          {{ end }}
+      </small></p>
+    {{ end }}
+  </section> 
+
+  {{ partial "footer" . }}
+  </div>{{ partial "js" . }}</body></html>
+{{ end }}

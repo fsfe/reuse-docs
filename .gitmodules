@@ -1,6 +1,3 @@
 [submodule "site/themes/sp-minimal"]
 	path = site/themes/sp-minimal
 	url = https://github.com/eueung/hugo-sp-minimal
-[submodule "site/themes/sp-minimal-fsfe"]
-	path = site/themes/sp-minimal-fsfe
-	url = https://git.fsfe.org/jonas/sp-minimal

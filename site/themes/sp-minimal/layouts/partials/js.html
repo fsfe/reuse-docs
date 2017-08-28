@@ -1,0 +1,16 @@
+<script src="https://hypothes.is/embed.js" async></script>
+
+<script src="{{ .Site.BaseURL }}js/scale.fix.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+{{ with .Site.Params.googleAnalytics }}
+  {{ "<!-- Google Analytics -->" | safeHTML }}
+  <script>
+    var _gaq=[['_setAccount','{{ . }}'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+{{ end }}

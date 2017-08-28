@@ -1,0 +1,17 @@
+name = "SP-Minimal"
+license = "MIT"
+licenselink = "https://github.com/eueung/hugo-sp-minimal/blob/master/LICENSE.md"
+description = "Another Minimalist Theme for Hugo"
+homepage = "https://github.com/eueung/hugo-sp-minimal"
+tags = ["google analytics", "disqus", "blog", "minimal", "custom themes", "single page"]
+features = ["single page", "two styles" ]
+min_version = 0.17
+
+[author]
+    name = "eueung"
+    homepage = "https://eueung.github.io/"
+
+[original]
+    author = "orderedlist"
+    homepage = "https://github.com/orderedlist"
+    repo = "https://github.com/orderedlist/minimal"
