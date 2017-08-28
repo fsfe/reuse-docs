@@ -3,7 +3,11 @@ title = "My First testpage"
 type = "onepage"
 +++
 
-![1. ](/img/one_sm.png) Do something
+--------------------------|----------------------
+![1. ](/img/one_sm.png)   | Do something
+![2. ](/img/two_sm.png)   | Do something more
+![3. ](/img/three_sm.png) | Do something even more
+
 
 # Background
 The FSFE has launched a project to develop and raise awareness of best practices
