@@ -10,6 +10,7 @@ paginate        = 5
   subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
   copyright   = "Released under the MIT license."
   authorImage = "logo.png"
+  orgurl      = "https://fsfe.org/"
 
   #"single" or "single"
   renderType = "single"
