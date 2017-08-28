@@ -12,7 +12,7 @@ paginate        = 5
   authorImage = "logo.png"
 
   #"single" or "single"
-  renderType = "multi"
+  renderType = "single"
   #"simple" or "original"
   themeStyle = "simple"
 
