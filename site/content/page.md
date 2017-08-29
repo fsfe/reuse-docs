@@ -12,6 +12,10 @@ for more automation.
 There's still work to do, but we hope you'll help us by adopting these
 practices and <a href="#feedback">leaving your feedback</a>.
 
+<div align="center">
+  Download the entire best practices as a convenient <a href="/reuse-d4.pdf">PDF</a>
+</div>
+
 <br style="margin: 3em;" />
 
 <table>
@@ -225,55 +229,10 @@ Keep in mind:
  * Make your bill of material conformant to the SPDX specification
  * It doesn't hurt to run your project through ScanCode or FOSSology, to make sure these tools can parse and understand your project's licensing.
 
-<a name="future"></a>
-# Future development
-These best practices hint at the need for license stewards to make available
-authoritative text versions of their licenses including their published checksum.
-When and if this happens, we would recommend using the license stewards'
-version, rather than the one from the SPDX repository.
-
-While we have worked on some practices to include copyright information in
-the version control system, more practical experience from this is needed by
-projects to ascertain the best practices about it.
-
-We also see a need to further develop the tools needed by projects to maintain
-and keep consistent copyright and license information. We have tried to keep
-relevant license information as close to the original files as possible, in
-ways that make it as easy as possible to manage them. Still, we believe a
-greater amount of automation would be beneficial even on a project level,
-for instance by having an appropriate "lint" checker for copyright information
-as part of the build process.
-
-# Background
-The FSFE has launched a project to develop and raise awareness of best practices
-for the expression of license and copyright information in free and open
-source projects. 
-The project is intended to facilitate management of source code
-by making licensing and copyright information more consistent in how it is
-added to source code in ways which allow for automating many of
-the processes involved.
-
-This is a concern for any free and open source software developer,
-user or distributor. Incorrect license and copyright information can
-lead to situations where software developers are not credited for
-the work they have done, where the license or copyright information is
-misunderstood or where using a software project becomes a burdensome
-process due to the inability to use automated tools.
-
-The best practices we've identified and worked to describe in this
-text are based on existing sources for best practices,
-but we have identified and revised the practices which can facilitate
-automation.
-
-We've also sought to identify practices which will be easy for software
-developers to adopt and will work more on this to develop material
-suitable for anyone wishing to help us make copyrights and licensing
-information computer readable.
-
 <a name="feedback"></a>
 # Leaving Feedback
 We'd love to hear what you think of these practices, how to improve them, or
-how to work together on some of the <a href="#future">future challenges</a>
+how to work together on some of the future challenges
 we've identified.
 
 To get in touch with us, just shoot a mail to contact@fsfe.org and we'll
