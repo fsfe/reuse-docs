@@ -12,10 +12,11 @@ some a few simple steps to take to make the copyright and license of
 your project more easily understood.
 
 There's still work to do, but we hope you'll help us by adopting these
-practices and <a href="#feedback">leaving your feedback</a>.
+practices and [leaving your feedback](#feedback).
 
+<!--START_HTML-->
 <div align="center">
-  Download the entire best practices as a convenient <a href="/reuse-d4.pdf">PDF</a>.
+  Download the entire best practices as a convenient <a href="/reuse.pdf">PDF</a>.
 </div>
 
 <br style="margin: 3em;" />
@@ -46,6 +47,8 @@ practices and <a href="#feedback">leaving your feedback</a>.
   </tr>
 </table>
 <br style="margin: 6em;" />
+
+<!--END_HTML-->
 
 # Best practices
 
@@ -241,7 +244,7 @@ Fork us on <http://git.fsfe.org/FSFE/reuse-web> and send us your pull
 requests for changes you'd like to see!
 
 To get in touch with us, just shoot a mail to <contact@fsfe.org> and we'll
-get back to you right away! You can also look at our <a href="https://fsfe.org/contact/">contact information for FSFE</a> for some other ways in which to reach out to us.
+get back to you right away! You can also look at our [contact information for FSFE](https://fsfe.org/contact) for some other ways in which to reach out to us.
 
 If you want to reach a human right away, or send encrypted e-mail (GnuPG
 style), this project's loving caretakers are:
