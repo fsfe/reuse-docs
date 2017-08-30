@@ -1,5 +1,5 @@
 +++
-title = "My First testpage"
+title = "REUSE"
 type = "onepage"
 +++
 # Make Copyrights and Licenses Computer Readable!
@@ -8,7 +8,7 @@ We're working to make managing copyrights and licenses in free and open
 source software easier. These best practices are meant to demonstrate how 
 to add copyright and license information to a project in ways which allow
 for more automation. We know you want to focus on coding, but here are
-some a few simple steps to take to make the copyright and license of
+a few simple steps to take to make the copyright and license of
 your project more easily understood.
 
 There's still work to do, but we hope you'll help us by adopting these
@@ -182,13 +182,12 @@ If your project includes binaries or source code files in which
 comments can not be placed, you should provide them separately. We
 recommend one of two ways:
 
- * If you have such files with different copyright notices and licenses, you should, for each file names FILENAME, include the text file "FILENAME.license" which includes a copyright header according to the format you customarily use for headers.
- * If you have many such files, but each have the same copyright notice and license, you may instead use the [ABOUT](http://www.dejacode.org/about_spec_v0.8.0.html) file format, and place a single ABOUT file documenting all files with the same copyright notice and license.
+ * If you have files with different copyright notices and licenses, you should, for each file named FILENAME, include the text file "FILENAME.license" which includes a copyright header according to the format you customarily use for headers.
+ * If you have many such files, but each have the same copyright notice and license, you may instead use the [DEP-5/copyright](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/) file format, and place a single copyright file documenting those files.
 
 If you wish to be explicit about the license of an output file, which does
 not exist in the repository but which will be created at build time, you
-may include a .license file or .ABOUT file without the corresponding
-binary file.
+may include a .license file without the corresponding binary file.
 
 Keep in mind:
 
@@ -197,7 +196,7 @@ Keep in mind:
  * Do consider using version control systems to keep a record of copyright holders
  * Do keep your version control system public if you use it
  * Make references to the license text and the SPDX identifier from each source code file
- * Include license and copyright information also for files which can not include a proper header, either in a separate .license file, or using the ABOUT specification.
+ * Include license and copyright information also for files which can not include a proper header, either in a separate .license file, or using the DEP-5/copyright specification.
 
 <a name="three"></a>
 ## 3. Provide an inventory for included software
