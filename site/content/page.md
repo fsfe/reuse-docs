@@ -7,7 +7,9 @@ type = "onepage"
 We're working to make managing copyrights and licenses in free and open
 source software easier. These best practices are meant to demonstrate how 
 to add copyright and license information to a project in ways which allow
-for more automation.
+for more automation. We know you want to focus on coding, but here are
+some a few simple steps to take to make the copyright and license of
+your project more easily understood.
 
 There's still work to do, but we hope you'll help us by adopting these
 practices and <a href="#feedback">leaving your feedback</a>.
