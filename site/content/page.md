@@ -48,7 +48,7 @@ practices and <a href="#feedback">leaving your feedback</a>.
 # Best practices
 
 <a name="one"></a>
-## Provide the exact text of each license used
+## 1. Provide the exact text of each license used
 Free and open source software licenses are standardised and have standard
 texts. Regardless of which license you use, you should include the
 license text in your project. You should also include the license text of
@@ -100,7 +100,7 @@ Keep in mind:
 [^2]: https://github.com/spdx/license-list
 
 <a name="two"></a>
-## Include a copyright notice and license in each file
+## 2. Include a copyright notice and license in each file
 You should ensure all files in your project have a header file, and
 that all header files have the same format. Even if your project has a
 header file which looks different from other projects, it helps to have
@@ -174,16 +174,16 @@ You should include information about your project's practices in the
 README or similar file.
 
 If your project includes binaries or source code files in which
-comments can not be placed, you should provide a separate file, one
-for each file, through which you provide a link to the license file.
-If your project includes a binary file
-"mydata.jpg", it should then also contain the text file "mydata.jpg.license"
-which includes a copyright header according to the format you customarily
-use for headers.
+comments can not be placed, you should provide them separately. We
+recommend one of two ways:
+
+ * If you have such files with different copyright notices and licenses, you should, for each file names FILENAME, include the text file "FILENAME.license" which includes a copyright header according to the format you customarily use for headers.
+ * If you have many such files, but each have the same copyright notice and license, you may instead use the [ABOUT](http://www.dejacode.org/about_spec_v0.8.0.html) file format, and place a single ABOUT file documenting all files with the same copyright notice and license.
 
 If you wish to be explicit about the license of an output file, which does
 not exist in the repository but which will be created at build time, you
-may include the license file without the corresponding binary file.
+may include a .license file or .ABOUT file without the corresponding
+binary file.
 
 Keep in mind:
 
@@ -192,10 +192,10 @@ Keep in mind:
  * Do consider using version control systems to keep a record of copyright holders
  * Do keep your version control system public if you use it
  * Make references to the license text and the SPDX identifier from each source code file
- * Include license and copyright information also for files which can not include a proper header by including this information in a separate file with the ending ".license"
+ * Include license and copyright information also for files which can not include a proper header, either in a separate .license file, or using the ABOUT specification.
 
 <a name="three"></a>
-## Provide an inventory for included software
+## 3. Provide an inventory for included software
 Aside from the license files included in the project, and the file level
 copyright information, you may include a bill of material for your project,
 but you should only do so if this is generated automatically.
