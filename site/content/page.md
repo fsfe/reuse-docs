@@ -15,7 +15,7 @@ There's still work to do, but we hope you'll help us by adopting these
 practices and <a href="#feedback">leaving your feedback</a>.
 
 <div align="center">
-  Download the entire best practices as a convenient <a href="/reuse-d4.pdf">PDF</a>
+  Download the entire best practices as a convenient <a href="/reuse-d4.pdf">PDF</a>.
 </div>
 
 <br style="margin: 3em;" />
@@ -237,7 +237,10 @@ We'd love to hear what you think of these practices, how to improve them, or
 how to work together on some of the future challenges
 we've identified.
 
-To get in touch with us, just shoot a mail to contact@fsfe.org and we'll
+Fork us on <http://git.fsfe.org/FSFE/reuse-web> and send us your pull
+requests for changes you'd like to see!
+
+To get in touch with us, just shoot a mail to <contact@fsfe.org> and we'll
 get back to you right away! You can also look at our <a href="https://fsfe.org/contact/">contact information for FSFE</a> for some other ways in which to reach out to us.
 
 If you want to reach a human right away, or send encrypted e-mail (GnuPG
