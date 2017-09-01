@@ -114,7 +114,7 @@ a consistent style to the header.
 Source code files are often reused across multiple projects, taken from their
 origin and repurposed, or otherwise end up in repositories where they are
 separate from its origin. Each file should, therefore,
-contain enough information in itself to convey copyright 
+convey enough information in itself to convey copyright 
 information and it's important you do not remove information in existing
 copyright headers.
 
@@ -124,16 +124,18 @@ copyright information in each file, but you must take care accurate information
 can be found through the version control system, and provide a link back to
 that location.
 
-If you do use a version control system to carry information about copyright, 
-you must take care to make sure correct information is retained when
-project maintainers commit code contributed to the project on behalf of
-others. You must also make sure the version control system is publicly
+For a project using the version control system to convey information about
+authorship you must make sure the version control system is publicly
 accessible and will remain so.
 
-For a project using the version control system to convey information about
-copyright, it is recommended each commit message include a copyright notice
-and that this copyright notice is enforced through a pre-commit hook or 
-similar:
+If you do use a version control system to carry information about authorship, 
+you must take care to make sure correct information is retained in the
+metadata of the version control system. If your project 
+accept code contributed through mailing lists, but trackers, or similar, 
+where the original author is not the one committing the code to version
+control, you must include the author information manually in each
+commit message. It is then recommended each commit message include a
+copyright notice:
 
 ~~~~~~~
   Fixing bugs #1 and #2.
@@ -153,9 +155,9 @@ An appropriate header would be:
   */
 ~~~~~~~
 
-If the project is not using the version control system to convey copyright
-information, the same copyright information should be included in the source
-code file. Copyright notices should have a consistent format and be sorted
+If the project is not using a version control system to convey authorship
+information, the same information should be included in the source
+code file. Notices should have a consistent format and be sorted
 by year.
 
 ~~~~~~~
