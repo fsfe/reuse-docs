@@ -109,38 +109,36 @@ Keep in mind:
 You should ensure all files in your project have a header file, and
 that all header files have the same format. Even if your project has a
 header file which looks different from other projects, it helps to have
-a consistent style to the header.
+a consistent style to the header. It's important you do not remove
+information in existing headers, though.
 
 Source code files are often reused across multiple projects, taken from their
 origin and repurposed, or otherwise end up in repositories where they are
 separate from its origin. Each file should, therefore,
-convey enough information in itself to convey copyright 
-information and it's important you do not remove information in existing
-copyright headers.
+have enough information in itself to convey copyright 
+information.
 
 You may record information about authorship by relying on the underlying
-version control system you're using. If you do, there's no need to include
-copyright information in each file, but you must take care accurate information
-can be found through the version control system, and provide a link back to
-that location.
+version control system you're using, but special care must be taken if you
+do. When using metadata in a version control system, you may end up having
+more accurate information, but you increase the risk of the information being
+separated from the source code.
 
 For a project using the version control system to convey information about
-authorship you must make sure the version control system is publicly
-accessible and will remain so.
+authorship, you must:
 
-If you do use a version control system to carry information about authorship, 
-you must take care to make sure correct information is retained in the
-metadata of the version control system. If your project 
-accept code contributed through mailing lists, but trackers, or similar, 
-where the original author is not the one committing the code to version
-control, you must include the author information manually in each
-commit message. It is then recommended each commit message include a
-copyright notice:
-
-~~~~~~~
-  Fixing bugs #1 and #2.
-  Copyright: (c) 2017 Alice Commit <alice@example.com>
-~~~~~~~
+ * make sure the version control system is publicly accessible and will
+   remain so,
+ * provide a link back to the version control system from each header,
+ * ensure that if someone copies the source repository without version
+   control system metadata (such as if they make a tar-file of it),
+   then the version control system metadata must still be included,
+   for example in the form of a bill of masterial (see later), an
+   automatically generated log file or similar,
+ * make sure the commit metadata reflect the actual authorship
+   (this is particularly important if a project accepts code contributed
+   through mailing lists, but trackers, or similar, where the original
+   author is not the one pushing code to version control).
 
 An appropriate header would be:
 
