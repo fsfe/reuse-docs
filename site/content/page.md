@@ -129,15 +129,15 @@ authorship, you must:
 
  * make sure the version control system is publicly accessible and will
    remain so,
- * provide a link back to the version control system from each header,
+ * provide a link back to the original file in version control from each header,
  * ensure that if someone copies the source repository without version
    control system metadata (such as if they make a tar-file of it),
    then the version control system metadata must still be included,
-   for example in the form of a bill of masterial (see later), an
+   for example in the form of a bill of material (see later), an
    automatically generated log file or similar,
  * make sure the commit metadata reflect the actual authorship
    (this is particularly important if a project accepts code contributed
-   through mailing lists, but trackers, or similar, where the original
+   through mailing lists, bug trackers, or similar, where the original
    author is not the one pushing code to version control).
 
 An appropriate header would be:
