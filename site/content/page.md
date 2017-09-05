@@ -15,11 +15,6 @@ There's still work to do, but we hope you'll help us by adopting these
 practices and [leaving your feedback](#feedback).
 
 <!--START_HTML-->
-<div align="center">
-  Download the entire best practices as a convenient <a href="/reuse.pdf">PDF</a>.
-</div>
-
-<br style="margin: 3em;" />
 
 <table>
   <tr>
@@ -46,7 +41,24 @@ practices and [leaving your feedback](#feedback).
     </td>
   </tr>
 </table>
-<br style="margin: 6em;" />
+
+<div align="center">
+  Download the entire best practices as a convenient <a href="/reuse.pdf">PDF</a>.
+</div>
+
+## Sign up to hear more
+If you'd like to receive updates about these best practices and our work
+with them, you can sign up below and we'll keep you updated.
+
+<form method="post" action="https://forms.fsfe.org/email">
+  <input type="hidden" name="appid" value="reuse-signup" />
+  <input type="email" name="confirm" size="45" id="from" placeholder="Your email address" />
+
+  <input type="checkbox" name="optin" value="yes" checked> I agree to the <a href="/privacy" style="color: white;">privacy</a> policy.
+  <br />
+
+  <input type="submit" value="Send" /><br />
+</form>
 
 <!--END_HTML-->
 
