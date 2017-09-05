@@ -127,12 +127,13 @@ separated from the source code.
 For a project using the version control system to convey information about
 authorship, you must:
 
- * make sure the version control system is publicly accessible and will
-   remain so,
+ * make sure the version control system is publicly accessible and take
+   steps[^3] to ensure it will remain so,
  * provide a link back to the original file in version control from each header,
  * ensure that if someone copies the source repository without version
    control system metadata (such as if they make a tar-file of it),
-   then the version control system metadata must still be included,
+   then the version control system metadata relevant for determining
+   authorship must still be included,
    for example in the form of a bill of material (see later), an
    automatically generated log file or similar,
  * make sure the commit metadata reflect the actual authorship
@@ -197,6 +198,14 @@ Keep in mind:
  * Do keep your version control system public if you use it
  * Make references to the license text and the SPDX identifier from each source code file
  * Include license and copyright information also for files which can not include a proper header, either in a separate .license file, or using the DEP-5/copyright specification.
+
+[^3]: Establish project governance committed to public access, vet
+material added to project to protect against vulnerability to takedown,
+only include material under a free and open source license so it can
+be copied and archived freely and ensure project is archived by institutions
+dedicated to long-term preservation of software code, eg.
+Software Heritage.
+
 
 <a name="three"></a>
 ## 3. Provide an inventory for included software
