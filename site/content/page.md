@@ -199,12 +199,7 @@ Keep in mind:
  * Make references to the license text and the SPDX identifier from each source code file
  * Include license and copyright information also for files which can not include a proper header, either in a separate .license file, or using the DEP-5/copyright specification.
 
-[^3]: Establish project governance committed to public access, vet
-material added to project to protect against vulnerability to takedown,
-only include material under a free and open source license so it can
-be copied and archived freely and ensure project is archived by institutions
-dedicated to long-term preservation of software code, eg.
-Software Heritage.
+[^3]: Establish project governance committed to public access, vet material added to project to protect against vulnerability to takedown, only include material under a free and open source license so it can be copied and archived freely and ensure project is archived by institutions dedicated to long-term preservation of software code, eg. Software Heritage.
 
 
 <a name="three"></a>
