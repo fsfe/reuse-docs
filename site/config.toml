@@ -10,6 +10,7 @@ paginate        = 5
   subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
   authorImage = "r.png"
   orgurl      = "https://fsfe.org/"
+  description = "Best practices on adding license information in ways which not only humans can read, but computers as well. Machine readable copyright and license information, simply put!"
 
   #"single" or "single"
   renderType = "single"
