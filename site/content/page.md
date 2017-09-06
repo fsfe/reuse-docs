@@ -138,14 +138,14 @@ separate from its origin. Each file should, therefore,
 have enough information in itself to convey copyright 
 information.
 
-You may record information about authorship by relying on the underlying
+You may record information about copyright by relying on the underlying
 version control system you're using, but special care must be taken if you
 do. When using metadata in a version control system, you may end up having
 more accurate information, but you increase the risk of the information being
 separated from the source code.
 
 For a project using the version control system to convey information about
-authorship, you must:
+copyright, you must:
 
  * make sure the version control system is publicly accessible and take
    steps[^3] to ensure it will remain so,
@@ -153,15 +153,16 @@ authorship, you must:
  * ensure that if someone copies the source repository without version
    control system metadata (such as if they make a tar-file of it),
    then the version control system metadata relevant for determining
-   authorship must still be included,
+   copyright must still be included,
    for example in the form of a bill of material (see later), an
    automatically generated log file or similar,
- * make sure the commit metadata reflect the actual authorship
+ * make sure the commit metadata reflect the actual copyright
    (this is particularly important if a project accepts code contributed
    through mailing lists, bug trackers, or similar, where the original
-   author is not the one pushing code to version control).
+   copyright holder is not the one pushing code to version control, or
+   where the copyright is held by an organisation rather than the author.)
 
-An appropriate header would be:
+An appropriate header could be:
 
 ~~~~~~~
  /*
@@ -174,16 +175,17 @@ An appropriate header would be:
   */
 ~~~~~~~
 
-If the project is not using a version control system to convey authorship
+If the project is not using a version control system to convey copyright
 information, the same information should be included in the source
 code file. Notices should have a consistent format and be sorted
-by year.
+by year. They should list the actual copyright holder, which may be
+an organisation rather than the author.
 
 ~~~~~~~
  /*
   * Copyright (c) 2017 Alice Commit <alice@example.com>
   * Copyright (c) 2009-2016 Bob Denver <bob@example.com>
-  * Copyright (c) 2007 Charlie Example <charlie@example.com>
+  * Copyright (c) 2007 Company Example <charlie@example.com>
   * 
   * SPDX-License-Identifier: BSD-2-Clause
   * License-Filename: LICENSE/BSD-2-Clause_Charlie.txt
