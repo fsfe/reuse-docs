@@ -8,9 +8,19 @@
     <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
     <meta name="description" content="{{ with .Site.Params.description }}{{ . }}{{ end }}">
     {{ .Hugo.Generator }}
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{ .Site.Title }}"/>
+    <meta property="og:url" content="{{ .Site.Params.url }}"/>
+    <meta property="og:image" content="{{ .Site.BaseURL }}/img/{{ .Site.Params.authorImage }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@fsfe" />
+    <meta name="twitter:title" content="{{ .Site.Title }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+    <meta name="twitter:image" content="{{ .Site.BaseURL }}/img/{{ .Site.Params.authorImage }}" />
+    <meta name="twitter:url" content="{{ .Site.Params.url }}" />
+    <meta name="twitter:creator" content="@fsfe" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
-    <link rel="shortcut icon" href="{{ .Site.BaseURL }}img/favicon.ico">
 
     {{ "<!-- Stylesheets -->" | safeHTML }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/fsfe.css">
