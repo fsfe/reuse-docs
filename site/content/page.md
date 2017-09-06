@@ -140,7 +140,8 @@ information.
 
 You may record information about copyright by relying on the underlying
 version control system you're using, but special care must be taken if you
-do. When using metadata in a version control system, you may end up having
+do. Keep in mind that version control systems typically record authorship,
+not copyright. When using metadata in a version control system, you may end up having
 more accurate information, but you increase the risk of the information being
 separated from the source code.
 
