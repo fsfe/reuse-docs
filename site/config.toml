@@ -6,7 +6,7 @@ disqusShortname = ""
 paginate        = 5
 
 [params]
-  title       = "REUSE
+  title       = "REUSE"
   subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
   authorImage = "r.png"
   orgurl      = "https://fsfe.org/"
