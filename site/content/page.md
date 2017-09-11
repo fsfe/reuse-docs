@@ -126,9 +126,9 @@ Keep in mind:
 
 <a name="two"></a>
 ## 2. Include a copyright notice and license in each file
-You should ensure all files in your project have a header file, and
-that all header files have the same format. Even if your project has a
-header file which looks different from other projects, it helps to have
+You should ensure all files in your project have a license header, and
+that all license headers files have the same format. Even if your project has a
+license header which looks different from other projects, it helps to have
 a consistent style to the header. It's important you do not remove
 information in existing headers, though.
 
