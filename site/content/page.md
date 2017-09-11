@@ -241,7 +241,7 @@ If you do have a way of automatically creating a bill of material, and if
 you choose to do so, you should generate it automatically from
 the most reliable information you have about each file in your project.
 This includes copyright information kept in version control systems and
-licenses on files which can not include a standard header, or which includes
+licenses on files which include a standard header, or which includes
 the header in a separate license file.
 
 You may also choose to include in the bill of material your output files
