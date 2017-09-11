@@ -88,7 +88,8 @@ all projects using the same license.
 
 If your project only includes code licensed under a single license, you
 may provide the text of this license in a file in the top level directory
-of your repository with the name "LICENSE".
+of your repository with the name "LICENSE" (you may attach some suffix
+to the filename as well, such as LICENSE.md, if relevant).
 
 Since many projects include code under different licenses, it's often not
 feasible to include all licenses in the top level, in which case you should
