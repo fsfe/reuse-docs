@@ -2,6 +2,8 @@
 
 [![Build Status](https://drone.fsfe.org/api/badges/FSFE/reuse-web/status.svg)](https://drone.fsfe.org/FSFE/reuse-web)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+[![reuse compliant](https://img.shields.io/badge/reuse-compliant-green.svg)](https://git.fsfe.org/fsfe/reuse-web)
+
 
 We're working to make managing copyrights and licenses in free and open
 source software easier. This is the website for a guide of best practices,
@@ -17,7 +19,13 @@ Typically, we let our Drone CI build and deploy the website for us.
 
 ## Usage
 
-Go to https://reuse.software/ and enjoy :-)
+Go to https://reuse.software/ and enjoy :-) If your project follows the reuse
+guidelines, we encourage you to show that in your `README.md` and similar! Just
+copy this badge into your readme:
+
+`
+[![reuse compliant](https://img.shields.io/badge/reuse-compliant-green.svg)](https://git.fsfe.org/fsfe/reuse-web)
+`
 
 ## Contribute
 
