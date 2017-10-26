@@ -4,7 +4,7 @@
 
   tasks:
     - name: build the container
-      command: docker build -t reuse https://git.fsfe.org/FSFE/reuse-web.git
+      command: docker build -t reuse https://git.fsfe.org/reuse/reuse-web.git
 
     - name: run 
       docker_container:
