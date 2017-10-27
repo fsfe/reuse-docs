@@ -1,0 +1,245 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ body,
+ html {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Roboto, Helvetica Neue, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 40px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.intro-image p {
+    color: rgb(51, 51, 51);
+}
+
+.intro-message {
+    margin-top: 100px;
+    color: rgb(51, 51, 51);
+    text-align: left;
+}
+
+.intro-message > h3 {
+}
+
+.intro-message > h1 {
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.container {
+    width: 900px;
+    line-height: 1.2em;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.container ul {
+    line-height: 1.6em;
+}
+
+.container pre {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+.practices blockquote h2 {
+    font-size: 2em;
+    font-weight: 300;
+    text-align: center;
+}
+
+.practices blockquote {
+  width: 70%;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  margin-top: 2em;
+  margin-left: 15%;
+  font-size: 1em;
+  line-height: 2em;
+  color: #333;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup blockquote {
+  width: 70%;
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  margin-top: 2em;
+  margin-left: 0%;
+  font-size: 1em;
+  line-height: 2em;
+  color: #333;
+  background-color: lightgrey;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.container h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.contact {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/contact-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.contact h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.contact ul {
+    margin-bottom: 0;
+}
+
+.contact-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.contact-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .contact h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.contact-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.contact-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+
+@media(max-width:1000px) {
+    .intro-message {
+        padding-bottom: 10%;
+        margin-top: -30px;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+
+    .container {
+       width: 80%;
+   }
+
+   .intro-message {
+        text-align: center;
+    }
+}
+
+.intro-image {
+    height: 100%;
+    min-height: 380px;
+    margin-top: 20px;
+}
+
+.github-btn {
+    margin-top: 10px;
+}

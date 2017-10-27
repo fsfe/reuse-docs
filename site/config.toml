@@ -1,24 +1,25 @@
-baseurl         = "https://reuse.fsfe.org/"
+baseurl         = "https://reuse.software/"
 languageCode    = "en-us"
-title           = "REUSE"
-theme           = "sp-minimal"
-disqusShortname = ""
-paginate        = 5
+title           = "REUSE Initiative"
+theme           = "github-project-landing-page"
+
+#[permalinks]
+#        page = "/:title/"
+#        about = "/:filename/"
+
 
 [params]
-  title       = "REUSE"
-  subtitle    = "Developer best practices for expressing license and copyright information in Free and Open Source Software projects"
-  authorImage = "r.png"
-  orgurl      = "https://fsfe.org/"
-  description = "Best practices on adding license information in ways which not only humans can read, but computers as well. Machine readable copyright and license information, simply put!"
+    description = "Best practices on adding license information in ways which not only humans can read, but computers as well. Machine readable copyright and license information, simply put!"
 
-  #"single" or "single"
-  renderType = "single"
-  #"simple" or "original"
-  themeStyle = "simple"
+    first_color="#f8f8f8"
+    first_border_color="#e7e7e7"
+    first_text_color="#333"
 
-  googleAnalytics = ""
+    second_color="white"
+    second_text_color="#333"
 
-  name = "FSFE e.V."
-  pageNotFoundTitle = "404 - Page not found"
+    header_color="#f8f8f8"
+    header_text_color="rgb(51, 51, 51)"
 
+    header_link_color="#777"
+    header_link_hover_color="rgb(51, 51, 51)"
