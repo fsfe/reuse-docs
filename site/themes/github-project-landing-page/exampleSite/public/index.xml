@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Swiftline</title>
+    <link>http://swiftline.github.io/</link>
+    <description>Recent content on Swiftline</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2015 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://swiftline.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>http://swiftline.github.io/post/first/</link>
+      <pubDate>Mon, 21 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://swiftline.github.io/post/first/</guid>
+      <description>First post Where you talk about how to install your project
+brew install amazing-tool  </description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>http://swiftline.github.io/post/second/</link>
+      <pubDate>Tue, 22 Dec 2015 14:10:00 +0300</pubDate>
+      
+      <guid>http://swiftline.github.io/post/second/</guid>
+      <description>Second post Usage maybe?
+DoSomething()  And the output would be:
+Something  </description>
+    </item>
+    
+    <item>
+      <title>Third Post</title>
+      <link>http://swiftline.github.io/post/third/</link>
+      <pubDate>Thu, 24 Dec 2015 14:10:00 +0300</pubDate>
+      
+      <guid>http://swiftline.github.io/post/third/</guid>
+      <description>Third post Get help
+ Ask questions here &amp;hellip;. Read this doc file Concat me twitter @ifnottrue  </description>
+    </item>
+    
+  </channel>
+</rss>

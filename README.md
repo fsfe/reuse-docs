@@ -2,8 +2,7 @@
 
 [![Build Status](https://drone.fsfe.org/api/badges/FSFE/reuse-web/status.svg)](https://drone.fsfe.org/FSFE/reuse-web)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![reuse compliant](https://img.shields.io/badge/reuse-compliant-green.svg)](https://git.fsfe.org/fsfe/reuse-web)
-
+[![reuse compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
 
 We're working to make managing copyrights and licenses in free and open
 source software easier. This is the website for a guide of best practices,
@@ -24,7 +23,7 @@ guidelines, we encourage you to show that in your `README.md` and similar! Just
 copy this badge into your readme:
 
 `
-[![reuse compliant](https://img.shields.io/badge/reuse-compliant-green.svg)](https://git.fsfe.org/fsfe/reuse-web)
+[![reuse compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
 `
 
 ## Contribute
@@ -42,7 +41,7 @@ We also accept and appreciate feedback by creating issues in the project
 
 ## License
 
-The theme used for this website is based on [Hugo Sp-Minimal](https://github.com/eueung/hugo-sp-minimal) which in itself is based on [Minimal](https://github.com/orderedlist/minimal), both of which are licensed under
-the [MIT license](https://github.com/eueung/hugo-sp-minimal/blob/master/LICENSE.md).
+The theme used for this website is based on [github-project-landing-page](https://github.com/nsomar/github-project-landing-page)  which is licensed under the
+the [MIT license](https://github.com/nsomar/github-project-landing-page/blob/master/LICENSE.md).
 
 The content of the website, the best practices, are licensed under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0).
