@@ -21,6 +21,10 @@ title: "REUSE Materials"
       <h3>Badge</h3>
       <p><img src="/badge/reuse-compliant.svg" /></p>
       <p>Please use the URL <code>https://reuse.software/badge/reuse-compliant.svg</code> when linking to the badge!</p>
+      <p>Use it like this:</p>
+      <code>
+[![reuse compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
+</code>
 
       <h3>Presentations</h3>
        <p>We have a beginners introduction to REUSE, with speakers notes (<a href="/reuse/reuse-presentation.odp">ODP</a>, <a href="/reuse/reuse-presentation.pdf">PDF</a>). Do let us know if you use it somewhere, we'd love to know!</p>
