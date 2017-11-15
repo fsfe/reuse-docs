@@ -14,7 +14,7 @@ We’re working to make managing copyrights and licenses in free and open source
 </p>
 <hr />
 <center>
-<a class="btn btn-default" href="/practices/">
+<a class="btn btn-default" href="/practices/2.0/">
   <i class="fa fa-book"></i> Read the practices</a>
 <a class="btn btn-default" href="/dev/">
   <i class="fa fa-laptop"></i> View developer docs </a>
