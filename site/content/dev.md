@@ -22,12 +22,12 @@ title: "REUSE For developers"
        <li><a href="https://git.fsfe.org/reuse/included-hello">Included Hello</a> - a simple repository with included source code under a different license.</li>
        <li><a href="https://git.fsfe.org/reuse/spdx-hello">SPDX Hello</a> - a repository with Git commit hooks which automatically generate a bill of materials after each commit.</li>
        <li><a href="https://git.fsfe.org/jonas/curl/src/reuse-compliant">curl</a> - a repository which shows what a REUSE compliant curl repository would look like.</li>
+       <li><a href="https://git.fsfe.org/reuse/reuse">reuse</a> - a repository that is compliant with itself.</li>
       </ul>
 
       <h3>Tools</h3>
       <ul>
-       <li><a href="https://git.fsfe.org/reuse/reuse">REUSE Lint</a>, a tool to validate whether a repository is REUSE compliant or not.</li>
-       <li><a href="https://git.fsfe.org/reuse/bom-nodejs">BOM-NodeJS</a>, a bill of materials generator in NodeJS, as an example, used in the SPDX Hello repository above.</li>
+       <li><a href="https://git.fsfe.org/reuse/reuse">reuse</a>, a linter tool to validate whether a repository is REUSE compliant or not, and a compiler tool to generate a project's bill of materials.</li>
       </ul>
 
       <h3>Documentation</h3>
