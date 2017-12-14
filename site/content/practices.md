@@ -16,7 +16,7 @@ title: "REUSE For developers"
 <div class="intro-message col-md-6">
       <h3>Current version</h3>
       <ul>
-       <li><a href="/practices/2.0/">2.0</a>, released 2017-11-15
+       <li><a href="/practices/2.0/">2.0</a>, released 2017-12-14
       </ul>
 
       <h3>Earlier versions</h3>
