@@ -4,3 +4,4 @@ for i in 1.2 2.0; do
  | sed -e 's/<\(a\|br\)\s[^>]*>//g' \
  | sed -e 's/<\/[^>]*>//g' \
  | sed '/+++/,/+++/d' > /page-pdf-$i.md
+done
