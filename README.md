@@ -1,6 +1,6 @@
 # REUSE
 
-[![Build Status](https://drone.fsfe.org/api/badges/FSFE/reuse-web/status.svg)](https://drone.fsfe.org/FSFE/reuse-web)
+[![Build Status](https://drone.fsfe.org/api/badges/reuse/reuse-spec/status.svg)](https://drone.fsfe.org/reuse/reuse-spec)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![reuse compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
 
