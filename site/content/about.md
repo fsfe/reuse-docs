@@ -10,7 +10,7 @@ title: "About REUSE"
        </div>
        <div class="intro-message col-md-6">
 <p>
-We’re working to make managing copyrights and licenses in free and open source software easier. Our best practices are meant to demonstrate how to add copyright and license information to a project in ways which allow for more automation. We know you want to focus on coding, but there are a few simple steps to take to make the copyright and license of your project more easily understood.
+We’re making managing copyrights and licenses in free and open source software easier. Our best practices are meant to demonstrate how to add copyright and license information to a project in ways which allow for more automation. We know you want to focus on coding, but there are a few simple steps to take to make the copyright and license of your project more easily understood.
 </p>
 <hr />
 <center>
