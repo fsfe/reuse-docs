@@ -4,7 +4,7 @@
 [![reuse compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
 
 We're working to make managing copyrights and licenses in free and open
-source software easier. This is a collection of tutorials, FAqs and specifications to demonstrate how 
+source software easier. This is a collection of tutorials, FAQs and specifications to demonstrate how 
 to add copyright and license information to a project in ways which allow
 for more automation.
 
@@ -27,7 +27,7 @@ copy this badge into your readme:
 We'd love to get feedback on these practices, ideally in the form
 of pull requests which we can discuss around.
 
-We also accept and appreciate feedback by creating issues in the project or by sending e-mail to the project team at <reuse at lists dot fsfe.org>.
+We also accept and appreciate feedback by creating issues in the project or by sending e-mail to the project team at `<reuse at lists dot fsfe.org>`.
 
 ## License
 
