@@ -32,7 +32,7 @@ repository](https://github.com/fsfe/reuse-example). The branch `noncompliant`
 matches the structure above, while the `master` branch is the successful
 result of this repository.
 
-# 1. Choose and provide a license
+## 1. Choose and provide a license
 
 The first thing you need to do is to [choose a
 license](https://choosealicense.com/). For this tutorial, we assume that you
@@ -54,7 +54,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES` directory.
 
-# 2. Add license headers to relevant files
+## 2. Add license headers to relevant files
 
 Now that you have a license, you need to indicate in the relevant files that
 these files fall under that license. You edit the comment header of
@@ -87,7 +87,7 @@ licenses]().
 In the example project, you also edit `Makefile` and `README.md` using this
 header information, but of course with corresponding comment syntax.
 
-## Binary and uncommentable files
+### Binary and uncommentable files
 
 You also want to license your image files under GPL-3.0-or-later.
 Unfortunately, images and other binary files do not have comment headers that
@@ -100,7 +100,7 @@ copyright holder as above.
 
 <!-- TODO: Add link to DEP-5 possibility. -->
 
-## Change licensing information
+### Change licensing information
 
 You discover that the photo of the cat was not licensed under the GPL at all,
 but under Creative Commons Attribution 4.0 International.
@@ -117,14 +117,14 @@ SPDX-Copyright: 2017 Joe Somebody <joe@example.com>
 SPDX-License-Identifier: CC-BY-4.0
 ```
 
-## Build artifacts
+### Build artifacts
 
 When you compile your program, you generate some build artifacts, such as
 `src/main.o`.  You do not need to provide any licensing information for those
 files.  Just use your `.gitignore` file to ignore these build artifacts.  The
 REUSE tool will respect the contents of `.gitignore`.
 
-## Insignificant files
+### Insignificant files
 
 You probably will have files in your project that you do not find
 particularly copyrightable, for example configuration files such as
@@ -145,7 +145,7 @@ do this. Edit the file to contain:
 
 <!-- [TODO: Link to FAQ explaining which files are probably not copyrightable] -->
 
-## Result
+### Result
 
 Your project tree will now look like this:
 
@@ -167,7 +167,7 @@ project/
 └── README.md
 ```
 
-# 3. Check whether you did everything correctly
+## 3. Check whether you did everything correctly
 
 Now that you have marked all files with their copyright and licensing, it is
 time to check whether you did not miss anything. To do this, we provide a
@@ -208,6 +208,8 @@ compliant with REUSE now! To learn what the different numbers mean, please have
 a look at the [full documentation of the reuse
 tool](https://reuse.readthedocs.io).
 
+## Getting help
+
 After going through this tutorial, you understood REUSE and the three basic
 steps to properly license your software project – well done! But although we
 have covered a few edge cases, you might run into more questions soon. But
@@ -234,4 +236,4 @@ by:
 - or [sending an email to the FSFE](https://fsfe.org/contact). Please note that
   we would prefer issues because they are publicly searchable for other people.
 
-Thanks for your valuable contribution towards making software reusable!
+Thank you for your valuable contribution towards making software reusable!
