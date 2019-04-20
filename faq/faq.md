@@ -165,6 +165,11 @@ DEP5
 
 ## Can I license only a part of a file as being under a different license?
 
+## How to deal with MIT/BSD licenses which include copyright information themselves?
+
+Since files are different, use multiple of them if they are different 
+and from different copyright holders
+
 ## Should I move my existing LICENSE or COPYING file?
 
 ## Should I put comment headers in my license files?
