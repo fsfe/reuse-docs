@@ -1,3 +1,9 @@
+<!--
+SPDX-Copyright: Free Software Foundation Europe e.V.
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # Tutorial: How to become REUSE compliant
 
 This tutorial explains the basic methods of how to make a software project REUSE
