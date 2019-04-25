@@ -233,8 +233,7 @@ wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
 ## How to deal with MIT/BSD licenses which include copyright information themselves?
 
-Since files are different, use multiple of them if they are different 
-and from different copyright holders
+TODO: Figure this one out
 
 ## Should I move my existing LICENSE or COPYING file?
 
