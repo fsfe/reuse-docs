@@ -237,9 +237,27 @@ TODO: Figure this one out
 
 ## Should I move my existing LICENSE or COPYING file?
 
+If you use multiple licenses in your project, we recommend that you put all of
+your licenses in the `LICENSES/` directory.
+
+If you only have a single license file, see [the next
+question](#i-only-have-a-single-license-file-should-i-still-create-a-licenses-directory).
+
 ## I only have a single license file. Should I still create a LICENSES directory?
 
-Maybe
+You do not strictly need to put your license in the `LICENSES/` directory,
+though we recommend that you do. If you want to keep your license in a single
+file (`LICEN[CS]E`, `COPYING`, `COPYRIGHT`), you should edit the file to signal
+what licence you are actually using.
+
+Preface your license with the following header:
+
+```
+Valid-License-Identifier: [identifier]
+License-Text:
+
+[license text]
+```
 
 ## Should I put comment headers in my license files?
 
