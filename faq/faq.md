@@ -138,6 +138,9 @@ header:
 ```
 Valid-License-Identifier: GPL-3.0-only
 Valid-License-Identifier: GPL-3.0-or-later
+License-Text:
+
+[license text]
 ```
 
 ## What are license exceptions and what do I do with them?
