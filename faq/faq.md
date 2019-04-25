@@ -191,6 +191,17 @@ projects such as Chromium circumvent this problem by using "Copyright (c) 2013
 The Chromium Authors" as their copyright tag. You may consider doing this, but
 you should keep a list of authors in your project.
 
+## Why can't I just use version control to record copyright?
+
+In [a previous question](#what-is-a-copyright-holder-and-what-is-an-author), we
+distinguished between copyright holders and authors, which are not always the
+same. Version control typically only records authorship, which makes it
+unsuitable for the task of recording copyright.
+
+Another obstacle is that version control history may contain errors, and fixing
+such an error would require rewriting the history, causing all contributors to
+have to re-download the new trunk.
+
 ## Can I use DEP5 to declare licensing and copyright?
 
 See next question.
