@@ -17,7 +17,7 @@ Find the SPDX identifier of your license in the [SPDX License
 List](https://spdx.org/licenses/). Download the license text for your license
 from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
-repository and put it in `LICENSES/<identifier>.txt`, where `<identifier>` is
+repository and put it in `LICENSES/[identifier].txt`, where `[identifier]` is
 equal to the SPDX identifier.
 
 ### 2. Add a license header to each file
@@ -25,9 +25,9 @@ equal to the SPDX identifier.
 Then, for all files, edit the header to contain the following:
 
 ```
-# SPDX-Copyright: <year> <copyright holder> <email address>
+# SPDX-Copyright: [year] [copyright holder] <[email address]>
 #
-# SPDX-License-Identifier: <identifier>
+# SPDX-License-Identifier: [identifier]
 ```
 
 ### 3. Confirm compliance with the linter
@@ -260,7 +260,7 @@ You should never edit license files. When you use an existing license, you
 should always copy it verbatim.
 
 Some licenses, such as MIT and the BSD family of licenses, have a line that
-says "Copyright (c) <year> <copyright holder>". Please see
+says "Copyright (c) [year] [copyright holder]". Please see
  <!-- TODO: Link to BSD/MIT question -->
   about how to deal with those licenses.
 
