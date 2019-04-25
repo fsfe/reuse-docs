@@ -232,15 +232,37 @@ and from different copyright holders
 
 ## Should I move my existing LICENSE or COPYING file?
 
-## Should I put comment headers in my license files?
-
 ## I only have a single license file. Should I still create a LICENSES directory?
 
 Maybe
 
+## Should I put comment headers in my license files?
+
+## How do I use a license that is not on the SPDX License List?
+
+<!-- TODO: Explain that the user probably shouldn't use a custom license -->
+
+If you have a custom or modified license that does not appear in the SPDX
+License List, place your license in the file
+`LICENSES/LicenseRef-MyLicense.txt`, and/or preface your license text with the
+tag `Valid-License-Identifier: LicenseRef-MyLicense`. By doing this, SPDX will
+still be able to recognise your license.
+
 ## Should I edit my license files?
 
-NOOOOOOOOOOOOOO
+You should never edit license files. When you use an existing license, you
+should always copy it verbatim.
+
+Some licenses, such as MIT and the BSD family of licenses, have a line that
+says "Copyright (c) <year> <copyright holder>". Please see
+ <!-- TODO: Link to BSD/MIT question -->
+  about how to deal with those licenses.
+
+There are many reasons for why you should not alter license texts, but if you do
+alter the texts, you should use a different SPDX identifier for this license.
+See
+<!-- TODO: Link to custom license question -->
+.
 
 ## Can I remove the license and copyright information from minified code (e.g., JavaScript)?
 
