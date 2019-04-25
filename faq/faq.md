@@ -277,15 +277,14 @@ You should never edit license files. When you use an existing license, you
 should always copy it verbatim.
 
 Some licenses, such as MIT and the BSD family of licenses, have a line that
-says "Copyright (c) [year] [copyright holder]". Please see
- <!-- TODO: Link to BSD/MIT question -->
-  about how to deal with those licenses.
+says "Copyright (c) [year] [copyright holder]". Please see [this
+question](#how-to-deal-with-mitbsd-licenses-which-include-copyright-information-themselves)
+about how to deal with those licenses.
 
 There are many reasons for why you should not alter license texts, but if you do
 alter the texts, you should use a different SPDX identifier for this license.
-See
-<!-- TODO: Link to custom license question -->
-.
+See [the previous
+question](#how-do-i-use-a-license-that-is-not-on-the-spdx-license-list).
 
 ## Can I remove the license and copyright information from minified code (e.g., JavaScript)?
 
