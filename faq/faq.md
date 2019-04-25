@@ -132,8 +132,8 @@ If you have code under both licenses, we recommend that you include both
 licenses separately.
 
 If you do not want to include both licenses separately (e.g., for space
-reasons), we you can create the file `LICENSES/GPL-3.0.txt` and add the
-following header:
+reasons), you can create the file `LICENSES/GPL-3.0.txt` and add the following
+header:
 
 ```
 Valid-License-Identifier: GPL-3.0-only
