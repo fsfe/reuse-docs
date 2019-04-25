@@ -56,7 +56,9 @@ Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-ma
 One problem with copyright as it pertains to software is that it makes software
 unshareable by default. A license changes that. A license defines the terms
 under which the copyright holder allows the recipient of the license to use the
-software. If the license allows the recipient to [use, study, share and
+software.
+
+If the license allows the recipient to [use, study, share and
 improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then
 that software is Free Software.
 
