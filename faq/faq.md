@@ -47,13 +47,12 @@ Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-ma
 
 ## What is a license?
 
-One problem with copyright as it pertains to software is that it makes
-software unshareable by default. A license changes that. A license defines
-the terms under which the copyright holder allows the recipient of the
-license to use the software.  If the license allows the recipient to
-[use, study, share and
-improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software,
-then that software is Free Software.
+One problem with copyright as it pertains to software is that it makes software
+unshareable by default. A license changes that. A license defines the terms
+under which the copyright holder allows the recipient of the license to use the
+software. If the license allows the recipient to [use, study, share and
+improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then
+that software is Free Software.
 
 ## Which license should I choose?
 
@@ -62,21 +61,19 @@ then that software is Free Software.
 ## What is SPDX?
 
 SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a
-project by the [Linux Foundation](https://www.linuxfoundation.org/) and the
-rock upon which REUSE is built. SPDX defines a standardized way to share
-copyright and licensing information between projects and people. Most
-importantly for REUSE, SPDX maintains the [SPDX License
-List](https://spdx.org/licenses/), which defines standardized identifiers for a
-lot of licenses.
+project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock
+upon which REUSE is built. SPDX defines a standardized way to share copyright
+and licensing information between projects and people. Most importantly for
+REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which
+defines standardized identifiers for a lot of licenses.
 
 # The tool
 
 ## How do I install and use the REUSE tool?
 
-The REUSE tool is a handy companion that can verify your compliance with
-REUSE and automate a lot of adjacent tasks. You can find the full
-documentation for the tool at <https://reuse.readthedocs.io/>. But the short
-of it is:
+The REUSE tool is a handy companion that can verify your compliance with REUSE
+and automate a lot of adjacent tasks. You can find the full documentation for
+the tool at <https://reuse.readthedocs.io/>. But the short of it is:
 
 ```
 $ pip3 install --user fsfe-reuse 
@@ -147,13 +144,41 @@ LICENSE (strange exception)
 
 ## What to do with uncopyrightable files?
 
+There are two things that you can do with such a file to make sure that its
+copyright and licensing is recorded. The first option is to simply use your
+regular copyright and license header for this file. There is nothing that stops
+you from claiming copyright over your own original works.
+
+The alternative is to waive your copyright by using the
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+
+It is important to note that you can only do this for your own works. If the
+file was authored by someone else, you must declare their copyright and license
+in the header.
+
 ## Where else do I put my license information?
 
 README
 
 ## What is a copyright holder, and what is an author?
 
+## I changed a single line of code. Should I add an SPDX-Copyright tag with my name?
+
+The core question here is: At what point should I consider myself a copyright
+holder over a file? This is up to your discretion. It might help to be
+consistent and add the tag to every file you touch, but it is perhaps more
+valuable to reach a consensus about this within your project.
+
 ## How do I deal with a file that has been edited by many people?
+
+Some files are edited by many people and would have an extremely long list of
+copyright holders in the header. This may be aesthetically unpleasing, but is
+not incorrect.
+
+If you would rather not deal with having so many copyright notices, some
+projects such as Chromium circumvent this problem by using "Copyright (c) 2013
+The Chromium Authors" as their copyright tag. You may consider doing this, but
+you should keep a list of authors in your project.
 
 ## Can I use DEP5 to declare licensing and copyright?
 
@@ -164,6 +189,41 @@ See next question.
 DEP5
 
 ## Can I license only a part of a file as being under a different license?
+
+The short answer is that yes, you can, but no, there is no standard way for
+REUSE to recognize this. If you have a small segment of a file that is licensed
+differently, you should list that license under a separate
+`SPDX-License-Identifier` tag in the header.
+
+You can use your own comments to specify which segment is separately licensed.
+For instance: "The class Foo is copied from project Bar and licensed under MIT.
+All changes are licensed under GPL-3.0-or-later."
+
+A possible way to circumvent the problem is to extract the segment from the
+file, and to keep it in its own file.
+
+## How do I properly declare multi-licensing?
+
+You should always include all licenses in the `LICENSES/` directory.
+
+The correct SPDX license expression that applies to the file depends on the
+intent. If all the code within is licensed under multiple licenses, and the
+licensee can choose under which license they consume the work, use
+`SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, as
+parts of Firefox do.
+
+If all the code within the file is licensed under multiple licenses, and the
+user must comply with all licenses simultaneously, use
+`SPDX-License-Identifier: LGPL-2.0-or-later AND AML`, as can be found in Simple
+DirectMedia Layer (SDL).
+
+If all the code within the file is licensed under either one license or another
+(for instance, all code is under GPL-2.0-only, but one function is under MIT),
+use separate tags `SPDX-License-Identifier: GPL-2.0-only` and
+`SPDX-License-Identifier: MIT`.
+
+You can read more about SPDX expressions [on the SPDX
+wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
 ## How to deal with MIT/BSD licenses which include copyright information themselves?
 
