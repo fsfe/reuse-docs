@@ -1,3 +1,7 @@
+# SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 FROM debian:9
 
 RUN apt-get update && apt-get -y install pandoc texlive-latex-base texlive-fonts-recommended
