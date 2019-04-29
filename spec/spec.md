@@ -26,9 +26,7 @@ Each license file should be placed in the `LICENSES/` directory in the root of
 the project. The name of the license file should be the SPDX identifier of the
 license followed by a file extension (example: `GPL-3.0-or-later.txt`).
 
-A project may contain a single license file outside of the `LICENSES/` directory
-in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
-project.
+<!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
 
 A license file whose name does not conform to the above recommendation must
 contain, at the start of the file, one or more `Valid-License-Identifier` tags,
@@ -48,6 +46,10 @@ License-Text:
 
 [...]
 ```
+
+A project may contain a single license file outside of the `LICENSES/` directory
+in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
+project.
 
 If a license does not exist in the SPDX License List, its SPDX identifier is
 `LicenseRef-[idstring]` as defined by the SPDX Specification.
