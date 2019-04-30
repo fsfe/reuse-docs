@@ -78,6 +78,8 @@ associated with it, except the following files:
 
 - The files ignored by the version control system (example: `.gitignore`).
 
+- The files in the `.reuse/` directory in the root of the project.
+
 <!-- TODO: The files inside of a git submodule -->
 
 There are various ways to associate copyright and licensing information with a
@@ -126,4 +128,22 @@ An example of a comment header:
 
 ### DEP5
 
-...
+Copyright and licensing information may be associated with a file through a DEP5
+file. The intended use case of this method is large directories where including
+a comment header in each file (or in `.license` companion files) is impossible
+or undesirable.
+
+The DEP5 file must be in `.reuse/dep5` from the root of the project.
+
+An example of a DEP5 file:
+
+```
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Project
+Upstream-Contact: Jane Doe <jane@example.com>
+Source: https://example.com/jane/project
+
+Files: po/*
+Copyright: 2019 Translation Company
+License: GPL-3.0-or-later
+```
