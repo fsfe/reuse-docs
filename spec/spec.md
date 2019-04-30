@@ -105,6 +105,10 @@ name of the copyright holder, and the e-mail address of the copyright holder
 these items may be changed, but should be consistent within the project. The
 items except the name of the copyright holder may be omitted.
 
+Instead of the `SPDX-Copyright` tag, the symbols `Copyright`, `Copyright (c)`,
+`Copyright (C)`, `Copyright ©` or `©` may be used (example: `Copyright (c) 2019
+Jane Doe <jane@example.com>, `© 2019 Jane Doe <jane@example.com>`).
+
 The `SPDX-License-Identifier` tag must be followed by a valid SPDX expression
 describing the licensing of the file (example: `SPDX-License-Identifier:
 GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed
