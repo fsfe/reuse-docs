@@ -135,6 +135,11 @@ or undesirable.
 
 The DEP5 file must be in `.reuse/dep5` from the root of the project.
 
+<!-- TODO: SPDX expression in License field, and how to do multiple licenses. -->
+
+<!-- TODO: Somehow specify the same requirements for the Copyright field, as
+were listed in the previous section? -->
+
 An example of a DEP5 file:
 
 ```
