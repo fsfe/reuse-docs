@@ -1,3 +1,9 @@
+<!--
+SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # REUSE Specification
 
 This specification defines a standardized method for declaring copyright and
@@ -56,3 +62,64 @@ If a license does not exist in the SPDX License List, its SPDX identifier is
 
 A project must not include license files for licenses under which none of the
 files in the project are licensed.
+
+<!-- TODO: Change "copyright and licensing information" to something shorter?
+Shorten it to CALI? -->
+
+## Copyright and licensing information
+
+Each file in the project must have copyright and licensing information
+associated with it, except the following files:
+
+- The license files.
+
+- The files belonging to the project's version control system (example:
+  `.git/`).
+
+- The files ignored by the version control system (example: `.gitignore`).
+
+<!-- TODO: The files inside of a git submodule -->
+
+There are various ways to associate copyright and licensing information with a
+file.
+
+### Comment headers
+
+Each plain text file that can contain comments should contain comments at the
+top of the file (comment header) that declare that file's copyright and
+licensing information.
+
+If a file is not a plain text file or does not permit the inclusion of
+comments, the comment header that declares the file's copyright and licensing
+information should be in an adjacent file of the same name with the
+additional extension `.license` (example: `cat.jpg.license` if the original
+file is `cat.jpg`).
+
+The comment header must contain one or more `SPDX-Copyright` tags, and one or
+more `SPDX-License-Information` tags. A tag is followed by a colon, followed by
+a text value, and terminated by a newline.
+
+The `SPDX-Copyright` tag should be followed by the year(s) of publication, the
+name of the copyright holder, and the e-mail address of the copyright holder
+(example: `SPDX-Copyright: 2019 Jane Doe <jane@example.com>`). The order of
+these items may be changed, but should be consistent within the project. The
+items except the name of the copyright holder may be omitted.
+
+The `SPDX-License-Identifier` tag must be followed by a valid SPDX expression
+describing the licensing of the file (example: `SPDX-License-Identifier:
+GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed
+differently, a different `SPDX-License-Identifier` tag should be included for
+each section.
+
+An example of a comment header:
+
+```
+# SPDX-Copyright: 2016, 2018-2019 Jane Doe <jane@example.com>
+# SPDX-Copyright: 2019 Example Company
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+```
+
+### DEP5
+
+...
