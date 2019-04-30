@@ -63,6 +63,8 @@ If a license does not exist in the SPDX License List, its SPDX identifier is
 A project must not include license files for licenses under which none of the
 files in the project are licensed.
 
+<!-- TODO: Also handle license exceptions. -->
+
 <!-- TODO: Change "copyright and licensing information" to something shorter?
 Shorten it to CALI? -->
 
