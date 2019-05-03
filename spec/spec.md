@@ -63,7 +63,16 @@ If a license does not exist in the SPDX License List, its SPDX identifier is
 A project must not include license files for licenses under which none of the
 files in the project are licensed.
 
-<!-- TODO: Also handle license exceptions. -->
+Everything that applies to licenses in this section also applies to license
+exceptions, with the following exceptions:
+
+- Exception files must be placed in the `LICENSES/` directory in the root of the
+  project.
+
+- The tags `Valid-Exception-Identifier` and `Exception-Text` must be used
+  instead of `Valid-License-Identifier` and `License-Text`.
+
+<!-- Can we use LicenseRef for exceptions? -->
 
 <!-- TODO: Change "copyright and licensing information" to something shorter?
 Shorten it to CALI? -->
@@ -113,11 +122,11 @@ Instead of the `SPDX-Copyright` tag, the symbols `Copyright`, `Copyright (c)`,
 `Copyright (C)`, `Copyright ©` or `©` may be used (example: `Copyright (c) 2019
 Jane Doe <jane@example.com>, `© 2019 Jane Doe <jane@example.com>`).
 
-The `SPDX-License-Identifier` tag must be followed by a valid SPDX expression
-describing the licensing of the file (example: `SPDX-License-Identifier:
-GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed
-differently, a different `SPDX-License-Identifier` tag should be included for
-each section.
+The `SPDX-License-Identifier` tag must be followed by a valid SPDX License
+Expression describing the licensing of the file (example:
+`SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections
+of the file are licensed differently, a different `SPDX-License-Identifier` tag
+should be included for each section.
 
 An example of a comment header:
 
