@@ -146,7 +146,10 @@ or undesirable.
 
 The DEP5 file must be in `.reuse/dep5` from the root of the project.
 
-<!-- TODO: SPDX expression in License field, and how to do multiple licenses. -->
+<!-- TODO: How to do multiple licenses without AND and OR. -->
+
+The `License` tag must be followed by a valid SPDX License Expression describing
+the licensing of the associated files.
 
 <!-- TODO: Somehow specify the same requirements for the Copyright field, as
 were listed in the previous section? -->
