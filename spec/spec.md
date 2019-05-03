@@ -112,15 +112,11 @@ The comment header must contain one or more `SPDX-Copyright` tags, and one or
 more `SPDX-License-Information` tags. A tag is followed by a colon, followed by
 a text value, and terminated by a newline.
 
-The `SPDX-Copyright` tag should be followed by the year(s) of publication, the
-name of the copyright holder, and the e-mail address of the copyright holder
-(example: `SPDX-Copyright: 2019 Jane Doe <jane@example.com>`). The order of
-these items may be changed, but should be consistent within the project. The
-items except the name of the copyright holder may be omitted.
+The `SPDX-Copyright` tag must be followed by a copyright notice as described
+in <!-- FIXME: Refer to an internal section -->.
 
 Instead of the `SPDX-Copyright` tag, the symbols `Copyright`, `Copyright (c)`,
-`Copyright (C)`, `Copyright ©` or `©` may be used (example: `Copyright (c) 2019
-Jane Doe <jane@example.com>, `© 2019 Jane Doe <jane@example.com>`).
+`Copyright (C)`, `Copyright ©` or `©` may be used.
 
 The `SPDX-License-Identifier` tag must be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
@@ -151,8 +147,8 @@ The DEP5 file must be in `.reuse/dep5` from the root of the project.
 The `License` tag must be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
-<!-- TODO: Somehow specify the same requirements for the Copyright field, as
-were listed in the previous section? -->
+The `Copyright` tag must be followed by a copyright notice as described in <!--
+FIXME: Refer to an internal section -->.
 
 An example of a DEP5 file:
 
@@ -165,4 +161,20 @@ Source: https://example.com/jane/project
 Files: po/*
 Copyright: 2019 Translation Company
 License: GPL-3.0-or-later
+```
+
+## Format of copyright notices
+
+A copyright notice must start with the copyright symbol (©), the word
+"Copyright", or an equivalent tag, followed by the year(s) of publication, the
+name of the copyright holder, and the e-mail address of the copyright holder.
+The order of these items may be changed, but should be consistent within the
+project. The items except the name of the copyright holder may be omitted.
+
+Examples of valid copyright notices:
+
+```
+SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+© Jane Doe
+Copyright 2016, 2018-2019 Jane Doe
 ```
