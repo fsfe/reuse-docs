@@ -115,6 +115,8 @@ touch](https://github.com/fsfe/reuse-tool/issues).
 
 # Licensing and compliance {#licensing}
 
+## Which licenses are compatible? {#compatible-licenses}
+
 ## Is there a standard format for declaring copyright? {#standard-copyright}
 
 Copyright year copyright holder email
@@ -329,6 +331,10 @@ about how to deal with those licenses.
 There are many reasons for why you should not alter license texts, but if you do
 alter the texts, you should use a different SPDX identifier for this license.
 See [the previous question](#custom-license).
+
+## Can I edit copyright and licensing tags? {#edit-tags}
+
+TODO: If erroneous, sure.
 
 ## Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}
 
