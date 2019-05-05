@@ -163,7 +163,7 @@ files and configuration files may not meet that threshold either.
 There are two things that you can do with such a file to make sure that its
 copyright and licensing is recorded. The first option is to simply use your
 regular copyright and license header for this file. There is nothing that stops
-you from claiming copyright over your own original works.
+you from claiming copyright over your own works.
 
 The alternative is to waive your copyright by using the
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
