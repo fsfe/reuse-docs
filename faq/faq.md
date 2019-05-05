@@ -149,9 +149,14 @@ License-Text:
 
 ## Which files are copyrightable? {#what-is-copyrightable}
 
-README
+All files that are original works of authorship are copyrightable. In essence,
+if someone sat down typing their own original thoughts on a keyboard, then that
+person holds copyright over the output. Common examples are source code,
+documentation, audio, and video.
 
-LICENSE (strange exception)
+There are some edge cases, however. For instance, the program `print("Hello,
+REUSE!")` probably does not meet the threshold of originality. Similarly, data
+files and configuration files may not meet that threshold either.
 
 ## What to do with uncopyrightable files? {#uncopyrightable}
 
