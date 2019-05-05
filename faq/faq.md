@@ -167,6 +167,31 @@ It is important to note that you can only do this for your own works. If the
 file was authored by someone else, you must declare their copyright and license
 in the header.
 
+## How do I copy someone else's work? {#copy-work}
+
+If someone else has made their work available for you to use and copy, you can
+incorporate their work into your project. When you put the work in one of the
+files in your project, you should add an `SPDX-Copyright` tag for the copyright
+holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which
+the work was made available.
+
+If the work was licensed differently from your project, you should verify
+whether the licenses are compatible, and add the new licenses to your project.
+
+## Can I copy a work that has no copyright notice or license? {#no-copyright-license}
+
+Before you proceed, always first make sure that you can find the copyright and
+licensing information elsewhere. Some projects only include this information in
+the root directory or in their README file.
+
+If you can find no copyright notice, then that is no problem. You can add the
+copyright notice yourself.
+
+If the work has no license, then that means that you do not have the right to
+copy it. If you believe that this is a mistake and the author clearly meant for
+you to be able to copy this work, you should contact the author and ask them to
+license their work.
+
 ## Where else do I put my license information? {#where-else}
 
 README
