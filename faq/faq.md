@@ -17,8 +17,7 @@ Find the SPDX identifier of your license in the [SPDX License
 List](https://spdx.org/licenses/). Download the license text for your license
 from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
-repository and put it in `LICENSES/[identifier].txt`, where `[identifier]` is
-equal to the SPDX identifier.
+repository and put it in the `LICENSES/` directory.
 
 ### 2. Add a license header to each file {#step-2}
 
