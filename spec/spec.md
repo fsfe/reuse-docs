@@ -34,7 +34,7 @@ license followed by a file extension (example: `GPL-3.0-or-later.txt`).
 
 <!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
 
-A license file whose name does not conform to the above recommendation must
+A License File whose filename does not conform to the above recommendation MUST
 contain, at the start of the file, one or more `Valid-License-Identifier` tags,
 followed by a `License-Text` tag, followed by the license text. Example:
 
