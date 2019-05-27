@@ -157,7 +157,8 @@ file through a DEP5 file. The intended use case of this method is large
 directories where including a comment header in each file (or in `.license`
 companion files) is impossible or undesirable.
 
-The DEP5 file MUST be in `.reuse/dep5` from the root of the project.
+DEP5 File MUST be named `dep5` and stored in the `.reuse/` directory in the root
+of the Project (i.e. `.reuse/dep5`).
 
 <!-- TODO: How to do multiple licenses without AND and OR. -->
 
