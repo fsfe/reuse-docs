@@ -115,9 +115,9 @@ file.
 
 ### Comment headers
 
-Each plain text file that can contain comments SHOULD contain comments at the
-top of the file (comment header) that declare that file's copyright and
-licensing information.
+To implement this method, each plain text file that can contain comments MUST
+contain comments at the top of the file (comment header) that declare that
+file's copyright and licensing information.
 
 If a file is not a plain text file or does not permit the inclusion of
 comments, the comment header that declares the file's copyright and licensing
