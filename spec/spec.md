@@ -25,11 +25,11 @@ These are the definitions for some of the terms used in this specification:
 
 ## License files
 
-A project must include a license file for every license under which files in the
+A project MUST include a license file for every license under which files in the
 project are licensed.
 
-Each license file should be placed in the `LICENSES/` directory in the root of
-the project. The name of the license file should be the SPDX identifier of the
+Each license file SHOULD be placed in the `LICENSES/` directory in the root of
+the project. The name of the license file SHOULD be the SPDX identifier of the
 license followed by a file extension (example: `GPL-3.0-or-later.txt`).
 
 <!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
@@ -53,23 +53,23 @@ License-Text:
 [...]
 ```
 
-A project may contain a single license file outside of the `LICENSES/` directory
+A project MAY contain a single license file outside of the `LICENSES/` directory
 in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
 project.
 
 If a license does not exist in the SPDX License List, its SPDX identifier is
 `LicenseRef-[idstring]` as defined by the SPDX Specification.
 
-A project must not include license files for licenses under which none of the
+A project MUST NOT include license files for licenses under which none of the
 files in the project are licensed.
 
 Everything that applies to licenses in this section also applies to license
 exceptions, with the following exceptions:
 
-- Exception files must be placed in the `LICENSES/` directory in the root of the
+- Exception files MUST be placed in the `LICENSES/` directory in the root of the
   project.
 
-- The tags `Valid-Exception-Identifier` and `Exception-Text` must be used
+- The tags `Valid-Exception-Identifier` and `Exception-Text` MUST be used
   instead of `Valid-License-Identifier` and `License-Text`.
 
 <!-- Can we use LicenseRef for exceptions? -->
@@ -79,7 +79,7 @@ Shorten it to CALI? -->
 
 ## Copyright and licensing information
 
-Each file in the project must have copyright and licensing information
+Each file in the project MUST have copyright and licensing information
 associated with it, except the following files:
 
 - The license files.
@@ -98,31 +98,31 @@ file.
 
 ### Comment headers
 
-Each plain text file that can contain comments should contain comments at the
+Each plain text file that can contain comments SHOULD contain comments at the
 top of the file (comment header) that declare that file's copyright and
 licensing information.
 
 If a file is not a plain text file or does not permit the inclusion of
 comments, the comment header that declares the file's copyright and licensing
-information should be in an adjacent file of the same name with the
+information SHOULD be in an adjacent file of the same name with the
 additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
 
-The comment header must contain one or more `SPDX-Copyright` tags, and one or
+The comment header MUST contain one or more `SPDX-Copyright` tags, and one or
 more `SPDX-License-Information` tags. A tag is followed by a colon, followed by
 a text value, and terminated by a newline.
 
-The `SPDX-Copyright` tag must be followed by a copyright notice as described
+The `SPDX-Copyright` tag MUST be followed by a copyright notice as described
 in <!-- FIXME: Refer to an internal section -->.
 
 Instead of the `SPDX-Copyright` tag, the symbols `Copyright`, `Copyright (c)`,
-`Copyright (C)`, `Copyright ©` or `©` may be used.
+`Copyright (C)`, `Copyright ©` or `©` MAY be used.
 
-The `SPDX-License-Identifier` tag must be followed by a valid SPDX License
+The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
 `SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections
 of the file are licensed differently, a different `SPDX-License-Identifier` tag
-should be included for each section.
+SHOULD be included for each section.
 
 An example of a comment header:
 
@@ -135,19 +135,19 @@ An example of a comment header:
 
 ### DEP5
 
-Copyright and licensing information may be associated with a file through a DEP5
+Copyright and licensing information MAY be associated with a file through a DEP5
 file. The intended use case of this method is large directories where including
 a comment header in each file (or in `.license` companion files) is impossible
 or undesirable.
 
-The DEP5 file must be in `.reuse/dep5` from the root of the project.
+The DEP5 file MUST be in `.reuse/dep5` from the root of the project.
 
 <!-- TODO: How to do multiple licenses without AND and OR. -->
 
-The `License` tag must be followed by a valid SPDX License Expression describing
+The `License` tag MUST be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
-The `Copyright` tag must be followed by a copyright notice as described in <!--
+The `Copyright` tag MUST be followed by a copyright notice as described in <!--
 FIXME: Refer to an internal section -->.
 
 An example of a DEP5 file:
@@ -165,11 +165,11 @@ License: GPL-3.0-or-later
 
 ## Format of copyright notices
 
-A copyright notice must start with the copyright symbol (©), the word
+A copyright notice MUST start with the copyright symbol (©), the word
 "Copyright", or an equivalent tag, followed by the year(s) of publication, the
 name of the copyright holder, and the e-mail address of the copyright holder.
-The order of these items may be changed, but should be consistent within the
-project. The items except the name of the copyright holder may be omitted.
+The order of these items MAY be changed, but SHOULD be consistent within the
+project. The items except the name of the copyright holder MAY be omitted.
 
 Examples of valid copyright notices:
 
