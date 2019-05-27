@@ -41,11 +41,12 @@ project are licensed.
 Each license file SHOULD be placed in the `LICENSES/` directory in the root of
 the project. The name of the license file SHOULD be the SPDX identifier of the
 license followed by an appropriate file extension (example:
-`LICENSES/GPL-3.0-or-later.txt`). The License File SHOULD be in plain text format.
+`LICENSES/GPL-3.0-or-later.txt`). The License File SHOULD be in plain text
+format.
 
 <!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
 
-A License File whose filename does not conform to the above recommendation MUST
+A License File whose file name does not conform to the above recommendation MUST
 contain, at the start of the file, one or more `Valid-License-Identifier` tags,
 followed by a `License-Text` tag, followed by the license text. Example:
 
