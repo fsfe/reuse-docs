@@ -194,7 +194,7 @@ License: GPL-3.0-or-later
 A copyright notice MUST be prefixed by a tag, word or symbol denoting a
 copyright notice as described in this specification.
 
-The copyright notice contains the year(s) of publication, the name of the
+The copyright notice MUST contain the year(s) of publication, the name of the
 copyright holder, and the contact address of the copyright holder. The order of
 these items MAY be changed, but SHOULD be consistent within the Project. The
 items except the name of the copyright holder MAY be omitted.
