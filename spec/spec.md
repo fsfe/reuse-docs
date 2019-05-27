@@ -11,6 +11,9 @@ licensing for software projects. The goal of the specification is to have
 unambiguous, machine-readable copyright and licensing information for each
 individual file in a project.
 
+This specification implements [IETF RFC 2119: Key words for use in RFCs to
+Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119).
+
 ## Definitions
 
 These are the definitions for some of the terms used in this specification:
