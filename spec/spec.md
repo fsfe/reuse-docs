@@ -60,8 +60,8 @@ A project MAY contain a single license file outside of the `LICENSES/` directory
 in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
 project.
 
-If a license does not exist in the SPDX License List, its SPDX identifier is
-`LicenseRef-[idstring]` as defined by the SPDX Specification.
+If a license does not exist in the SPDX License List, its SPDX identifier
+MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification.
 
 A project MUST NOT include license files for licenses under which none of the
 files in the project are licensed.
