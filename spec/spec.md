@@ -141,7 +141,7 @@ The `SPDX-Copyright` tag MUST be followed by a copyright notice as described
 in <!-- FIXME: Refer to an internal section -->.
 
 Instead of the `SPDX-Copyright` tag, the word `Copyright` or the symbol `©` MAY
-be used.
+be used, in which case a colon is not needed.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
