@@ -107,13 +107,14 @@ associated with it, except the following files:
 - The files belonging to the Project's version control system (example:
   `.git/`).
 
-- The files ignored by the version control system (example: `.gitignore`).
+- The files ignored by the version control system (example: Files listed in
+  `.gitignore`).
 
 - The files in the `.reuse/` directory in the root of the Project.
 
 <!-- TODO: The files inside of a git submodule -->
 
-There are various ways to associate copyright and licensing information with a
+There are two ways to associate copyright and licensing information with a
 file.
 
 ### Comment headers
@@ -142,7 +143,7 @@ The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
 `SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections
 of the file are licensed differently, a different `SPDX-License-Identifier` tag
-SHOULD be included for each section.
+MUST be included for each section.
 
 An example of a comment header:
 
