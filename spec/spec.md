@@ -48,7 +48,11 @@ format.
 
 A License File whose file name does not conform to the above recommendation MUST
 contain, at the start of the file, one or more `Valid-License-Identifier` tags,
-followed by a `License-Text` tag, followed by the license text. Example:
+followed by a `License-Text` tag, followed by the license text. The value
+following a `Valid-License-Identifier` tag MUST be a valid SPDX Identifier of
+the license text contained within the License File.
+
+Example:
 
 ```
 Valid-License-Identifier: GPL-3.0-only
