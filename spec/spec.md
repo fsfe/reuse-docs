@@ -88,7 +88,8 @@ exceptions, with the following specifics:
 - The tags `Valid-Exception-Identifier` and `Exception-Text` MUST be used
   instead of `Valid-License-Identifier` and `License-Text`.
 
-<!-- Can we use LicenseRef for exceptions? -->
+- It is not possible to have a license exception that does not exist in the SPDX
+  License List.
 
 <!-- TODO: Change "copyright and licensing information" to something shorter?
 Shorten it to CALI? -->
