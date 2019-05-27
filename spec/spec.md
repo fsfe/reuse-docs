@@ -38,11 +38,11 @@ These are the definitions for some of the terms used in this specification:
 
 ## License files
 
-A project MUST include a license file for every license under which files in the
-project are licensed.
+A Project MUST include a License File for every license under which files in the
+Project are licensed.
 
-Each license file SHOULD be placed in the `LICENSES/` directory in the root of
-the project. The name of the license file SHOULD be the SPDX identifier of the
+Each License File SHOULD be placed in the `LICENSES/` directory in the root of
+the Project. The name of the License File SHOULD be the SPDX identifier of the
 license followed by an appropriate file extension (example:
 `LICENSES/GPL-3.0-or-later.txt`). The License File SHOULD be in plain text
 format.
@@ -72,21 +72,21 @@ License-Text:
 [...]
 ```
 
-A project MAY contain a single license file outside of the `LICENSES/` directory
+A Project MAY contain a single License File outside of the `LICENSES/` directory
 in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
-project.
+Project.
 
-If a license does not exist in the SPDX License List, its SPDX identifier
+If a license does not exist in the SPDX License List, its SPDX Identifier
 MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification.
 
-A project MUST NOT include license files for licenses under which none of the
-files in the project are licensed.
+A Project MUST NOT include License Files for licenses under which none of the
+files in the Project are licensed.
 
 Everything that applies to licenses in this section also applies to license
 exceptions, with the following specifics:
 
 - Exception files MUST be placed in the `LICENSES/` directory in the root of the
-  project.
+  Project.
 
 - The tags `Valid-Exception-Identifier` and `Exception-Text` MUST be used
   instead of `Valid-License-Identifier` and `License-Text`.
@@ -99,17 +99,17 @@ Shorten it to CALI? -->
 
 ## Copyright and licensing information
 
-Each file in the project MUST have copyright and licensing information
+Each file in the Project MUST have copyright and licensing information
 associated with it, except the following files:
 
-- The license files.
+- The License Files.
 
-- The files belonging to the project's version control system (example:
+- The files belonging to the Project's version control system (example:
   `.git/`).
 
 - The files ignored by the version control system (example: `.gitignore`).
 
-- The files in the `.reuse/` directory in the root of the project.
+- The files in the `.reuse/` directory in the root of the Project.
 
 <!-- TODO: The files inside of a git submodule -->
 
@@ -191,7 +191,7 @@ copyright notice as described in this specification.
 
 The copyright notice contains the year(s) of publication, the name of the
 copyright holder, and the contact address of the copyright holder. The order of
-these items MAY be changed, but SHOULD be consistent within the project. The
+these items MAY be changed, but SHOULD be consistent within the Project. The
 items except the name of the copyright holder MAY be omitted.
 
 The copyright notice MAY start with the copyright symbol "©".
