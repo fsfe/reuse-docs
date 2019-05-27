@@ -80,7 +80,7 @@ A project MUST NOT include license files for licenses under which none of the
 files in the project are licensed.
 
 Everything that applies to licenses in this section also applies to license
-exceptions, with the following exceptions:
+exceptions, with the following specifics:
 
 - Exception files MUST be placed in the `LICENSES/` directory in the root of the
   project.
