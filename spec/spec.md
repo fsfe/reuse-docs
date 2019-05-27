@@ -22,9 +22,16 @@ These are the definitions for some of the terms used in this specification:
 
 - License file --- ...
 
-<!-- Also put a link to the SPDX Specification here somewhere -->
+- SPDX Identifier --- SPDX short-form identifier, as defined in SPDX
+  Specification. See also <https://spdx.org/ids> for a short introduction and
+  examples.
 
-<!-- Also DEP5 -->
+- SPDX License Expression --- as defined in SPDX Specification.
+
+- SPDX Specification --- SPDX specification, version 2.1; as available on
+  <https://spdx.org/specifications>.
+
+<!-- DEP5 -->
 
 ## License files
 
