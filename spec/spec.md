@@ -20,7 +20,7 @@ These are the definitions for some of the terms used in this specification:
 
 - Project --- ...
 
-- License file --- ...
+- License File --- a file containing the text of a license.
 
 - SPDX Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
