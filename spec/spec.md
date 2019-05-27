@@ -22,14 +22,17 @@ These are the definitions for some of the terms used in this specification:
 
 - License File --- a file containing the text of a license.
 
+- SPDX Specification --- SPDX specification, version 2.1; as available on
+  <https://spdx.org/specifications>.
+
 - SPDX Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
   examples.
 
 - SPDX License Expression --- as defined in SPDX Specification.
 
-- SPDX Specification --- SPDX specification, version 2.1; as available on
-  <https://spdx.org/specifications>.
+- SPDX License List --- a list of commonly found licenses and exceptions; as
+  available on <https://spdx.org/licenses/>.
 
 <!-- DEP5 -->
 
