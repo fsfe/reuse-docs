@@ -22,6 +22,10 @@ These are the definitions for some of the terms used in this specification:
 
 - License File --- a file containing the text of a license.
 
+- Copyright and License Information --- the information that lists the
+  copyright holders of a file or work, and describes under which licenses the
+  file or work is made available.
+
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
 
@@ -94,12 +98,12 @@ exceptions, with the following specifics:
 - It is not possible to have a license exception that does not exist in the SPDX
   License List.
 
-<!-- TODO: Change "copyright and licensing information" to something shorter?
+<!-- TODO: Change "Copyright and Licensing Information" to something shorter?
 Shorten it to CALI? -->
 
-## Copyright and licensing information
+## Copyright and Licensing Information
 
-Each file in the Project MUST have copyright and licensing information
+Each file in the Project MUST have Copyright and Licensing Information
 associated with it, except the following files:
 
 - The License Files.
@@ -114,14 +118,14 @@ associated with it, except the following files:
 
 <!-- TODO: The files inside of a git submodule -->
 
-There are two ways to associate copyright and licensing information with a
+There are two ways to associate Copyright and Licensing Information with a
 file.
 
 ### Comment headers
 
 To implement this method, each plain text file that can contain comments MUST
 contain comments at the top of the file (comment header) that declare that
-file's copyright and licensing information.
+file's Copyright and Licensing Information.
 
 If a file is not a plain text file or does not permit the inclusion of
 comments, the comment header that declares the file's copyright and licensing
@@ -156,7 +160,7 @@ An example of a comment header:
 
 ### DEP5
 
-Alternatively, copyright and licensing information MAY be associated with a
+Alternatively, Copyright and Licensing Information MAY be associated with a
 file through a DEP5 file. The intended use case of this method is large
 directories where including a comment header in each file (or in `.license`
 companion files) is impossible or undesirable.
