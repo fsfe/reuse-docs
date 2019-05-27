@@ -132,8 +132,8 @@ a text value, and terminated by a newline.
 The `SPDX-Copyright` tag MUST be followed by a copyright notice as described
 in <!-- FIXME: Refer to an internal section -->.
 
-Instead of the `SPDX-Copyright` tag, the symbols `Copyright`, `Copyright (c)`,
-`Copyright (C)`, `Copyright ©` or `©` MAY be used.
+Instead of the `SPDX-Copyright` tag, the word `Copyright` or the symbol `©` MAY
+be used.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
@@ -183,16 +183,20 @@ License: GPL-3.0-or-later
 
 ## Format of copyright notices
 
-A copyright notice MUST start with the copyright symbol (©), the word
-"Copyright", or an equivalent tag, followed by the year(s) of publication, the
-name of the copyright holder, and the e-mail address of the copyright holder.
-The order of these items MAY be changed, but SHOULD be consistent within the
-project. The items except the name of the copyright holder MAY be omitted.
+A copyright notice MUST be prefixed by a tag, word or symbol denoting a
+copyright notice as described in this specification.
+
+The copyright notice contains the year(s) of publication, the name of the
+copyright holder, and the contact address of the copyright holder. The order of
+these items MAY be changed, but SHOULD be consistent within the project. The
+items except the name of the copyright holder MAY be omitted.
+
+The copyright notice MAY start with the copyright symbol "©".
 
 Examples of valid copyright notices:
 
 ```
 SPDX-Copyright: 2019 Jane Doe <jane@example.com>
-© Jane Doe
-Copyright 2016, 2018-2019 Jane Doe
+© Example Corporation <https://corp.example.com>
+Copyright 2016, 2018-2019 Joe Anybody
 ```
