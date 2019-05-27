@@ -140,8 +140,8 @@ a text value, and terminated by a newline.
 The `SPDX-Copyright` tag MUST be followed by a copyright notice as described
 in <!-- FIXME: Refer to an internal section -->.
 
-Instead of the `SPDX-Copyright` tag, the word `Copyright` or the symbol `©` MAY
-be used, in which case a colon is not needed.
+Instead of the `SPDX-Copyright` tag, the symbol `©`, or the word `Copyright` MAY
+be used, in which case a colon is not needed..
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
@@ -191,7 +191,7 @@ License: GPL-3.0-or-later
 
 ## Format of copyright notices
 
-A copyright notice MUST be prefixed by a tag, word or symbol denoting a
+A copyright notice MUST be prefixed by a tag, symbol or word denoting a
 copyright notice as described in this specification.
 
 The copyright notice MUST contain the year(s) of publication, the name of the
