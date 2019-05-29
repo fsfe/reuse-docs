@@ -199,12 +199,14 @@ copyright holder, and the contact address of the copyright holder. The order of
 these items MAY be changed, but SHOULD be consistent within the Project. The
 items except the name of the copyright holder MAY be omitted.
 
-The copyright notice MAY start with the copyright symbol "©".
+The copyright notice MAY start with the copyright symbol "©", "(c)" or "(C)".
 
 Examples of valid copyright notices:
 
 ```
 SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+SPDX-Copyright: © 2019 John Doe <joe@example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
+Copyright (c) Alice
 ```
