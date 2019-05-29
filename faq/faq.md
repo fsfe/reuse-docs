@@ -248,10 +248,6 @@ Another obstacle is that version control history may contain errors, and fixing
 such an error would require rewriting the history, causing all contributors to
 have to re-download the new trunk.
 
-## Can I use DEP5 to declare licensing and copyright? {#dep5}
-
-See next question.
-
 ## Can I bulk-license whole directories? {#bulk-license}
 
 DEP5
