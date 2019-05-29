@@ -369,9 +369,11 @@ There are many reasons for why you should not alter license texts, but if you do
 alter the texts, you should use a different SPDX identifier for this license.
 See [the previous question](#custom-license).
 
-## Can I edit copyright and licensing tags? {#edit-tags}
+## Can I edit copyright notices and license disclaimers? {#edit-copyright-and-licensing}
 
-TODO: If erroneous, sure.
+If you find out that some information is incorrect, you are free to adjust it.
+Otherwise, it is usually a good idea to leave copyright notices and license
+disclaimers intact. But there is no one-size-fits-all answer here.
 
 ## Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}
 
