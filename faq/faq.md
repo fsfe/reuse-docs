@@ -211,7 +211,7 @@ copyright notice yourself.
 If the work has no license, then that means that you do not have the right to
 copy it. If you believe that this is a mistake and the author clearly meant for
 you to be able to copy this work, you should contact the author and ask them to
-license their work.
+license their work. Feel free to refer them to <https://reuse.software>.
 
 ## Where else do I put my license information? {#where-else}
 
