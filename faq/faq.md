@@ -11,7 +11,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 We want to improve the way that people license their software projects. We
 propose three steps to achieve this:
 
-### 1. Choose and provide a license {#step-1}
+### 1. Choose and provide licenses {#step-1}
 
 Find the SPDX identifier of your license in the [SPDX License
 List](https://spdx.org/licenses/). Download the license text for your license
@@ -19,7 +19,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES/` directory.
 
-### 2. Add a license header to each file {#step-2}
+### 2. Add copyright and license information to each file {#step-2}
 
 Then, for all files, edit the header to contain the following:
 
@@ -29,7 +29,7 @@ Then, for all files, edit the header to contain the following:
 # SPDX-License-Identifier: [identifier]
 ```
 
-### 3. Confirm compliance with the linter {#step-3}
+### 3. Confirm REUSE compliance {#step-3}
 
 Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of
 these steps, and to check whether you did everything correctly.
