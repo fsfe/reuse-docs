@@ -268,6 +268,11 @@ Another obstacle is that version control history may contain errors, and fixing
 such an error would require rewriting the history, causing all contributors to
 have to re-download the new trunk.
 
+A further issue with version control is that the `blame` command that is
+typically (mis)used to find authorship line-by-line shows only the author of the
+last commit in that line, even if it was just something as trivial as fixing a
+typo.
+
 ## Can I bulk-license whole directories? {#bulk-license}
 
 DEP5
