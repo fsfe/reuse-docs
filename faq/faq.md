@@ -147,6 +147,21 @@ License-Text:
 
 ## Do I use SPDX-Copyright, Copyright, or ©? {#copyright-symbol}
 
+The specification lists the following copyright notices as valid:
+
+```
+SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+SPDX-Copyright: © 2019 John Doe <joe@example.com>
+© Example Corporation <https://corp.example.com>
+Copyright 2016, 2018-2019 Joe Anybody
+Copyright (c) Alice
+```
+
+Out of those, the first two are highly recommended. The others exist primarily
+to be compatible with existing conventions.
+
+<!-- TODO: Link to another question about © -->
+
 ## Which files are copyrightable? {#what-is-copyrightable}
 
 All files that are original works of authorship are copyrightable. In essence,
