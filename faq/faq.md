@@ -118,7 +118,30 @@ touch](https://github.com/fsfe/reuse-tool/issues).
 
 ## Is there a standard format for declaring copyright? {#standard-copyright}
 
-Copyright year copyright holder email
+Generally, we recommend that you use `SPDX-Copyright: [year] [copyright holder]
+<[contact address]>`. You may choose to drop items except the copyright holder,
+which must always be included. We recommend that you include all items, however.
+
+The specification includes a section on the exact format of the copyright
+notice. See [the specification](#TODO_LINK_TO_SPEC) and [the next
+question](#copyright-symbol).
+
+## Do I use SPDX-Copyright, Copyright, or ©? {#copyright-symbol}
+
+The specification lists the following copyright notices as valid:
+
+```
+SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+SPDX-Copyright: © 2019 John Doe <joe@example.com>
+© Example Corporation <https://corp.example.com>
+Copyright 2016, 2018-2019 Joe Anybody
+Copyright (c) Alice
+```
+
+Out of those, the first two are highly recommended. The others exist primarily
+to be compatible with existing conventions.
+
+<!-- TODO: Link to another question about © -->
 
 ## Which years do I include in the copyright statement? {#years-copyright}
 
@@ -144,23 +167,6 @@ License-Text:
 ```
 
 ## What are license exceptions and what do I do with them? {#license-exceptions}
-
-## Do I use SPDX-Copyright, Copyright, or ©? {#copyright-symbol}
-
-The specification lists the following copyright notices as valid:
-
-```
-SPDX-Copyright: 2019 Jane Doe <jane@example.com>
-SPDX-Copyright: © 2019 John Doe <joe@example.com>
-© Example Corporation <https://corp.example.com>
-Copyright 2016, 2018-2019 Joe Anybody
-Copyright (c) Alice
-```
-
-Out of those, the first two are highly recommended. The others exist primarily
-to be compatible with existing conventions.
-
-<!-- TODO: Link to another question about © -->
 
 ## Which files are copyrightable? {#what-is-copyrightable}
 
