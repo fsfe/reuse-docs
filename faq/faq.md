@@ -254,7 +254,8 @@ not incorrect.
 If you would rather not deal with having so many copyright notices, some
 projects such as Chromium circumvent this problem by using "Copyright (c) 2013
 The Chromium Authors" as their copyright tag. You may consider doing this, but
-you should keep a list of authors in your project.
+then you should keep a list of copyright holders and authors in a separate file
+in your project.
 
 ## Why can't I just use version control to record copyright? {#vcs-copyright}
 
