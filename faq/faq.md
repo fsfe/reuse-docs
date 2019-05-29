@@ -145,6 +145,19 @@ to be compatible with existing conventions.
 
 ## Which years do I include in the copyright statement? {#years-copyright}
 
+Generally, there are four options for you to choose:
+
+1. The year of initial publication.
+
+2. The year of the latest publication.
+
+3. All years of publications, either as range (e.g., 2017-2019) or as separate
+   entries (e.g., 2017, 2018, 2019).
+
+4. Do not include any year.
+
+Which option you choose is ultimately up to you.
+
 ## Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}
 
 Members of the GPL family are listed separately in the SPDX License List as
