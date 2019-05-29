@@ -114,7 +114,7 @@ touch](https://github.com/fsfe/reuse-tool/issues).
 
 # Licensing and compliance {#licensing}
 
-## Which licenses are compatible? {#compatible-licenses}
+<!-- ## Which licenses are compatible? {#compatible-licenses} -->
 
 ## Is there a standard format for declaring copyright? {#standard-copyright}
 
