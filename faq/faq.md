@@ -328,8 +328,8 @@ You should not edit license files. Please see [this question](#edit-license).
 If you have a custom or modified license that does not appear in the SPDX
 License List, place your license in the file
 `LICENSES/LicenseRef-MyLicense.txt`, and/or preface your license text with the
-tag `Valid-License-Identifier: LicenseRef-MyLicense`. By doing this, SPDX will
-still be able to recognise your license.
+tag `Valid-License-Identifier: LicenseRef-MyLicense`. By naming your license as
+such, tools that speak SPDX will still be able to recognise your license.
 
 ## Should I edit my license files? {#edit-license}
 
