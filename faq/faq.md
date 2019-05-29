@@ -319,6 +319,8 @@ License-Text:
 
 ## Should I put comment headers in my license files? {#header-in-license}
 
+You should not edit license files. Please see [this question](#edit-license).
+
 ## How do I use a license that is not on the SPDX License List? {#custom-license}
 
 <!-- TODO: Explain that the user probably shouldn't use a custom license -->
