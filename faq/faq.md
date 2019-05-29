@@ -375,9 +375,10 @@ TODO: If erroneous, sure.
 
 ## Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}
 
-Probably shouldn't
-
-(but REUSE only applies to source repositories)
+You can, but you probably should not. Many minifiers have an option that allows
+you to retain the header comment. If this option is present, you should use it,
+especially if you use a license that mandates that you include a license
+disclaimer.
 
 # For lawyers and legal experts {#lawyers}
 
