@@ -129,8 +129,8 @@ Members of the GPL family are listed separately in the SPDX License List as
 code under only one of these licenses, we recommend that you only include that
 one license.
 
-If you have code under both licenses, we recommend that you include both
-licenses separately.
+If you have code under both an -only license and an -or-later license, we
+recommend that you include both licenses separately.
 
 If you do not want to include both licenses separately, you can create the file
 `LICENSES/GPL-3.0.txt` and add the following header:
