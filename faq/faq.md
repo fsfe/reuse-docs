@@ -167,7 +167,7 @@ regular copyright and license header for this file. There is nothing that stops
 you from claiming copyright over your own works.
 
 The alternative is to waive your copyright by using the
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license.
 
 It is important to note that you can only do this for your own works. If the
 file was authored by someone else, you must declare their copyright and license
