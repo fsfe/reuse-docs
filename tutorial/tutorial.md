@@ -13,9 +13,9 @@ linter tool.
 
 Making your project REUSE compliant can be done in three simple steps:
 
-1. Choose and provide a license
-2. Add a license header to each file
-3. Confirm compliance with the linter
+1. Choose and provide licenses
+2. Add copyright and license information to each file
+3. Confirm REUSE compliance
 
 For the purpose of this tutorial, we will assume that the directory of your
 project looks like this:
@@ -38,7 +38,7 @@ repository](https://github.com/fsfe/reuse-example). The branch `noncompliant`
 matches the structure above, while the `master` branch is the successful
 result of this repository.
 
-## 1. Choose and provide a license
+## 1. Choose and provide licenses
 
 The first thing you need to do is to [choose a
 license](https://choosealicense.com/). For this tutorial, we assume that you
@@ -60,7 +60,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES` directory.
 
-## 2. Add license headers to relevant files
+## 2. Add copyright and license information to each file
 
 Now that you have a license, you need to indicate in the relevant files that
 these files fall under that license. You edit the comment header of
@@ -173,7 +173,7 @@ project/
 └── README.md
 ```
 
-## 3. Check whether you did everything correctly
+## 3. Confirm REUSE compliance
 
 Now that you have marked all files with their copyright and licensing, it is
 time to check whether you did not miss anything. To do this, we provide a
