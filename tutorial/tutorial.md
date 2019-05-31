@@ -46,11 +46,11 @@ chose the GNU General Public Licence v3.0 or any later version (GPL). More
 than simply choosing a license, you need to put the license in your project
 directory.
 
-You find your license in the [SPDX License
-List](https://spdx.org/licenses/). SPDX is an open standard for
-communicating license and copyright information. Each license is uniquely
-identified by a shortform SPDX identifier. The SPDX identifier for your
-chosen license is GPL-3.0-or-later.
+You find your license in the [SPDX License List](https://spdx.org/licenses/).
+SPDX is an open standard for communicating license and copyright information.
+Each license is uniquely identified by a shortform [SPDX
+identifier](https://spdx.org/ids). The SPDX identifier for your chosen license
+is GPL-3.0-or-later.
 
 <!-- TODO: Use tool instead -->
 
