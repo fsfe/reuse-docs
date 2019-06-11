@@ -356,6 +356,11 @@ License List, place your license in the file
 tag `Valid-License-Identifier: LicenseRef-MyLicense`. By naming your license as
 such, tools that speak SPDX will still be able to recognise your license.
 
+## How do I use a custom exception? {#custom-exception}
+
+It is not possible to create a custom exception. Instead, you may [create a
+custom license](#custom-license) that embeds the exception.
+
 ## Should I edit my license files? {#edit-license}
 
 You should never edit license files. When you use an existing license, you
