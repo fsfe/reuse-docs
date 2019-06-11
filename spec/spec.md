@@ -48,7 +48,7 @@ Project are licensed.
 Each License File SHOULD be placed in the `LICENSES/` directory in the root of
 the Project. The name of the License File SHOULD be the SPDX identifier of the
 license followed by an appropriate file extension (example:
-`LICENSES/GPL-3.0-or-later.txt`). The License File SHOULD be in plain text
+`LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text
 format.
 
 <!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
