@@ -45,40 +45,10 @@ These are the definitions for some of the terms used in this specification:
 A Project MUST include a License File for every license under which files in the
 Project are licensed.
 
-Each License File SHOULD be placed in the `LICENSES/` directory in the root of
-the Project. The name of the License File SHOULD be the SPDX identifier of the
+Each License File MUST be placed in the `LICENSES/` directory in the root of
+the Project. The name of the License File MUST be the SPDX identifier of the
 license followed by an appropriate file extension (example:
-`LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text
-format.
-
-<!-- FIXME: Rephrase "above recommendation". Maybe use paragraph numbers? -->
-
-A License File whose file name does not conform to the above recommendation MUST
-contain, at the start of the file, one or more `Valid-License-Identifier` tags,
-followed by a `License-Text` tag, followed by the license text. The value
-following a `Valid-License-Identifier` tag MUST be a valid SPDX Identifier of
-the license text contained within the License File.
-
-Example:
-
-```
-Valid-License-Identifier: GPL-3.0-only
-Valid-License-Identifier: GPL-3.0-or-later
-License-Text:
-
-                    GNU GENERAL PUBLIC LICENSE
-                       Version 3, 29 June 2007
-
- Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
- Everyone is permitted to copy and distribute verbatim copies
- of this license document, but changing it is not allowed.
-
-[...]
-```
-
-A Project MAY contain a single License File outside of the `LICENSES/` directory
-in the file `COPYING`, `COPYRIGHT`, `LICENSE` or `LICENCE` in the root of the
-Project.
+`LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format.
 
 If a license does not exist in the SPDX License List, its SPDX Identifier
 MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification.
@@ -87,16 +57,8 @@ A Project MUST NOT include License Files for licenses under which none of the
 files in the Project are licensed.
 
 Everything that applies to licenses in this section also applies to license
-exceptions, with the following specifics:
-
-- Exception files MUST be placed in the `LICENSES/` directory in the root of the
-  Project.
-
-- The tags `Valid-Exception-Identifier` and `Exception-Text` MUST be used
-  instead of `Valid-License-Identifier` and `License-Text`.
-
-- It is not possible to have a license exception that does not exist in the SPDX
-  License List.
+exceptions, with the exception that it is NOT possible to have a license
+exception that does not exist in the SPDX License List.
 
 <!-- TODO: Change "Copyright and Licensing Information" to something shorter?
 Shorten it to CALI? -->
