@@ -63,6 +63,14 @@ that software is Free Software.
 
 ## Which license should I choose? {#which-license}
 
+Ultimately, the license you choose is up to you. If you are contributing to an
+existing project, you should release your changes under the same license as the
+project. Otherwise, the
+[FSF](https://www.gnu.org/licenses/license-recommendations.html) and
+[choosealicense.com](https://choosealicense.com/) have some good
+recommendations. Note that these resources each emphasise a different value, and
+come with their own biases.
+
 ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
 
 ## What is SPDX? {#what-is-spdx}
