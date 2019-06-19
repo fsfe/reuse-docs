@@ -65,11 +65,15 @@ that software is Free Software.
 
 Ultimately, the license you choose is up to you. If you are contributing to an
 existing project, you should release your changes under the same license as the
-project. Otherwise, the
-[FSF](https://www.gnu.org/licenses/license-recommendations.html) and
-[choosealicense.com](https://choosealicense.com/) have some good
-recommendations. Note that these resources each emphasise a different value, and
-come with their own biases.
+project. Otherwise, the [Free Software
+Foundation](https://www.gnu.org/licenses/license-recommendations.html),
+[choosealicense.com](https://choosealicense.com/), and
+[joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)
+have some good recommendations. Note that these resources each emphasise a
+different value, and come with their own biases.
+
+Above all, if you value freedom, you should choose a license that makes your
+software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html).
 
 ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
 
