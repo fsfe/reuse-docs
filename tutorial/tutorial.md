@@ -82,7 +82,7 @@ to use]() and [what copyright holders are]() in the FAQ.
 
 The `SPDX-License-Identifier` tag is followed by a [valid SPDX License
 Expression](https://spdx.org/specifications), typically just the SPDX
-Identifier of the license.
+license identifier of the license.
 
 <!-- FIXME: Fix links -->
 
