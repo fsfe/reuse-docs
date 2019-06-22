@@ -42,7 +42,7 @@ result of this repository.
 
 The first thing you need to do is to [choose a
 license](https://choosealicense.com/). For this tutorial, we assume that you
-chose the GNU General Public Licence v3.0 or any later version (GPL). More
+chose the GNU General Public License v3.0 or any later version (GPL). More
 than simply choosing a license, you need to put the license in your project
 directory.
 
