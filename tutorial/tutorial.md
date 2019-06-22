@@ -48,9 +48,9 @@ directory.
 
 You find your license in the [SPDX License List](https://spdx.org/licenses/).
 SPDX is an open standard for communicating license and copyright information.
-Each license is uniquely identified by a shortform [SPDX
-license identifier](https://spdx.org/licenses). The SPDX license identifier for your chosen license
-is GPL-3.0-or-later.
+Each license is uniquely identified by a shortform [SPDX License
+Identifier](https://spdx.org/licenses). The SPDX License Identifier for your
+chosen license is GPL-3.0-or-later.
 
 <!-- TODO: Use tool instead -->
 
@@ -82,7 +82,7 @@ to use]() and [what copyright holders are]() in the FAQ.
 
 The `SPDX-License-Identifier` tag is followed by a [valid SPDX License
 Expression](https://spdx.org/specifications), typically just the SPDX
-license identifier of the license.
+License Identifier of the license.
 
 <!-- FIXME: Fix links -->
 
@@ -112,7 +112,7 @@ You discover that the photos of the cat and the dog were not licensed under the
 GPL at all, but under Creative Commons Attribution 4.0 International, owned by
 Max Mehl.
 
-The SPDX Identifier of this license is CC-BY-4.0.  You create the file
+The SPDX License Identifier of this license is CC-BY-4.0.  You create the file
 `LICENSES/CC-BY-4.0.txt`, following the same steps you used for
 GPL-3.0-or-later.
 
