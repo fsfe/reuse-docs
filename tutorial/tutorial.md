@@ -49,7 +49,7 @@ directory.
 You find your license in the [SPDX License List](https://spdx.org/licenses/).
 SPDX is an open standard for communicating license and copyright information.
 Each license is uniquely identified by a shortform [SPDX
-identifier](https://spdx.org/ids). The SPDX identifier for your chosen license
+license identifier](https://spdx.org/licenses). The SPDX license identifier for your chosen license
 is GPL-3.0-or-later.
 
 <!-- TODO: Use tool instead -->
