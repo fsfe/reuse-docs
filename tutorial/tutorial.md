@@ -108,17 +108,18 @@ copyright holder as above.
 
 ### Change licensing information
 
-You discover that the photo of the cat was not licensed under the GPL at all,
-but under Creative Commons Attribution 4.0 International.
+You discover that the photos of the cat and the dog were not licensed under the
+GPL at all, but under Creative Commons Attribution 4.0 International, owned by
+Max Mehl.
 
-The SPDX Identifier of this license is CC-BY-4.0.  You create
-the file `LICENSES/CC-BY-4.0.txt`, following the same steps you used for
+The SPDX Identifier of this license is CC-BY-4.0.  You create the file
+`LICENSES/CC-BY-4.0.txt`, following the same steps you used for
 GPL-3.0-or-later.
 
-You then edit `cat.jpg.license` to say:
+You then edit `cat.jpg.license` and `dog.jpg.license` to say:
 
 ```
-SPDX-Copyright: 2017 Joe Somebody <joe@example.com>
+SPDX-Copyright: 2019 Max Mehl <max.mehl@fsfe.org>
 
 SPDX-License-Identifier: CC-BY-4.0
 ```
