@@ -40,11 +40,10 @@ result of this repository.
 
 ## 1. Choose and provide licenses
 
-The first thing you need to do is to [choose a
-license](https://choosealicense.com/). For this tutorial, we assume that you
-chose the GNU General Public License v3.0 or any later version (GPL). More
-than simply choosing a license, you need to put the license in your project
-directory.
+The first thing you need to do is to [choose a license]({{< relref
+"faq.md#which-license" >}}). For this tutorial, we assume that you chose the GNU
+General Public License v3.0 or any later version (GPL). More than simply
+choosing a license, you need to put the license in your project directory.
 
 You find your license in the [SPDX License List](https://spdx.org/licenses/).
 SPDX is an open standard for communicating license and copyright information.
@@ -74,21 +73,17 @@ these files fall under that license. You edit the comment header of
  */
 ```
 
-<!-- FIXME: Fix links -->
-
-The `SPDX-Copyright` tag records the publication years and copyright holder
-of the contents of the file. You can read more about [which publication years
-to use]() and [what copyright holders are]() in the FAQ.
+The `SPDX-Copyright` tag records the publication years and copyright holder of
+the contents of the file. You can read more about [which publication years to
+use]({{< relref "faq.md#years-copyright" >}}) and [what copyright holders
+are]({{< relref "faq.md#copyright-holder-author" >}}) in the FAQ.
 
 The `SPDX-License-Identifier` tag is followed by a [valid SPDX License
 Expression](https://spdx.org/specifications), typically just the SPDX
 License Identifier of the license.
 
-<!-- FIXME: Fix links -->
-
-Each file must always contain these two tags in the header. You are allowed
-to [use the tags multiple times if you have multiple copyright holders or
-licenses]().
+Each file must always contain these two tags in the header. You are allowed to
+use the tags multiple times if you have multiple copyright holders or licenses.
 
 In the example project, you also edit `Makefile` and `README.md` using this
 header information, but of course with corresponding comment syntax.
@@ -103,8 +98,6 @@ certain data and configuration files for which comments are non-trivial.
 There is a simple trick to circumvent this. Create the files `cat.jpg.license`
 and `dog.jpg.license`, each containing the same information about license and
 copyright holder as above.
-
-<!-- TODO: Add link to DEP-5 possibility. -->
 
 ### Change licensing information
 
