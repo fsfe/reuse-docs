@@ -113,13 +113,14 @@ copyright and license tag.
 
 If you really want to exclude a file, consider using the
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this
-file.  By doing this, you put the file in the public domain, or your country's
+file. By doing this, you put the file in the public domain, or your country's
 equivalent.
 
 There is one exception: License files are automatically excluded from compliance
 testing.
 
-<!-- FIXME: Link to uncopyrightable question and DEP5 question -->
+If you have an entire directory that you want to "exclude" from REUSE compliance
+testing, you can [use a DEP5 file](#bulk-license).
 
 ## Do you support a version control system other than Git? {#no-git}
 
