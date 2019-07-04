@@ -77,6 +77,8 @@ software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html).
 
 ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
 
+TODO
+
 ## What is SPDX? {#what-is-spdx}
 
 SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a
@@ -193,6 +195,16 @@ License-Text:
 
 ## What are license exceptions and what do I do with them? {#license-exceptions}
 
+License exceptions are additions or alterations to a license that often work to
+permit a certain use of the code that wouldn't be allowed under the original
+license. It is often used by compilers, where a portion of compiler code may end
+up in the resulting binary. The exception may waive rights over portions of code
+that end up in binaries.
+
+Exceptions are treated almost identically to licenses. In order to combine a
+license with an exception, you mark a file with the following tag:
+`SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`.
+
 ## Which files are copyrightable? {#what-is-copyrightable}
 
 All files that are original works of authorship are copyrightable. In essence,
@@ -246,9 +258,32 @@ license their work. Feel free to refer them to <https://reuse.software>.
 
 ## Where else do I put my license information? {#where-else}
 
-README
+Marking all individual files with `SPDX-License-Identifier` tags goes a long way
+towards unambiguously communicating the license information of your project, but
+it helps to communicate the license information in natural language as well. In
+the README of your project, feel free to provide a summary of the licensing
+information, or simply redirect the reader to your `LICENSES/` directory.
+
+Additionally, many package hosting sites expect that you declare the licensing
+information of your package. For instance, the [setup.py file of the REUSE
+tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the
+licenses that it uses in the format expected by the Python packaging
+infrastructure.
 
 ## What is a copyright holder, and what is an author? {#copyright-holder-author}
+
+In these resources, we maintain a distinction between the copyright holder and
+the author. The author (also known as creator) is the person who sat down and
+created a work. Think of the author as a programmer, writer, or artist.
+
+The copyright holder is the person who has the exclusive rights over that work.
+Often the author and the copyright holder are the same. However, if the author
+is being paid by their employer to create a work, the employer is often the
+copyright holder.
+
+Keep in mind that in some jurisdictions, the word "author" is often used as a
+synonym for "copyright holder". In other jurisdictions, authors maintain some
+rights over their work even if they are not the copyright holder.
 
 ## I changed a single line of code. Should I add an SPDX-Copyright tag with my name? {#when-copyright}
 
@@ -287,7 +322,29 @@ typo.
 
 ## Can I bulk-license whole directories? {#bulk-license}
 
-DEP5
+If you have a directory containing many files, it may not be easy or practical
+to edit every file to contain a header. While doing this would be ideal, there
+is an alternative. By creating the file `.reuse/dep5` in the root of your
+project, you can bulk-license a directory. Example:
+
+```
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: my-project
+Upstream-Contact: Jane Doe <jane@example.com>
+Source: https://git.example.com/jane/my-project
+
+Files: resources/img/*
+Copyright: 2017 Jane Doe <jane@example.com>
+License: CC-BY-4.0
+
+Files: resources/vid/*
+Copyright: 2017 Jane Doe <jane@example.com>
+           2017 John Doe <john@example.com>
+License: CC0-1.0
+```
+
+You can read more about this file format by Debian
+[here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).
 
 ## Can I license only a part of a file as being under a different license? {#partial-license}
 
