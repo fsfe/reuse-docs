@@ -46,6 +46,9 @@ These are the definitions for some of the terms used in this specification:
   Specification takes precedence. Specifically in the case of the `Copyright`
   and `License` tags.
 
+- REUSE Tool --- Helper tool for compliance with this Specification; available
+  at <https://github.com/fsfe/reuse-tool>.
+
 ## License files
 
 A Project MUST include a License File for every license under which files in the
@@ -79,7 +82,9 @@ associated with it, except the following files:
 - The files ignored by the version control system (example: Files listed in
   `.gitignore`).
 
-- The files in the `.reuse/` directory in the root of the Project.
+- The files in the `.reuse/` directory in the root of the Project. This
+  directory MUST contain only files relevant for the operation of the REUSE
+  Tool.
 
 There are two ways to associate Copyright and Licensing Information with a
 file.
