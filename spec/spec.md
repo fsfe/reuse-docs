@@ -20,7 +20,9 @@ Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119).
 
 These are the definitions for some of the terms used in this specification:
 
-- Project --- ...
+- Project --- Any unit of content that can be associated with a distribution of
+  software. Typically, a Project is composed of one or more files. Also
+  sometimes called a package.
 
 - License File --- a file containing the text of a license.
 
