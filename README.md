@@ -16,7 +16,7 @@ for more automation.
 
 ## Install
 
-There's no installation here, but you can run the Dockerfile to have relevant documents generated as PDF. The sister repository [reuse-website](https://github.com/fsfe/reuse-website) includes this repository as a submodule to display it on [reuse.software](https://reuse.software).
+There's no installation here, only the plain text documents. The sister repository [reuse-website](https://github.com/fsfe/reuse-website) includes this repository as a submodule to display it on [reuse.software](https://reuse.software).
 
 ## Usage
 
