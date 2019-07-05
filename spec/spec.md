@@ -62,9 +62,6 @@ Everything that applies to licenses in this section also applies to license
 exceptions, with the exception that it is NOT possible to have a license
 exception that does not exist in the SPDX License List.
 
-<!-- TODO: Change "Copyright and Licensing Information" to something shorter?
-Shorten it to CALI? -->
-
 ## Copyright and Licensing Information
 
 Each file in the Project MUST have Copyright and Licensing Information
@@ -79,8 +76,6 @@ associated with it, except the following files:
   `.gitignore`).
 
 - The files in the `.reuse/` directory in the root of the Project.
-
-<!-- TODO: The files inside of a git submodule -->
 
 There are two ways to associate Copyright and Licensing Information with a
 file.
@@ -132,8 +127,6 @@ companion files) is impossible or undesirable.
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
 
-<!-- TODO: How to do multiple licenses without AND and OR. -->
-
 The `License` tag MUST be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
@@ -158,12 +151,19 @@ License: GPL-3.0-or-later
 A copyright notice MUST be prefixed by a tag, symbol or word denoting a
 copyright notice as described in this specification.
 
-The copyright notice MUST contain the year(s) of publication, the name of the
-copyright holder, and the contact address of the copyright holder. The order of
-these items MAY be changed, but SHOULD be consistent within the Project. The
-items except the name of the copyright holder MAY be omitted.
+The copyright notice MUST contain the name of the copyright holder. The
+copyright notice SHOULD contain the year of publication and the contact address
+of the copyright holder. The order of these items SHOULD be: year, name, contact
+address.
 
-The copyright notice MAY start with the copyright symbol "©", "(c)" or "(C)".
+The year of publication MAY be a single year, multiple years, or a span of
+years.
+
+The copyright holder MAY be an individual, list of individuals, group, legal
+entity, or any other descriptor by which one can easily identify the
+copyright holder(s).
+
+Any contact address SHOULD be in between angle brackets.
 
 Examples of valid copyright notices:
 
