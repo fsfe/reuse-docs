@@ -40,7 +40,11 @@ These are the definitions for some of the terms used in this specification:
 - SPDX License List --- a list of commonly found licenses and exceptions; as
   available on <https://spdx.org/licenses/>.
 
-<!-- DEP5 -->
+- DEP5 --- [Machine-readable `debian/copyright` file, Version
+  1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).
+  Where the REUSE Specification and DEP5 state different things, the REUSE
+  Specification takes precedence. Specifically in the case of the `Copyright`
+  and `License` tags.
 
 ## License files
 
