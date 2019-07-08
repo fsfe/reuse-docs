@@ -13,7 +13,7 @@ propose three steps to achieve this:
 
 ### 1. Choose and provide licenses {#step-1}
 
-Chose a [Free Software license](https://www.gnu.org/licenses/licenses.html)
+Choose a [Free Software license](https://www.gnu.org/licenses/licenses.html)
 for your project. Find the SPDX identifier of your license in the [SPDX
 License List](https://spdx.org/licenses/). Download the license text for your
 license from the
