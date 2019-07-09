@@ -59,7 +59,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES` directory.
 
-## 2. Add copyright and license information to each file
+## 2. Add copyright and licensing information to each file
 
 Now that you have a license, you need to indicate in the relevant files that
 these files fall under that license. You edit the comment header of

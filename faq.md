@@ -19,7 +19,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES/` directory.
 
-### 2. Add copyright and license information to each file {#step-2}
+### 2. Add copyright and licensing information to each file {#step-2}
 
 Then, for all files, edit the header to contain the following:
 

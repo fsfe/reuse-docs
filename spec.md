@@ -26,7 +26,7 @@ These are the definitions for some of the terms used in this specification:
 
 - License File --- a file containing the text of a license.
 
-- Copyright and License Information --- the information that lists the
+- Copyright and Licensing Information --- the information that lists the
   copyright holders of a file or work, and describes under which licenses the
   file or work is made available.
 
@@ -98,8 +98,8 @@ contain comments at the top of the file (comment header) that declare that
 file's Copyright and Licensing Information.
 
 If a file is not a plain text file or does not permit the inclusion of
-comments, the comment header that declares the file's copyright and licensing
-information SHOULD be in an adjacent file of the same name with the
+comments, the comment header that declares the file's Copyright and Licensing
+Information SHOULD be in an adjacent file of the same name with the
 additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
 
