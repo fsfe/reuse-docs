@@ -60,7 +60,7 @@ software.
 
 If the license allows the recipient to [use, study, share and
 improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then
-that software is [Free Software](https://www.gnu.org/philosophy/free-sw.html).
+that software is [Free Software](https://fsfe.org/about/basics/freesoftware).
 
 ## Which license should I choose? {#which-license}
 
