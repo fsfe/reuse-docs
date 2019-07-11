@@ -186,17 +186,6 @@ one license.
 If you have code under both an -only license and an -or-later license, we
 recommend that you include both licenses separately.
 
-If you do not want to include both licenses separately, you can create the file
-`LICENSES/GPL-3.0.txt` and add the following header:
-
-```
-Valid-License-Identifier: GPL-3.0-only
-Valid-License-Identifier: GPL-3.0-or-later
-License-Text:
-
-[license text]
-```
-
 ## What are license exceptions and what do I do with them? {#license-exceptions}
 
 License exceptions are additions or alterations to a license that often work to
@@ -391,29 +380,12 @@ wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
 TODO: Figure this one out
 
-## Should I move my existing LICENSE or COPYING file? {#move-license}
-
-If you use multiple licenses in your project, we recommend that you put all of
-your licenses in the `LICENSES/` directory.
-
-If you only have a single license file, see [the next
-question](#single-license).
-
 ## I only have a single license file. Should I still create a LICENSES directory? {#single-license}
 
-You do not strictly need to put your license in the `LICENSES/` directory,
-though we recommend that you do. If you want to keep your license in a single
-file (`LICEN[CS]E`, `COPYING`, `COPYRIGHT`), you should edit the file to signal
-what licence you are actually using.
-
-Preface your license with the following header:
-
-```
-Valid-License-Identifier: [identifier]
-License-Text:
-
-[license text]
-```
+Yes. This may seem extraneous, but it prevents future confusion when differently
+licensed code is adopted. By keeping all licenses in a single directory, it is
+easy for a user of your program to find all the licenses they need to comply
+with in the blink of an eye.
 
 ## Should I put comment headers in my license files? {#header-in-license}
 
@@ -425,9 +397,8 @@ You should not edit license files. Please see [this question](#edit-license).
 
 If you have a custom or modified license that does not appear in the SPDX
 License List, place your license in the file
-`LICENSES/LicenseRef-MyLicense.txt`, and/or preface your license text with the
-tag `Valid-License-Identifier: LicenseRef-MyLicense`. By naming your license as
-such, tools that speak SPDX will still be able to recognise your license.
+`LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that
+speak SPDX will still be able to recognise your license.
 
 ## How do I use a custom exception? {#custom-exception}
 
