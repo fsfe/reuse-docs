@@ -132,10 +132,10 @@ particularly copyrightable, for example configuration files such as
 fundamental idea of REUSE is that all your files will clearly have their
 copyright and licensing marked.
 
-One way to indicate that you do not exercise any copyright over this file is
-by marking it as being in the public domain. The [CC0
-license](https://creativecommons.org/publicdomain/zero/1.0/) is a good way to
-do this. Edit the file to contain:
+If you do not exercise any copyright over this file, you can use the [CC0
+license](https://creativecommons.org/publicdomain/zero/1.0/). This is
+functionally identical to putting the file in the public domain. Edit the file to
+contain:
 
 ```
 # SPDX-Copyright: 2019 Jane Doe <jane@example.com>
