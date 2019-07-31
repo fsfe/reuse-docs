@@ -2,7 +2,7 @@
 # SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: Tutorial: How to become REUSE compliant
+title: "Tutorial: How to become REUSE compliant"
 ---
 
 This tutorial explains the basic methods of how to make a software project REUSE
