@@ -1,5 +1,5 @@
 <!--
-SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -23,14 +23,14 @@ The versions follow [semantic versioning](https://semver.org).
 
 ### Added
 
-- `SPDX-Copyright: Jane Doe` is now the recommended way to mark a copyright
+- `SPDX-FileCopyrightText: Jane Doe` is now the recommended way to mark a copyright
   notice instead of `Copyright (C) Jane Doe`. `Copyright` and `©` are still
   supported as prefixes.
 
 - The specification now makes a recommendation on the format of copyright
   notices, but does not mandate anything other than that the copyright notice
   contain the name of the copyright holder. The format is roughly:
-  `SPDX-Copyright: 2019 Jane Doe <jane@example.com>`
+  `SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>`
 
 - An FAQ and much-needed tutorial are added to help people along, instead of
   letting the specification do double duty as a tutorial.

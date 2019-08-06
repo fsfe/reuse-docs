@@ -1,5 +1,5 @@
 ---
-# SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+# SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Tutorial: How to become REUSE-compliant"
@@ -66,13 +66,13 @@ these files fall under that license. You edit the comment header of
 
 ```
 /*
- * SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+ * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
  *
  * SPDX-License-Identifier: GPL-3.0-or-later
  */
 ```
 
-The `SPDX-Copyright` tag records the publication years and copyright holder of
+The `SPDX-FileCopyrightText` tag records the publication years and copyright holder of
 the contents of the file. You can read more about [which publication years to
 use]({{< relref "faq.md#years-copyright" >}}) and [what copyright holders
 are]({{< relref "faq.md#copyright-holder-author" >}}) in the FAQ.
@@ -111,7 +111,7 @@ GPL-3.0-or-later.
 You then edit `cat.jpg.license` and `dog.jpg.license` to say:
 
 ```
-SPDX-Copyright: 2019 Max Mehl <max.mehl@fsfe.org>
+SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>
 
 SPDX-License-Identifier: CC-BY-4.0
 ```
@@ -137,7 +137,7 @@ functionally identical to putting the file in the public domain. Edit the file t
 contain:
 
 ```
-# SPDX-Copyright: 2019 Jane Doe <jane@example.com>
+# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
 #
 # SPDX-License-Identifier: CC0-1.0
 ```

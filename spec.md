@@ -1,5 +1,5 @@
 ---
-# SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+# SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "REUSE Specification – Version 3.0a1"
@@ -102,14 +102,14 @@ Information SHOULD be in an adjacent file of the same name with the
 additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
 
-The comment header MUST contain one or more `SPDX-Copyright` tags, and one or
+The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or
 more `SPDX-License-Information` tags. A tag is followed by a colon, followed by
 a text value, and terminated by a newline.
 
-The `SPDX-Copyright` tag MUST be followed by a copyright notice as described
+The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice as described
 in <!-- FIXME: Refer to an internal section -->.
 
-Instead of the `SPDX-Copyright` tag, the symbol `©`, or the word `Copyright` MAY
+Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY
 be used, in which case a colon is not needed.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
@@ -121,8 +121,8 @@ MUST be included for each section.
 An example of a comment header:
 
 ```
-# SPDX-Copyright: 2016, 2018-2019 Jane Doe <jane@example.com>
-# SPDX-Copyright: 2019 Example Company
+# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>
+# SPDX-FileCopyrightText: 2019 Example Company
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
@@ -178,8 +178,8 @@ Any contact address SHOULD be in between angle brackets.
 Examples of valid copyright notices:
 
 ```
-SPDX-Copyright: 2019 Jane Doe <jane@example.com>
-SPDX-Copyright: © 2019 John Doe <joe@example.com>
+SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
+SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
 Copyright (c) Alice

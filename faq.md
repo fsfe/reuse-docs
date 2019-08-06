@@ -1,5 +1,5 @@
 ---
-# SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+# SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Frequently Asked Questions"
@@ -28,7 +28,7 @@ repository and put it in the `LICENSES/` directory.
 Then, for all files, edit the header to contain the following:
 
 ```
-# SPDX-Copyright: [year] [copyright holder] <[email address]>
+# SPDX-FileCopyrightText: [year] [copyright holder] <[email address]>
 #
 # SPDX-License-Identifier: [identifier]
 ```
@@ -139,7 +139,7 @@ touch](https://github.com/fsfe/reuse-tool/issues).
 
 ## Is there a standard format for declaring copyright? {#standard-copyright}
 
-Generally, we recommend that you use `SPDX-Copyright: [year] [copyright holder]
+Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]
 <[contact address]>`. You may choose to drop items except the copyright holder,
 which must always be included. We recommend that you include all items, however.
 
@@ -147,13 +147,13 @@ The specification includes a section on the exact format of the copyright
 notice. See [the specification](#TODO_LINK_TO_SPEC) and [the next
 question](#copyright-symbol).
 
-## Do I use SPDX-Copyright, Copyright, or ©? {#copyright-symbol}
+## Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}
 
 The specification lists the following copyright notices as valid:
 
 ```
-SPDX-Copyright: 2019 Jane Doe <jane@example.com>
-SPDX-Copyright: © 2019 John Doe <joe@example.com>
+SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
+SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
 Copyright (c) Alice
@@ -231,7 +231,7 @@ in the header.
 
 If someone else has made their work available for you to use and copy, you can
 incorporate their work into your project. When you put the work in one of the
-files in your project, you should add an `SPDX-Copyright` tag for the copyright
+files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright
 holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which
 the work was made available.
 
@@ -281,7 +281,7 @@ Keep in mind that in some jurisdictions, the word "author" is often used as a
 synonym for "copyright holder". In other jurisdictions, authors maintain some
 rights over their work even if they are not the copyright holder.
 
-## I changed a single line of code. Should I add an SPDX-Copyright tag with my name? {#when-copyright}
+## I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}
 
 The core question here is: At what point should I consider myself a copyright
 holder over a file? This is up to your discretion. It might help to be
