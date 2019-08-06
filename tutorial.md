@@ -1,10 +1,9 @@
-<!--
-SPDX-Copyright: Free Software Foundation Europe e.V.
+---
+# SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
+# SPDX-License-Identifier: CC-BY-SA-4.0
 
-SPDX-License-Identifier: CC-BY-SA-4.0
--->
-
-# Tutorial: How to become REUSE compliant
+title: "Tutorial: How to become REUSE compliant"
+---
 
 This tutorial explains the basic methods of how to make a software project REUSE
 compliant. By the end of this document, all your files will clearly have their
@@ -38,7 +37,7 @@ repository](https://github.com/fsfe/reuse-example). The branch `noncompliant`
 matches the structure above, while the `master` branch is the successful
 result of this repository.
 
-## 1. Choose and provide licenses
+## 1. Choose and provide licenses {#step-1}
 
 The first thing you need to do is to [choose a license]({{< relref
 "faq.md#which-license" >}}). For this tutorial, we assume that you chose the GNU
@@ -59,7 +58,7 @@ from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES` directory.
 
-## 2. Add copyright and licensing information to each file
+## 2. Add copyright and licensing information to each file {#step-2}
 
 Now that you have a license, you need to indicate in the relevant files that
 these files fall under that license. You edit the comment header of
@@ -167,7 +166,7 @@ project/
 └── README.md
 ```
 
-## 3. Confirm REUSE compliance
+## 3. Confirm REUSE compliance {#step-3}
 
 Now that you have marked all files with their copyright and licensing, it is
 time to check whether you did not miss anything. To do this, we provide a
