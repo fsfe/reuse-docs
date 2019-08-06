@@ -19,7 +19,7 @@ following sections:
 
 The versions follow [semantic versioning](https://semver.org).
 
-## 3.0a1 - 2019-07-10
+## 3.0 - 2019-08-07
 
 ### Added
 

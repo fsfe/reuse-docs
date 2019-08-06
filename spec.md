@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: "REUSE Specification – Version 3.0a1"
+title: "REUSE Specification – Version 3.0"
 ---
 
 This specification defines a standardized method for declaring copyright and
