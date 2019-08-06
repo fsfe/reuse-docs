@@ -2,15 +2,15 @@
 # SPDX-Copyright: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: "Tutorial: How to become REUSE compliant"
+title: "Tutorial: How to become REUSE-compliant"
 ---
 
-This tutorial explains the basic methods of how to make a software project REUSE
-compliant. By the end of this document, all your files will clearly have their
-copyright and licensing marked, and you will be able to verify this using a
-linter tool.
+This tutorial explains the basic methods of how to make a software project
+REUSE-compliant. By the end of this document, all your files will clearly have
+their copyright and licensing marked, and you will be able to verify this using
+a linter tool.
 
-Making your project REUSE compliant can be done in three simple steps:
+Making your project REUSE-compliant can be done in three simple steps:
 
 1. Choose and provide licenses
 2. Add copyright and license information to each file
