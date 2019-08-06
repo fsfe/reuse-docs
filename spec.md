@@ -15,6 +15,9 @@ reused by third parties.
 This specification implements [IETF RFC 2119: Key words for use in RFCs to
 Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119).
 
+For the revision history of this specification, please see [the change
+log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md).
+
 ## Definitions
 
 These are the definitions for some of the terms used in this specification:
