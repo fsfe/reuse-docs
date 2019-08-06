@@ -187,17 +187,17 @@ The executable is now in `$HOME/.local/bin/`. Make sure that this is in your
 ```
 $ cd path/to/project/
 $ reuse lint
-SUMMARY
+# SUMMARY
 
-Bad licenses: 0
-Missing licenses: 0
-Unused licenses: 0
-Used licenses: CC-BY-4.0, CC0-1.0, GPL-3.0-or-later
-Read errors: 0
-Files with copyright information: 6 / 6
-Files with license information: 6 / 6
+* Bad licenses:
+* Missing licenses:
+* Unused licenses:
+* Used licenses: CC-BY-4.0, CC0-1.0, GPL-3.0-or-later
+* Read errors: 0
+* Files with copyright information: 6 / 6
+* Files with license information: 6 / 6
 
-Congratulations! Your project is REUSE compliant :-)
+Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)
 ```
 
 <!-- FIXME: Link to output explanation -->
