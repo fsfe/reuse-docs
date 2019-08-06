@@ -81,9 +81,9 @@ different value, and come with their own biases.
 Above all, if you value freedom, you should choose a license that makes your
 software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html).
 
-## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
+<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
 
-TODO
+TODO -->
 
 ## What is SPDX? {#what-is-spdx}
 
@@ -144,7 +144,7 @@ Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright 
 which must always be included. We recommend that you include all items, however.
 
 The specification includes a section on the exact format of the copyright
-notice. See [the specification](#TODO_LINK_TO_SPEC) and [the next
+notice. See [the specification](/spec) and [the next
 question](#copyright-symbol).
 
 ## Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}
@@ -379,9 +379,9 @@ use separate tags `SPDX-License-Identifier: GPL-2.0-only` and
 You can read more about SPDX expressions [on the SPDX
 wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
-## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}
+<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}
 
-TODO: Figure this one out
+TODO: Figure this one out -->
 
 ## I only have a single license file. Should I still create a LICENSES directory? {#single-license}
 
