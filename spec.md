@@ -2,7 +2,7 @@
 # SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: "REUSE Specification – Version 3.0a1"
+title: "REUSE Specification – Version 3.0"
 ---
 
 This specification defines a standardized method for declaring copyright and
@@ -14,6 +14,9 @@ reused by third parties.
 
 This specification implements [IETF RFC 2119: Key words for use in RFCs to
 Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119).
+
+For the revision history of this specification, please see [the change
+log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md).
 
 ## Definitions
 
