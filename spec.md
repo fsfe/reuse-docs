@@ -109,8 +109,7 @@ The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and o
 more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by
 a text value, and terminated by a newline.
 
-The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice <!-- FIXME: as described
-in (Refer to an internal section) -->.
+The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice.
 
 Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY
 be used, in which case a colon is not needed.
@@ -143,8 +142,7 @@ root of the Project (i.e. `.reuse/dep5`).
 The `License` tag MUST be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
-The `Copyright` tag MUST be followed by a copyright notice as described in <!--
-FIXME: Refer to an internal section -->.
+The `Copyright` tag MUST be followed by a copyright notice.
 
 An example of a DEP5 file:
 
