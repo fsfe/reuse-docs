@@ -35,7 +35,7 @@ These are the definitions for some of the terms used in this specification:
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
 
-- SPDX Identifier --- SPDX short-form identifier, as defined in SPDX
+- SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
   examples.
 
@@ -59,11 +59,11 @@ A Project MUST include a License File for every license under which files in the
 Project are licensed.
 
 Each License File MUST be placed in the `LICENSES/` directory in the root of
-the Project. The name of the License File MUST be the SPDX identifier of the
+the Project. The name of the License File MUST be the SPDX License Identifier of the
 license followed by an appropriate file extension (example:
 `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format.
 
-If a license does not exist in the SPDX License List, its SPDX Identifier
+If a license does not exist in the SPDX License List, its SPDX License Identifier
 MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Section 6 available at <https://spdx.org/spdx-specification-21-web-version#h.1v1yuxt>.
 
 A Project MUST NOT include License Files for licenses under which none of the
