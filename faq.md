@@ -413,9 +413,11 @@ custom license](#custom-license) that embeds the exception.
 You should never edit license files. When you use an existing license, you
 should always copy it verbatim.
 
+<!-- TODO: the linked section still needs to be written.
 Some licenses, such as MIT and the BSD family of licenses, have a line that says
 "Copyright (c) [year] [copyright holder]". Please see [this question](#mit-bsd)
 about how to deal with those licenses.
+-->
 
 There are many reasons for why you should not alter license texts, but if you do
 alter the texts, you should use a different SPDX identifier for this license.
