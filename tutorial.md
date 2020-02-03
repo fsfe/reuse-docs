@@ -114,7 +114,7 @@ information to your files. For the task above, the following command
 would do the job:
 
 ```bash
-reuse addheader --year="2019" --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" src/main.c Makefile README.md
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" src/main.c Makefile README.md
 ```
 
 Please see the [tool's documentation about
@@ -144,7 +144,7 @@ argument to the addheader command. So the command for the above task
 may look like this:
 
 ```bash
-reuse addheader --year="2019" --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --explicit-license img/cat.jpg img/dog.jpg
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --explicit-license img/cat.jpg img/dog.jpg
 ```
 
 {{< /box-tool >}}
@@ -217,7 +217,7 @@ More information about copyrightable files can be found in the [REUSE FAQ]({{< r
 As before, a combination of the `addheader` and `download` commands will fulfil the above step:
 
 ```bash
-reuse addheader --year="2019" --copyright="Jane Doe <jane@example.com>" --license="CC0-1.0" .gitignore
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="CC0-1.0" .gitignore
 
 reuse download --all
 ```
