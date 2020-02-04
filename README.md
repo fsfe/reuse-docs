@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # REUSE documents
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![REUSE compliant](https://git.fsfe.org/reuse/reuse-ci/raw/branch/master/reuse-compliant.svg)](https://reuse.software/)
+[![REUSE compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
 
 We're working to make managing copyrights and licenses in free and open
 source software easier. This is a collection of tutorials, FAQs and specifications to demonstrate how 
