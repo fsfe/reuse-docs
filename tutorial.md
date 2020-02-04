@@ -293,6 +293,10 @@ describes REUSE and the methods to become compliant.
 - The [REUSE tool documentation](https://reuse.readthedocs.io/) describes
   installation and usage of the REUSE tool.
 
+- Our [help for developers](https://reuse.software/dev/) lists various
+  resources for programmers like the tool, the API, or how to include
+  checks in CI/CD workflows.
+
 If none of the links above were able to answer your question, please contact us
 by:
 
