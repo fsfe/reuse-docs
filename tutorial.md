@@ -66,14 +66,14 @@ repository and put it in the `LICENSES` directory.
 {{< box-tool >}}
 
 You can initialise your project using `reuse init`. In an interactive
-dialogue you can define certain information for your project and also
+dialogue you can define certain properties of your project and also
 one or multiple licenses. At the end, these licenses will be
 automatically downloaded to the correct location.
 
 The `reuse download` command enables you to download a specific
 license. `reuse download GPL-3.0-or-later` would fulfil the task
 described in the manual instructions above. Running `reuse download
---all` automatically downloads all licenses the REUSE helper tools
+--all` automatically downloads all licenses which the REUSE helper tool
 detects as being used in your project.
 
 {{< /box-tool >}}
@@ -139,9 +139,9 @@ copyright holder as above.
 The REUSE helper tool should automatically detect binary files and
 therefore automatically create a corresponding `.license` file.
 
-If you would like to enforce this, add the `--explicit-license`
-argument to the addheader command. So the command for the above task
-may look like this:
+If it does not, or if you would like to enforce this, add the
+`--explicit-license` argument to the addheader command. So the command
+for the above task may look like this:
 
 ```bash
 reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --explicit-license img/cat.jpg img/dog.jpg
@@ -170,7 +170,7 @@ SPDX-License-Identifier: CC-BY-4.0
 {{< box-tool >}}
 
 The tool as of now does not provide a way to replace existing
-REUSE-compliant copyright and licensing information. A modified run of
+REUSE-compliant copyright and licensing information. A run of
 the `addheader` command would not replace but extend the `.license`
 files with two additional lines stating the copyright of Max Mehl and
 the CC-BY-4.0 license. So you would have to update these manually.
@@ -274,7 +274,7 @@ Congratulations! Your project is compliant with version 3.0 of the REUSE Specifi
 ```
 
 As you can see in the last line, the tool confirms that your project is
-compliant with REUSE now! To learn what the different numbers mean,
+compliant with REUSE now! To learn what the different sections mean,
 please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint).
 
 ## Getting help
