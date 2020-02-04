@@ -8,7 +8,7 @@ title: "Tutorial: How to become REUSE-compliant"
 This tutorial explains the basic methods of how to make a software project
 REUSE-compliant. By the end of this document, all your files will clearly have
 their copyright and licensing marked, and you will be able to verify this using
-a linter tool.
+the REUSE helper tool.
 
 Making your project REUSE-compliant can be done in three simple steps:
 
@@ -37,11 +37,18 @@ repository](https://github.com/fsfe/reuse-example). The branch `noncompliant`
 matches the structure above, while the `master` branch is the successful
 result of this repository.
 
+For each of these steps, you will first learn how to achieve them
+manually. However, the [REUSE helper
+tool](https://github.com/fsfe/reuse-tool) supports you with most tasks,
+and the necessary commands will be listed as well in the collapsible
+boxes. We recommend to first understand the basic principle before just
+executing the tool's commands.
+
 ## 1. Choose and provide licenses {#step-1}
 
 The first thing you need to do is to [choose a license]({{< relref
 "faq.md#which-license" >}}). For this tutorial, we assume that you chose the GNU
-General Public License v3.0 or any later version (GPL). More than simply
+General Public License (GPL) v3.0 or any later version. More than simply
 choosing a license, you need to put the license in your project directory.
 
 You find your license in the [SPDX License List](https://spdx.org/licenses/).
@@ -50,13 +57,26 @@ Each license is uniquely identified by a shortform [SPDX License
 Identifier](https://spdx.org/licenses). The SPDX License Identifier for your
 chosen license is GPL-3.0-or-later.
 
-<!-- TODO: Use tool instead -->
-
 You create a `LICENSES` directory in your project root which will contain all
 the licenses that you use in your project. You then download your license
 from the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
 repository and put it in the `LICENSES` directory.
+
+{{< box-tool >}}
+
+You can initialise your project using `reuse init`. In an interactive
+dialogue you can define certain properties of your project and also
+one or multiple licenses. At the end, these licenses will be
+automatically downloaded to the correct location.
+
+The `reuse download` command enables you to download a specific
+license. `reuse download GPL-3.0-or-later` would fulfil the task
+described in the manual instructions above. Running `reuse download
+--all` automatically downloads all licenses which the REUSE helper tool
+detects as being used in your project.
+
+{{< /box-tool >}}
 
 ## 2. Add copyright and licensing information to each file {#step-2}
 
@@ -87,6 +107,22 @@ use the tags multiple times if you have multiple copyright holders or licenses.
 In the example project, you also edit `Makefile` and `README.md` using this
 header information, but of course with corresponding comment syntax.
 
+{{< box-tool >}}
+
+The `reuse addheader` command helps with adding licensing and copyright
+information to your files. For the task above, the following command
+would do the job:
+
+```bash
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" src/main.c Makefile README.md
+```
+
+Please see the [tool's documentation about
+addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)
+for more options like comment styles and templates
+
+{{< /box-tool >}}
+
 ### Binary and uncommentable files
 
 You also want to license your image files under GPL-3.0-or-later.
@@ -98,13 +134,28 @@ There is a simple trick to circumvent this. Create the files `cat.jpg.license`
 and `dog.jpg.license`, each containing the same information about license and
 copyright holder as above.
 
+{{< box-tool >}}
+
+The REUSE helper tool should automatically detect binary files and
+therefore automatically create a corresponding `.license` file.
+
+If it does not, or if you would like to enforce this, add the
+`--explicit-license` argument to the addheader command. So the command
+for the above task may look like this:
+
+```bash
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --explicit-license img/cat.jpg img/dog.jpg
+```
+
+{{< /box-tool >}}
+
 ### Change licensing information
 
 You discover that the photos of the cat and the dog were not licensed under the
 GPL at all, but under Creative Commons Attribution 4.0 International, owned by
 Max Mehl.
 
-The SPDX License Identifier of this license is CC-BY-4.0.  You create the file
+The SPDX License Identifier of this license is CC-BY-4.0. You create the file
 `LICENSES/CC-BY-4.0.txt`, following the same steps you used for
 GPL-3.0-or-later.
 
@@ -115,6 +166,20 @@ SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>
 
 SPDX-License-Identifier: CC-BY-4.0
 ```
+
+{{< box-tool >}}
+
+The tool as of now does not provide a way to replace existing
+REUSE-compliant copyright and licensing information. A run of
+the `addheader` command would not replace but extend the `.license`
+files with two additional lines stating the copyright of Max Mehl and
+the CC-BY-4.0 license. So you would have to update these manually.
+
+However, the `download` command afterwards would allow you to download
+the new license automatically, so either with `reuse download
+CC-BY-4.0` or simply `reuse download --all`.
+
+{{< /box-tool >}}
 
 ### Build artifacts
 
@@ -142,7 +207,22 @@ contain:
 # SPDX-License-Identifier: CC0-1.0
 ```
 
-<!-- [TODO: Link to FAQ explaining which files are probably not copyrightable] -->
+Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before.
+
+More information about copyrightable files can be found in the [REUSE FAQ]({{< relref
+"faq.md#what-is-copyrightable" >}}).
+
+{{< box-tool >}}
+
+As before, a combination of the `addheader` and `download` commands will fulfil the above step:
+
+```bash
+reuse addheader --copyright="Jane Doe <jane@example.com>" --license="CC0-1.0" .gitignore
+
+reuse download --all
+```
+
+{{< /box-tool >}}
 
 ### Result
 
@@ -170,19 +250,10 @@ project/
 
 Now that you have marked all files with their copyright and licensing, it is
 time to check whether you did not miss anything. To do this, we provide a
-linter tool for you to use. You can read the [full
+helper tool for you to use. You can read the [full
 documentation](https://reuse.readthedocs.io/), or read the quick steps below.
 
-```
-$ # Install the dependencies for the tool.
-$ sudo apt install python3 python3-pip
-$
-$ # Install the tool
-$ pip3 install --user fsfe-reuse
-```
-
-The executable is now in `$HOME/.local/bin/`. Make sure that this is in your
-`$PATH`. Now go to the project directory and run the linter.
+Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter.
 
 ```
 $ cd path/to/project/
@@ -190,6 +261,8 @@ $ reuse lint
 # SUMMARY
 
 * Bad licenses:
+* Deprecated licenses:
+* Licenses without file extension:
 * Missing licenses:
 * Unused licenses:
 * Used licenses: CC-BY-4.0, CC0-1.0, GPL-3.0-or-later
@@ -200,12 +273,9 @@ $ reuse lint
 Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)
 ```
 
-<!-- FIXME: Link to output explanation -->
-
 As you can see in the last line, the tool confirms that your project is
-compliant with REUSE now! To learn what the different numbers mean, please have
-a look at the [full documentation of the reuse
-tool](https://reuse.readthedocs.io).
+compliant with REUSE now! To learn what the different sections mean,
+please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint).
 
 ## Getting help
 
