@@ -34,6 +34,12 @@ We also accept and appreciate feedback by creating issues in the
 project or by sending an e-mail to the [public REUSE mailing
 list](https://lists.fsfe.org/mailman/listinfo/reuse).
 
+### Translation
+
+Translation happens by conversion Markdown into _gettext_ using
+[po4a](https://po4a.org).  To generate the _.md_ files from the
+_gettext .po_ files, run:  `po4a po/po4a.conf`.
+
 ## License
 
 The relevant documents in this repository are licensed under [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0).
