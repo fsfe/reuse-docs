@@ -58,10 +58,12 @@ Identifier](https://spdx.org/licenses). The SPDX License Identifier for your
 chosen license is GPL-3.0-or-later.
 
 You create a `LICENSES` directory in your project root which will contain all
-the licenses that you use in your project. You then download your license
-from the
+the licenses that you use in your project. You then download your license from
+the
 [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)
-repository and put it in the `LICENSES` directory.
+repository and put it in the `LICENSES` directory. The name of the license
+should be its SPDX License Identifier followed by a file extension (in this
+example, GPL-3.0-or-later.txt).
 
 {{< box-tool >}}
 
