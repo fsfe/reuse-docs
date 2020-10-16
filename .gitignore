@@ -1,0 +1,9 @@
+
+# no need to translate the source language, but po4a gens this file
+po/reuse-docs.en.po
+
+# po4a auto-generated markdown files from translations
+[a-z][a-z]/*.md
+[a-z][a-z][a-z]/*.md
+[a-z][a-z][a-z]_[A-Z]*/*.md
+[a-z][a-z]_[A-Z]*/*.md
