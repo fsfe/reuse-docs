@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: REUSE Documents
+Upstream-Contact: FSFE <https://fsfe.org/contact>
+Source: https://github.com/fsfe/reuse-docs/
+
+Files: po/*
+Copyright: 2020 Free Software Foundation Europe e.V.
+License: CC-BY-SA-4.0

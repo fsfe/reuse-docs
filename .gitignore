@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2020 Free Software Foundation Europe e.V.
+#
+# SPDX-License-Identifier: CC-BY-SA-4.0
 
 # no need to translate the source language, but po4a gens this file
 po/reuse-docs.en.po
