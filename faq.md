@@ -40,26 +40,27 @@ these steps, and to check whether you did everything correctly.
 
 ## I'm used to doing things differently; can't I just keep doing what I have always been doing? {#tradition}
 
-Many people, when they first encounter REUSE, run into a couple of things that
+Some people, when they first encounter REUSE, run into a couple of things that
 are very different from what they are used to. They miss the long legal blurbs
 at the tops of files, miss the `COPYING`/`LICENSE` file in the root of the
 repository, think that `.license` files clutter the directory, or find it very
 strange that even insignificant non-code files get licensing headers. The
-eccentricities of REUSE can seem peculiar in that way.
+different-ness of REUSE can seem peculiar in that way.
 
-REUSE explicitly breaks with old traditions, however. We believe that REUSE is
-better for it. By breaking new ground, REUSE is simpler, more comprehensive, and
-more unambiguous than it would have been if we tried to maintain compatibility
-with traditions of old.
+One of REUSE's main goals is to be as compatible to existing best practices as
+possible. It explicitly breaks with some old traditions, however. We believe
+that REUSE is better for it. By breaking new ground, REUSE is simpler, more
+comprehensive, and more unambiguous than it would have been if we tried to
+maintain compatibility with traditions of old.
 
 Nothing prevents you from adding long legal blurbs to your headers or putting a
-`COPYING` file in the root of your directory *anyway*, however. These things can
+`COPYING` file in the root of your directory *anyway* though. These things can
 be done to your liking. Some other aspects of REUSE are unavoidable, however.
 REUSE maintains that *every single file should contain licensing information*,
-which mandates that `.license` files exist and that even the tiniest of files
-get a header. These things are simply inherent to the goal of REUSE, and we hope
-that these eccentricities will soon become commonplace, such that they would no
-longer seem so peculiar anymore.
+so that even the tiniest of files get a header, are accompanied by a
+corresponding `.license` file, or marked in a bulk. These things are simply
+inherent to the goal of REUSE, and we hope that these eccentricities will soon
+become commonplace, such that they would no longer seem so peculiar anymore.
 
 ## What is copyright? {#what-is-copyright}
 
@@ -126,7 +127,7 @@ and automate a lot of adjacent tasks. You can find the full documentation for
 the tool at <https://reuse.readthedocs.io/>. But the short of it is:
 
 ```
-$ pip3 install --user fsfe-reuse 
+$ pip3 install --user fsfe-reuse
 $ export PATH=~/.local/bin:$PATH
 $ reuse --help
 ```
