@@ -5,6 +5,10 @@
 title: "Frequently Asked Questions"
 ---
 
+This page lists common questions and their answers when dealing with licensing
+and copyright, and with the adoption of REUSE specifically. Please note that
+nothing here is legal advice.
+
 {{< toc >}}
 
 # General {#general}
