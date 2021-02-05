@@ -385,26 +385,37 @@ wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
 ## How to deal with license texts which include copyright statements, like MIT/BSD? {#license-templates}
 
-Some license texts, e.g. MIT or the BSD family, allow to add information about
-copyright holders or are otherwise customisable.
+Some license texts, such as MIT or the BSD family of licenses, can be modified
+to contain custom copyright notices.
 
-If you are the copyright holder of code under such licenses, REUSE recommends to
-not edit the license text template that you downloaded with the REUSE helper
-tool for example (`reuse download MIT`). Instead, add your copyright to files
+If you are releasing code under such a license, we recommend that you add the
+license text to the project without any modifications whatsoever. A good way of
+obtaining the unmodified license text is using the REUSE helper tool (e.g.,
+`reuse download MIT`). Instead of inserting your copyright notice into the
+license text itself, you add copyright statements to your project's files
 following the normal REUSE best practices.
 
-If you reuse code from multiple sources with customised license texts, you would
-run into the problem that you had two different license text files representing
-the same license, e.g. MIT. In this case, you have two options:
+When you reuse code from multiple sources that use an MIT/BSD license, you
+quickly run into a problem. Both the MIT license and the BSD family of licenses
+include a clause that requires the redistributor (that's you) to reproduce the
+copyright notice and the license text. For instance, Project A and Project B
+might both use an MIT license, but the actual license files will differ because
+they have different copyright notices embedded within them. If you want to reuse
+code from both of these projects, you might not be sure where to put your copies
+of those projects' license files.
 
-1. The most pragmatic solution is to use the default license text and add the
-   copyright holder stated in the third-party license text to the corresponding
-   source code files you reused.
+We recommend two options:
 
-2. The legally safest solution is to treat any of these customised license texts
-   as a [custom license with LicenseRef](#custom-license). However, if you reuse
-   code from many third parties under these licenses, this may reduce overview
-   in your project.
+1. The most pragmatic solution is to put the unmodified license text (i.e., the
+   license text template without any copyright notices) in your `LICENSES/`
+   folder. You then embed the copyright notices of the upstream project into the
+   corresponding source code files you reused, as usual.
+
+2. The more thorough and labour-intensive solution is to treat any of these
+   license texts with modified copyright notices as a [custom license using
+   LicenseRef](#custom-license). However, if you reuse code from many third
+   parties under these licenses, you may end up with a lot of these custom
+   licenses.
 
 ## I only have a single license file. Should I still create a LICENSES directory? {#single-license}
 
@@ -428,8 +439,8 @@ In this example, the header in files covered by this custom license may look
 like the following:
 
 ```
-SPDX-License-Identifier: LicenseRef-MyLicense
-SPDX-FileCopyrightText: 2017 Jane Doe <jane@example.com>
+# SPDX-License-Identifier: LicenseRef-MyLicense
+# SPDX-FileCopyrightText: 2017 Jane Doe <jane@example.com>
 ```
 
 This may also be necessary when dealing with multiple different variants of
