@@ -103,7 +103,7 @@ and automate a lot of adjacent tasks. You can find the full documentation for
 the tool at <https://reuse.readthedocs.io/>. But the short of it is:
 
 ```
-$ pip3 install --user fsfe-reuse 
+$ pip3 install --user fsfe-reuse
 $ export PATH=~/.local/bin:$PATH
 $ reuse --help
 ```
@@ -379,9 +379,28 @@ use separate tags `SPDX-License-Identifier: GPL-2.0-only` and
 You can read more about SPDX expressions [on the SPDX
 wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
-<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}
+## How to deal with license texts which include copyright statements, like MIT/BSD? {#license-templates}
 
-TODO: Figure this one out -->
+Some license texts, e.g. MIT or the BSD family, allow to add information about
+copyright holders or are otherwise customisable.
+
+If you are the copyright holder of code under such licenses, REUSE recommends to
+not edit the license text template that you downloaded with the REUSE helper
+tool for example (`reuse download MIT`). Instead, add your copyright to files
+following the normal REUSE best practices.
+
+If you reuse code from multiple sources with customised license texts, you would
+run into the problem that you had two different license text files representing
+the same license, e.g. MIT. In this case, you have two options:
+
+1. The most pragmatic solution is to use the default license text and add the
+   copyright holder stated in the third-party license text to the corresponding
+   source code files you reused.
+
+2. The legally safest solution is to treat any of these customised license texts
+   as a [custom license with LicenseRef](#custom-license). However, if you reuse
+   code from many third parties under these licenses, this may reduce overview
+   in your project.
 
 ## I only have a single license file. Should I still create a LICENSES directory? {#single-license}
 
@@ -396,12 +415,24 @@ You should not edit license files. Please see [this question](#edit-license).
 
 ## How do I use a license that is not on the SPDX License List? {#custom-license}
 
-<!-- TODO: Explain that the user probably shouldn't use a custom license -->
-
 If you have a custom or modified license that does not appear in the SPDX
 License List, place your license in the file
 `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that
 speak SPDX will still be able to recognise your license.
+
+In this example, the header in files covered by this custom license may look
+like the following:
+
+```
+SPDX-License-Identifier: LicenseRef-MyLicense
+SPDX-FileCopyrightText: 2017 Jane Doe <jane@example.com>
+```
+
+This may also be necessary when dealing with multiple different variants of
+[customisable license text files like MIT or BSD](#license-templates).
+
+Please note: It is strongly advised to [use established and approved
+licenses](#which-license).
 
 ## How do I use a custom exception? {#custom-exception}
 
@@ -413,11 +444,9 @@ custom license](#custom-license) that embeds the exception.
 You should never edit license files. When you use an existing license, you
 should always copy it verbatim.
 
-<!-- TODO: the linked section still needs to be written.
 Some licenses, such as MIT and the BSD family of licenses, have a line that says
-"Copyright (c) [year] [copyright holder]". Please see [this question](#mit-bsd)
-about how to deal with those licenses.
--->
+"Copyright (c) [year] [copyright holder]". Please see [this
+question](#license-templates) about how to deal with those licenses.
 
 There are many reasons for why you should not alter license texts, but if you do
 alter the texts, you should use a different SPDX identifier for this license.
