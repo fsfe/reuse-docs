@@ -5,6 +5,10 @@
 title: "Frequently Asked Questions"
 ---
 
+This page lists common questions and their answers when dealing with licensing
+and copyright, and with the adoption of REUSE specifically. Please note that
+nothing here is legal advice.
+
 {{< toc >}}
 
 # General {#general}
@@ -37,6 +41,30 @@ Then, for all files, edit the header to contain the following:
 
 Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of
 these steps, and to check whether you did everything correctly.
+
+## I'm used to doing things differently; can't I just keep doing what I have always been doing? {#tradition}
+
+Some people, when they first encounter REUSE, run into a couple of things that
+are very different from what they are used to. They miss the long legal blurbs
+at the tops of files, miss the `COPYING`/`LICENSE` file in the root of the
+repository, think that `.license` files clutter the directory, or find it very
+strange that even insignificant non-code files get licensing headers. The
+different-ness of REUSE can seem peculiar in that way.
+
+One of REUSE's main goals is to be as compatible to existing best practices as
+possible. It explicitly breaks with some old traditions, however. We believe
+that REUSE is better for it. By breaking new ground, REUSE is simpler, more
+comprehensive, and more unambiguous than it would have been if we tried to
+maintain compatibility with traditions of old.
+
+Nothing prevents you from adding long legal blurbs to your headers or putting a
+`COPYING` file in the root of your directory *anyway* though. These things can
+be done to your liking. Some other aspects of REUSE are unavoidable, however.
+REUSE maintains that *every single file should contain licensing information*,
+so that even the tiniest of files get a header, are accompanied by a
+corresponding `.license` file, or marked in a bulk. These things are simply
+inherent to the goal of REUSE, and we hope that these eccentricities will soon
+become commonplace, such that they would no longer seem so peculiar anymore.
 
 ## What is copyright? {#what-is-copyright}
 
@@ -103,7 +131,7 @@ and automate a lot of adjacent tasks. You can find the full documentation for
 the tool at <https://reuse.readthedocs.io/>. But the short of it is:
 
 ```
-$ pip3 install --user fsfe-reuse 
+$ pip3 install --user fsfe-reuse
 $ export PATH=~/.local/bin:$PATH
 $ reuse --help
 ```
@@ -366,9 +394,39 @@ use separate tags `SPDX-License-Identifier: GPL-2.0-only` and
 You can read more about SPDX expressions [on the SPDX
 wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 
-<!-- ## How to deal with MIT/BSD licenses which include copyright info themselves? {#mit-bsd}
+## How to deal with license texts which include copyright statements, like MIT/BSD? {#license-templates}
 
-TODO: Figure this one out -->
+Some license texts, such as MIT or the BSD family of licenses, can be modified
+to contain custom copyright notices (called invariant sections).
+
+If you are releasing code under such a license, we recommend you add the
+license text to the project without any modifications whatsoever. A good way of
+obtaining the unmodified license text is using the REUSE helper tool (e.g.,
+`reuse download MIT`). This way, instead of inserting your copyright notice into the
+license text itself, you add copyright statements to your project's files
+following the normal REUSE best practices.
+
+When you reuse code from multiple MIT/BSD licensed sources, you quickly run into
+a problem. Both the MIT license and the BSD family of licenses
+include a clause that requires the redistributor (that's you) to reproduce the
+copyright notice and the license text. For instance, Project A and Project B
+might both use an MIT license, but the actual license files will differ because
+they have different copyright notices embedded within them. If you want to reuse
+code from both of these projects, you might not be sure where to put your copies
+of those projects' license files.
+
+We recommend two options:
+
+1. The most pragmatic solution is to put the unmodified license text (i.e., the
+   license text template without any copyright notices) in your `LICENSES/`
+   folder. You then embed the copyright notices of the upstream project into the
+   corresponding source code files you reused, as usual.
+
+2. The more thorough and labour-intensive solution is to treat any of these
+   license texts with modified copyright notices as a [custom license using
+   LicenseRef](#custom-license). However, if you reuse code from many third
+   parties under these licenses, you may end up with a lot of these custom
+   licenses.
 
 ## I only have a single license file. Should I still create a LICENSES folder? {#single-license}
 
@@ -383,12 +441,24 @@ You should not edit license files. Please see [this question](#edit-license).
 
 ## How do I use a license not found in the SPDX License List? {#custom-license}
 
-<!-- TODO: Explain that the user probably shouldn't use a custom license -->
-
 If the SPDX License List does not have your unsuited, yet to be included, custom
 or modified license, you could place your license in the file
 `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools speaking
 SPDX will still be able to recognise your license.
+
+In this example, the header in files covered by this custom license may look
+like the following:
+
+```
+# SPDX-License-Identifier: LicenseRef-MyLicense
+# SPDX-FileCopyrightText: 2017 Jane Doe <jane@example.com>
+```
+
+This may also be necessary when dealing with multiple different variants of
+[customisable license text files like MIT or BSD](#license-templates).
+
+Please note: It is strongly advised to [use established and approved
+licenses](#which-license).
 
 ## How do I use a custom exception? {#custom-exception}
 
@@ -400,11 +470,9 @@ custom license](#custom-license) that embeds the exception.
 You should never edit license files. When you use an existing license,
 always copy it verbatim.
 
-<!-- TODO: the linked section still needs to be written.
 Some licenses, such as MIT and the BSD family of licenses, have a line that says
-"Copyright (c) [year] [copyright holder]". Please see [this question](#mit-bsd)
-about how to deal with those licenses.
--->
+"Copyright (c) [year] [copyright holder]". Please see [this
+question](#license-templates) about how to deal with those licenses.
 
 There are many reasons why you should not alter license texts, but if you do,
 you should use a different SPDX identifier for this license.
