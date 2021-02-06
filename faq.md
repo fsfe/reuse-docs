@@ -425,6 +425,9 @@ licensed code is adopted. By keeping all licenses in a single directory, it is
 easy for a user of your program to find all the licenses they need to comply
 with in the blink of an eye.
 
+However, you can keep your `LICENSE`/`COPYING` file if you want. See [this
+question](#tradition).
+
 ## Should I put comment headers in my license files? {#header-in-license}
 
 You should not edit license files. Please see [this question](#edit-license).
@@ -508,7 +511,7 @@ you to retain the header comment. If this option is present, you should use it,
 especially if you use a license that mandates that you include a license
 disclaimer.
 
-## I am a lawyer and want a bill of materials {#bill-of-materials}
+## I want a software bill of materials {#bill-of-materials}
 
 Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root
 to create an [SPDX
