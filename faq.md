@@ -397,7 +397,7 @@ wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ).
 ## How to deal with license texts which include copyright statements, like MIT/BSD? {#license-templates}
 
 Some license texts, such as MIT or the BSD family of licenses, can be modified
-to contain custom copyright notices (called invariant sections).
+to contain custom copyright notices.
 
 If you are releasing code under such a license, we recommend you add the
 license text to the project without any modifications whatsoever. A good way of
