@@ -6,14 +6,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-02-25 06:50+0000\n"
+"Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"fsfe/reuse-docs/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.5\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -136,7 +140,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "我应该选择哪个许可证？{#which-license}"
 
 #. type: Plain text
 #: faq.md
@@ -178,13 +182,13 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "工具{#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "如何安装和使用REUSE工具？{#install-tool}"
 
 #. type: Plain text
 #: faq.md
@@ -200,6 +204,9 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
