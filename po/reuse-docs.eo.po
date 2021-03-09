@@ -6,32 +6,36 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-03-11 11:02+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/fsfe/"
+"reuse-docs/eo/>\n"
 "Language: eo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Oftaj Demandoj"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "{{< toc >}}\n"
-msgstr ""
+msgstr "{{< toc >}}\n"
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr ""
+msgstr "Ĝenerale {#general}"
 
 #. type: Title ##
 #: faq.md
@@ -94,7 +98,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "Kio estas kopirajto? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
@@ -118,7 +122,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "Kio estas permesilo? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
@@ -136,7 +140,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "Kiun permesilon mi elektu? {#which-license}"
 
 #. type: Plain text
 #: faq.md
@@ -166,7 +170,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "Kio estas SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
@@ -178,13 +182,13 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "La ilo {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Kiel instali kaj uzi la ilon REUSE? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
@@ -200,6 +204,9 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
@@ -253,7 +260,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr ""
+msgstr "Permesiloj kaj observado {#licensing}"
 
 #. type: Plain text
 #: faq.md
@@ -286,7 +293,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
-msgstr ""
+msgstr "Ĉu mi uzu SPDX-FileCopyrightText, Copyright, aŭ ©? {#copyright-symbol}"
 
 #. type: Plain text
 #: faq.md
@@ -304,6 +311,11 @@ msgid ""
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Johanino Umo <johanino@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 Johano Doe <jochjo@example.com>\n"
+"© Ekzemplo-Korporacio <https://korp.example.com>\n"
+"Copyright 2016, 2018-2019 Joĉjo Ajnulo\n"
+"Copyright (c) Alico\n"
 
 #. type: Plain text
 #: faq.md
@@ -321,7 +333,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
-msgstr ""
+msgstr "Kiujn jarojn inkluzivu la aserto pri kopirajto? {#years-copyright}"
 
 #. type: Plain text
 #: faq.md
@@ -399,7 +411,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr ""
+msgstr "Kiaj dosieroj havas kopirajton? {#what-is-copyrightable}"
 
 #. type: Plain text
 #: faq.md
@@ -441,7 +453,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr ""
+msgstr "Kiel mi kopiu aliulan verkon? {#copy-work}"
 
 #. type: Plain text
 #: faq.md
@@ -605,6 +617,19 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: my-project\n"
+"Upstream-Contact: Johanino Umo <johanino@example.com>\n"
+"Source: https://git.example.com/johanino/mia-projekto\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Johanino Umo <johanino@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Johanino Umo <johanino@example.com>\n"
+"           2017 Johano Umo <johano@example.com>\n"
+"License: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
@@ -1034,6 +1059,11 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: GPL-3.0-or-later\n"
 msgstr ""
+"# SPDX-FileCopyrightText: 2016, 2018-2019 Johanino Umo <johanino@example.com>"
+"\n"
+"# SPDX-FileCopyrightText: 2019 Ekzemplo-Firmao\n"
+"#\n"
+"# SPDX-License-Identifier: GPL-3.0-or-later\n"
 
 #. type: Title ###
 #: spec.md
@@ -1069,7 +1099,7 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "An example of a DEP5 file:"
-msgstr ""
+msgstr "Ekzemplo de DEP5-dosiero:"
 
 #. type: Fenced code block
 #: spec.md
@@ -1084,6 +1114,14 @@ msgid ""
 "Copyright: 2019 Translation Company\n"
 "License: GPL-3.0-or-later\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Projekto\n"
+"Upstream-Contact: Johanino Umo <johanino@example.com>\n"
+"Source: https://example.com/johanino/projekto\n"
+"\n"
+"Files: po/*\n"
+"Copyright: 2019 Traduko-Firmao\n"
+"License: GPL-3.0-or-later\n"
 
 #. type: Title ##
 #: spec.md
@@ -1183,6 +1221,15 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"projekto/\n"
+"├── bildo/\n"
+"│   ├── kato.jpg\n"
+"│   └── hundo.jpg\n"
+"├── fonto/\n"
+"│   └── ĉefprogramo.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1222,7 +1269,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< box-tool >}}\n"
-msgstr ""
+msgstr "{{< box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1240,7 +1287,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< /box-tool >}}\n"
-msgstr ""
+msgstr "{{< /box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1258,6 +1305,11 @@ msgid ""
 " * SPDX-License-Identifier: GPL-3.0-or-later\n"
 " */\n"
 msgstr ""
+"/*\n"
+" * SPDX-FileCopyrightText: 2019 Johanino Umo <johanino@example.com>\n"
+" *\n"
+" * SPDX-License-Identifier: GPL-3.0-or-later\n"
+" */\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1298,6 +1350,8 @@ msgstr ""
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
+"reuse addheader --copyright=\"Johanino Umo <johanino@example.com>\" "
+"--license=\"GPL-3.0-or-later\" fonto/ĉefprogramo.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1322,6 +1376,9 @@ msgstr ""
 #, markdown-text
 msgid "There is a simple trick to circumvent this. Create the files `cat.jpg.license` and `dog.jpg.license`, each containing the same information about license and copyright holder as above."
 msgstr ""
+"Jen simpla tekniko por eviti tion. Kreu la dosierojn `kato.jpg.license` kaj "
+"`hundo.jpg.license`, kiuj hvas la samajn informojn pri la permesilo kaj la "
+"kopirajtoposedanto kiel supre."
 
 #. type: Plain text
 #: tutorial.md
@@ -1340,6 +1397,9 @@ msgstr ""
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
+"reuse addheader --copyright=\"Johanino Umo <johanino@example.com>\" "
+"--license=\"GPL-3.0-or-later\" --explicit-license bildo/kato.jpg bildo/hundo."
+"jpg\n"
 
 #. type: Title ###
 #: tutorial.md
@@ -1363,7 +1423,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text
 msgid "You then edit `cat.jpg.license` and `dog.jpg.license` to say:"
-msgstr ""
+msgstr "Vi povas poste redakti `kato.jpg.license` kaj `hundo.jpg.license` jene:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1373,6 +1433,9 @@ msgid ""
 "\n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
+"\n"
+"SPDX-License-Identifier: CC-BY-4.0\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1402,7 +1465,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Insignificant files"
-msgstr ""
+msgstr "Negravaj dosieroj"
 
 #. type: Plain text
 #: tutorial.md
@@ -1486,6 +1549,21 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"projekto/\n"
+"├── bildo/\n"
+"│   ├── kato.jpg\n"
+"│   ├── kato.jpg.license\n"
+"│   ├── hundo.jpg\n"
+"│   └── hundo.jpg.license\n"
+"├── LICENSES/\n"
+"│   ├── CC0-1.0.txt\n"
+"│   ├── CC-BY-4.0.txt\n"
+"│   └── GPL-3.0-or-later.txt\n"
+"├── fonto/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1530,7 +1608,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Getting help"
-msgstr ""
+msgstr "Helpiĝi"
 
 #. type: Plain text
 #: tutorial.md
