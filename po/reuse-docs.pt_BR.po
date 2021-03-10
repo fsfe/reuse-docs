@@ -6,68 +6,85 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-03-11 11:02+0000\n"
+"Last-Translator: Eduardo <edu.rodrigues2580@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/fsfe/"
+"reuse-docs/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.5.2-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Perguntas Mais Frequentes"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "{{< toc >}}\n"
-msgstr ""
+msgstr "{{< toc >}}\n"
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr ""
+msgstr "Geral {#general}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
+"Estou com pouco tempo. Você pode me dar um resumo o mais rápido possível? "
+"{#quick-summary}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
+"Queremos melhorar a forma como as pessoas licenciam seus projetos de "
+"software. Propomos três passos para conseguir isso:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr ""
+msgstr "1. Escolher e fornecer licenças {#step-1}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
+"Escolha uma licença [Software Livre](https://fsfe.org/about/basics/"
+"freesoftware) para seu projeto. Encontre o identificador SPDX de sua licença "
+"na [Lista de Licenças SPDX](https://spdx.org/licenses/). Baixe o texto da "
+"licença para sua licença no repositório [license-list-data](https://github."
+"com/spdx/license-list-data/tree/master/text) e coloque-o no diretório `"
+"LICENSES/`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
+"2. Adicionar informações sobre direitos autorais e licenciamento a cada "
+"arquivo {#step-2}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
 msgstr ""
+"Então, para todos os arquivos, edite o cabeçalho para conter o seguinte:"
 
 #. type: Fenced code block
 #: faq.md
@@ -77,60 +94,87 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [ano] [detentor dos direitos autorais] <[endereço "
+"de e-mail]>\n"
+"#\n"
+"# SPDX-License-Identifier: [identificador]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "3. Confirm REUSE compliance {#step-3}"
-msgstr ""
+msgstr "3. Confirmar a conformidade REUSE {#step-3}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
+"Use a ferramenta [REUSE](https://github.com/fsfe/reuse-tool) para "
+"automatizar algumas destas etapas, e para verificar se você fez tudo "
+"corretamente."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "O que são os direitos autorais? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
 msgstr ""
+"O direito autoral é uma construção legal que concede a alguém direitos "
+"exclusivos sobre uma obra criativa. O direito exclusivo mais importante está "
+"no nome: O direito de produzir cópias. Somente o detentor dos direitos "
+"autorais está autorizado a dar novas cópias de seu trabalho às pessoas."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
+"Normalmente o autor é o detentor dos direitos autorais, mas muitas vezes os "
+"direitos autorais são transferidos para o empregador do autor. Na maioria "
+"dos lugares, não é necessário fazer nada para obter os direitos autorais. "
+"Assim que você faz um trabalho criativo, você (ou seu empregador) ganha "
+"imediatamente os direitos autorais sobre ele."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
 msgstr ""
+"Creative Commons fornece uma resposta melhor e mais longa em suas [Perguntas "
+"Mais Frequentes](https://creativecommons.org/faq/#what-is-copyright-and-why-"
+"does-it-matter)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "O que é uma licença? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
 msgstr ""
+"Um problema com os direitos autorais no que diz respeito ao software é que "
+"ele torna o software não compartilhável por padrão. Uma licença muda isso. "
+"Uma licença define os termos sob os quais o detentor dos direitos autorais "
+"permite que o destinatário da licença utilize o software."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Se a licença permite ao destinatário [usar, estudar, compartilhar e "
+"melhorar](https://fsfe.org/freesoftware/basics/4freedoms.html) o software, "
+"então esse software é [Software Livre](https://fsfe.org/about/basics/"
+"freesoftware)."
 
 #. type: Title ##
 #: faq.md
