@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-04-28 13:31+0000\n"
+"PO-Revision-Date: 2021-05-15 18:32+0000\n"
 "Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -65,18 +65,25 @@ msgstr "1. Виберіть і надайте ліцензії {#step-1}"
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
+"Оберіть ліцензію [Free Software](https://fsfe.org/about/basics/freesoftware) "
+"для вашого проєкту. Знайдіть ідентифікатор SPDX вашої ліцензії в [списку "
+"ліцензії SPDX](https://spdx.org/licenses/). Завантажте текст ліцензії на "
+"вашу ліцензію з репозиторію [license-list-data](https://github.com/spdx/"
+"license-list-data/tree/master/text) і покладіть її у каталог `LICENSES/`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
+"2. Додайте відомості про авторські права та ліцензування до кожного файлу "
+"{#step-2}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
-msgstr ""
+msgstr "Потім для всіх файлів відредагуйте заголовок, щоб він містив наступне:"
 
 #. type: Fenced code block
 #: faq.md
@@ -86,18 +93,23 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [year] [copyright holder] <[email address]>\n"
+"#\n"
+"# SPDX-License-Identifier: [identifier]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "3. Confirm REUSE compliance {#step-3}"
-msgstr ""
+msgstr "3. Підтвердьте відповідність повторного використання {#step-3}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
+"Використовуйте [засіб REUSE](https://github.com/fsfe/reuse-tool) щоб "
+"автоматизувати деякі з цих кроків, і перевірити, чи ви зробили все правильно."
 
 #. type: Title ##
 #: faq.md
