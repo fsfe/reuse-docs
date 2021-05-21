@@ -104,8 +104,8 @@ copyright and license tag.
 
 If you really want to exclude a file, consider using the
 [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this
-file. By doing this, you put the file in the public domain, or your country's
-equivalent.
+file. By doing this, you put the file in the [public domain, or your country's
+equivalent](https://fsfe.org/freesoftware/legal/faq.html#public-domain).
 
 There is one exception: License files are automatically excluded from compliance
 testing.
