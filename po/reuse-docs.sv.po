@@ -6,38 +6,44 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2021-06-02 21:35+0000\n"
+"Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
+"sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Frekvent Ställda Frågor"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "{{< toc >}}\n"
-msgstr ""
+msgstr "{{< toc >}}\n"
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr ""
+msgstr "Generellt {#general}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
+"Jag har kort om tid. Kan du ge mig den snabbast möjliga sammanfattningen? "
+"{#quick-summary}"
 
 #. type: Plain text
 #: faq.md
@@ -94,7 +100,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "Vad är upphovsrätt? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
@@ -118,7 +124,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "Vad är en licens? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
@@ -136,7 +142,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "Vilken licens bör jag välja? {#which-license}"
 
 #. type: Plain text
 #: faq.md
@@ -160,13 +166,13 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "ATTGÖRA -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "Vad är SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
@@ -178,13 +184,13 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Verktyget {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Hur installerar jag och använder REUSE-verktyget? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
@@ -200,6 +206,9 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
