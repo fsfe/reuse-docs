@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-04-01 22:26+0000\n"
+"PO-Revision-Date: 2021-06-12 12:33+0000\n"
 "Last-Translator: Liu Tao <lyuutau@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "fsfe/reuse-docs/zh_Hans/>\n"
@@ -17,19 +17,19 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6-dev\n"
+"X-Generator: Weblate 4.7-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "{{< toc >}}\n"
-msgstr ""
+msgstr "{{< toc >}}\n"
 
 #. type: Title #
 #: faq.md
