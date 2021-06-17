@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-06-02 21:35+0000\n"
+"PO-Revision-Date: 2021-06-18 03:33+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -50,12 +50,14 @@ msgstr ""
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
+"Vi vill förbättra sättet som människor licensierar deras mjukvaruprojekt. Vi "
+"föreslår tre steg för att åstadkomma det här:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr ""
+msgstr "1. Välj och tillhandahåll licenser {#steg-1}"
 
 #. type: Plain text
 #: faq.md
@@ -68,6 +70,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
+"2. Lägg till information för kopieringsskydd och licensiering till varje fil "
+"{#steg-2}"
 
 #. type: Plain text
 #: faq.md
@@ -137,6 +141,9 @@ msgstr ""
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Om licensen tillåter mottagaren att [använda, studera, dela och "
+"förbättra](https://fsfe.org/freesoftware/basics/4freedoms.html)mjukvaran så "
+"är den mjukvaran [Fri mjukvara](https://fsfe.org/about/basics/freesoftware)."
 
 #. type: Title ##
 #: faq.md
@@ -221,6 +228,8 @@ msgstr ""
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
+"Säkerställ att filen täcks av din `.gitignore`-fil om filen är en "
+"byggnationsartifakt och om du använder Git."
 
 #. type: Plain text
 #: faq.md
@@ -250,13 +259,15 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr ""
+msgstr "Stöttar du ett annat versionskontrollsystem än Git? {#ingen-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
+"För närvarande så gör vi inte det, men snälla [hör av dig](https://github."
+"com/fsfe/reuse-tool/issues)."
 
 #. type: Title #
 #: faq.md
@@ -268,13 +279,15 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr ""
+msgstr "<!-- ## Vilka licenser är kompatibla? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
+"Finns det ett standardformat för att deklarera kopieringsskydd? {#standard-"
+"kopieringsskydd}"
 
 #. type: Plain text
 #: faq.md
@@ -348,7 +361,7 @@ msgstr ""
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr ""
+msgstr "Året för den senaste publikationen."
 
 #. type: Bullet: '3. '
 #: faq.md
@@ -360,19 +373,21 @@ msgstr ""
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr ""
+msgstr "Inkludera inte något år."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr ""
+msgstr "Vilket val du väljer är i slutändan upp till dig."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
+"Måste jag inkludera både GPL-3.0-eller-senare och endast-GPL-3.0 i mitt "
+"förråd? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
@@ -390,7 +405,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
-msgstr ""
+msgstr "Vad är licens-undantag och vad ska jag göra med dem? {#licens-undantag}"
 
 #. type: Plain text
 #: faq.md
