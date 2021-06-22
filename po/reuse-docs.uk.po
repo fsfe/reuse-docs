@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-05-15 18:32+0000\n"
-"Last-Translator: Tymofij Lytvynenko <till.svit@gmail.com>\n"
+"PO-Revision-Date: 2021-06-23 01:32+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.7.1-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -83,7 +83,7 @@ msgstr ""
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
-msgstr "Потім для всіх файлів відредагуйте заголовок, щоб він містив наступне:"
+msgstr "Потім для всіх файлів змініть заголовок, щоб він містив таке:"
 
 #. type: Fenced code block
 #: faq.md
@@ -115,7 +115,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "Що таке авторські права? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
@@ -139,7 +139,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "Що таке ліцензія? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
@@ -176,18 +176,20 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
+"<!-- ## Чи дійсно мені потрібно включити ліцензію та заголовки авторських "
+"прав у всі файли? Чому я повинен піклуватися про це? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "TODO -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "Що таке SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
@@ -199,13 +201,13 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Засіб {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Як встановити та користуватися засобом REUSE? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
@@ -221,12 +223,15 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
-msgstr ""
+msgstr "Як виключити файл із перевірки на відповідність REUSE? {#exclude-file}"
 
 #. type: Plain text
 #: faq.md
@@ -816,7 +821,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "For lawyers and legal experts {#lawyers}"
-msgstr ""
+msgstr "Для юристів та фахівців з права {#lawyers}"
 
 #. type: Title ##
 #: faq.md
@@ -858,7 +863,7 @@ msgstr ""
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Definitions"
-msgstr ""
+msgstr "Визначення"
 
 #. type: Plain text
 #: spec.md
@@ -924,7 +929,7 @@ msgstr ""
 #: spec.md
 #, markdown-text, no-wrap
 msgid "License files"
-msgstr ""
+msgstr "Файли ліцензій"
 
 #. type: Plain text
 #: spec.md
@@ -1204,6 +1209,15 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   └── dog.jpg\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1243,7 +1257,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< box-tool >}}\n"
-msgstr ""
+msgstr "{{< box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1261,7 +1275,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< /box-tool >}}\n"
-msgstr ""
+msgstr "{{< /box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1366,7 +1380,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Change licensing information"
-msgstr ""
+msgstr "Змінити відомості про ліцензування"
 
 #. type: Plain text
 #: tutorial.md
@@ -1507,6 +1521,21 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   ├── cat.jpg.license\n"
+"│   ├── dog.jpg\n"
+"│   └── dog.jpg.license\n"
+"├── LICENSES/\n"
+"│   ├── CC0-1.0.txt\n"
+"│   ├── CC-BY-4.0.txt\n"
+"│   └── GPL-3.0-or-later.txt\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1551,7 +1580,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Getting help"
-msgstr ""
+msgstr "Довідка"
 
 #. type: Plain text
 #: tutorial.md
