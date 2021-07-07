@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-06-23 01:32+0000\n"
+"PO-Revision-Date: 2021-07-08 18:33+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.1-dev\n"
+"X-Generator: Weblate 4.8-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -122,18 +122,29 @@ msgstr "Що таке авторські права? {#what-is-copyright}"
 #, markdown-text
 msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
 msgstr ""
+"Авторське право — це елемент права, який надає комусь ексклюзивні права на "
+"доробок. Найважливіше ексклюзивне право — у назві: Право на виготовлення "
+"копій. Лише власник авторських прав може передавати людям нові копії своїх "
+"творів."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
+"Зазвичай автор є власником авторських прав, але часто авторське право "
+"передається роботодавцю автора. У більшості місць для отримання авторських "
+"прав не потрібно нічого робити. Щойно ви щось створюєте, ви (або ваш "
+"роботодавець) миттєво отримуєте авторські права на свій доробок."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
 msgstr ""
+"Creative Commons надає кращу та довшу відповідь у своїх [Частих "
+"запитаннях](https://creativecommons.org/faq/#what-is-copyright-and-why-does-"
+"it-matter)."
 
 #. type: Title ##
 #: faq.md
@@ -146,30 +157,52 @@ msgstr "Що таке ліцензія? {#what-is-license}"
 #, markdown-text
 msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
 msgstr ""
+"Однією з проблем авторського права, що стосується програмного забезпечення, "
+"є те, що воно робить програмне забезпечення недоступним для спільного "
+"користування одразу після створення. Ліцензія змінює це. Ліцензія визначає "
+"умови, на яких власник авторських прав дозволяє одержувачу ліцензії "
+"користуватися програмним забезпеченням."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Якщо ліцензія дозволяє одержувачу [користуватися, вивчати, ділитися та "
+"вдосконалювати](https://fsfe.org/freesoftware/basics/4freedoms.html) "
+"програмне забезпечення, то воно є [Вільним програмним "
+"забезпеченням](https://fsfe.org/about/basics/freesoftware)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "Яку ліцензію слід обрати? {#which-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
+"Завжди обирайте вільну ліцензію, тобто ліцензію, яка дає одержувачу свободу "
+"користуватися, вивчати, ділитися та вдосконалювати програмним забезпеченням. "
+"Крім того, ліцензія, яку ви обираєте, стосується і вас.  Якщо ви робите "
+"внесок до наявного проєкту, слід випустити зміни під тією ж ліцензією, що й "
+"проєкт. В іншому випадку [Фонд вільного програмного забезпечення](https://www"
+".gnu.org/licenses/license-recommendations.html), [choosealicense."
+"com](https://choosealicense.com/), та [joinup.eu](https://joinup.ec.europa."
+"eu/collection/eupl/joinup-licensing-assistant-jla) мають кілька хороших "
+"порад. Зауважте, що ці ресурси наголошують на різних цінностях і мають свої "
+"власні упередження."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
 msgstr ""
+"Якщо ви цінуєте свободу, перш за все ви повинні вибрати ліцензію, яка робить "
+"ваше програмне забезпечення [Вільним програмним забезпеченням](https://fsfe."
+"org/about/basics/freesoftware.en.html)."
 
 #. type: Plain text
 #: faq.md
@@ -196,6 +229,13 @@ msgstr "Що таке SPDX? {#what-is-spdx}"
 #, markdown-text
 msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
 msgstr ""
+"SPDX розшифровується як [Обмін даними пакунків програмного "
+"забезпечення](https://spdx.org/). Це проєкт [Linux Foundation](https://www."
+"linuxfoundation.org/) і є основою побудови REUSE. SPDX визначає "
+"стандартизований спосіб обміну інформацією про авторські права та "
+"ліцензування між проєктами та людьми. Найголовніше для REUSE, це те, що SPDX "
+"підтримує [Список ліцензій SPDX](https://spdx.org/licenses/), який визначає "
+"стандартизовані ідентифікатори для багатьох ліцензій."
 
 #. type: Title #
 #: faq.md
@@ -214,6 +254,10 @@ msgstr "Як встановити та користуватися засобом
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
+"Засіб REUSE — це зручний компаньйон, який може перевірити відповідність до "
+"REUSE та автоматизувати багато суміжних завдань. Повну документацію до "
+"засобу можна знайти за адресою <https://reuse.readthedocs.io/>. Але якщо "
+"коротко:"
 
 #. type: Fenced code block
 #: faq.md
@@ -238,87 +282,116 @@ msgstr "Як виключити файл із перевірки на відпо
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
+"Якщо файл є артефактом збирання, і ви застосовуєте Git, просто "
+"переконайтеся, що файл покривається вашим файлом `.gitignore`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
 msgstr ""
+"В іншому випадку не можна виключити файли з перевірки відповідності REUSE. "
+"Це суперечитиме меті REUSE: переконайтеся, що кожен файл має авторське право "
+"та тег ліцензії."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
+"Якщо ви дійсно хочете виключити файл, спробуйте скористатися ліцензію "
+"[CC0](https://creativecommons.org/publicdomain/zero/1.0/) для цього файлу. "
+"Таким чином, ви робите файл суспільним надбанням або його еквівалентом у "
+"вашій країні."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There is one exception: License files are automatically excluded from compliance testing."
 msgstr ""
+"Є один виняток: ліцензійні файли автоматично виключаються з перевірки на "
+"відповідність."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
+"Якщо у вас є цілий каталог, який потрібно «виключити» з перевірки на "
+"відповідність REUSE, ви можете [застосовувати файл DEP5](#bulk-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr ""
+msgstr "Чи підтримуєте ви інші системи контролю версій, крім Git? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
+"На разі — ні, але [стежте за оновленнями](https://github.com/fsfe/reuse-tool/"
+"issues)."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr ""
+msgstr "Ліцензування та відповідність {#licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr ""
+msgstr "<!-- ## Які ліцензії сумісні? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
+"Чи існує стандартний формат декларування авторських прав? {#standard-"
+"copyright}"
 
 #. type: Plain text
 #: faq.md
-#, markdown-text, no-wrap
+#, fuzzy, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
+"Як правило, ми рекомендуємо вживати `SPDX-FileCopyrightText: [рік] [власник "
+"авторських прав]\n"
+"<[контактна адреса]>`. Ви можете відмовитися від усіх елементів, окрім "
+"власника авторських прав,\n"
+"які завжди повинні бути включені. Проте радимо включити всі елементи.\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
 msgstr ""
+"Специфікація включає розділ із точним форматом повідомлення про авторські "
+"права. Дивіться [специфікацію](/spec) та [наступне запитання](#copyright-"
+"symbol)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
 msgstr ""
+"Чи користуюсь я SPDX-FileCopyrightText, авторським правом або ©? {#copyright-"
+"symbol}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification lists the following copyright notices as valid:"
 msgstr ""
+"Специфікація містить такі повідомлення про авторські права які вважаються "
+"чинними:"
 
 #. type: Fenced code block
 #: faq.md spec.md
@@ -330,204 +403,281 @@ msgid ""
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
+"© Example Corporation <https://corp.example.com>\n"
+"Copyright 2016, 2018-2019 Joe Anybody\n"
+"Copyright (c) Alice\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
 msgstr ""
+"З них перші два — найрекомендованіші. Інші існують насамперед для сумісності "
+"з наявними конвенціями."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr ""
+msgstr "<!-- TODO: Посилання на інше запитання про © -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
 msgstr ""
+"Які роки включати до повідомлення про авторські права? {#years-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Generally, there are four options for you to choose:"
-msgstr ""
+msgstr "Загалом є чотири варіанти на вибір:"
 
 #. type: Bullet: '1. '
 #: faq.md
 #, markdown-text
 msgid "The year of initial publication."
-msgstr ""
+msgstr "Рік першої публікації."
 
 #. type: Bullet: '2. '
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr ""
+msgstr "Рік останньої публікації."
 
 #. type: Bullet: '3. '
 #: faq.md
 #, markdown-text
 msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
 msgstr ""
+"Всі роки публікації, або діапазоном (наприклад, 2017-2019), або окремими "
+"записами (наприклад, 2017, 2018, 2019)."
 
 #. type: Bullet: '4. '
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr ""
+msgstr "Не включати жодного року."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr ""
+msgstr "Який варіант ви виберете зрештою залежить від вас."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
+"Чи потрібно включати до свого репозиторію і «GPL-3.0, або новіші версії», "
+"так і лише «GPL-3.0»? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
+"Ліцензії GPL перераховані окремо у списку ліцензій SPDX як -лише так і -або-"
+"новіші, навіть якщо тексти ліцензій ідентичні. Якщо у вас є код лише під "
+"однією з цих ліцензій, радимо включити лише таку ж ліцензію."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
+"Якщо у вас є код і за ліцензією -лише, і за ліцензією -або-новіші, радимо "
+"включити обидві ліцензії окремо."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
-msgstr ""
+msgstr "Що таке ліцензійні винятки та що з ними робити? {#license-exceptions}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
+"Винятком з ліцензій є доповнення або зміни до ліцензії, які часто потрібні, "
+"щоб дозволити певне використання коду, яке не допускається оригінальною "
+"ліцензією. Це часто застосовується компіляторами, де частина коду "
+"компілятора може виявитися в отриманому двійковому файлі. Виняток може "
+"дозволити відмовитися від прав на частини коду, які знаходяться у двійкових "
+"файлах."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
+"Винятки трактуються майже однаково з ліцензіями. Щоб поєднати ліцензію з "
+"винятком, потрібно позначити файл таким тегом: `SPDX-Ідентифікатор-ліцензії: "
+"GPL-3.0-або-новіші З GCC-виняток-3.1`."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr ""
+msgstr "Які файли захищені авторським правом? {#what-is-copyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
+"Всі файли, які є оригінальними авторськими продуктами, захищаються "
+"авторським правом. По суті, якщо хтось набрав свої оригінальні думки на "
+"клавіатурі, то ця людина має авторські права на отриманий твір. Поширеними "
+"прикладами є джерельний код, документація, аудіо та відео."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
 msgstr ""
+"Однак є деякі крайні випадки. Наприклад, програма `print(\"Hello, REUSE!\")`"
+", ймовірно, не відповідає визначенню оригінальності. Аналогічним чином, "
+"файли даних і файли конфігурації також можуть не відповідати цьому "
+"визначенню."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What to do with uncopyrightable files? {#uncopyrightable}"
 msgstr ""
+"Що робити з файлами, які не можна захистити авторським правом? "
+"{#uncopyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are two things that you can do with such a file to make sure that its copyright and licensing is recorded. The first option is to simply use your regular copyright and license header for this file. There is nothing that stops you from claiming copyright over your own works. However, a court would still likely find such files uncopyrightable."
 msgstr ""
+"Є два варіанти, що можна зробити з таким файлом, щоб переконатися, що "
+"авторські права та ліцензування щодо нього записані. Перший варіант полягає —"
+" просто скористатися вашими звичайними авторськими правами та заголовком з "
+"ліцензією для цього файлу. Немає нічого, що заважає вам претендувати на "
+"авторські права на власні твори. Однак суд все одно, швидше за все, знайде "
+"такі файли такими, що не можуть бути ліцензованими."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The alternative is to waive your copyright by using the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license."
 msgstr ""
+"Альтернативою є відмова від авторських прав за допомогою ліцензії [CC0-1."
+"0](https://creativecommons.org/publicdomain/zero/1.0/)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is important to note that you can only do this for your own works. If the file was authored by someone else, you must declare their copyright and license in the header."
 msgstr ""
+"Важливо зазначити, що ви можете застосувати це лише щодо власних робіт. Якщо "
+"файл був створений кимось іншим, ви повинні заявити про свої авторські права "
+"та ліцензію в заголовку."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr ""
+msgstr "Як скопіювати чужу роботу? {#copy-work}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
+"Якщо хтось інший зробив ваші роботи доступними для користування та "
+"копіювання, ви можете включити їхні роботи у свій проєкт. Коли ви розміщуєте "
+"роботу в одному з файлів у своєму проєкті, вам слід додати тег `SPDX-"
+"FileCopyrightText` для власників авторських прав та тег `SPDX-License-"
+"Identifier` для ліцензій, за якими ви надаєте свою роботу."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
+"Якщо роботу ліцензовано інакше ніж у вашому проєкті, слід перевірити, чи "
+"сумісні ліцензії та додати нові ліцензії до свого проєкту."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
+"Чи можу я скопіювати роботу, яка не має повідомлення про авторські права або "
+"ліцензії? {#no-copyright-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
+"Перш ніж продовжити, завжди спочатку переконайтеся, що ви можете знайти "
+"відомості про авторські права та ліцензування в іншому місці. Деякі проєкти "
+"містять цю інформацію лише у кореневому каталозі або у файлі README."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
+"Якщо ви не можете знайти повідомлення про авторські права, то це не "
+"проблема. Ви можете самостійно додати повідомлення про авторські права."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
+"Якщо робота не має ліцензії, то це означає, що ви не маєте права її "
+"копіювати. Якщо ви вважаєте, що це помилка, і автор явно мав на увазі, що ви "
+"можете скопіювати цю роботу, вам слід зв'язатися з автором і попросити його "
+"ліцензувати свої роботи. Не соромтеся посилатися на <https://reuse.software>."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr ""
+msgstr "Де ще можна розмістити відомості про ліцензію? {#where-else}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
+"Позначення всіх окремих файлів тегами `SPDX-License-Identifier` проходить "
+"тривалий шлях до однозначної передачі ліцензійної інформації вашого проєкту, "
+"але це також допомагає донести інформацію про ліцензію природною мовою. У "
+"README вашого проєкту не соромтеся надавати підсумкові відомості про свою "
+"ліцензію або просто перенаправляйте читачів до вашого каталогу `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
 msgstr ""
+"Крім того, багато сайтів, які розміщують пакунки, очікують, що ви оголошуєте "
+"ліцензійну інформацію вашого пакунка. Наприклад, [файл setup.py засобу "
+"REUSE](https://github.com/fsfe/reuse-tool/blob/master/setup.py) оголошує всі "
+"ліцензії, якими він користується у форматі, очікуваному інфраструктурою "
+"пакування Python."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
 msgstr ""
+"Хто такий власник авторських прав і хто такий автор? {#copyright-holder-"
+"author}"
 
 #. type: Plain text
 #: faq.md
@@ -936,6 +1086,8 @@ msgstr "Файли ліцензій"
 #, markdown-text
 msgid "A Project MUST include a License File for every license under which files in the Project are licensed."
 msgstr ""
+"Проєкт ПОВИНЕН включати файл ліцензії для кожної ліцензії, за якою "
+"ліцензуються файли в Проєкті."
 
 #. type: Plain text
 #: spec.md
@@ -977,37 +1129,44 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "- The License Files."
-msgstr ""
+msgstr "- Файли ліцензій."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files belonging to the Project's version control system (example: `.git/`)."
 msgstr ""
+"Файли, що належать до системи контролю версій Проєкту (наприклад: `.git/`)."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files ignored by the version control system (example: Files listed in `.gitignore`)."
 msgstr ""
+"Файли, проігноровані системою контролю версій (наприклад: Файли, перелічені "
+"в `.gitignore`)."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files in the `.reuse/` directory in the root of the Project. This directory MUST contain only files relevant for the operation of the REUSE Tool."
 msgstr ""
+"Файли в каталозі `.reuse/` в корені проєкту. Цей каталог повинен містити "
+"лише файли, що стосуються роботи засобу REUSE."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "There are two ways to associate Copyright and Licensing Information with a file."
 msgstr ""
+"Існує два способи пов'язування відомостей про авторські права та "
+"ліцензування з файлом."
 
 #. type: Title ###
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Comment headers"
-msgstr ""
+msgstr "Коментарі в заголовку"
 
 #. type: Plain text
 #: spec.md
@@ -1032,12 +1191,16 @@ msgstr ""
 #, markdown-text
 msgid "The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice."
 msgstr ""
+"Тег `SPDX-FileCopyrightText` ПОВИНЕН стояти перед повідомленням про "
+"авторські права."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY be used, in which case a colon is not needed."
 msgstr ""
+"Замість тегу `SPDX-FileCopyrightText` МОЖЕ застосовуватися символ `©` або "
+"слово `Copyright`, і в цьому випадку двокрапка не потрібна."
 
 #. type: Plain text
 #: spec.md
