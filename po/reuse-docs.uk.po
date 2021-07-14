@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-08 18:33+0000\n"
+"PO-Revision-Date: 2021-07-15 04:32+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -356,15 +356,15 @@ msgstr ""
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"Як правило, ми рекомендуємо вживати `SPDX-FileCopyrightText: [рік] [власник "
-"авторських прав]\n"
-"<[контактна адреса]>`. Ви можете відмовитися від усіх елементів, окрім "
+"Як правило, ми рекомендуємо вживати `SPDX-FileCopyrightText: [year] ["
+"copyright holder]\n"
+"<[contact address]>`. Ви можете відмовитися від усіх елементів, окрім "
 "власника авторських прав,\n"
 "які завжди повинні бути включені. Проте радимо включити всі елементи.\n"
 
@@ -473,16 +473,16 @@ msgstr "Який варіант ви виберете зрештою залеж�
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
-"Чи потрібно включати до свого репозиторію і «GPL-3.0, або новіші версії», "
-"так і лише «GPL-3.0»? {#gpl-plus}"
+"Чи потрібно включати до свого репозиторію і «GPL-3.0-or-later», так і «GPL-3."
+"0-only»? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
-"Ліцензії GPL перераховані окремо у списку ліцензій SPDX як -лише так і -або-"
-"новіші, навіть якщо тексти ліцензій ідентичні. Якщо у вас є код лише під "
+"Ліцензії GPL перераховані окремо у списку ліцензій SPDX як -only, так і -or-"
+"later, навіть якщо тексти ліцензій ідентичні. Якщо у вас є код лише під "
 "однією з цих ліцензій, радимо включити лише таку ж ліцензію."
 
 #. type: Plain text
@@ -490,7 +490,7 @@ msgstr ""
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
-"Якщо у вас є код і за ліцензією -лише, і за ліцензією -або-новіші, радимо "
+"Якщо у вас є код і за ліцензією -only, і за ліцензією -or-later, радимо "
 "включити обидві ліцензії окремо."
 
 #. type: Title ##
@@ -517,8 +517,8 @@ msgstr ""
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
 "Винятки трактуються майже однаково з ліцензіями. Щоб поєднати ліцензію з "
-"винятком, потрібно позначити файл таким тегом: `SPDX-Ідентифікатор-ліцензії: "
-"GPL-3.0-або-новіші З GCC-виняток-3.1`."
+"винятком, потрібно позначити файл таким тегом: `SPDX-License-Identifier: "
+"GPL-3.0-or-later WITH GCC-exception-3.1`."
 
 #. type: Title ##
 #: faq.md
@@ -684,84 +684,126 @@ msgstr ""
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
+"У цих ресурсах ми підтримуємо різницю між власником авторських прав і "
+"автором. Автор (також відомий як творець) — це людина, яка сіла і створила "
+"щось. Подумайте про автора як про програміста, письменника або художника."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
+"Правовласником є особа, яка має виключні права на цей твір.  Часто автор і "
+"власник авторських прав — це одна особа. Однак, якщо автору за створення "
+"твору платить роботодавець, тоді цей роботодавець часто є власником "
+"авторських прав."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
+"Майте на увазі, що в деяких юрисдикціях слово «автор» часто вживається "
+"синонімом «власник авторських прав». В інших юрисдикціях автори зберігають "
+"деякі права на свою роботу, навіть якщо вони не є правовласниками."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
+"Я змінив один рядок коду. Чи слід додавати тег SPDX-FileCopyrightText зі "
+"своїм ім'ям? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
+"Основне питання тут: У який момент я повинен вважати себе власником "
+"авторських прав над файлом? Це на ваш розсуд. Це може допомогти бути "
+"послідовним і додати тег до кожного файлу, до якого ви торкаєтеся, але, "
+"можливо, ціннішим є досягнення консенсусу щодо цього у вашому проєкті."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
+"Як бути з файлом, який змінювали багато людей? {#many-copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
+"Деякі файли змінюються багатьма користувачами й мають надзвичайно довгий "
+"список власників авторських прав у заголовку. Це може бути приємно, але не є "
+"неправильним."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
 msgstr ""
+"Якщо ви не хочете мати справу з такою кількістю повідомлень про авторські "
+"права, деякі проєкти, такі як Chromium, обходять цю проблему, застосовуючи «"
+"Авторське право (c) 2013 Автори Chromium» міткою авторських прав. Ви можете "
+"розглянути такий спосіб, але тоді ви повинні тримати список правовласників і "
+"авторів в окремому файлі у вашому проєкті."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
 msgstr ""
+"Чому я не можу просто застосовувати керування версіями для запису авторських "
+"прав? {#vcs-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
 msgstr ""
+"У [попередньому питанні](#copyright-holder-author) ми розрізняли власників "
+"авторських прав та авторів, які не завжди однакові. Контроль версій зазвичай "
+"записує лише авторство, що робить його непридатним для запису авторських "
+"прав."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
 msgstr ""
+"Інша проблема полягає можливій наявності помилок в історії керування "
+"версіями, а виправлення такої помилки вимагатиме переписування історії, в "
+"результаті чого всім дописувачам доведеться повторно завантажити свій внесок."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
 msgstr ""
+"Ще одна проблема з керуванням версіями полягає в тому, що команда `blame`, "
+"яка зазвичай застосовується для пошуку авторства по рядках, показує лише "
+"автора останнього подання у цьому рядку, навіть якщо це було щось таке "
+"банальне, як виправлення помилки."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I bulk-license whole directories? {#bulk-license}"
-msgstr ""
+msgstr "Чи можу я ліцензувати цілі каталоги? {#bulk-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
 msgstr ""
+"Якщо у вас є каталог, що містить багато файлів, може бути нелегко або "
+"непрактично редагувати кожен файл, щоб додати заголовок. Хоча це було б "
+"ідеально, існує альтернатива. Створивши файл `.reuse/dep5` в корені проєкту, "
+"можна ліцензувати цілий каталог. Наприклад:"
 
 #. type: Fenced code block
 #: faq.md
@@ -781,90 +823,134 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: my-project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://git.example.com/jane/my-project\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"           2017 John Doe <john@example.com>\n"
+"License: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 msgstr ""
+"Докладніше про цей формат файлів від Debian ви можете прочитати "
+"[тут](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I license only a part of a file as being under a different license? {#partial-license}"
 msgstr ""
+"Чи можна ліцензувати лише частину файлу під іншою ліцензією? {#partial-"
+"license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The short answer is that yes, you can, but no, there is no standard way for REUSE to recognize this. If you have a small segment of a file that is licensed differently, you should list that license under a separate `SPDX-License-Identifier` tag in the header."
 msgstr ""
+"Якщо коротко, то так, ви можете, але немає стандартного способу для REUSE "
+"розпізнати це. Якщо у вас є невеликий сегмент файлу, який ліцензується "
+"інакше, слід у заголовку вказати цю ліцензію під окремим тегом `SPDX-License-"
+"Identifier`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can use your own comments to specify which segment is separately licensed.  For instance: \"The class Foo is copied from project Bar and licensed under MIT.  All changes are licensed under GPL-3.0-or-later.\""
 msgstr ""
+"Ви можете писати власні коментарі, щоб вказати, який сегмент ліцензується "
+"окремо.  Наприклад: «The class Foo is copied from project Bar and licensed "
+"under MIT.  All changes are licensed under GPL-3.0-or-later.»"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A possible way to circumvent the problem is to extract the segment from the file, and to keep it in its own file."
 msgstr ""
+"Можливий спосіб обійти проблему — витягти сегмент з файлу та зберегти його в "
+"окремому файлі."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I properly declare multi-licensing? {#multi-licensing}"
-msgstr ""
+msgstr "Як правильно заявити про багатоліцензійність? {#multi-licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should always include all licenses in the `LICENSES/` directory."
-msgstr ""
+msgstr "Ви завжди повинні включати всі ліцензії в каталог `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The correct SPDX license expression that applies to the file depends on the intent. If all the code within is licensed under multiple licenses, and the licensee can choose under which license they consume the work, use `SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, as parts of Firefox do."
 msgstr ""
+"Правильний вираз ліцензії SPDX, який застосовується до файлу, залежить від "
+"способу. Якщо весь код всередині ліцензований під кількома ліцензіями, і "
+"ліцензіат може вибрати, за якою ліцензією він надає твір, використовуйте "
+"`SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, "
+"як це робить Firefox."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If all the code within the file is licensed under multiple licenses, and the user must comply with all licenses simultaneously, use `SPDX-License-Identifier: LGPL-2.0-or-later AND AML`, as can be found in Simple DirectMedia Layer (SDL)."
 msgstr ""
+"Якщо весь код у файлі ліцензовано кількома ліцензіями, і користувач повинен "
+"прийняти всі ліцензії одночасно, застосуйте `SPDX-License-Identifier: LGPL-2."
+"0-or-later AND AML`, як це можна знайти в Simple DirectMedia Layer (SDL)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If all the code within the file is licensed under either one license or another (for instance, all code is under GPL-2.0-only, but one function is under MIT), use separate tags `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-License-Identifier: MIT`."
 msgstr ""
+"Якщо весь код у файлі ліцензовано однією ліцензією або іншою (наприклад, "
+"весь код ліцензовано лише GPL-2.0, але одна функція має ліцензію MIT), "
+"застосовуйте окремі теги `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-"
+"License-Identifier: MIT`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about SPDX expressions [on the SPDX wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ)."
 msgstr ""
+"Докладніше про вирази SPDX [у вікі SPDX](https://wiki.spdx.org/view/"
+"LicenseExpressionFAQ)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}\n"
 msgstr ""
+"<!-- ## Як бути з ліцензіями MIT/BSD, які самі включають дані про авторські "
+"права? {#mit-bsd}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO: Figure this one out -->\n"
-msgstr ""
+msgstr "TODO: З'ясувати це -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I only have a single license file. Should I still create a LICENSES directory? {#single-license}"
 msgstr ""
+"У мене є лише один файл ліцензії. Чи все одно потрібно створювати каталог "
+"LICENSES? {#single-license}"
 
 #. type: Plain text
 #: faq.md
@@ -1223,6 +1309,10 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: GPL-3.0-or-later\n"
 msgstr ""
+"# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>\n"
+"# SPDX-FileCopyrightText: 2019 Example Company\n"
+"#\n"
+"# SPDX-License-Identifier: GPL-3.0-or-later\n"
 
 #. type: Title ###
 #: spec.md
@@ -1273,6 +1363,14 @@ msgid ""
 "Copyright: 2019 Translation Company\n"
 "License: GPL-3.0-or-later\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://example.com/jane/project\n"
+"\n"
+"Files: po/*\n"
+"Copyright: 2019 Translation Company\n"
+"License: GPL-3.0-or-later\n"
 
 #. type: Title ##
 #: spec.md
@@ -1456,6 +1554,11 @@ msgid ""
 " * SPDX-License-Identifier: GPL-3.0-or-later\n"
 " */\n"
 msgstr ""
+"/*\n"
+" * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+" *\n"
+" * SPDX-License-Identifier: GPL-3.0-or-later\n"
+" */\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1496,6 +1599,8 @@ msgstr ""
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+".0-or-later\" src/main.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1538,6 +1643,8 @@ msgstr ""
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+".0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
@@ -1732,6 +1839,22 @@ msgid ""
 "\n"
 "Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)\n"
 msgstr ""
+"$ cd path/to/project/\n"
+"$ reuse lint\n"
+"# SUMMARY\n"
+"\n"
+"* Bad licenses:\n"
+"* Deprecated licenses:\n"
+"* Licenses without file extension:\n"
+"* Missing licenses:\n"
+"* Unused licenses:\n"
+"* Used licenses: CC-BY-4.0, CC0-1.0, GPL-3.0-or-later\n"
+"* Read errors: 0\n"
+"* Files with copyright information: 6 / 6\n"
+"* Files with license information: 6 / 6\n"
+"\n"
+"Congratulations! Your project is compliant with version 3.0 of the REUSE "
+"Specification :-)\n"
 
 #. type: Plain text
 #: tutorial.md
