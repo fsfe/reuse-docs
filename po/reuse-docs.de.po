@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-02-11 12:50+0000\n"
-"Last-Translator: fossdd <fossdd@tutanota.com>\n"
+"PO-Revision-Date: 2021-07-24 12:33+0000\n"
+"Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
 "Language: de\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.5-dev\n"
+"X-Generator: Weblate 4.7.2-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -185,6 +185,17 @@ msgstr "Welche Lizenz sollte ich wählen? {#which-license}"
 #, markdown-text
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
+"Wählen Sie immer eine Freie-Software-Lizenz, d. h. eine Lizenz, die dem "
+"Empfänger die Freiheit gibt, die Software zu verwenden, zu studieren, "
+"weiterzugeben und zu verbessern. Abgesehen davon ist Ihnen überlassen, "
+"welche Lizenz Sie wählen.  Wenn Sie zu einem bestehenden Projekt beitragen, "
+"sollten Sie Ihre Änderungen unter der gleichen Lizenz wie das Projekt "
+"veröffentlichen. Weiterhin haben die [Free Software Foundation](https://www."
+"gnu.org/licenses/license-recommendations.html), [choosealicense."
+"com](https://choosealicense.com/), und [joinup.eu](https://joinup.ec.europa."
+"eu/collection/eupl/joinup-licensing-assistant-jla) einige gute Empfehlungen. "
+"Beachten Sie dabei, dass diese Ressourcen jeweils einen anderen Wert "
+"betonen, und ihre eigenen Sichtweisen vertreten."
 
 #. type: Plain text
 #: faq.md
@@ -200,24 +211,33 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
+"<!-- ## Muss ich die Lizenz- und Copyright-Header wirklich in alle Dateien "
+"einfügen? Warum sollte mich das kümmern? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "TODO -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "Was ist SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
 msgstr ""
+"SPDX steht für [Software Package Data Exchange](https://spdx.org/). Es ist "
+"ein Projekt der [Linux Foundation](https://www.linuxfoundation.org/) und das "
+"Fundament, auf dem REUSE aufgebaut ist. SPDX definiert eine standardisierte "
+"Methode zum Austausch von Copyright- und Lizenzinformationen zwischen "
+"Projekten und Personen. Am wichtigsten für REUSE ist, dass SPDX die [SPDX "
+"License List](https://spdx.org/licenses/) unterhält, die standardisierte "
+"Bezeichner für eine Vielzahl von Lizenzen definiert."
 
 #. type: Title #
 #: faq.md
@@ -245,6 +265,9 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
@@ -257,87 +280,119 @@ msgstr ""
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
+"Falls die Datei ein Build-Artefakt ist und Sie Git verwenden, stellen Sie "
+"einfach sicher, dass die Datei in Ihrer `.gitignore`-Datei enthalten ist."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
 msgstr ""
+"Sie können Dateien nicht auf andere Weise von der REUSE-Konformitätsprüfung "
+"ausschließen. Das würde dem Zweck von REUSE völlig zuwiderlaufen: "
+"Sicherzustellen, dass jede Datei mit einem Copyright- und Lizenz-Tag "
+"versehen ist."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
+"Wenn Sie eine Datei wirklich ausschließen wollen, ziehen Sie in Erwägung, "
+"die [CC0](https://creativecommons.org/publicdomain/zero/1.0/)-Lizenz für "
+"diese Datei zu verwenden. Dadurch stellen Sie die Datei unter die "
+"Gemeinfreiheit, bzw. dem Äquivalent in Ihrem Land."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There is one exception: License files are automatically excluded from compliance testing."
 msgstr ""
+"Es gibt eine Ausnahme: Lizenzdateien sind automatisch von der "
+"Konformitätsprüfung ausgeschlossen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
+"Wenn Sie ein ganzes Verzeichnis von der REUSE-Konformitätsprüfung "
+"\"ausschließen\" möchten, können Sie [eine DEP5-Datei](#bulk-license) "
+"verwenden."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
 msgstr ""
+"Werden auch andere Versionskontrollsysteme als Git unterstützt? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
+"Derzeit nicht, aber bitte [kontaktieren Sie uns](https://github.com/fsfe/"
+"reuse-tool/issues)."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr ""
+msgstr "Lizenzierung und Compliance {#licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr ""
+msgstr "<!-- ## Welche Lizenzen sind kompatibel? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
+"Gibt es ein Standardformat für die Angabe des Copyrights? {#standard-"
+"copyright}"
 
 #. type: Plain text
 #: faq.md
-#, markdown-text, no-wrap
+#, fuzzy, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
+"Im Allgemeinen wird empfohlen, `SPDX-FileCopyrightText: [Jahr] [Copyright-"
+"Inhaber]\n"
+"<[Kontaktadresse]>` zu verwenden. Sie können die Elemente mit Ausnahme des "
+"Copyright-Inhabers weglassen,\n"
+"der immer enthalten sein muss. Wir empfehlen jedoch, dass Sie alle Elemente "
+"einschließen.\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
 msgstr ""
+"Die Spezifikation enthält einen Abschnitt über das genaue Format des "
+"Copyright-Hinweises. Siehe [die Spezifikation](/spec) und [die nächste Frage"
+"](#copyright-symbol)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
 msgstr ""
+"Soll ich SPDX-FileCopyrightText, Copyright oder © verwenden? {#copyright-"
+"symbol}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification lists the following copyright notices as valid:"
 msgstr ""
+"Die Spezifikation listet die folgenden Copyright-Hinweise als gültig auf:"
 
 #. type: Fenced code block
 #: faq.md spec.md
@@ -349,138 +404,188 @@ msgid ""
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
+"© Example Corporation <https://corp.example.com>\n"
+"Copyright 2016, 2018-2019 Joe Anybody\n"
+"Copyright (c) Alice\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
 msgstr ""
+"Von diesen sind die ersten beiden sehr empfehlenswert. Die anderen "
+"existieren hauptsächlich nur, um mit bestehenden Konventionen kompatibel zu "
+"sein."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr ""
+msgstr "<!-- TODO: Link auf andere Frage zu © -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
 msgstr ""
+"Welche Jahre muss ich in der Copyright-Angabe angeben? {#years-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Generally, there are four options for you to choose:"
-msgstr ""
+msgstr "Im Allgemeinen stehen Ihnen vier Optionen zur Auswahl:"
 
 #. type: Bullet: '1. '
 #: faq.md
 #, markdown-text
 msgid "The year of initial publication."
-msgstr ""
+msgstr "Das Jahr der Erstveröffentlichung."
 
 #. type: Bullet: '2. '
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr ""
+msgstr "Das Jahr der letzten Veröffentlichung."
 
 #. type: Bullet: '3. '
 #: faq.md
 #, markdown-text
 msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
 msgstr ""
+"Alle Jahre der Veröffentlichungen, entweder als Bereich (z. B. 2017-2019) "
+"oder als einzelne Einträge (z. B. 2017, 2018, 2019)."
 
 #. type: Bullet: '4. '
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr ""
+msgstr "Keine Angabe eines Jahres."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr ""
+msgstr "Welche Option Sie wählen, liegt letztendlich bei Ihnen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
+"Muss ich sowohl GPL-3.0-or-later als auch GPL-3.0-only in mein Repository "
+"aufnehmen? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
+"Mitglieder der GPL-Familie werden in der SPDX-Lizenzliste separat als -only "
+"und -or-later aufgeführt, obwohl die Lizenztexte identisch sind. Wenn Sie "
+"Code unter nur einer dieser Lizenzen haben, empfehlen wir, nur diese eine "
+"Lizenz anzugeben."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
+"Wenn Sie Code sowohl unter einer -only-Lizenz als auch unter einer -or-later-"
+"Lizenz haben, empfehlen wir, beide Lizenzen separat anzugeben."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
 msgstr ""
+"Was sind Lizenzausnahmen und wie gehe ich mit ihnen um? {#license-exceptions}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
+"Lizenzausnahmen sind Zusätze oder Änderungen einer Lizenz, die oft dazu "
+"dienen, eine bestimmte Verwendung des Codes zu erlauben, die unter der "
+"ursprünglichen Lizenz nicht erlaubt wäre. Sie werden häufig von Compilern "
+"verwendet, wenn ein Teil des Compiler-Codes in der resultierenden Binärdatei "
+"enthalten sein kann. Die Ausnahme kann auf Rechte für Teile des Codes "
+"verzichten, die in Binärdateien landen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
+"Ausnahmen werden fast identisch zu Lizenzen behandelt. Um eine Lizenz mit "
+"einer Ausnahme zu kombinieren, markieren Sie eine Datei mit dem folgenden "
+"Tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr ""
+msgstr "Welche Dateien sind urheberrechtsfähig? {#what-is-copyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
+"Alle Dateien, die Originalwerke der Urheberschaft sind, sind "
+"urheberrechtsfähig. Wenn sich jemand hinsetzt und seine eigenen originellen "
+"Gedanken auf einer Tastatur eintippt, dann hat diese Person das Urheberrecht "
+"an der Ausgabe. Übliche Beispiele sind Quellcode, Dokumentation, Audio und "
+"Video."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
 msgstr ""
+"Es gibt jedoch einige Grenzfälle. Zum Beispiel erfüllt das Programm `print("
+"\"Hallo, REUSE!\")` wahrscheinlich nicht die Schwelle der Originalität. "
+"Ebenso erfüllen Datendateien und Konfigurationsdateien diese Schwelle "
+"möglicherweise nicht."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What to do with uncopyrightable files? {#uncopyrightable}"
-msgstr ""
+msgstr "Was tun mit nicht urheberrechtsfähigen Dateien? {#uncopyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are two things that you can do with such a file to make sure that its copyright and licensing is recorded. The first option is to simply use your regular copyright and license header for this file. There is nothing that stops you from claiming copyright over your own works. However, a court would still likely find such files uncopyrightable."
 msgstr ""
+"Es gibt zwei Dinge, die Sie mit einer solchen Datei tun können, um "
+"sicherzustellen, dass ihr Copyright und ihre Lizenzierung aufgezeichnet "
+"werden. Die erste Möglichkeit ist, dass Sie einfach Ihren regulären "
+"Copyright- und Lizenz-Header für diese Datei verwenden. Es gibt nichts, was "
+"Sie daran hindert, das Urheberrecht über Ihre eigenen Werke zu beanspruchen. "
+"Allerdings würde ein Gericht solche Dateien wahrscheinlich trotzdem als "
+"nicht urheberrechtsfähig einstufen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The alternative is to waive your copyright by using the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license."
 msgstr ""
+"Die Alternative ist der Verzicht auf Ihr Urheberrecht durch die Verwendung "
+"der [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/)-Lizenz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is important to note that you can only do this for your own works. If the file was authored by someone else, you must declare their copyright and license in the header."
 msgstr ""
+"Es ist wichtig zu beachten, dass Sie dies nur für Ihre eigenen Werke tun "
+"können. Wenn die Datei von jemand anderem verfasst wurde, müssen Sie deren "
+"Copyright und Lizenz in der Kopfzeile angeben."
 
 #. type: Title ##
 #: faq.md
