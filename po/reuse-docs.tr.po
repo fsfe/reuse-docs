@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-24 12:33+0000\n"
+"PO-Revision-Date: 2021-07-30 13:33+0000\n"
 "Last-Translator: ToldYouThat <itoldyouthat@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "tr/>\n"
@@ -49,12 +49,14 @@ msgstr ""
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
+"İnsanların yazılım projelerini lisanslama şeklini geliştirmek istiyoruz. "
+"Bunu başarmak için üç adım teklif ediyoruz:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr ""
+msgstr "1. Lisansları seçin ve bulundurun {#step-1}"
 
 #. type: Plain text
 #: faq.md
@@ -171,7 +173,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "SPDX Nedir? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
