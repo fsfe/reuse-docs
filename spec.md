@@ -32,6 +32,16 @@ These are the definitions for some of the terms used in this specification:
   copyright holders of a file or work, and describes under which licenses the
   file or work is made available.
 
+- Covered File --- any file in a Project, except for
+    - The License Files.
+    - The files belonging to the Project's version control system (example:
+      `.git/`).
+    - The files ignored by the version control system (example: Files listed in
+      `.gitignore`).
+    - The files in the `.reuse/` directory in the root of the Project. This
+      directory MUST contain only files relevant for the operation of the REUSE
+      Tool.
+
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
 
@@ -55,8 +65,8 @@ These are the definitions for some of the terms used in this specification:
 
 ## License files
 
-A Project MUST include a License File for every license under which files in the
-Project are licensed.
+A Project MUST include a License File for every license under which Covered
+Files are licensed.
 
 Each License File MUST be placed in the `LICENSES/` directory in the root of
 the Project. The name of the License File MUST be the SPDX License Identifier of the
@@ -75,22 +85,8 @@ exception that does not exist in the SPDX License List.
 
 ## Copyright and Licensing Information
 
-Each file in the Project MUST have Copyright and Licensing Information
-associated with it, except the following files:
-
-- The License Files.
-
-- The files belonging to the Project's version control system (example:
-  `.git/`).
-
-- The files ignored by the version control system (example: Files listed in
-  `.gitignore`).
-
-- The files in the `.reuse/` directory in the root of the Project. This
-  directory MUST contain only files relevant for the operation of the REUSE
-  Tool.
-
-There are two ways to associate Copyright and Licensing Information with a
+Each Covered File MUST have Copyright and Licensing Information associated with
+it. There are two ways to associate Copyright and Licensing Information with a
 file.
 
 ### Comment headers
