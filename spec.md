@@ -22,6 +22,9 @@ log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md).
 
 These are the definitions for some of the terms used in this specification:
 
+- REUSE Tool --- helper tool for compliance with this Specification; available
+  at <https://github.com/fsfe/reuse-tool>.
+
 - Project --- any unit of content that can be associated with a distribution of
   software. Typically, a Project is composed of one or more files. Also
   sometimes called a package.
@@ -59,9 +62,6 @@ These are the definitions for some of the terms used in this specification:
   Where the REUSE Specification and DEP5 state different things, the REUSE
   Specification takes precedence. Specifically in the case of the `Copyright`
   and `License` tags.
-
-- REUSE Tool --- helper tool for compliance with this Specification; available
-  at <https://github.com/fsfe/reuse-tool>.
 
 ## License files
 
