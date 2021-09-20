@@ -30,7 +30,9 @@ These are the definitions for some of the terms used in this specification:
 
 - Copyright and Licensing Information --- the information that lists the
   copyright holders of a file or work, and describes under which licenses the
-  file or work is made available.
+  file or work is made available. If some Copyright and Licensing Information
+  says that something is made available under a particular license, then that
+  Copyright and Licensing Information uses that particular license.
 
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
@@ -55,8 +57,8 @@ These are the definitions for some of the terms used in this specification:
 
 ## License files
 
-A Project MUST include a License File for every license under which files in the
-Project are licensed.
+If a Project's Copyright and Licensing Information uses a particular license,
+then the Project MUST include a License File for that particular license.
 
 Each License File MUST be placed in the `LICENSES/` directory in the root of
 the Project. The name of the License File MUST be the SPDX License Identifier of the
@@ -66,8 +68,8 @@ license followed by an appropriate file extension (example:
 If a license does not exist in the SPDX License List, its SPDX License Identifier
 MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Section 6 available at <https://spdx.org/spdx-specification-21-web-version#h.1v1yuxt>.
 
-A Project MUST NOT include License Files for licenses under which none of the
-files in the Project are licensed.
+If a Project's Copyright and Licensing Information uses a particular license,
+then the Project MUST include a License File for that particular license.
 
 Everything that applies to licenses in this section also applies to license
 exceptions, with the exception that it is NOT possible to have a license
