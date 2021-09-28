@@ -53,7 +53,7 @@ These are the definitions for some of the terms used in this specification:
 - REUSE Tool --- helper tool for compliance with this Specification; available
   at <https://github.com/fsfe/reuse-tool>.
 
-## License files
+## License Files
 
 A Project MUST include a License File for every license under which files in the
 Project are licensed.
