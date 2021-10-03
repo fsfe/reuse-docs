@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-30 13:33+0000\n"
-"Last-Translator: ToldYouThat <itoldyouthat@protonmail.com>\n"
+"PO-Revision-Date: 2021-10-04 16:38+0000\n"
+"Last-Translator: Barış Güvenkaya <bguvenkaya@tutanota.de>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -56,25 +56,32 @@ msgstr ""
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr "1. Lisansları seçin ve bulundurun {#step-1}"
+msgstr "1. Lisans seçip temin edin {#step-1}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
+"Projeniz için bir [Özgür Yazılım](https://fsfe.org/about/basics/freesoftware)"
+" lisansı seçin. Lisansınızın SPDX tanımlayıcısını [SPDX lisans "
+"listesinden](https://spdx.org/licenses/) bulun. Lisansınızın metnini "
+"[license-list-data](https://github.com/spdx/license-list-data/tree/master/"
+"text) deposundan indirip `LICENSES/` dizinine ekleyin."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
-msgstr ""
+msgstr "Her dosyaya telif hakkı ve lisans bilgilerini ekleyin"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
 msgstr ""
+"Ardından, tüm dosyalar için başlığı aşağıda belirtilenleri içerecek şekilde "
+"düzenleyin:"
 
 #. type: Fenced code block
 #: faq.md
@@ -84,90 +91,130 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [yıl] [telif hakkı sahibi] <[e-posta adresi]>\n"
+"#\n"
+"# SPDX-Lisans Tanımlayıcısı: [tanımlayıcı]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "3. Confirm REUSE compliance {#step-3}"
-msgstr ""
+msgstr "3. REUSE uyumluluğunu doğrulayın {#step-3}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
+"Adımların bazılarını otomatize etmek için [REUSE aracını](https://github.com/"
+"fsfe/reuse-tool) kullanın, ve her şeyin yolunda gidip gitmediğini kontrol "
+"edin."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "Telif hakkı nedir? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
 msgstr ""
+"Telif hakkı, kişiye bir yaratıcı çalışma üzerinde özel haklar sağlayan yasal "
+"bir yapıdır. Bu haklardan en önemlisi ise copyright sözcüğünde bulunan kopya "
+"üretim hakkıdır. Yalnızca telif hakkı sahibinin çalışmalarının yeni "
+"kopyalarını başkalarıyla paylaşmasına yasal izni vardır."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
+"Genellikle, telif hakkı sahibi yazardır, ancak işbu hak sıklıkla yazarın "
+"işverenine devredilir. Çoğu yerde, telif hakkı kazanmak için herhangi bir "
+"şey yapmanız gerekmez. Yaratıcı bir çalışma yaptığınız anda, siz (veya "
+"işvereniniz) yaratıcı çalışmanın üzerinde o anda telif hakkı kazanırsınız."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
 msgstr ""
+"Creative Commons, [Sıkça Sorulan Sorular](https://creativecommons.org/faq/"
+"#what-is-copyright-and-why-does-it-matter) bölümünde konu üzerinde daha iyi "
+"ve daha uzun bir yanıt sağlıyor."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "Lisans nedir? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
 msgstr ""
+"Yazılımların telif hakkıyla ilgili sorunlardan birisi, telif hakkı yazılımı "
+"varsayılan olarak paylaşılamaz hale getirir. Bir lisans bunu değiştirir. "
+"Lisans, telif hakkı sahibinin lisans alıcısına yazılımı kullanmasına izin "
+"verdiği koşulları tanımlar."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Eğer belirtilen lisans alıcıya yazılımı [kullanma, üzerinde çalışma, "
+"paylaşma ve geliştirme](https://fsfe.org/freesoftware/basics/4freedoms.html) "
+"hakkı tanıyorsa, söz konusu yazılım [Özgür Yazılım](https://fsfe.org/about/"
+"basics/freesoftware) olarak tanımlanır."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "Hangi lisansı seçmeliyim? {#which-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
+"Her zaman alıcıya yazılımı kullanma, üzerinde çalışma, paylaşma, ve "
+"geliştirme izni veren Özgür Yazılım lisanslarından birini seçin. Buna ek "
+"olarak, lisans seçimi sizin kararınız.  Eğer zaten varolan bir projeye "
+"katkıda bulunuyorsanız, değişikliklerinizi projenin lisansını kullanarak "
+"paylaşmalısınız. Bunun dışında, [Özgür Yazılım Vakfı](https://www.gnu.org/"
+"licenses/license-recommendations.html), [choosealicense."
+"com](https://choosealicense.com/) ve [joinup.eu](https://joinup.ec.europa.eu/"
+"collection/eupl/joinup-licensing-assistant-jla) bu konuda iyi tavsiyelerde "
+"bulunuyor. Bu kaynakların her birinin farklı bir değeri vurguladığını ve "
+"kendi taraflı yargılarıyla yazıldığını aklınızda bulundurun."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
 msgstr ""
+"Her şeyden önce, özgürlüğe değer veriyorsanız, yazılımınızı [Özgür "
+"Yazılım](https://fsfe.org/about/basics/freesoftware.en.html) yapan bir "
+"lisans seçmelisiniz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
+"<!-- ## Tüm dosyalara lisans ve telif hakkı başlıklarını gerçekten eklemem "
+"gerekiyor mu? Neden umursamalıyım? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "TODO -->\n"
 
 #. type: Title ##
 #: faq.md
@@ -180,24 +227,35 @@ msgstr "SPDX Nedir? {#what-is-spdx}"
 #, markdown-text
 msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
 msgstr ""
+"SPDX, [Yazılım Paketi Veri Değişimi](https://spdx.org/) anlamına gelir. ["
+"Linux Foundation](https://www.linuxfoundation.org/) tarafından geliştirilmiş "
+"bir projedir ve REUSE'un temelidir. SPDX, projeler ve kişiler arasında telif "
+"hakkı ve lisans bilgilerini paylaşmanın standart bir yolunu tanımlar. REUSE "
+"için en önemli nokta SPDX'in birçok lisans için standartlaştırılmış "
+"tanımlayıcıları tanımlayan [SPDX Lisans Listesinin](https://spdx.org/"
+"licenses/) bakımını sağlamasıdır."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Araç {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "REUSE aracını nasıl yüklerim ve kullanırım? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
+"REUSE aracı, REUSE ile uyumluluğunuzu doğrulayabilen ve birçok beraberinde "
+"gelen görevi otomatize edebilen işe yarar bir yardımcıdır. Söz konusu araçla "
+"ilgili belgeleri <https://reuse.readthedocs.io/> adresinde bulabilirsiniz. "
+"Ama özet geçmek gerekirse:"
 
 #. type: Fenced code block
 #: faq.md
@@ -207,99 +265,129 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
 msgstr ""
+"Bir dosyayı REUSE uyumluluk testinden nasıl hariç tutarım? {#exclude-file}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
+"Söz konusu dosya bir build artifact ise ve Git kullanıyorsanız dosyanızın `."
+"gitignore` dosyanız tarafından kapsandığından emin olun."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
 msgstr ""
+"Bunun dışında, dosyalarınızı REUSE uyumluluk testinden hariç tutamazsınız. "
+"Bu işlem REUSE'un nihai amacı olan bütün dosyaların telif hakkı ve lisans "
+"etiketine sahip olduğunu temin etmeye aykırı olacaktır."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
+"Bir dosyayı gerçekten hariç tutmak istiyorsanız, bu dosya için "
+"[CC0](https://creativecommons.org/publicdomain/zero/1.0/) lisansını "
+"kullanmayı düşünün. Bunu yaparak, dosyayı kamuya açık hale veya ülkenizdeki "
+"eşdeğer duruma getirirsiniz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There is one exception: License files are automatically excluded from compliance testing."
 msgstr ""
+"Bir istisna vardır: Lisans dosyaları otomatik olarak uyumluluk testinden "
+"çıkarılır."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
+"REUSE uyumluluk testinden \"hariç tutmak\" istediğiniz bütün bir dizin "
+"varsa, bir [DEP5 dosyası](#bulk-license) kullanabilirsiniz."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr ""
+msgstr "Git dışında bir sürüm kontrol sistemini destekliyor musunuz? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
+"An itibariyle desteklemiyoruz, ama lütfen [iletişime geçin](https://github."
+"com/fsfe/reuse-tool/issues)."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr ""
+msgstr "Lisanslama ve uyumluluk {#licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr ""
+msgstr "<!-- ## Hangi lisanslar uyumlu? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
+"Telif hakkı beyanı için standart bir format var mı? {#standart-copyright}"
 
 #. type: Plain text
 #: faq.md
-#, markdown-text, no-wrap
+#, fuzzy, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
+"Genel olarak, `SPDX-FileCopyrightText: [yıl] [telif hakkı sahibi] <[iletişim "
+"adresi]>` formatını kullanmanızı öneririz.\n"
+"Her zaman dahil edilmesi gereken telif hakkı sahibi dışındaki ögeleri "
+"kullanmamayı tercih edebilirsiniz,\n"
+"Bununla birlikte, tüm öğeleri eklemenizi öneririz.\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
 msgstr ""
+"Şartname, telif hakkı bildiriminin tam biçimi hakkında bir bölüm içerir. "
+"[Şartnameye](/spec) ve [ardından gelen soruya](#copyright-symbol) bakın."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
 msgstr ""
+"Bunlardan hangisini kullanmalıyım: SPDX-FileCopyrightText, Copyright, veya ©"
+"? {#copyright-symbol}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification lists the following copyright notices as valid:"
 msgstr ""
+"Şartname, aşağıda belirtilen telif hakkı bildirimlerini geçerli olarak tanır:"
 
 #. type: Fenced code block
 #: faq.md spec.md
@@ -311,66 +399,77 @@ msgid ""
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
+"© Example Corporation <https://corp.example.com>\n"
+"Copyright 2016, 2018-2019 Joe Anybody\n"
+"Copyright (c) Alice\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
 msgstr ""
+"Bunlardan ilk ikisi özellikle tavsiye edilir. Diğerleri öncelikli olarak "
+"mevcut sözleşmelerle uyumlu olmak için bulunuyor."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr ""
+msgstr "<!-- TODO: Link to another question about © -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
-msgstr ""
+msgstr "Telif hakkı beyanına hangi yılları dahil etmeliyim? {#years-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Generally, there are four options for you to choose:"
-msgstr ""
+msgstr "Genelde seçebileceğiniz dört seçenek vardır:"
 
 #. type: Bullet: '1. '
 #: faq.md
 #, markdown-text
 msgid "The year of initial publication."
-msgstr ""
+msgstr "İlk yayın yılı."
 
 #. type: Bullet: '2. '
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr ""
+msgstr "Son yayın yılı."
 
 #. type: Bullet: '3. '
 #: faq.md
 #, markdown-text
 msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
 msgstr ""
+"Aralık (ör. 2017-2019) veya ayrı girişler (ör. 2017, 2018, 2019) olmak üzere "
+"tüm yayın yılları."
 
 #. type: Bullet: '4. '
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr ""
+msgstr "Hiçbir yılın dahil edilmemesi."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr ""
+msgstr "Hangi seçeneği seçeceğiniz en sonunda sizin elinizde."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
+"Depoma hem GPL-3.0-or-later hem de GPL-3.0-only lisanslarını eklemem gerekir "
+"mi? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
