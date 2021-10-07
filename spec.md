@@ -63,7 +63,7 @@ These are the definitions for some of the terms used in this specification:
   Specification takes precedence. Specifically in the case of the `Copyright`
   and `License` tags.
 
-## License files
+## License Files
 
 A Project MUST include a License File for every license under which Covered
 Files are licensed.
