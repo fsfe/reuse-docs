@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-10-04 16:38+0000\n"
-"Last-Translator: Barış Güvenkaya <bguvenkaya@tutanota.de>\n"
+"PO-Revision-Date: 2021-10-17 23:33+0000\n"
+"Last-Translator: ToldYouThat <itoldyouthat@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "tr/>\n"
 "Language: tr\n"
@@ -417,7 +417,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr "<!-- TODO: Link to another question about © -->\n"
+msgstr "<!-- YAPILACAKLAR: © hakkında başka bir soruya bağlantı -->\n"
 
 #. type: Title ##
 #: faq.md
