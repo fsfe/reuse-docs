@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-06-18 03:33+0000\n"
+"PO-Revision-Date: 2021-10-17 23:33+0000\n"
 "Last-Translator: Kristoffer Grundström <swedishsailfishosuser@tutanota.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "sv/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -87,6 +87,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [år] [copyright-hållaren] <[e-postadress]>\n"
+"#\n"
+"# SPDX-License-Identifier: [identifierare]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
