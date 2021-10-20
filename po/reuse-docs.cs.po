@@ -1,0 +1,1593 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2020-08-19 12:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: YAML Front Matter: title
+#: faq.md
+#, no-wrap
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "{{< toc >}}\n"
+msgstr ""
+
+#. type: Title #
+#: faq.md
+#, markdown-text, no-wrap
+msgid "General {#general}"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
+msgstr ""
+
+#. type: Title ##
+#: faq.md tutorial.md
+#, markdown-text, no-wrap
+msgid "1. Choose and provide licenses {#step-1}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
+msgstr ""
+
+#. type: Title ##
+#: faq.md tutorial.md
+#, markdown-text, no-wrap
+msgid "2. Add copyright and licensing information to each file {#step-2}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Then, for all files, edit the header to contain the following:"
+msgstr ""
+
+#. type: Fenced code block
+#: faq.md
+#, no-wrap
+msgid ""
+"# SPDX-FileCopyrightText: [year] [copyright holder] <[email address]>\n"
+"#\n"
+"# SPDX-License-Identifier: [identifier]\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md tutorial.md
+#, markdown-text, no-wrap
+msgid "3. Confirm REUSE compliance {#step-3}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What is copyright? {#what-is-copyright}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What is a license? {#what-is-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Which license should I choose? {#which-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "TODO -->\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What is SPDX? {#what-is-spdx}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
+msgstr ""
+
+#. type: Title #
+#: faq.md
+#, markdown-text, no-wrap
+msgid "The tool {#tool}"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I install and use the REUSE tool? {#install-tool}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
+msgstr ""
+
+#. type: Fenced code block
+#: faq.md
+#, no-wrap
+msgid ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "There is one exception: License files are automatically excluded from compliance testing."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Do you support a version control system other than Git? {#no-git}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
+msgstr ""
+
+#. type: Title #
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Licensing and compliance {#licensing}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid ""
+"Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
+"<[contact address]>`. You may choose to drop items except the copyright holder,\n"
+"which must always be included. We recommend that you include all items, however.\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The specification lists the following copyright notices as valid:"
+msgstr ""
+
+#. type: Fenced code block
+#: faq.md spec.md
+#, no-wrap
+msgid ""
+"SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
+"© Example Corporation <https://corp.example.com>\n"
+"Copyright 2016, 2018-2019 Joe Anybody\n"
+"Copyright (c) Alice\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "<!-- TODO: Link to another question about © -->\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Which years do I include in the copyright statement? {#years-copyright}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Generally, there are four options for you to choose:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: faq.md
+#, markdown-text
+msgid "The year of initial publication."
+msgstr ""
+
+#. type: Bullet: '2. '
+#: faq.md
+#, markdown-text
+msgid "The year of the latest publication."
+msgstr ""
+
+#. type: Bullet: '3. '
+#: faq.md
+#, markdown-text
+msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
+msgstr ""
+
+#. type: Bullet: '4. '
+#: faq.md
+#, markdown-text
+msgid "Do not include any year."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Which option you choose is ultimately up to you."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Which files are copyrightable? {#what-is-copyrightable}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What to do with uncopyrightable files? {#uncopyrightable}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "There are two things that you can do with such a file to make sure that its copyright and licensing is recorded. The first option is to simply use your regular copyright and license header for this file. There is nothing that stops you from claiming copyright over your own works. However, a court would still likely find such files uncopyrightable."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The alternative is to waive your copyright by using the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "It is important to note that you can only do this for your own works. If the file was authored by someone else, you must declare their copyright and license in the header."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I copy someone else's work? {#copy-work}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Where else do I put my license information? {#where-else}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Can I bulk-license whole directories? {#bulk-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
+msgstr ""
+
+#. type: Fenced code block
+#: faq.md
+#, no-wrap
+msgid ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: my-project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://git.example.com/jane/my-project\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"           2017 John Doe <john@example.com>\n"
+"License: CC0-1.0\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Can I license only a part of a file as being under a different license? {#partial-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The short answer is that yes, you can, but no, there is no standard way for REUSE to recognize this. If you have a small segment of a file that is licensed differently, you should list that license under a separate `SPDX-License-Identifier` tag in the header."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You can use your own comments to specify which segment is separately licensed.  For instance: \"The class Foo is copied from project Bar and licensed under MIT.  All changes are licensed under GPL-3.0-or-later.\""
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "A possible way to circumvent the problem is to extract the segment from the file, and to keep it in its own file."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I properly declare multi-licensing? {#multi-licensing}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You should always include all licenses in the `LICENSES/` directory."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "The correct SPDX license expression that applies to the file depends on the intent. If all the code within is licensed under multiple licenses, and the licensee can choose under which license they consume the work, use `SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, as parts of Firefox do."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If all the code within the file is licensed under multiple licenses, and the user must comply with all licenses simultaneously, use `SPDX-License-Identifier: LGPL-2.0-or-later AND AML`, as can be found in Simple DirectMedia Layer (SDL)."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If all the code within the file is licensed under either one license or another (for instance, all code is under GPL-2.0-only, but one function is under MIT), use separate tags `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-License-Identifier: MIT`."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You can read more about SPDX expressions [on the SPDX wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ)."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "TODO: Figure this one out -->\n"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "I only have a single license file. Should I still create a LICENSES directory? {#single-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Yes. This may seem extraneous, but it prevents future confusion when differently licensed code is adopted. By keeping all licenses in a single directory, it is easy for a user of your program to find all the licenses they need to comply with in the blink of an eye."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Should I put comment headers in my license files? {#header-in-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You should not edit license files. Please see [this question](#edit-license)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I use a license that is not on the SPDX License List? {#custom-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid "<!-- TODO: Explain that the user probably shouldn't use a custom license -->\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you have a custom or modified license that does not appear in the SPDX License List, place your license in the file `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that speak SPDX will still be able to recognise your license."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "How do I use a custom exception? {#custom-exception}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "It is not possible to create a custom exception. Instead, you may [create a custom license](#custom-license) that embeds the exception."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Should I edit my license files? {#edit-license}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You should never edit license files. When you use an existing license, you should always copy it verbatim."
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text, no-wrap
+msgid ""
+"<!-- TODO: the linked section still needs to be written.\n"
+"Some licenses, such as MIT and the BSD family of licenses, have a line that says\n"
+"\"Copyright (c) [year] [copyright holder]\". Please see [this question](#mit-bsd)\n"
+"about how to deal with those licenses.\n"
+"-->\n"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "There are many reasons for why you should not alter license texts, but if you do alter the texts, you should use a different SPDX identifier for this license.  See [the previous question](#custom-license)."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Can I edit copyright notices and license disclaimers? {#edit-copyright-and-licensing}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "If you find out that some information is incorrect, you are free to adjust it.  Otherwise, it is usually a good idea to leave copyright notices and license disclaimers intact. But there is no one-size-fits-all answer here."
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "You can, but you probably should not. Many minifiers have an option that allows you to retain the header comment. If this option is present, you should use it, especially if you use a license that mandates that you include a license disclaimer."
+msgstr ""
+
+#. type: Title #
+#: faq.md
+#, markdown-text, no-wrap
+msgid "For lawyers and legal experts {#lawyers}"
+msgstr ""
+
+#. type: Title ##
+#: faq.md
+#, markdown-text, no-wrap
+msgid "I am a lawyer and want a bill of materials {#bill-of-materials}"
+msgstr ""
+
+#. type: Plain text
+#: faq.md
+#, markdown-text
+msgid "Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root to create an [SPDX document](https://spdx.org/spdx-specification-21-web-version)."
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: spec.md
+#, no-wrap
+msgid "REUSE Specification – Version 3.0"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "This specification defines a standardized method for declaring copyright and licensing for software projects. The goal of the specification is to have unambiguous, human- and machine-readable copyright and licensing information for each individual file in a project. Ideally this information is embedded into every file, so that the information is preserved when the file is copied and reused by third parties."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "This specification implements [IETF RFC 2119: Key words for use in RFCs to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "For the revision history of this specification, please see [the change log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md)."
+msgstr ""
+
+#. type: Title ##
+#: spec.md
+#, markdown-text, no-wrap
+msgid "Definitions"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "These are the definitions for some of the terms used in this specification:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "Project --- any unit of content that can be associated with a distribution of software. Typically, a Project is composed of one or more files. Also sometimes called a package."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "- License File --- a file containing the text of a license."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "Copyright and Licensing Information --- the information that lists the copyright holders of a file or work, and describes under which licenses the file or work is made available."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "SPDX Specification --- SPDX specification, version 2.1; as available on <https://spdx.org/specifications>."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX Specification. See also <https://spdx.org/ids> for a short introduction and examples."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "- SPDX License Expression --- as defined in SPDX Specification, Appendix IV, at <https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60>."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "SPDX License List --- a list of commonly found licenses and exceptions; as available on <https://spdx.org/licenses/>."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "DEP5 --- [Machine-readable `debian/copyright` file, Version 1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).  Where the REUSE Specification and DEP5 state different things, the REUSE Specification takes precedence. Specifically in the case of the `Copyright` and `License` tags."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "REUSE Tool --- helper tool for compliance with this Specification; available at <https://github.com/fsfe/reuse-tool>."
+msgstr ""
+
+#. type: Title ##
+#: spec.md
+#, markdown-text, no-wrap
+msgid "License files"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "A Project MUST include a License File for every license under which files in the Project are licensed."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Each License File MUST be placed in the `LICENSES/` directory in the root of the Project. The name of the License File MUST be the SPDX License Identifier of the license followed by an appropriate file extension (example: `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "If a license does not exist in the SPDX License List, its SPDX License Identifier MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Section 6 available at <https://spdx.org/spdx-specification-21-web-version#h.1v1yuxt>."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "A Project MUST NOT include License Files for licenses under which none of the files in the Project are licensed."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Everything that applies to licenses in this section also applies to license exceptions, with the exception that it is NOT possible to have a license exception that does not exist in the SPDX License List."
+msgstr ""
+
+#. type: Title ##
+#: spec.md
+#, markdown-text, no-wrap
+msgid "Copyright and Licensing Information"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Each file in the Project MUST have Copyright and Licensing Information associated with it, except the following files:"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "- The License Files."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "The files belonging to the Project's version control system (example: `.git/`)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "The files ignored by the version control system (example: Files listed in `.gitignore`)."
+msgstr ""
+
+#. type: Bullet: '- '
+#: spec.md
+#, markdown-text
+msgid "The files in the `.reuse/` directory in the root of the Project. This directory MUST contain only files relevant for the operation of the REUSE Tool."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "There are two ways to associate Copyright and Licensing Information with a file."
+msgstr ""
+
+#. type: Title ###
+#: spec.md
+#, markdown-text, no-wrap
+msgid "Comment headers"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "To implement this method, each plain text file that can contain comments MUST contain comments at the top of the file (comment header) that declare that file's Copyright and Licensing Information."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "If a file is not a plain text file or does not permit the inclusion of comments, the comment header that declares the file's Copyright and Licensing Information SHOULD be in an adjacent file of the same name with the additional extension `.license` (example: `cat.jpg.license` if the original file is `cat.jpg`)."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by a text value, and terminated by a newline."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY be used, in which case a colon is not needed."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License Expression describing the licensing of the file (example: `SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed differently, a different `SPDX-License-Identifier` tag MUST be included for each section."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "An example of a comment header:"
+msgstr ""
+
+#. type: Fenced code block
+#: spec.md
+#, no-wrap
+msgid ""
+"# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>\n"
+"# SPDX-FileCopyrightText: 2019 Example Company\n"
+"#\n"
+"# SPDX-License-Identifier: GPL-3.0-or-later\n"
+msgstr ""
+
+#. type: Title ###
+#: spec.md
+#, markdown-text, no-wrap
+msgid "DEP5"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Alternatively, Copyright and Licensing Information MAY be associated with a file through a DEP5 file. The intended use case of this method is large directories where including a comment header in each file (or in `.license` companion files) is impossible or undesirable."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the root of the Project (i.e. `.reuse/dep5`)."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The `License` tag MUST be followed by a valid SPDX License Expression describing the licensing of the associated files."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The `Copyright` tag MUST be followed by a copyright notice."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "An example of a DEP5 file:"
+msgstr ""
+
+#. type: Fenced code block
+#: spec.md
+#, no-wrap
+msgid ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://example.com/jane/project\n"
+"\n"
+"Files: po/*\n"
+"Copyright: 2019 Translation Company\n"
+"License: GPL-3.0-or-later\n"
+msgstr ""
+
+#. type: Title ##
+#: spec.md
+#, markdown-text, no-wrap
+msgid "Format of copyright notices"
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "A copyright notice MUST be prefixed by a tag, symbol or word denoting a copyright notice as described in this specification."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The copyright notice MUST contain the name of the copyright holder. The copyright notice SHOULD contain the year of publication and the contact address of the copyright holder. The order of these items SHOULD be: year, name, contact address."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The year of publication MAY be a single year, multiple years, or a span of years."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "The copyright holder MAY be an individual, list of individuals, group, legal entity, or any other descriptor by which one can easily identify the copyright holder(s)."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Any contact address SHOULD be in between angle brackets."
+msgstr ""
+
+#. type: Plain text
+#: spec.md
+#, markdown-text
+msgid "Examples of valid copyright notices:"
+msgstr ""
+
+#. type: YAML Front Matter: title
+#: tutorial.md
+#, no-wrap
+msgid "Tutorial: How to become REUSE-compliant"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "This tutorial explains the basic methods of how to make a software project REUSE-compliant. By the end of this document, all your files will clearly have their copyright and licensing marked, and you will be able to verify this using the REUSE helper tool."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Making your project REUSE-compliant can be done in three simple steps:"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: tutorial.md
+#, markdown-text
+msgid "Choose and provide licenses"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: tutorial.md
+#, markdown-text
+msgid "Add copyright and license information to each file"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: tutorial.md
+#, markdown-text
+msgid "Confirm REUSE compliance"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "For the purpose of this tutorial, we will assume that the directory of your project looks like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   └── dog.jpg\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "If you would like to reproduce the steps in this tutorial on your own computer, you can clone the [example repository](https://github.com/fsfe/reuse-example). The branch `noncompliant` matches the structure above, while the `master` branch is the successful result of this repository."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "For each of these steps, you will first learn how to achieve them manually. However, the [REUSE helper tool](https://github.com/fsfe/reuse-tool) supports you with most tasks, and the necessary commands will be listed as well in the collapsible boxes. We recommend to first understand the basic principle before just executing the tool's commands."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid ""
+"The first thing you need to do is to [choose a license]({{< relref\n"
+"\"faq.md#which-license\" >}}). For this tutorial, we assume that you chose the GNU\n"
+"General Public License (GPL) v3.0 or any later version. More than simply\n"
+"choosing a license, you need to put the license in your project directory.\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You find your license in the [SPDX License List](https://spdx.org/licenses/).  SPDX is an open standard for communicating license and copyright information.  Each license is uniquely identified by a shortform [SPDX License Identifier](https://spdx.org/licenses). The SPDX License Identifier for your chosen license is GPL-3.0-or-later."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You create a `LICENSES` directory in your project root which will contain all the licenses that you use in your project. You then download your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES` directory. The name of the license should be its SPDX License Identifier followed by a file extension (in this example, GPL-3.0-or-later.txt)."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "{{< box-tool >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You can initialise your project using `reuse init`. In an interactive dialogue you can define certain properties of your project and also one or multiple licenses. At the end, these licenses will be automatically downloaded to the correct location."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The `reuse download` command enables you to download a specific license. `reuse download GPL-3.0-or-later` would fulfil the task described in the manual instructions above. Running `reuse download --all` automatically downloads all licenses which the REUSE helper tool detects as being used in your project."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "{{< /box-tool >}}\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Now that you have a license, you need to indicate in the relevant files that these files fall under that license. You edit the comment header of `src/main.c` as such:"
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"/*\n"
+" * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+" *\n"
+" * SPDX-License-Identifier: GPL-3.0-or-later\n"
+" */\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid ""
+"The `SPDX-FileCopyrightText` tag records the publication years and copyright holder of\n"
+"the contents of the file. You can read more about [which publication years to\n"
+"use]({{< relref \"faq.md#years-copyright\" >}}) and [what copyright holders\n"
+"are]({{< relref \"faq.md#copyright-holder-author\" >}}) in the FAQ.\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The `SPDX-License-Identifier` tag is followed by a [valid SPDX License Expression](https://spdx.org/specifications), typically just the SPDX License Identifier of the license."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Each file must always contain these two tags in the header. You are allowed to use the tags multiple times if you have multiple copyright holders or licenses."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "In the example project, you also edit `Makefile` and `README.md` using this header information, but of course with corresponding comment syntax."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: tutorial.md
+#, no-wrap
+msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
+msgstr ""
+
+#. type: Title ###
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Binary and uncommentable files"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You also want to license your image files under GPL-3.0-or-later.  Unfortunately, images and other binary files do not have comment headers that one can easily edit. Other examples include automatically generated files and certain data and configuration files for which comments are non-trivial."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "There is a simple trick to circumvent this. Create the files `cat.jpg.license` and `dog.jpg.license`, each containing the same information about license and copyright holder as above."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The REUSE helper tool should automatically detect binary files and therefore automatically create a corresponding `.license` file."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: tutorial.md
+#, no-wrap
+msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+msgstr ""
+
+#. type: Title ###
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Change licensing information"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You discover that the photos of the cat and the dog were not licensed under the GPL at all, but under Creative Commons Attribution 4.0 International, owned by Max Mehl."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The SPDX License Identifier of this license is CC-BY-4.0. You create the file `LICENSES/CC-BY-4.0.txt`, following the same steps you used for GPL-3.0-or-later."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You then edit `cat.jpg.license` and `dog.jpg.license` to say:"
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
+"\n"
+"SPDX-License-Identifier: CC-BY-4.0\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "However, the `download` command afterwards would allow you to download the new license automatically, so either with `reuse download CC-BY-4.0` or simply `reuse download --all`."
+msgstr ""
+
+#. type: Title ###
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Build artifacts"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "When you compile your program, you generate some build artifacts, such as `src/main.o`.  You do not need to provide any licensing information for those files.  Just use your `.gitignore` file to ignore these build artifacts.  The REUSE tool will respect the contents of `.gitignore`."
+msgstr ""
+
+#. type: Title ###
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Insignificant files"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "You probably will have files in your project that you do not find particularly copyrightable, for example configuration files such as `.gitignore`. Intuitively you may not want to license these files, but the fundamental idea of REUSE is that all your files will clearly have their copyright and licensing marked."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "If you do not exercise any copyright over this file, you can use the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). This is functionally identical to putting the file in the public domain. Edit the file to contain:"
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"#\n"
+"# SPDX-License-Identifier: CC0-1.0\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid ""
+"More information about copyrightable files can be found in the [REUSE FAQ]({{< relref\n"
+"\"faq.md#what-is-copyrightable\" >}}).\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
+msgstr ""
+
+#. type: Fenced code block (bash)
+#: tutorial.md
+#, no-wrap
+msgid ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
+"\n"
+"reuse download --all\n"
+msgstr ""
+
+#. type: Title ###
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Result"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Your project tree will now look like this:"
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   ├── cat.jpg.license\n"
+"│   ├── dog.jpg\n"
+"│   └── dog.jpg.license\n"
+"├── LICENSES/\n"
+"│   ├── CC0-1.0.txt\n"
+"│   ├── CC-BY-4.0.txt\n"
+"│   └── GPL-3.0-or-later.txt\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Now that you have marked all files with their copyright and licensing, it is time to check whether you did not miss anything. To do this, we provide a helper tool for you to use. You can read the [full documentation](https://reuse.readthedocs.io/), or read the quick steps below."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter."
+msgstr ""
+
+#. type: Fenced code block
+#: tutorial.md
+#, no-wrap
+msgid ""
+"$ cd path/to/project/\n"
+"$ reuse lint\n"
+"# SUMMARY\n"
+"\n"
+"* Bad licenses:\n"
+"* Deprecated licenses:\n"
+"* Licenses without file extension:\n"
+"* Missing licenses:\n"
+"* Unused licenses:\n"
+"* Used licenses: CC-BY-4.0, CC0-1.0, GPL-3.0-or-later\n"
+"* Read errors: 0\n"
+"* Files with copyright information: 6 / 6\n"
+"* Files with license information: 6 / 6\n"
+"\n"
+"Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)\n"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "As you can see in the last line, the tool confirms that your project is compliant with REUSE now! To learn what the different sections mean, please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint)."
+msgstr ""
+
+#. type: Title ##
+#: tutorial.md
+#, markdown-text, no-wrap
+msgid "Getting help"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "After going through this tutorial, you understood REUSE and the three basic steps to properly license your software project – well done! But although we have covered a few edge cases, you might run into more questions soon. But don't worry, we are here to help!:"
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "- Our [Frequently Asked Questions](https://reuse.software/faq) covers common questions as well as extraordinary cases and will constantly be updated."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "- The full [REUSE specification](https://reuse.software/spec) formally describes REUSE and the methods to become compliant."
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorial.md
+#, markdown-text
+msgid "The [REUSE tool documentation](https://reuse.readthedocs.io/) describes installation and usage of the REUSE tool."
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorial.md
+#, markdown-text
+msgid "Our [help for developers](https://reuse.software/dev/) lists various resources for programmers like the tool, the API, or how to include checks in CI/CD workflows."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "If none of the links above were able to answer your question, please contact us by:"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorial.md
+#, markdown-text
+msgid "opening an issue on [reuse-docs](https://github.com/fsfe/reuse-docs) for questions on the tutorial, FAQ or specification;"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorial.md
+#, markdown-text
+msgid "opening an issue on [reuse-tool](https://github.com/fsfe/reuse-tool) for questions on the REUSE tool;"
+msgstr ""
+
+#. type: Bullet: '- '
+#: tutorial.md
+#, markdown-text
+msgid "or [sending an email to the FSFE](https://fsfe.org/contact). Please note that we would prefer issues because they are publicly searchable for other people."
+msgstr ""
+
+#. type: Plain text
+#: tutorial.md
+#, markdown-text
+msgid "Thank you for your valuable contribution towards making software reusable!"
+msgstr ""
