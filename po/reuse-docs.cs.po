@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-10-20 03:37+0000\n"
+"PO-Revision-Date: 2021-10-21 04:37+0000\n"
 "Last-Translator: trendspotter <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/fsfe/reuse-docs/cs/"
 ">\n"
@@ -42,36 +42,47 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
+"Mám málo času. Můžete mi poskytnout co nejrychlejší shrnutí? {#quick-summary}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
+"Chceme zlepšit způsob, jakým lidé licencují své softwarové projekty. "
+"Navrhujeme tři kroky, jak toho dosáhnout:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr ""
+msgstr "1. Výběr a poskytnutí licencí {#step-1}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
+"Vyberte si pro svůj projekt licenci [Free Software](https://fsfe.org/about/"
+"basics/freesoftware). V seznamu [Seznam licencí SPDX](https://spdx.org/"
+"licenses/) vyhledejte identifikátor licence SPDX. Stáhněte si text licence "
+"pro svou licenci z úložiště [license-list-data](https://github.com/spdx/"
+"license-list-data/tree/master/text) a vložte jej do adresáře `LICENSES/`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
+"2. Do každého souboru přidejte informace o autorských právech a licencích "
+"{#step-2}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
 msgstr ""
+"Poté upravte záhlaví všech souborů tak, aby obsahovalo následující údaje:"
 
 #. type: Fenced code block
 #: faq.md
@@ -86,7 +97,7 @@ msgstr ""
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "3. Confirm REUSE compliance {#step-3}"
-msgstr ""
+msgstr "3. Potvrďte soulad s pravidly REUSE {#step-3}"
 
 #. type: Plain text
 #: faq.md
