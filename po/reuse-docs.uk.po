@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-15 04:32+0000\n"
+"PO-Revision-Date: 2021-11-27 11:51+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.10-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -957,30 +957,40 @@ msgstr ""
 #, markdown-text
 msgid "Yes. This may seem extraneous, but it prevents future confusion when differently licensed code is adopted. By keeping all licenses in a single directory, it is easy for a user of your program to find all the licenses they need to comply with in the blink of an eye."
 msgstr ""
+"Так. Це може здатися зайвим, але це запобігає плутанині в майбутньому, коли "
+"приймається код під іншою ліцензією. Зберігаючи всі ліцензії в одному "
+"каталозі, користувачеві вашої програми легко знайти всі ліцензії, яких вони "
+"одночасно повинні дотримуватися."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Should I put comment headers in my license files? {#header-in-license}"
 msgstr ""
+"Чи слід класти заголовки коментарів у файли ліцензій? {#header-in-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should not edit license files. Please see [this question](#edit-license)."
 msgstr ""
+"Не слід редагувати файли ліцензій. Перегляньте [це питання](#edit-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I use a license that is not on the SPDX License List? {#custom-license}"
 msgstr ""
+"Як використовувати ліцензію, якої немає у списку ліцензій SPDX? {#custom-"
+"license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Explain that the user probably shouldn't use a custom license -->\n"
 msgstr ""
+"<!-- TODO: Explain that the user probably shouldn't use a custom license -->"
+"\n"
 
 #. type: Plain text
 #: faq.md
