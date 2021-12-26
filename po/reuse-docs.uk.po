@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-11-27 11:51+0000\n"
+"PO-Revision-Date: 2021-12-27 09:52+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -997,30 +997,38 @@ msgstr ""
 #, markdown-text
 msgid "If you have a custom or modified license that does not appear in the SPDX License List, place your license in the file `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that speak SPDX will still be able to recognise your license."
 msgstr ""
+"Якщо у вас є власна або модифікована ліцензія, відсутня у списку ліцензій "
+"SPDX, розмістіть ліцензію у файлі `LICENSES/LicenseRef-MyLicense.txt`. "
+"Називаючи ліцензію як таку, інструменти, які обробляють SPDX, все одно "
+"зможуть розпізнати вашу ліцензію."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I use a custom exception? {#custom-exception}"
-msgstr ""
+msgstr "Як використовувати власний виняток? {#custom-exception}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is not possible to create a custom exception. Instead, you may [create a custom license](#custom-license) that embeds the exception."
 msgstr ""
+"Неможливо створити власний виняток. Замість цього ви можете [створити власну "
+"ліцензію](#custom-license), яка вбудовує виняток."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Should I edit my license files? {#edit-license}"
-msgstr ""
+msgstr "Чи потрібно редагувати файли ліцензії? {#edit-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should never edit license files. When you use an existing license, you should always copy it verbatim."
 msgstr ""
+"Ніколи не редагуйте файли ліцензій. Коли ви використовуєте чинну ліцензію, "
+"ви завжди повинні копіювати її дослівно."
 
 #. type: Plain text
 #: faq.md
@@ -1032,36 +1040,58 @@ msgid ""
 "about how to deal with those licenses.\n"
 "-->\n"
 msgstr ""
+"<!-- TODO: the linked section still needs to be written.\n"
+"Some licenses, such as MIT and the BSD family of licenses, have a line that "
+"says\n"
+"\"Copyright (c) [year] [copyright holder]\". Please see [this question](#mit-"
+"bsd)\n"
+"about how to deal with those licenses.\n"
+"-->\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are many reasons for why you should not alter license texts, but if you do alter the texts, you should use a different SPDX identifier for this license.  See [the previous question](#custom-license)."
 msgstr ""
+"Існує багато причин, чому ви не повинні змінювати тексти ліцензій, але якщо "
+"ви змінюєте тексти, вам слід використовувати інший ідентифікатор SPDX для "
+"цієї ліцензії.  ДиЧитайте [попереднє запитання](#custom-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I edit copyright notices and license disclaimers? {#edit-copyright-and-licensing}"
 msgstr ""
+"Чи можна редагувати повідомлення про авторські права та відмову від "
+"відповідальності? {#edit-copyright-and-licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you find out that some information is incorrect, you are free to adjust it.  Otherwise, it is usually a good idea to leave copyright notices and license disclaimers intact. But there is no one-size-fits-all answer here."
 msgstr ""
+"Якщо ви виявите, що якісь відомості неправильні, ви можете доповнити їх.  В "
+"іншому випадку, як правило, краще лишити повідомлення про авторські права та "
+"ліцензії відмови від відповідальності недоторканими. Але тут немає єдиної "
+"відповіді."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}"
 msgstr ""
+"Чи можу я вилучити ліцензію та відомості про авторські права з "
+"мініфікованого коду (наприклад, JavaScript)? {#minified}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can, but you probably should not. Many minifiers have an option that allows you to retain the header comment. If this option is present, you should use it, especially if you use a license that mandates that you include a license disclaimer."
 msgstr ""
+"Ви можете, але, ймовірно, не потрібно. Багато мініфікаторів мають опцію, яка "
+"дає змогу зберегти коментар заголовка. Якщо цей параметр присутній, його "
+"слід використовувати, особливо якщо ви використовуєте ліцензію, яка "
+"передбачає включення відмови від відповідальності за ліцензію."
 
 #. type: Title #
 #: faq.md
@@ -1073,19 +1103,22 @@ msgstr "Для юристів та фахівців з права {#lawyers}"
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am a lawyer and want a bill of materials {#bill-of-materials}"
-msgstr ""
+msgstr "Я правник і хочу отримати перелік матеріалів {#bill-of-materials}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root to create an [SPDX document](https://spdx.org/spdx-specification-21-web-version)."
 msgstr ""
+"Установіть засіб reuse та запустіть `reuse spdx -o reuse.spdx` у кореневому "
+"каталозі проєкту, щоб створити [документ SPDX](https://spdx.org/spdx-"
+"specification-21-web-version)."
 
 #. type: YAML Front Matter: title
 #: spec.md
 #, no-wrap
 msgid "REUSE Specification – Version 3.0"
-msgstr ""
+msgstr "Специфікація REUSE – версія 3.0"
 
 #. type: Plain text
 #: spec.md
