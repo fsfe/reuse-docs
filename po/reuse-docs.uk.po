@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-12-27 09:52+0000\n"
+"PO-Revision-Date: 2021-12-29 21:50+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -1148,7 +1148,7 @@ msgstr "Визначення"
 #: spec.md
 #, markdown-text
 msgid "These are the definitions for some of the terms used in this specification:"
-msgstr ""
+msgstr "Ось визначення деяких термінів, що використовуються в цій специфікації:"
 
 #. type: Bullet: '- '
 #: spec.md
@@ -1160,7 +1160,7 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "- License File --- a file containing the text of a license."
-msgstr ""
+msgstr "- Файл ліцензії --- файл, що містить текст ліцензії."
 
 #. type: Bullet: '- '
 #: spec.md
@@ -1246,7 +1246,7 @@ msgstr ""
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Copyright and Licensing Information"
-msgstr ""
+msgstr "Відомості про авторські права та ліцензування"
 
 #. type: Plain text
 #: spec.md
@@ -1341,7 +1341,7 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "An example of a comment header:"
-msgstr ""
+msgstr "Приклад заголовка коментаря:"
 
 #. type: Fenced code block
 #: spec.md
@@ -1361,7 +1361,7 @@ msgstr ""
 #: spec.md
 #, markdown-text, no-wrap
 msgid "DEP5"
-msgstr ""
+msgstr "DEP5"
 
 #. type: Plain text
 #: spec.md
@@ -1391,7 +1391,7 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "An example of a DEP5 file:"
-msgstr ""
+msgstr "Приклад файлу DEP5:"
 
 #. type: Fenced code block
 #: spec.md
@@ -1419,7 +1419,7 @@ msgstr ""
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Format of copyright notices"
-msgstr ""
+msgstr "Формат повідомлень про авторські права"
 
 #. type: Plain text
 #: spec.md
@@ -1437,7 +1437,7 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "The year of publication MAY be a single year, multiple years, or a span of years."
-msgstr ""
+msgstr "Рік публікації МОЖЕ бути один рік, кілька років, або проміжок років."
 
 #. type: Plain text
 #: spec.md
@@ -1449,13 +1449,13 @@ msgstr ""
 #: spec.md
 #, markdown-text
 msgid "Any contact address SHOULD be in between angle brackets."
-msgstr ""
+msgstr "Будь-яка контактна адреса ПОВИННА розміщуватися між кутовими дужками."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Examples of valid copyright notices:"
-msgstr ""
+msgstr "Приклади правильних повідомлень про авторські права:"
 
 #. type: YAML Front Matter: title
 #: tutorial.md
@@ -1479,19 +1479,19 @@ msgstr ""
 #: tutorial.md
 #, markdown-text
 msgid "Choose and provide licenses"
-msgstr ""
+msgstr "Виберіть і вкажіть ліцензії"
 
 #. type: Bullet: '2. '
 #: tutorial.md
 #, markdown-text
 msgid "Add copyright and license information to each file"
-msgstr ""
+msgstr "Додайте інформацію про авторські права та ліцензію до кожного файлу"
 
 #. type: Bullet: '3. '
 #: tutorial.md
 #, markdown-text
 msgid "Confirm REUSE compliance"
-msgstr ""
+msgstr "Підтвердьте відповідність REUSE"
 
 #. type: Plain text
 #: tutorial.md
@@ -1655,7 +1655,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Binary and uncommentable files"
-msgstr ""
+msgstr "Двійкові та некоментовані файли"
 
 #. type: Plain text
 #: tutorial.md
@@ -1711,7 +1711,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text
 msgid "You then edit `cat.jpg.license` and `dog.jpg.license` to say:"
-msgstr ""
+msgstr "Потім ви редагуєте `cat.jpg.license` і `dog.jpg.license`, щоб сказати:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1721,6 +1721,9 @@ msgid ""
 "\n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
+"\n"
+"SPDX-License-Identifier: CC-BY-4.0\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1750,7 +1753,7 @@ msgstr ""
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Insignificant files"
-msgstr ""
+msgstr "Незначні файли"
 
 #. type: Plain text
 #: tutorial.md
@@ -1772,6 +1775,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: CC0-1.0\n"
 msgstr ""
+"# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"#\n"
+"# SPDX-License-Identifier: CC0-1.0\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1801,18 +1807,22 @@ msgid ""
 "\n"
 "reuse download --all\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
+".0\" .gitignore\n"
+"\n"
+"reuse download --all\n"
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Result"
-msgstr ""
+msgstr "Результат"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Your project tree will now look like this:"
-msgstr ""
+msgstr "Ваше дерево проєкту тепер матиме такий вигляд:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1970,3 +1980,5 @@ msgstr ""
 #, markdown-text
 msgid "Thank you for your valuable contribution towards making software reusable!"
 msgstr ""
+"Дякуємо вам за ваш цінний внесок у створення програмного забезпечення для "
+"повторного використання!"
