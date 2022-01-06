@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-09-20 00:48+0000\n"
-"Last-Translator: William Weber Berrutti <wwberrutti@protonmail.ch>\n"
+"PO-Revision-Date: 2022-01-08 21:56+0000\n"
+"Last-Translator: Gabriel Gian <gabrielgian@live.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -465,12 +465,18 @@ msgstr ""
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
+"Membros da família GPL estão listados separadamente na Lista de Licenças "
+"SPDX como -only e -or-later, ainda que os textos das licenças sejam "
+"idênticos. Se você tem código sob uma dessas licenças, nós recomendamos que "
+"você inclua apenas essa única licença."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
+"Se você tem código sob tanto uma licença -only quanto uma licença -or-later, "
+"nós recomendamos que você inclua as duas licenças separadamente."
 
 #. type: Title ##
 #: faq.md
@@ -484,12 +490,21 @@ msgstr ""
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
+"Exceções de licenças são adições ou alterações em uma licença que muitas "
+"vezes funcionam permitindo um certo uso do código que não seria permitido "
+"sob a licença original. São comumente utilizadas por compiladores, onde uma "
+"porção do código do compilador pode terminar no binário resultante. A "
+"exceção pode deferir direitos sob porções do código que terminam em binários."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
+"Exceções são tratadas quase que de maneira idêntica às licenças. Para "
+"combinar uma licença com uma exceção, você deve marcar um arquivo com a "
+"seguinte tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3"
+".1`."
 
 #. type: Title ##
 #: faq.md
@@ -503,6 +518,10 @@ msgstr ""
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
+"Todos os arquivos que são trabalhos originais com autoria podem ter "
+"copyright. Em essência, se alguém sentasse digitando seus próprios "
+"pensamentos originais em um teclado, esta pessoa teria o copyright do seu "
+"produto. Exemplos comuns são os códigos-fonte, documentações, áudio e vídeo."
 
 #. type: Plain text
 #: faq.md
