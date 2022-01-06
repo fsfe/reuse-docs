@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-01-05 20:56+0000\n"
+"PO-Revision-Date: 2022-01-08 21:56+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/fsfe/reuse-docs/cs/"
 ">\n"
@@ -35,7 +35,7 @@ msgstr "{{< toc >}}\n"
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr ""
+msgstr "Obecné {#general}"
 
 #. type: Title ##
 #: faq.md
@@ -92,6 +92,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [rok] [držitel autorských práv] <[email address]>\n"
+"#\n"
+"# SPDX-License-Identifier: [identifier]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
@@ -104,90 +107,132 @@ msgstr "3. Potvrďte soulad s pravidly REUSE {#step-3}"
 #, markdown-text
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
+"Pomocí nástroje [REUSE tool](https://github.com/fsfe/reuse-tool) můžete "
+"některé z těchto kroků automatizovat a zkontrolovat, zda jste vše provedli "
+"správně."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr ""
+msgstr "Co je to autorské právo? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
 msgstr ""
+"Autorské právo je právní konstrukce, která někomu poskytuje výhradní práva k "
+"tvůrčímu dílu. Nejdůležitější výhradní právo je obsaženo v názvu: právo na "
+"výrobu kopií. Pouze držitel autorských práv smí poskytovat lidem nové kopie "
+"svého díla."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
+"Obvykle je držitelem autorských práv autor, ale často jsou autorská práva "
+"převedena na autorova zaměstnavatele. Na většině míst nemusíte pro získání "
+"autorských práv nic dělat. Jakmile vytvoříte tvůrčí dílo, okamžitě na něj "
+"získáte autorská práva vy (nebo váš zaměstnavatel)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
 msgstr ""
+"Creative Commons poskytuje lepší a delší odpověď ve svých [často kladených "
+"otázkách](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-"
+"matter)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr ""
+msgstr "Co je to licence? {#what-is-licence}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
 msgstr ""
+"Jedním z problémů autorských práv v souvislosti se softwarem je, že ve "
+"výchozím nastavení činí software nesdíleným. Licence to mění. Licence "
+"definuje podmínky, za kterých držitel autorských práv povoluje příjemci "
+"licence software používat."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Pokud licence umožňuje příjemci [používat, studovat, sdílet a "
+"vylepšovat](https://fsfe.org/freesoftware/basics/4freedoms.html) software, "
+"pak se jedná o [svobodný software](https://fsfe.org/about/basics/"
+"freesoftware)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "Jakou licenci si mám vybrat? {#which-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
+"Vždy si vyberte licenci svobodného softwaru, tj. licenci, která příjemci "
+"poskytuje svobodu software používat, studovat, sdílet a vylepšovat. Kromě "
+"toho je volba licence na vás.  Pokud přispíváte do existujícího projektu, "
+"měli byste své změny uvolnit pod stejnou licencí jako projekt. Jinak mají ["
+"Free Software Foundation](https://www.gnu.org/licenses/license-"
+"recommendations.html), [choosealicense.com](https://choosealicense.com/) a "
+"[joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-"
+"assistant-jla) několik dobrých doporučení. Všimněte si, že každý z těchto "
+"zdrojů klade důraz na jinou hodnotu a přichází s vlastními předsudky."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
 msgstr ""
+"Pokud si ceníte svobody, měli byste především zvolit licenci, která váš "
+"software zachová jako [Svobodný Software](https://fsfe.org/about/basics/"
+"freesoftware.en.html)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
+"<!-- ## Opravdu musím ve všech souborech uvádět záhlaví o licenci a "
+"autorských právech? Proč by mě to mělo zajímat? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "TODO -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "Co je SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
 msgstr ""
+"SPDX znamená [Software Package Data Exchange](https://spdx.org/). Jedná se o "
+"projekt nadace [Linux Foundation](https://www.linuxfoundation.org/), na němž "
+"je postaven systém REUSE. SPDX definuje standardizovaný způsob sdílení "
+"informací o autorských právech a licencích mezi projekty a lidmi. Pro REUSE "
+"je nejdůležitější, že SPDX spravuje [SPDX License List](https://spdx.org/"
+"licenses/), který definuje standardizované identifikátory pro mnoho licencí."
 
 #. type: Title #
 #: faq.md
@@ -199,13 +244,17 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Jak nainstalovat a používat nástroj REUSE? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
+"Nástroj REUSE je praktický pomocník, který dokáže ověřit soulad s nařízením "
+"REUSE a zautomatizovat mnoho přilehlých úloh. Úplnou dokumentaci k nástroji "
+"najdete na adrese <https://reuse.readthedocs.io/>. Ve zkratce je to ale "
+"následující:"
 
 #. type: Fenced code block
 #: faq.md
@@ -215,42 +264,57 @@ msgid ""
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
+"$ pip3 install --user fsfe-reuse \n"
+"$ export PATH=~/.local/bin:$PATH\n"
+"$ reuse --help\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
-msgstr ""
+msgstr "Jak vyloučím soubor z testování shody REUSE? {#exclude-file}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
+"Pokud je soubor artefaktem sestavení a používáte systém Git, jednoduše se "
+"ujistěte, že je soubor zahrnut v souboru `.gitignore`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
 msgstr ""
+"V opačném případě nelze soubory z testování shody s nařízením REUSE "
+"vyloučit. To by bylo zcela v rozporu s účelem systému REUSE: zajistit, aby "
+"každý soubor obsahoval značku autorských práv a licence."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
+"Pokud chcete soubor opravdu vyloučit, zvažte, zda pro něj nepoužít licenci "
+"[CC0](https://creativecommons.org/publicdomain/zero/1.0/). Tímto postupem "
+"soubor zařadíte do veřejné domény nebo jejího ekvivalentu ve vaší zemi."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There is one exception: License files are automatically excluded from compliance testing."
 msgstr ""
+"Existuje jedna výjimka: Licenční soubory jsou automaticky vyloučeny z "
+"testování shody."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
+"Pokud máte celý adresář, který chcete \"vyloučit\" z testování shody REUSE, "
+"můžete [použít soubor DEP5](#bulk-license)."
 
 #. type: Title ##
 #: faq.md
