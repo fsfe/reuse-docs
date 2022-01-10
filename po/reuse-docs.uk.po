@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-12-29 21:50+0000\n"
+"PO-Revision-Date: 2022-01-11 09:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -1125,6 +1125,12 @@ msgstr "Специфікація REUSE – версія 3.0"
 #, markdown-text
 msgid "This specification defines a standardized method for declaring copyright and licensing for software projects. The goal of the specification is to have unambiguous, human- and machine-readable copyright and licensing information for each individual file in a project. Ideally this information is embedded into every file, so that the information is preserved when the file is copied and reused by third parties."
 msgstr ""
+"Ця специфікація визначає стандартизований метод оголошення авторських прав і "
+"ліцензування для програмних проєктів. Мета специфікації полягає в тому, щоб "
+"мати однозначну, людино- і машинозчитувану інформацію про авторські права та "
+"ліцензування для кожного окремого файлу в проєкті. В ідеалі ця інформація "
+"вбудована в кожен файл, так що інформація зберігається при копіюванні файлу "
+"і повторному їх використанні третіми особами."
 
 #. type: Plain text
 #: spec.md
