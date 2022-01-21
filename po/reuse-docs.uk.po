@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-01-20 21:56+0000\n"
+"PO-Revision-Date: 2022-01-22 21:56+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -1737,30 +1737,49 @@ msgid ""
 "use]({{< relref \"faq.md#years-copyright\" >}}) and [what copyright holders\n"
 "are]({{< relref \"faq.md#copyright-holder-author\" >}}) in the FAQ.\n"
 msgstr ""
+"Тег `SPDX-FileCopyrightText` фіксує роки публікації та власника авторських "
+"прав\n"
+"на вміст файлу. Читайте докладніше про [які роки публікації\n"
+"використовувати]({{< relref \"faq.md#years-copyright\" >}}) і [які існують "
+"власники авторських\n"
+"прав]({{< relref \"faq.md#copyright-holder-author\" >}}) у поширених "
+"запитаннях.\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The `SPDX-License-Identifier` tag is followed by a [valid SPDX License Expression](https://spdx.org/specifications), typically just the SPDX License Identifier of the license."
 msgstr ""
+"За тегом `SPDX-License-Identifier` слідує [дійсний вираз ліцензії "
+"SPDX](https://spdx.org/specifications), як правило, лише ідентифікатор "
+"ліцензії SPDX."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Each file must always contain these two tags in the header. You are allowed to use the tags multiple times if you have multiple copyright holders or licenses."
 msgstr ""
+"Кожен файл завжди повинен містити ці два теги в заголовку. Ви можете "
+"використовувати теги кілька разів, якщо у вас є кілька власників авторських "
+"прав або ліцензій."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "In the example project, you also edit `Makefile` and `README.md` using this header information, but of course with corresponding comment syntax."
 msgstr ""
+"У прикладі проєкту ви також редагуєте `Makefile` і `README.md`, "
+"використовуючи цю інформацію заголовка, але, звичайно, з відповідним "
+"синтаксисом коментарів."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
 msgstr ""
+"Команда `reuse addheader` допомагає додавати відомості про ліцензії та "
+"авторські права до ваших файлів. Для завдання вище, така команда "
+"виконуватиме цю роботу:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
@@ -1775,6 +1794,9 @@ msgstr ""
 #, markdown-text
 msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
 msgstr ""
+"Перегляньте [документацію засобу про addheader](https://reuse.readthedocs.io/"
+"en/stable/usage.html#addheader), щоб дізнатися про додаткові опції, як-от "
+"стилі коментарів і шаблони"
 
 #. type: Title ###
 #: tutorial.md
@@ -1787,18 +1809,27 @@ msgstr "Двійкові та некоментовані файли"
 #, markdown-text
 msgid "You also want to license your image files under GPL-3.0-or-later.  Unfortunately, images and other binary files do not have comment headers that one can easily edit. Other examples include automatically generated files and certain data and configuration files for which comments are non-trivial."
 msgstr ""
+"Ви також хочете ліцензувати файли зображень під GPL-3.0 або новішої версії. "
+"На жаль, зображення та інші двійкові файли не мають заголовків коментарів, "
+"які можна легко редагувати. Інші приклади включають автоматично згенеровані "
+"файли та певні файли даних та конфігурації, коментарі до яких не нульові."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "There is a simple trick to circumvent this. Create the files `cat.jpg.license` and `dog.jpg.license`, each containing the same information about license and copyright holder as above."
 msgstr ""
+"Існує простий обхідний шлях. Створіть файли `cat.jpg.license` і `dog.jpg."
+"license`, кожен з яких містить однакові відомості про ліцензію та власника "
+"авторських прав, як зазначено вище."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The REUSE helper tool should automatically detect binary files and therefore automatically create a corresponding `.license` file."
 msgstr ""
+"Допоміжний засіб REUSE повинен автоматично виявити двійкові файли та, отже, "
+"автоматично створити відповідний файл `.license`."
 
 #. type: Plain text
 #: tutorial.md
