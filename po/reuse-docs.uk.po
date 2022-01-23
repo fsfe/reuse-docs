@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-01-22 21:56+0000\n"
+"PO-Revision-Date: 2022-01-25 17:55+0000\n"
 "Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
@@ -1836,6 +1836,9 @@ msgstr ""
 #, markdown-text
 msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
 msgstr ""
+"Якщо цього не сталося, або якщо ви хочете примусово застосувати це, додайте "
+"аргумент `--explicit-license` до команди addheader. Отже, команда для "
+"вищезазначеного завдання може мати такий вигляд:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
@@ -1856,12 +1859,18 @@ msgstr "Змінити відомості про ліцензування"
 #, markdown-text
 msgid "You discover that the photos of the cat and the dog were not licensed under the GPL at all, but under Creative Commons Attribution 4.0 International, owned by Max Mehl."
 msgstr ""
+"Ви дізнаєтесь, що світлини кота та пса були ліцензовані зовсім не за GPL, а "
+"за ліцензією Creative Commons Attribution 4.0 International, що належить "
+"Максу Мелу."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The SPDX License Identifier of this license is CC-BY-4.0. You create the file `LICENSES/CC-BY-4.0.txt`, following the same steps you used for GPL-3.0-or-later."
 msgstr ""
+"Ідентифікатор ліцензії SPDX цієї ліцензії — CC-BY-4.0. Ви створюєте файл `"
+"LICENSES/CC-BY-4.0.txt`, дотримуючись тих самих кроків, які використовували "
+"для GPL-3.0-or-later."
 
 #. type: Plain text
 #: tutorial.md
@@ -1886,24 +1895,36 @@ msgstr ""
 #, markdown-text
 msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
 msgstr ""
+"Наразі засіб не надає способу заміни наявних відомостей про авторські права "
+"та ліцензування, сумісних з REUSE. Запуск команди `addheader` не замінить, а "
+"розширить файли `.license` двома додатковими рядками із зазначенням "
+"авторських прав Макса Мела та ліцензії CC-BY-4.0. Таким чином, вам потрібно "
+"оновити їх вручну."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "However, the `download` command afterwards would allow you to download the new license automatically, so either with `reuse download CC-BY-4.0` or simply `reuse download --all`."
 msgstr ""
+"Однак команда `download` згодом дозволить вам автоматично завантажити нову "
+"ліцензію або використавши `reuse download CC-BY-4.0`, або просто `reuse "
+"download --all`."
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Build artifacts"
-msgstr ""
+msgstr "Створення технічних файлів"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "When you compile your program, you generate some build artifacts, such as `src/main.o`.  You do not need to provide any licensing information for those files.  Just use your `.gitignore` file to ignore these build artifacts.  The REUSE tool will respect the contents of `.gitignore`."
 msgstr ""
+"Під час компіляції програми створюються деякі технічні файли збірки, як-от `"
+"src/main.o`.  Вам не потрібно вказувати будь-які відомості про ліцензування "
+"для цих файлів.  Просто використовуйте файл `.gitignore`, щоб ігнорувати ці "
+"технічні файли збірки.  Засіб REUSE зважатиме на вміст `.gitignore`."
 
 #. type: Title ###
 #: tutorial.md
@@ -1916,12 +1937,21 @@ msgstr "Незначні файли"
 #, markdown-text
 msgid "You probably will have files in your project that you do not find particularly copyrightable, for example configuration files such as `.gitignore`. Intuitively you may not want to license these files, but the fundamental idea of REUSE is that all your files will clearly have their copyright and licensing marked."
 msgstr ""
+"Можливо, у вашому проєкті будуть файли, які ви не вважаєте за потрібне "
+"захищати авторським правом, наприклад, файли конфігурації, як-от `.gitignore`"
+". Швидше за все ви не захочете ліцензувати ці файли, але основна ідея REUSE "
+"полягає в тому, що всі ваші файли, очевидно, матимуть зазначені авторські "
+"права та ліцензування."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If you do not exercise any copyright over this file, you can use the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). This is functionally identical to putting the file in the public domain. Edit the file to contain:"
 msgstr ""
+"Якщо ви не використовуєте жодних авторських прав на цей файл, ви можете "
+"використовувати [ліцензію CC0](https://creativecommons.org/publicdomain/zero/"
+"1.0/). Це функціонально ідентично розміщенню файлу у відкритому доступі. "
+"Відредагуйте файл, щоб він містив:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1940,6 +1970,8 @@ msgstr ""
 #, markdown-text
 msgid "Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before."
 msgstr ""
+"Отже, вам доведеться надати ліцензію CC0-1.0 в каталозі `LICENSES/`, так "
+"само як раніше GPL-3.0-or-later і CC-BY-4.0."
 
 #. type: Plain text
 #: tutorial.md
@@ -1948,12 +1980,17 @@ msgid ""
 "More information about copyrightable files can be found in the [REUSE FAQ]({{< relref\n"
 "\"faq.md#what-is-copyrightable\" >}}).\n"
 msgstr ""
+"Докладніше про файли, захищені авторським правом, можна прочитати в розділі ["
+"ЧАП REUSE]({{< relref\n"
+"\"faq.md#what-is-copyrightable\" >}}).\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
 msgstr ""
+"Як і раніше, комбінація команд `addheader` and `download` виконає наведену "
+"раніше дію:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
@@ -2021,12 +2058,19 @@ msgstr ""
 #, markdown-text
 msgid "Now that you have marked all files with their copyright and licensing, it is time to check whether you did not miss anything. To do this, we provide a helper tool for you to use. You can read the [full documentation](https://reuse.readthedocs.io/), or read the quick steps below."
 msgstr ""
+"Тепер, коли ви позначили всі файли їхніми авторськими правами та ліцензіями, "
+"настав час перевірити, чи нічого ви не пропустили. Для цього ми надаємо вам "
+"допоміжний засіб. Ви можете прочитати [всю документацію](https://reuse."
+"readthedocs.io/) або прочитати про наведені далі дії."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter."
 msgstr ""
+"Дотримуйтесь [інструкцій з установлення](https://github.com/fsfe/reuse-"
+"tool#install), доступних для кількох платформ. Тепер перейдіть до каталогу "
+"проєкту і запустіть лінтер."
 
 #. type: Fenced code block
 #: tutorial.md
@@ -2070,6 +2114,10 @@ msgstr ""
 #, markdown-text
 msgid "As you can see in the last line, the tool confirms that your project is compliant with REUSE now! To learn what the different sections mean, please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint)."
 msgstr ""
+"Як ви можете бачити в останньому рядку, засіб підтверджує, що ваш проєкт "
+"тепер сумісний із REUSE! Щоб дізнатися, що означають різні розділи, "
+"перегляньте [документацію команди lint](https://reuse.readthedocs.io/en/"
+"stable/usage.html#lint)."
 
 #. type: Title ##
 #: tutorial.md
@@ -2082,54 +2130,76 @@ msgstr "Довідка"
 #, markdown-text
 msgid "After going through this tutorial, you understood REUSE and the three basic steps to properly license your software project – well done! But although we have covered a few edge cases, you might run into more questions soon. But don't worry, we are here to help!:"
 msgstr ""
+"Прочитавши через цей посібник, ви зрозуміли як працює REUSE і три основні "
+"кроки, щоб правильно ліцензувати ваш програмний проєкт. чудово! Але хоч ми й "
+"розглянули кілька випадків, у вас може скоро виникнути більше питань. Але не "
+"хвилюйтеся, ми тут, щоб допомогти!:"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "- Our [Frequently Asked Questions](https://reuse.software/faq) covers common questions as well as extraordinary cases and will constantly be updated."
 msgstr ""
+"– Наші [Поширені запитання](https://reuse.software/faq) охоплюють типові "
+"запитання, а також надзвичайні випадки, і вони постійно оновлюватимуться."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "- The full [REUSE specification](https://reuse.software/spec) formally describes REUSE and the methods to become compliant."
 msgstr ""
+"- Повна [специфікація REUSE](https://reuse.software/spec) формально описує "
+"REUSE та методи досягнення сумісності."
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "The [REUSE tool documentation](https://reuse.readthedocs.io/) describes installation and usage of the REUSE tool."
 msgstr ""
+"У [документації до засобу REUSE](https://reuse.readthedocs.io/) описано як "
+"установити та користуватися засобом REUSE."
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "Our [help for developers](https://reuse.software/dev/) lists various resources for programmers like the tool, the API, or how to include checks in CI/CD workflows."
 msgstr ""
+"У нашій [довідці для розробників](https://reuse.software/dev/) перелічено "
+"різні ресурси для програмістів, як-от інструменти, API або те, як включити "
+"перевірки в робочі процеси CI/CD."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If none of the links above were able to answer your question, please contact us by:"
 msgstr ""
+"Якщо жодне з наведених посилань не відповідає на ваше запитання, зв'яжіться "
+"з нами за допомогою:"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "opening an issue on [reuse-docs](https://github.com/fsfe/reuse-docs) for questions on the tutorial, FAQ or specification;"
 msgstr ""
+"відкриття обговорення на [reuse-docs](https://github.com/fsfe/reuse-docs) "
+"для запитань щодо посібника, поширених запитань або специфікації;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "opening an issue on [reuse-tool](https://github.com/fsfe/reuse-tool) for questions on the REUSE tool;"
 msgstr ""
+"відкриття обговорення на [reuse-tool](https://github.com/fsfe/reuse-tool) "
+"для запитань про засіб REUSE;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "or [sending an email to the FSFE](https://fsfe.org/contact). Please note that we would prefer issues because they are publicly searchable for other people."
 msgstr ""
+"або [надіславши електронного листа до FSFE](https://fsfe.org/contact). "
+"Зауважте, що ми надаємо перевагу обговоренням, оскільки вони доступні для "
+"загального пошуку для інших людей."
 
 #. type: Plain text
 #: tutorial.md
