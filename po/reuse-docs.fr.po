@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-04-21 12:29+0000\n"
-"Last-Translator: Baptiste H <baptiste.huchon@bechamail.fr>\n"
+"PO-Revision-Date: 2022-02-09 15:54+0000\n"
+"Last-Translator: Walter Paulo <polo@tictips.net>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "fr/>\n"
 "Language: fr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -366,17 +366,17 @@ msgstr ""
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"En général, nous vous recommandons d'utiliser `SPDX-FileCopyrightText: "
-"[année] [détenteur des droits d'auteur]\n"
-"<[adresse de contacte]>`. Vous pouvez choisir de supprimer des éléments sauf "
-"le détenteur des droits d'auteur,\n"
-"qui doit toujours être inclus. Nous vous recommandons cependant d'inclure "
+"De manière générale, nous vous recommandons d'utiliser `SPDX-"
+"FileCopyrightText : [year] [copyright holder]\n"
+"<[contact address]>`. Vous pouvez supprimer certains éléments si vous le "
+"souhaitez, sauf le détenteur des droits d'auteur,\n"
+"qui doit toujours être inclus. Nous vous conseillons cependant d'inclure "
 "tous les éléments.\n"
 
 #. type: Plain text
@@ -981,9 +981,9 @@ msgstr ""
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid "TODO: Figure this one out -->\n"
-msgstr "TODO: Comprenez celui-ci -->\n"
+msgstr "TODO: À développer -->\n"
 
 #. type: Title ##
 #: faq.md
