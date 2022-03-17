@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-01-08 21:56+0000\n"
+"PO-Revision-Date: 2022-03-18 17:58+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/fsfe/reuse-docs/cs/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.12-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -238,7 +238,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Nástroj {#tool}"
 
 #. type: Title ##
 #: faq.md
@@ -320,31 +320,35 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr ""
+msgstr "Podporujete jiný systém správy verzí než Git? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
+"V současné době ne, ale prosím [kontaktujte nás](https://github.com/fsfe/"
+"reuse-tool/issues)."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr ""
+msgstr "Licencování a dodržování předpisů {#licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr ""
+msgstr "<!-- ## Které licence jsou kompatibilní? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
+"Existuje standardní formát pro prohlášení o autorských právech? {#standard-"
+"copyright}"
 
 #. type: Plain text
 #: faq.md
@@ -354,24 +358,33 @@ msgid ""
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
+"Obecně doporučujeme používat `SPDX-FileCopyrightText: [year] [copyright "
+"holder]\n"
+"<[contact address]>`. Můžete se rozhodnout vynechat položky kromě držitele "
+"autorských práv,\n"
+"který musí být uveden vždy. Doporučujeme však zahrnout všechny položky.\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
 msgstr ""
+"Specifikace obsahuje oddíl o přesném formátu oznámení o autorských právech. "
+"Viz [the specification](/spec) a [the next question](#copyright-symbol)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
 msgstr ""
+"Mám použít SPDX-FileCopyrightText, Copyright nebo ©? {#copyright-symbol}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification lists the following copyright notices as valid:"
 msgstr ""
+"Ve specifikaci jsou uvedena následující platná oznámení o autorských právech:"
 
 #. type: Fenced code block
 #: faq.md spec.md
@@ -383,120 +396,154 @@ msgid ""
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
+"© Example Corporation <https://corp.example.com>\n"
+"Copyright 2016, 2018-2019 Joe Anybody\n"
+"Copyright (c) Alice\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
 msgstr ""
+"Z těchto lze vřele doporučit první dva. Ostatní existují především proto, "
+"aby byly kompatibilní se stávajícími konvencemi."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr ""
+msgstr "<!-- TODO: Odkaz na další otázku týkající se © -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
 msgstr ""
+"Které roky mám uvést v prohlášení o autorských právech? {#years-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Generally, there are four options for you to choose:"
-msgstr ""
+msgstr "Obecně si můžete vybrat ze čtyř možností:"
 
 #. type: Bullet: '1. '
 #: faq.md
 #, markdown-text
 msgid "The year of initial publication."
-msgstr ""
+msgstr "Rok prvního zveřejnění."
 
 #. type: Bullet: '2. '
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr ""
+msgstr "Rok posledního zveřejnění."
 
 #. type: Bullet: '3. '
 #: faq.md
 #, markdown-text
 msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
 msgstr ""
+"Všechny roky zveřejnění, buď jako rozsah (např. 2017-2019), nebo jako "
+"samostatné položky (např. 2017, 2018, 2019)."
 
 #. type: Bullet: '4. '
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr ""
+msgstr "Neuvádějte žádný rok."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr ""
+msgstr "Kterou možnost si vyberete, záleží nakonec na vás."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
+"Musím do svého repozitáře zahrnout jak GPL-3.0-or-later, tak GPL-3.0-only? "
+"{#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
+"Členové rodiny GPL jsou v seznamu licencí SPDX uvedeni zvlášť jako -only a "
+"-or-later, i když texty licencí jsou totožné. Pokud máte kód pouze pod "
+"jednou z těchto licencí, doporučujeme uvést pouze tuto licenci."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
+"Pokud máte kód pod licencí -only i pod licencí -or-later, doporučujeme uvést "
+"obě licence zvlášť."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
-msgstr ""
+msgstr "Jaké jsou licenční výjimky a co s nimi mám dělat? {#licence-exceptions}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
+"Licenční výjimky jsou dodatky nebo změny licence, které často umožňují "
+"určité použití kódu, které by podle původní licence nebylo povoleno. Často "
+"se používá u překladačů, kde se část kódu překladače může dostat do výsledné "
+"binární verze. Výjimka se může vzdát práv na části kódu, které skončí v "
+"binárních souborech."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
+"S výjimkami se zachází téměř stejně jako s licencemi. Chcete-li zkombinovat "
+"licenci s výjimkou, označte soubor následující značkou: `SPDX-Licence-"
+"Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr ""
+msgstr "Na které soubory se vztahují autorská práva? {#what-is-copyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
+"Všechny soubory, které jsou původními autorskými díly, podléhají autorským "
+"právům. V podstatě, pokud někdo sedí a píše na klávesnici své vlastní "
+"originální myšlenky, pak má autorská práva k výstupu. Běžnými příklady jsou "
+"zdrojové kódy, dokumentace, zvukové záznamy a video."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
 msgstr ""
+"Existují však i okrajové případy. Například program `print(\"Ahoj, REUSE!\")`"
+" pravděpodobně nesplňuje hranici originality. Podobně tuto hranici nemusí "
+"splňovat ani datové a konfigurační soubory."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What to do with uncopyrightable files? {#uncopyrightable}"
 msgstr ""
+"Co dělat se soubory, na které se nevztahují autorská práva? "
+"{#uncopyrightable}"
 
 #. type: Plain text
 #: faq.md
