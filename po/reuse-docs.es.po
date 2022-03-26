@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-03-26 14:11+0000\n"
+"PO-Revision-Date: 2022-03-27 20:11+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -143,40 +143,60 @@ msgstr ""
 #: faq.md
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
+"Si la licencia permite al receptor [utilizar, estudiar, compartir y "
+"mejorar](https://fsfe.org/freesoftware/basics/4freedoms.html) el software, "
+"entonces ese software es [Software Libre](https://fsfe.org/about/basics/"
+"freesoftware)."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr ""
+msgstr "¿Qué licencia debo elegir? {#which-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
+"Elija siempre una licencia de Software Libre, esto es, una licencia que dé "
+"al destinatario la libertad de utilizar, estudiar, compartir y mejorar el "
+"software. Aparte de eso, la licencia que elijas depende de ti.  Si estás "
+"contribuyendo a un proyecto existente, deberías publicar tus cambios bajo la "
+"misma licencia que el proyecto. De lo contrario, la [Free Software "
+"Foundation](https://www.gnu.org/licenses/license-recommendations.html), "
+"[choosealicense.com](https://choosealicense.com/), y [joinup."
+"eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-"
+"jla)  tienen algunas buenas recomendaciones. Hay que tener en cuenta que "
+"cada uno de estos recursos hace hincapié en un valor diferente, y vienen con "
+"sus propias preferencias."
 
 #. type: Plain text
 #: faq.md
 msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
 msgstr ""
+"Sobre todo, si valoras la libertad, debes elegir una licencia que haga tu "
+"software [Software Libre](https://fsfe.org/about/basics/freesoftware.en."
+"html)."
 
 #. type: Plain text
 #: faq.md
 #, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
+"<!-- ## ¿Realmente necesito incluir las cabeceras de licencia y copyright en "
+"todos los archivos? ¿Por qué debería preocuparme? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "TODO -->\n"
-msgstr ""
+msgstr "TODO -->\n"
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr ""
+msgstr "¿Qué es SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
