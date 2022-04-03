@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-02 10:12+0000\n"
+"PO-Revision-Date: 2022-04-04 15:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -540,49 +540,76 @@ msgstr ""
 #: faq.md
 #, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr ""
+msgstr "¿Cómo copio el trabajo de otra persona? {#copy-work}"
 
 #. type: Plain text
 #: faq.md
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
+"Si alguien más ha puesto su trabajo disponible para que lo puedas usar y "
+"copiar, puedes incorporar su trabajo en tu proyecto. Cuando pones el trabajo "
+"en uno de los archivos de tu proyecto, debes añadir una etiqueta `SPDX-"
+"FileCopyrightText` para el titular(s) de derechos de autor y una etiqueta "
+"`SPDX-License-Identifier` para la licencia(s) bajo la cual el trabajo está "
+"disponible."
 
 #. type: Plain text
 #: faq.md
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
+"Si el trabajo fue licenciado diferentemente de tu proyecto, debes verificar "
+"si las licencias son compatibles, y añadir las nuevas licencias a tu "
+"proyecto."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
+"¿Puedo copiar un trabajo que no tiene ningún aviso de copyright o licencia? "
+"{#no-copyright-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
+"Antes de proceder, aseúrate siempre de que poder encontrar la información de "
+"copyright y licencias en otro lugar. Algunos proyectos sólo incluyen esta "
+"información en el directorio raíz o en su archivo README."
 
 #. type: Plain text
 #: faq.md
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
+"Si no puedes encontrar ningún aviso de copyright, entonces eso no es "
+"problema. Puedes agregar el aviso de copyright tu mismo."
 
 #. type: Plain text
 #: faq.md
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
+"Si el trabajo no tiene licencia, entonces eso significa que no tienes "
+"derecho a copiarlo. Si crees que se trata de un error y que el autor tenía "
+"la clara intención de que pudieras copiar esta obra, deberías ponerte en "
+"contacto con el autor y pedirle la licencia de su obra. No dudes en "
+"remitirlos a <https://reuse.software>."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr ""
+msgstr "¿Dónde más puedo poner la información de mi licencia? {#where-else}"
 
 #. type: Plain text
 #: faq.md
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
+"Marcar todos los archivos individuales con etiquetas `SPDX-License-"
+"Identifier` contribuye en gran medida a comunicar de forma inequívoca la "
+"información de la licencia del proyecto, pero también ayuda a comunicar la "
+"información de la licencia en lenguaje natural. En el README del proyecto, "
+"no dudes en poner un resumen de la información sobre licencias, o "
+"simplemente redirecciona al lector a tu directorio `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
