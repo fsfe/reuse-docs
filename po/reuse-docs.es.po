@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-04 15:12+0000\n"
+"PO-Revision-Date: 2022-04-05 16:10+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -936,57 +936,82 @@ msgstr ""
 #: spec.md
 msgid "Project --- any unit of content that can be associated with a distribution of software. Typically, a Project is composed of one or more files. Also sometimes called a package."
 msgstr ""
+"Proyecto: cualquier unidad de contenido que pueda asociarse a una "
+"distribución de software. Normalmente, un Proyecto se compone de uno o más "
+"archivos. También se denomina a veces paquete."
 
 #. type: Plain text
 #: spec.md
 msgid "- License File --- a file containing the text of a license."
 msgstr ""
+"- Archivo de licencia --- un archivo que contiene el texto de una licencia."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "Copyright and Licensing Information --- the information that lists the copyright holders of a file or work, and describes under which licenses the file or work is made available."
 msgstr ""
+"Información sobre derechos de autor y licencias --- la información que "
+"enumera los titulares de los derechos de autor de un archivo o trabajo, y "
+"describe bajo qué licencias está disponible el archivo o trabajo."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "SPDX Specification --- SPDX specification, version 2.1; as available on <https://spdx.org/specifications>."
 msgstr ""
+"SPDX Specification --- SPDX specification, versión 2.1; disponible en "
+"<https://spdx.org/specifications>."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX Specification. See also <https://spdx.org/ids> for a short introduction and examples."
 msgstr ""
+"Identificador de licencia SPDX --- Identificador abreviado de SPDX, tal como "
+"se define en SPDX Specification. Véase también <https://spdx.org/ids> para "
+"una breve introducción y ejemplos."
 
 #. type: Plain text
 #: spec.md
 msgid "- SPDX License Expression --- as defined in SPDX Specification, Appendix IV, at <https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60>."
 msgstr ""
+"- SPDX License Expression --- como se define en SPDX Specification, Appendix "
+"IV, en <https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60>."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "SPDX License List --- a list of commonly found licenses and exceptions; as available on <https://spdx.org/licenses/>."
 msgstr ""
+"SPDX License List --- una lista de las licencias y excepciones más comunes; "
+"disponible en <https://spdx.org/licenses/>."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "DEP5 --- [Machine-readable `debian/copyright` file, Version 1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).  Where the REUSE Specification and DEP5 state different things, the REUSE Specification takes precedence. Specifically in the case of the `Copyright` and `License` tags."
 msgstr ""
+"DEP5 --- [Machine-readable `debian/copyright` file, Version 1.0](https://www."
+"debian.org/doc/packaging-manuals/copyright-format/1.0/).  Cuando la "
+"Especificación REUSE y la DEP5 establecen cosas diferentes, la "
+"Especificación REUSE tiene prioridad. En concreto, en el caso de las "
+"etiquetas `Copyright` y `License`.."
 
 #. type: Bullet: '- '
 #: spec.md
 msgid "REUSE Tool --- helper tool for compliance with this Specification; available at <https://github.com/fsfe/reuse-tool>."
 msgstr ""
+"REUSE Tool --- herramienta de ayuda para el cumplimiento de esta "
+"especificación; disponible en <https://github.com/fsfe/reuse-tool>."
 
 #. type: Title ##
 #: spec.md
 #, no-wrap
 msgid "License files"
-msgstr ""
+msgstr "Archivos de licencia"
 
 #. type: Plain text
 #: spec.md
 msgid "A Project MUST include a License File for every license under which files in the Project are licensed."
 msgstr ""
+"Un Proyecto DEBE incluir un Archivo de Licencia para cada licencia bajo la "
+"cual los archivos del Proyecto están licenciados."
 
 #. type: Plain text
 #: spec.md
