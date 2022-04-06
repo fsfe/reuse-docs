@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-05 16:10+0000\n"
+"PO-Revision-Date: 2022-04-07 12:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1071,60 +1071,87 @@ msgstr ""
 
 #. type: Title ###
 #: spec.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Comment headers"
-msgstr ""
+msgstr "Comment headers"
 
 #. type: Plain text
 #: spec.md
 msgid "To implement this method, each plain text file that can contain comments MUST contain comments at the top of the file (comment header) that declare that file's Copyright and Licensing Information."
 msgstr ""
+"Para aplicar este método, cada archivo de texto plano que pueda contener "
+"comentarios DEBE contener comentarios en la parte superior del archivo ("
+"comment header) que declaren la información de copyright y licencia de ese "
+"archivo."
 
 #. type: Plain text
 #: spec.md
 msgid "If a file is not a plain text file or does not permit the inclusion of comments, the comment header that declares the file's Copyright and Licensing Information SHOULD be in an adjacent file of the same name with the additional extension `.license` (example: `cat.jpg.license` if the original file is `cat.jpg`)."
 msgstr ""
+"Si un archivo no es un archivo de texto plano o no permite la inclusión de "
+"comentarios, la cabecera del comentario que declara la información sobre "
+"derechos de autor y licencias del archivo DEBERÍA estar en un archivo "
+"adjunto con el mismo nombre y la extensión adicional `.license` (ejemplo: "
+"`cat.jpg.license` si el archivo original es `cat.jpg`)."
 
 #. type: Plain text
 #: spec.md
 msgid "The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by a text value, and terminated by a newline."
 msgstr ""
+"La cabecera del comentario DEBE contener una o más etiquetas `SPDX-"
+"FileCopyrightText`, y una o más etiquetas `SPDX-License-Identifier`. Una "
+"etiqueta va seguida de dos puntos, seguida de un valor de texto y terminada "
+"por una nueva línea."
 
 #. type: Plain text
 #: spec.md
 msgid "The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice."
 msgstr ""
+"La etiqueta `SPDX-FileCopyrightText` DEBE ir seguida de un aviso de "
+"copyright."
 
 #. type: Plain text
 #: spec.md
 msgid "Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY be used, in which case a colon is not needed."
 msgstr ""
+"En lugar de la etiqueta `SPDX-FileCopyrightText`, PUEDE utilizarse el "
+"símbolo `©`, o la palabra `Copyright`, en cuyo caso no se necesitan dos "
+"puntos."
 
 #. type: Plain text
 #: spec.md
 msgid "The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License Expression describing the licensing of the file (example: `SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed differently, a different `SPDX-License-Identifier` tag MUST be included for each section."
 msgstr ""
+"La etiqueta `SPDX-License-Identifier` DEBE ir seguida de una Expresión de "
+"Licencia SPDX válida que describa la licencia del archivo (ejemplo: `SPDX-"
+"License-Identifier: GPL-3.0-o-later OR Apache-2.0`). Si hay secciones "
+"separadas del archivo que tienen una licencia diferente, debe incluirse una "
+"etiqueta `SPDX-License-Identifier` diferente para cada sección."
 
 #. type: Plain text
 #: spec.md
 msgid "An example of a comment header:"
-msgstr ""
+msgstr "Un ejemplo de una comment header:"
 
 #. type: Fenced code block
 #: spec.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>\n"
 "# SPDX-FileCopyrightText: 2019 Example Company\n"
 "#\n"
 "# SPDX-License-Identifier: GPL-3.0-or-later\n"
 msgstr ""
+"# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>\n"
+"# SPDX-FileCopyrightText: 2019 Example Company\n"
+"#\n"
+"# SPDX-License-Identifier: GPL-3.0-or-later\n"
 
 #. type: Title ###
 #: spec.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "DEP5"
-msgstr ""
+msgstr "DEP5"
 
 #. type: Plain text
 #: spec.md
