@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-07 12:12+0000\n"
+"PO-Revision-Date: 2022-04-09 13:10+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1157,30 +1157,39 @@ msgstr "DEP5"
 #: spec.md
 msgid "Alternatively, Copyright and Licensing Information MAY be associated with a file through a DEP5 file. The intended use case of this method is large directories where including a comment header in each file (or in `.license` companion files) is impossible or undesirable."
 msgstr ""
+"Alternativamente, la información sobre derechos de autor y licencias PUEDE "
+"estar asociada a un archivo a través de un archivo DEP5. El caso de uso "
+"previsto de este método son los directorios grandes en los que la inclusión "
+"de un comment header en cada archivo (o en los archivos complementarios `."
+"license`) es imposible o no deseable."
 
 #. type: Plain text
 #: spec.md
 msgid "The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the root of the Project (i.e. `.reuse/dep5`)."
 msgstr ""
+"El archivo DEP5 DEBE llamarse `dep5` y se almacena en el directorio `.reuse/`"
+" en la raíz del Proyecto (i.e. `.reuse/dep5`)."
 
 #. type: Plain text
 #: spec.md
 msgid "The `License` tag MUST be followed by a valid SPDX License Expression describing the licensing of the associated files."
 msgstr ""
+"La etiqueta `License` DEBE ir seguida de una Expresión de Licencia SPDX "
+"válida que describa la licencia de los archivos asociados."
 
 #. type: Plain text
 #: spec.md
 msgid "The `Copyright` tag MUST be followed by a copyright notice."
-msgstr ""
+msgstr "La etiqueta `Copyright` DEBE ir seguida de un aviso de copyright."
 
 #. type: Plain text
 #: spec.md
 msgid "An example of a DEP5 file:"
-msgstr ""
+msgstr "Un ejemplo de archivo DEP5:"
 
 #. type: Fenced code block
 #: spec.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
 "Upstream-Name: Project\n"
@@ -1191,78 +1200,105 @@ msgid ""
 "Copyright: 2019 Translation Company\n"
 "License: GPL-3.0-or-later\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://example.com/jane/project\n"
+"\n"
+"Files: po/*\n"
+"Copyright: 2019 Translation Company\n"
+"License: GPL-3.0-or-later\n"
 
 #. type: Title ##
 #: spec.md
 #, no-wrap
 msgid "Format of copyright notices"
-msgstr ""
+msgstr "Formato de las notas de derechos de autor"
 
 #. type: Plain text
 #: spec.md
 msgid "A copyright notice MUST be prefixed by a tag, symbol or word denoting a copyright notice as described in this specification."
 msgstr ""
+"Una nota de copyright DEBE ir precedida de una etiqueta, símbolo o palabra "
+"que señale una nota de copyright tal y como se describe en esta "
+"especificación."
 
 #. type: Plain text
 #: spec.md
 msgid "The copyright notice MUST contain the name of the copyright holder. The copyright notice SHOULD contain the year of publication and the contact address of the copyright holder. The order of these items SHOULD be: year, name, contact address."
 msgstr ""
+"El aviso de copyright DEBE contener el nombre del titular del copyright. La "
+"nota de copyright DEBERÍA contener el año de publicación y la dirección de "
+"contacto del titular del copyright. El orden de estos elementos DEBERÍA ser: "
+"año, nombre, dirección de contacto."
 
 #. type: Plain text
 #: spec.md
 msgid "The year of publication MAY be a single year, multiple years, or a span of years."
 msgstr ""
+"El año de publicación PUEDE ser un solo año, varios años o un intervalo de "
+"años."
 
 #. type: Plain text
 #: spec.md
 msgid "The copyright holder MAY be an individual, list of individuals, group, legal entity, or any other descriptor by which one can easily identify the copyright holder(s)."
 msgstr ""
+"El titular de los derechos de autor PUEDE ser un individuo, una lista de "
+"individuos, un grupo, una entidad legal o cualquier otro descriptor por el "
+"que se pueda identificar fácilmente al titular o titulares de los derechos "
+"de autor."
 
 #. type: Plain text
 #: spec.md
 msgid "Any contact address SHOULD be in between angle brackets."
-msgstr ""
+msgstr "Cualquier dirección de contacto DEBE ir entre corchetes."
 
 #. type: Plain text
 #: spec.md
 msgid "Examples of valid copyright notices:"
-msgstr ""
+msgstr "Ejemplos de avisos válidos de copyright:"
 
 #. type: YAML Front Matter: title
 #: tutorial.md
 #, no-wrap
 msgid "Tutorial: How to become REUSE-compliant"
-msgstr ""
+msgstr "Tutorial: Cómo llegar a ser compatible con REUSE"
 
 #. type: Plain text
 #: tutorial.md
 msgid "This tutorial explains the basic methods of how to make a software project REUSE-compliant. By the end of this document, all your files will clearly have their copyright and licensing marked, and you will be able to verify this using the REUSE helper tool."
 msgstr ""
+"Este tutorial explica los métodos básicos de cómo hacer un proyecto de "
+"software compatible con REUSE. Al terminar este documento, todos sus "
+"archivos tendrán claramente marcados sus derechos de autor y licencias, y "
+"podrá verificarlo utilizando la herramienta de ayuda REUSE."
 
 #. type: Plain text
 #: tutorial.md
 msgid "Making your project REUSE-compliant can be done in three simple steps:"
-msgstr ""
+msgstr "Para hacer su proyecto REUSE-compliant basta con tres sencillos pasos:"
 
 #. type: Bullet: '1. '
 #: tutorial.md
 msgid "Choose and provide licenses"
-msgstr ""
+msgstr "Elija y aporte licencias"
 
 #. type: Bullet: '2. '
 #: tutorial.md
 msgid "Add copyright and license information to each file"
-msgstr ""
+msgstr "Añada información de copyright y licencia a cada archivo"
 
 #. type: Bullet: '3. '
 #: tutorial.md
 msgid "Confirm REUSE compliance"
-msgstr ""
+msgstr "Confirme el cumplimiento de REUSE"
 
 #. type: Plain text
 #: tutorial.md
 msgid "For the purpose of this tutorial, we will assume that the directory of your project looks like this:"
 msgstr ""
+"Para el propósito de este tutorial, asumiremos que el directorio de su "
+"proyecto se ve así:"
 
 #. type: Fenced code block
 #: tutorial.md
