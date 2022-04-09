@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-09 13:10+0000\n"
+"PO-Revision-Date: 2022-04-11 13:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1302,7 +1302,7 @@ msgstr ""
 
 #. type: Fenced code block
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "project/\n"
 "├── img/\n"
@@ -1314,16 +1314,35 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   └── dog.jpg\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "If you would like to reproduce the steps in this tutorial on your own computer, you can clone the [example repository](https://github.com/fsfe/reuse-example). The branch `noncompliant` matches the structure above, while the `master` branch is the successful result of this repository."
 msgstr ""
+"Si quieres reproducir los pasos de este tutorial en tu propio ordenador, "
+"puedes clonar el [repositorio de ejemplo](https://github.com/fsfe/reuse-"
+"example). La rama `noncompliant` coincide con la estructura anterior, "
+"mientras que la rama `master` es el resultado exitoso de este repositorio."
 
 #. type: Plain text
 #: tutorial.md
 msgid "For each of these steps, you will first learn how to achieve them manually. However, the [REUSE helper tool](https://github.com/fsfe/reuse-tool) supports you with most tasks, and the necessary commands will be listed as well in the collapsible boxes. We recommend to first understand the basic principle before just executing the tool's commands."
 msgstr ""
+"Para cada uno de estos pasos, primero aprenderá cómo lograrlos manualmente. "
+"Sin embargo, la [herramienta de ayuda REUSE] (https://github.com/fsfe/reuse-"
+"tool) lo ayuda con la mayoría de las tareas, y los comandos necesarios "
+"también se enumerarán en los menúes plegables. Recomendamos comprender "
+"primero el principio básico antes solo ejecutar los comandos de la "
+"herramienta."
 
 #. type: Plain text
 #: tutorial.md
@@ -1334,38 +1353,66 @@ msgid ""
 "General Public License (GPL) v3.0 or any later version. More than simply\n"
 "choosing a license, you need to put the license in your project directory.\n"
 msgstr ""
+"Lo primero que debe hacer es [elegir una licencia]({{< relref\n"
+"\"faq.md#which-license\" >}}). Para este tutorial, asumimos que eligió la "
+"GNU\n"
+"Licencia Pública General (GPL) v3.0 o cualquier versión posterior. Más que "
+"solo\n"
+"elegir una licencia, debe colocar la licencia en el directorio de su "
+"proyecto.\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "You find your license in the [SPDX License List](https://spdx.org/licenses/).  SPDX is an open standard for communicating license and copyright information.  Each license is uniquely identified by a shortform [SPDX License Identifier](https://spdx.org/licenses). The SPDX License Identifier for your chosen license is GPL-3.0-or-later."
 msgstr ""
+"Encontrará su licencia en la [Lista de licencias SPDX](https://spdx.org/"
+"licenses/).  SPDX es un estándar abierto para dar información sobre "
+"licencias y derechos de autor.  Cada licencia se identifica de forma única "
+"mediante una forma abreviada [Identificador de licencia SPDX](https://spdx."
+"org/licenses). El identificador de licencia SPDX para su licencia elegida es "
+"GPL-3.0 o posterior."
 
 #. type: Plain text
 #: tutorial.md
 msgid "You create a `LICENSES` directory in your project root which will contain all the licenses that you use in your project. You then download your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES` directory. The name of the license should be its SPDX License Identifier followed by a file extension (in this example, GPL-3.0-or-later.txt)."
 msgstr ""
+"Creas un directorio `LICENCIAS` en la raíz de tu proyecto que contendrá "
+"todas las licencias que usas en tu proyecto. Luego descarga su licencia del "
+"repositorio [license-list-data](https://github.com/spdx/license-list-data/"
+"tree/master/text)  y la coloca en el directorio `LICENSES`. El nombre de la "
+"licencia debe ser su Identificador de Licencia SPDX seguido de una extensión "
+"de archivo (en este ejemplo, GPL-3.0-or-later.txt)."
 
 #. type: Plain text
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< box-tool >}}\n"
-msgstr ""
+msgstr "{{< box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "You can initialise your project using `reuse init`. In an interactive dialogue you can define certain properties of your project and also one or multiple licenses. At the end, these licenses will be automatically downloaded to the correct location."
 msgstr ""
+"Puede inicializar su proyecto usando `reuse init`. En un diálogo interactivo "
+"puede definir ciertas propiedades de su proyecto y también una o varias "
+"licencias. Al final, estas licencias se descargarán automáticamente en la "
+"ubicación correcta."
 
 #. type: Plain text
 #: tutorial.md
 msgid "The `reuse download` command enables you to download a specific license. `reuse download GPL-3.0-or-later` would fulfil the task described in the manual instructions above. Running `reuse download --all` automatically downloads all licenses which the REUSE helper tool detects as being used in your project."
 msgstr ""
+"El comando `reutilizar descarga` le permite descargar una licencia "
+"específica. `reutilizar la descarga GPL-3.0 o posterior` cumpliría la tarea "
+"descrita en las instrucciones del manual anterior. Ejecutar `reuse download "
+"--all` descarga automáticamente todas las licencias que la herramienta de "
+"ayuda REUSE detecta como utilizadas en su proyecto."
 
 #. type: Plain text
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "{{< /box-tool >}}\n"
-msgstr ""
+msgstr "{{< /box-tool >}}\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1568,11 +1615,11 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 msgid "Your project tree will now look like this:"
-msgstr ""
+msgstr "Su árbol de proyecto ahora se verá así:"
 
 #. type: Fenced code block
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "project/\n"
 "├── img/\n"
@@ -1590,16 +1637,39 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
+"project/\n"
+"├── img/\n"
+"│   ├── cat.jpg\n"
+"│   ├── cat.jpg.license\n"
+"│   ├── dog.jpg\n"
+"│   └── dog.jpg.license\n"
+"├── LICENSES/\n"
+"│   ├── CC0-1.0.txt\n"
+"│   ├── CC-BY-4.0.txt\n"
+"│   └── GPL-3.0-or-later.txt\n"
+"├── src/\n"
+"│   └── main.c\n"
+"├── .gitignore\n"
+"├── Makefile\n"
+"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "Now that you have marked all files with their copyright and licensing, it is time to check whether you did not miss anything. To do this, we provide a helper tool for you to use. You can read the [full documentation](https://reuse.readthedocs.io/), or read the quick steps below."
 msgstr ""
+"Ahora que ha marcado todos los archivos con sus derechos de autor y "
+"licencias, es hora de verificar si no se perdió nada. Para hacer esto, "
+"proporcionamos una herramienta auxiliar para su uso. Puede leer la ["
+"documentación completa](https://reuse.readthedocs.io), o leer los pasos "
+"rápidos que se muestran a continuación."
 
 #. type: Plain text
 #: tutorial.md
 msgid "Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter."
 msgstr ""
+"Siga las [instrucciones de instalación](https://github.com/fsfe/reuse-"
+"tool#install) disponibles para varias plataformas. Ahora vaya al directorio "
+"del proyecto y ejecute el linter."
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1621,22 +1691,46 @@ msgid ""
 "\n"
 "Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)\n"
 msgstr ""
+"$ cd path/to/project/\n"
+"$ reuse lint\n"
+"# SUMMARY\n"
+"\n"
+"* Malas licencias:\n"
+"* Licencias obsoletas:\n"
+"* Licencias sin extensión de archivo:\n"
+"* Falta de licencias:\n"
+"* Licencias no utilizadas:\n"
+"* Licencias usadas: CC-BY-4.0, CC0-1.0, GPL-3.0-o-posterior\n"
+"* Leer errores: 0\n"
+"* Archivos con información sobre derechos de autor: 6 / 6\n"
+"* Archivos con información sobre licencias: 6 / 6\n"
+"\n"
+"¡Enhorabuena! Su proyecto cumple con la versión 3.0 de la especificación "
+"REUSE :-)\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "As you can see in the last line, the tool confirms that your project is compliant with REUSE now! To learn what the different sections mean, please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint)."
 msgstr ""
+"Como puede ver en la última línea, la herramienta confirma que su proyecto "
+"ya cumple con REUSE. Para saber qué significan las diferentes secciones, por "
+"favor, eche un vistazo a la [documentación del comando lint](https://reuse."
+"readthedocs.io/en/stable/usage.html#lint)."
 
 #. type: Title ##
 #: tutorial.md
 #, no-wrap
 msgid "Getting help"
-msgstr ""
+msgstr "Cómo obtener ayuda"
 
 #. type: Plain text
 #: tutorial.md
 msgid "After going through this tutorial, you understood REUSE and the three basic steps to properly license your software project – well done! But although we have covered a few edge cases, you might run into more questions soon. But don't worry, we are here to help!:"
 msgstr ""
+"Después de pasar por este tutorial, ha entendido REUSE y los tres pasos "
+"básicos para licenciar adecuadamente su proyecto de software - ¡bien hecho! "
+"Pero aunque hemos cubierto algunos casos extremos, es posible que pronto je "
+"surjan más preguntas. Pero no se preocupe, ¡estamos aquí para ayudarle!:"
 
 #. type: Plain text
 #: tutorial.md
