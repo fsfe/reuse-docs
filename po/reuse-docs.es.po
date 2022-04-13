@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-13 12:12+0000\n"
+"PO-Revision-Date: 2022-04-14 15:11+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -699,52 +699,82 @@ msgstr ""
 #, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
+"¿Qué hago con un archivo que ha sido editado por muchas personas? {#many-"
+"copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
+"Algunos archivos son editados por muchas personas y podrían tener una larga "
+"lista de titulares de derechos de autor en el encabezado. Esto puede "
+"resultar estéticamente desagradable, pero no es incorrecto."
 
 #. type: Plain text
 #: faq.md
 msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
 msgstr ""
+"Si prefiere no lidiar con tantos avisos de derechos de autor, algunos "
+"proyectos como Chromium eluden este problema usando \"Copyright (c) 2013 The "
+"Chromium Authors\" como su etiqueta de derechos de autor. Puede considerar "
+"hacer esto, pero luego debe mantener una lista de propietarios de derechos "
+"de propietarios y autores en un archivo separado en su proyecto."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
 msgstr ""
+"¿Por qué no puedo simplemente usar el control de versiones para registrar "
+"los derechos de autor? {#vcs-copyright}"
 
 #. type: Plain text
 #: faq.md
 msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
 msgstr ""
+"En [una pregunta anterior](#copyright-holder-author), distinguimos entre "
+"titulares de derechos de autor y autores, que no siempre son los mismos. El "
+"control de versiones generalmente solo registra la autoría, lo que lo hace "
+"inadecuado para la tarea de registrar los derechos de autor."
 
 #. type: Plain text
 #: faq.md
 msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
 msgstr ""
+"Otro obstáculo es que el historial de control de versiones puede contener "
+"errores, y corregir dicho error requeriría volver a escribir el historial, "
+"lo que haría que todos los contribuidores tuvieran que volver a descargar el "
+"nuevo tronco."
 
 #. type: Plain text
 #: faq.md
 msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
 msgstr ""
+"Otro problema con el control de versiones es que el comando `blame` que "
+"normalmente se (mal)usa para encontrar la autoría línea por línea muestra "
+"solo el autor del último comentario en esa línea, incluso si se trata de "
+"algo tan trivial como corregir un error."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Can I bulk-license whole directories? {#bulk-license}"
 msgstr ""
+"¿Puedo obtener licencias masivas de directorios completos? {#bulk-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
 msgstr ""
+"Si tiene un directorio que contiene muchos archivos, puede que no sea fácil "
+"ni práctico editar cada archivo para que contenga un encabezado. Si bien "
+"hacer esto sería ideal, hay una alternativa. Crear el archivo `.reuse/dep5` "
+"en la raíz de su proyecto, puede obtener una licencia masiva de un "
+"directorio. Ejemplo:"
 
 #. type: Fenced code block
 #: faq.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
 "Upstream-Name: my-project\n"
@@ -760,6 +790,19 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: my-project\n"
+"Upstream-Contact: Jane Doe <jane@example.com>\n"
+"Source: https://git.example.com/jane/my-project\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Jane Doe <jane@example.com>\n"
+"           2017 John Doe <john@example.com>\n"
+"License: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
