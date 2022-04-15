@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-14 15:11+0000\n"
+"PO-Revision-Date: 2022-04-17 14:08+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -808,109 +808,158 @@ msgstr ""
 #: faq.md
 msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 msgstr ""
+"Puede leer más sobre este formato de archivo de Debian [aquí](https://www."
+"debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Can I license only a part of a file as being under a different license? {#partial-license}"
 msgstr ""
+"¿Puedo licenciar solo una parte de un archivo como si estuviera bajo una "
+"licencia diferente? {#partial-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "The short answer is that yes, you can, but no, there is no standard way for REUSE to recognize this. If you have a small segment of a file that is licensed differently, you should list that license under a separate `SPDX-License-Identifier` tag in the header."
 msgstr ""
+"La respuesta corta es que sí, puede, pero no, no hay una forma estándar para "
+"que REUSE reconozca esto. Si tiene un pequeño segmento de un archivo que "
+"tiene una licencia diferente, debe enumerar esa licencia en una etiqueta "
+"separada `SPDX-License-Identifier` en el encabezado."
 
 #. type: Plain text
 #: faq.md
 msgid "You can use your own comments to specify which segment is separately licensed.  For instance: \"The class Foo is copied from project Bar and licensed under MIT.  All changes are licensed under GPL-3.0-or-later.\""
 msgstr ""
+"Puede usar sus propios comentarios para especificar qué segmento tiene una "
+"licencia separada.  Por ejemplo: \"La clase Foo se copia del proyecto Bar y "
+"tiene licencia del MIT.  Todos los cambios tienen licencia GPL-3.0 o "
+"posterior.\""
 
 #. type: Plain text
 #: faq.md
 msgid "A possible way to circumvent the problem is to extract the segment from the file, and to keep it in its own file."
 msgstr ""
+"Una forma posible de eludir el problema es extraer el segmento del archivo y "
+"ponerlo en su propio archivo."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "How do I properly declare multi-licensing? {#multi-licensing}"
-msgstr ""
+msgstr "¿Cómo declaro correctamente las licencias múltiples? {#multi-licensing}"
 
 #. type: Plain text
 #: faq.md
 msgid "You should always include all licenses in the `LICENSES/` directory."
-msgstr ""
+msgstr "Siempre debe incluir todas las licencias en el directorio `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
 msgid "The correct SPDX license expression that applies to the file depends on the intent. If all the code within is licensed under multiple licenses, and the licensee can choose under which license they consume the work, use `SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, as parts of Firefox do."
 msgstr ""
+"La expresión de licencia SPDX correcta que se aplica al archivo depende de "
+"la intención. Si todo el código contenido tiene varias licencias y el "
+"licenciatario puede elegir bajo qué licencia utiliza el trabajo, use `SPDX-"
+"License-Identifier: MPL-1.1 O GPL-2.0-o posterior O LGPL-2.1-o- posterior`, "
+"como lo hacen partes de Firefox."
 
 #. type: Plain text
 #: faq.md
 msgid "If all the code within the file is licensed under multiple licenses, and the user must comply with all licenses simultaneously, use `SPDX-License-Identifier: LGPL-2.0-or-later AND AML`, as can be found in Simple DirectMedia Layer (SDL)."
 msgstr ""
+"Si todo el código dentro del archivo tiene varias licencias y el usuario "
+"debe cumplir con todas las licencias simultáneamente, use `SPDX-License-"
+"Identifier: LGPL-2.0-or-posterior Y AML`, como se puede encontrar en Simple "
+"DirectMedia Layer (SDL)."
 
 #. type: Plain text
 #: faq.md
 msgid "If all the code within the file is licensed under either one license or another (for instance, all code is under GPL-2.0-only, but one function is under MIT), use separate tags `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-License-Identifier: MIT`."
 msgstr ""
+"Si todo el código dentro del archivo tiene una licencia u otra (por ejemplo, "
+"todo el código está bajo GPL-2.0 solamente, pero una función está bajo MIT), "
+"use etiquetas separadas `SPDX-License-Identifier: GPL-2.0 -solamente` y "
+"`SPDX-License-Identifier: MIT`."
 
 #. type: Plain text
 #: faq.md
 msgid "You can read more about SPDX expressions [on the SPDX wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ)."
 msgstr ""
+"Puede leer más sobre las expresiones SPDX [en la wiki de SPDX] (https://wiki."
+"spdx.org/view/LicenseExpressionFAQ)."
 
 #. type: Plain text
 #: faq.md
 #, no-wrap
 msgid "<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}\n"
 msgstr ""
+"<!-- ## ¿Cómo lidiar con las licencias MIT/BSD que incluyen información de "
+"derechos de autor? {#mit-bsd}\n"
 
 #. type: Plain text
 #: faq.md
 #, no-wrap
 msgid "TODO: Figure this one out -->\n"
-msgstr ""
+msgstr "TODO: Resuelve esto -->\n"
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "I only have a single license file. Should I still create a LICENSES directory? {#single-license}"
 msgstr ""
+"Tengo un solo archivo de licencia. ¿Debo seguir creando un directorio de "
+"LICENCIAS? {#single-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "Yes. This may seem extraneous, but it prevents future confusion when differently licensed code is adopted. By keeping all licenses in a single directory, it is easy for a user of your program to find all the licenses they need to comply with in the blink of an eye."
 msgstr ""
+"Sí. Esto puede parecer extraño, pero evita futuras confusiones cuando se "
+"adopta un código de licencia diferente. Al mantener todas las licencias en "
+"un solo directorio, es fácil para un usuario de su programa encontrar todas "
+"las licencias que necesita para cumplir en un abrir y cerrar de ojos."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Should I put comment headers in my license files? {#header-in-license}"
 msgstr ""
+"¿Debo poner encabezados de comentarios en mis archivos de licencia? {#header-"
+"in-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "You should not edit license files. Please see [this question](#edit-license)."
 msgstr ""
+"No debe editar los archivos de licencia. Por favor vea [esta pregunta](#edit-"
+"license)."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "How do I use a license that is not on the SPDX License List? {#custom-license}"
 msgstr ""
+"¿Cómo uso una licencia que no está en la lista de licencias de SPDX? "
+"{#custom-license}"
 
 #. type: Plain text
 #: faq.md
 #, no-wrap
 msgid "<!-- TODO: Explain that the user probably shouldn't use a custom license -->\n"
 msgstr ""
+"<!-- TODO: Explicar que el usuario probablemente no debería usar una "
+"licencia personalizada -->\n"
 
 #. type: Plain text
 #: faq.md
 msgid "If you have a custom or modified license that does not appear in the SPDX License List, place your license in the file `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that speak SPDX will still be able to recognise your license."
 msgstr ""
+"Si tiene una licencia personalizada o modificada que no aparece en la Lista "
+"de licencias de SPDX, coloque su licencia en el archivo `LICENSES/LicenseRef-"
+"MyLicense.txt`. Al nombrar su licencia como tal, las herramientas que leen "
+"SPDX aún podrán reconocer su licencia."
 
 #. type: Title ##
 #: faq.md
@@ -1548,49 +1597,73 @@ msgstr ""
 #: tutorial.md
 msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
 msgstr ""
+"La orden `reuse addheader` ayuda a agregar información de licencia y "
+"derechos de autor a sus archivos. Para la tarea anterior, haría el trabajo "
+"la siguiente orden:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+".0-or-later\" src/main.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
 msgstr ""
+"Consulte la [documentación de la herramienta sobre addheader](https://reuse."
+"readthedocs.io/en/stable/usage.html#addheader)  para obtener más opciones, "
+"como estilos de comentarios y plantillas"
 
 #. type: Title ###
 #: tutorial.md
 #, no-wrap
 msgid "Binary and uncommentable files"
-msgstr ""
+msgstr "Archivos binarios y no comentables"
 
 #. type: Plain text
 #: tutorial.md
 msgid "You also want to license your image files under GPL-3.0-or-later.  Unfortunately, images and other binary files do not have comment headers that one can easily edit. Other examples include automatically generated files and certain data and configuration files for which comments are non-trivial."
 msgstr ""
+"También desea licenciar sus archivos de imagen bajo GPL-3.0 o posterior.  "
+"Desafortunadamente, las imágenes y otros archivos binarios no tienen "
+"encabezados de comentarios que se puedan editar fácilmente. Otros ejemplos "
+"incluyen archivos generados automáticamente y ciertos datos y archivos de "
+"configuración para los cuales los comentarios no son triviales."
 
 #. type: Plain text
 #: tutorial.md
 msgid "There is a simple trick to circumvent this. Create the files `cat.jpg.license` and `dog.jpg.license`, each containing the same information about license and copyright holder as above."
 msgstr ""
+"Hay un truco simple para eludir esto. Cree los archivos `cat.jpg.license` y "
+"`dog.jpg.license`, cada uno con la misma información sobre la licencia y el "
+"propietario de los derechos de autor que se indica arriba."
 
 #. type: Plain text
 #: tutorial.md
 msgid "The REUSE helper tool should automatically detect binary files and therefore automatically create a corresponding `.license` file."
 msgstr ""
+"La herramienta de ayuda REUSE debería detectar automáticamente los archivos "
+"binarios y, por lo tanto, crear automáticamente un archivo `.license` "
+"correspondiente."
 
 #. type: Plain text
 #: tutorial.md
 msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
 msgstr ""
+"Si no es así, o si desea aplicar esto, agregue el argumento `--explicit-"
+"license` al comando addheader. Entonces, la orden para la tarea anterior se "
+"puede ver así:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+".0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
