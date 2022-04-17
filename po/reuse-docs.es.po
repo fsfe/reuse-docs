@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-17 14:08+0000\n"
+"PO-Revision-Date: 2022-04-18 16:07+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1669,63 +1669,91 @@ msgstr ""
 #: tutorial.md
 #, no-wrap
 msgid "Change licensing information"
-msgstr ""
+msgstr "Cambiar información de licencia"
 
 #. type: Plain text
 #: tutorial.md
 msgid "You discover that the photos of the cat and the dog were not licensed under the GPL at all, but under Creative Commons Attribution 4.0 International, owned by Max Mehl."
 msgstr ""
+"Descubre que las fotos del gato y el perro no tenían licencia GPL en "
+"absoluto, sino Creative Commons Attribution 4.0 International, propiedad de "
+"Max Mehl."
 
 #. type: Plain text
 #: tutorial.md
 msgid "The SPDX License Identifier of this license is CC-BY-4.0. You create the file `LICENSES/CC-BY-4.0.txt`, following the same steps you used for GPL-3.0-or-later."
 msgstr ""
+"El identificador de licencia SPDX de esta licencia es CC-BY-4.0. Cree el "
+"archivo `LICENSES/CC-BY-4.0.txt`, siguiendo los mismos pasos que usó para "
+"GPL-3.0 o posterior."
 
 #. type: Plain text
 #: tutorial.md
 msgid "You then edit `cat.jpg.license` and `dog.jpg.license` to say:"
-msgstr ""
+msgstr "Después edite `cat.jpg.license` y `dog.jpg.license` para decir:"
 
 #. type: Fenced code block
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
 "\n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 msgstr ""
+"SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
+"\n"
+"SPDX-License-Identifier: CC-BY-4.0\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
 msgstr ""
+"La herramienta a partir de ahora no proporciona una forma de reemplazar la "
+"información existente de REUSE compatible de licencia y derechos de autor. "
+"Una ejecución del comando `addheader` no reemplazaría sino que ampliaría los "
+"archivos `.license` con dos líneas adicionales que indican los derechos de "
+"autor de Max Mehl y la licencia CC-BY-4.0. Por lo tanto, tendría que "
+"actualizarlos manualmente."
 
 #. type: Plain text
 #: tutorial.md
 msgid "However, the `download` command afterwards would allow you to download the new license automatically, so either with `reuse download CC-BY-4.0` or simply `reuse download --all`."
 msgstr ""
+"Sin embargo, el comando `download` le permitirá descargar la nueva licencia "
+"automáticamente, así que con `reuse download CC-BY-4.0` o simplemente `reuse "
+"download --all`."
 
 #. type: Title ###
 #: tutorial.md
 #, no-wrap
 msgid "Build artifacts"
-msgstr ""
+msgstr "Construir artefactos"
 
 #. type: Plain text
 #: tutorial.md
 msgid "When you compile your program, you generate some build artifacts, such as `src/main.o`.  You do not need to provide any licensing information for those files.  Just use your `.gitignore` file to ignore these build artifacts.  The REUSE tool will respect the contents of `.gitignore`."
 msgstr ""
+"Cuando compila su programa, genera algunos artefactos de compilación, como `"
+"src/main.o`.  No necesita proporcionar ninguna información de licencia para "
+"esos archivos.  Simplemente use su archivo `.gitignore` para ignorar estos "
+"artefactos de compilación.  La herramienta REUSE respetará el contenido de `."
+"gitignore`."
 
 #. type: Title ###
 #: tutorial.md
 #, no-wrap
 msgid "Insignificant files"
-msgstr ""
+msgstr "Archivos insignificantes"
 
 #. type: Plain text
 #: tutorial.md
 msgid "You probably will have files in your project that you do not find particularly copyrightable, for example configuration files such as `.gitignore`. Intuitively you may not want to license these files, but the fundamental idea of REUSE is that all your files will clearly have their copyright and licensing marked."
 msgstr ""
+"Probablemente tendrá archivos en su proyecto que no encuentre "
+"particularmente protegidos por derechos de autor, por ejemplo, archivos de "
+"configuración como `.gitignore`. Intuitivamente, es posible que no desee "
+"licenciar estos archivos, pero la idea fundamental de REUSE es que todos sus "
+"archivos tengan claramente marcados sus derechos de autor y licencia."
 
 #. type: Plain text
 #: tutorial.md
