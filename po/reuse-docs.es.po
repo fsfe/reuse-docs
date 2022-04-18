@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-18 16:07+0000\n"
+"PO-Revision-Date: 2022-04-20 11:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -65,7 +65,7 @@ msgstr ""
 "Elegir una licencia de [Free Software](https://fsfe.org/about/basics/"
 "freesoftware) para el proyecto. Encontrar el identificador SPDX de tu "
 "licencia en la [Lista de licencias SPDX](https://spdx.org/licenses/). "
-"Descarga el texto de tu licencia del repositorio[license-list-"
+"Descarga el texto de su licencia del repositorio[license-list-"
 "data](https://github.com/spdx/license-list-data/tree/master/text)  y "
 "colóquelo en el directorio `LICENSES/`."
 
@@ -1759,20 +1759,30 @@ msgstr ""
 #: tutorial.md
 msgid "If you do not exercise any copyright over this file, you can use the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). This is functionally identical to putting the file in the public domain. Edit the file to contain:"
 msgstr ""
+"Si no ejerce ningún derecho de autor sobre este archivo, puede utilizar la ["
+"licencia CC0](https://creativecommons.org/publicdomain/zero/1.0/). Esto es "
+"funcionalmente idéntico a poner el archivo en el dominio público. Edite el "
+"archivo para que contenga:"
 
 #. type: Fenced code block
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 "#\n"
 "# SPDX-License-Identifier: CC0-1.0\n"
 msgstr ""
+"# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
+"#\n"
+"# SPDX-License-Identifier: CC0-1.0\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before."
 msgstr ""
+"En consecuencia, también deberá proporcionar la licencia CC0-1.0 en el "
+"directorio `LICENSES/`, al igual que la GPL-3.0-o posterior y CC-BY-4.0 "
+"anterior."
 
 #. type: Plain text
 #: tutorial.md
@@ -1781,26 +1791,35 @@ msgid ""
 "More information about copyrightable files can be found in the [REUSE FAQ]({{< relref\n"
 "\"faq.md#what-is-copyrightable\" >}}).\n"
 msgstr ""
+"Puede encontrar más información sobre los archivos protegidos por derechos "
+"de autor en [REUSE FAQ]({{< relref\n"
+"\"faq.md#what-is-copyrightable\" >}}).\n"
 
 #. type: Plain text
 #: tutorial.md
 msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
 msgstr ""
+"Como antes, una combinación de los comandos `addheader` y `download` "
+"cumplirá el paso anterior:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid ""
 "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
 "\n"
 "reuse download --all\n"
 msgstr ""
+"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
+".0\" .gitignore\n"
+"\n"
+"reuse download --all\n"
 
 #. type: Title ###
 #: tutorial.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Result"
-msgstr ""
+msgstr "Result"
 
 #. type: Plain text
 #: tutorial.md
@@ -1926,11 +1945,15 @@ msgstr ""
 #: tutorial.md
 msgid "- Our [Frequently Asked Questions](https://reuse.software/faq) covers common questions as well as extraordinary cases and will constantly be updated."
 msgstr ""
+"- Nuestras [Preguntas frecuentes] (https://reuse.software/faq) cubren "
+"preguntas comunes y casos extraordinarios y se actualizarán constantemente."
 
 #. type: Plain text
 #: tutorial.md
 msgid "- The full [REUSE specification](https://reuse.software/spec) formally describes REUSE and the methods to become compliant."
 msgstr ""
+"- [REUSE specification](https://reuse.software/spec) describe formalmente "
+"REUSE y los métodos para llegar."
 
 #. type: Bullet: '- '
 #: tutorial.md
