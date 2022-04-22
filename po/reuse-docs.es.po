@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-20 11:12+0000\n"
+"PO-Revision-Date: 2022-04-23 15:13+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -291,10 +291,10 @@ msgstr ""
 #: faq.md
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
-"Si realmente quieres excluir un archivo, mira la posibilidad de utilizar la "
+"Si realmente quiere excluir un archivo, mire la posibilidad de utilizar la "
 "licencia [CC0](https://creativecommons.org/publicdomain/zero/1.0/) para este "
 "archivo. Así, el archivo pasa a ser de dominio público, o el equivalente de "
-"tu país."
+"su país."
 
 #. type: Plain text
 #: faq.md
@@ -308,19 +308,19 @@ msgstr ""
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
 "Si tienes un directorio completo que deseas \"excluir\" de las pruebas de "
-"conformidad de REUSE, puedes [utilizar un archivo DEP5] (#bulk-license)."
+"conformidad de REUSE, puedes [usar un archivo DEP5] (#bulk-license)."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr "¿Admites un sistema de control de versiones distinto de Git? {#no-git}"
+msgstr "¿Admite un sistema de control de versiones distinto de Git? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
-"Actualmente no lo hacemos, pero por favor [contacta con] (https://github.com/"
+"Actualmente no lo hacemos, pero por favor [contacte con] (https://github.com/"
 "fsfe/reuse-tool/issues)."
 
 #. type: Title #
