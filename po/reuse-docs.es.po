@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-23 15:13+0000\n"
+"PO-Revision-Date: 2022-04-25 15:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -453,23 +453,23 @@ msgstr "La opción que elijas depende en última instancia de ti."
 #, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
-"¿Debo incluir en mi repositorio tanto la GPL-3.0-o-posterior como solo la "
-"GPL-3.0? {#gpl-plus}"
+"¿Debo incluir en mi repositorio tanto la GPL-3.0-o-posterior como la GPL-"
+"3.0.solo? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
 "Los miembros de la familia GPL se enumeran por separado en la Lista de "
-"Licencias SPDX como -sólo y o más, aunque los textos de licencia son "
-"idénticos. Si solo tienes una de estas licencias, te recomendamos que sólo "
+"Licencias SPDX como -sólo y o más, aunque los textos de licencia sean "
+"idénticos. Si solo tienes una de estas licencias, le recomendamos que sólo "
 "incluya esa licencia."
 
 #. type: Plain text
 #: faq.md
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
-"Si tienes ambas licencias -sólo una licencia y otra, te recomendamos que "
+"Si tiene ambas licencias -sólo una licencia y otra, le recomendamos que "
 "incluyas ambas licencias por separado."
 
 #. type: Title ##
@@ -485,11 +485,11 @@ msgstr ""
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
 "Las excepciones de licencia son añadidos o alteraciones de una licencia que "
-"a menudo trabajan para permitir un cierto uso del código que no se "
-"permitiría bajo la licencia original. A menudo lo utilizan los compiladores, "
-"donde una parte del código compilador puede terminar en el binario "
-"resultante. La excepción puede renunciar a derechos sobre porciones de "
-"código que terminan en binarios."
+"a menudo sirven para permitir un cierto uso del código que no se permitiría "
+"bajo la licencia original. A menudo lo utilizan los compiladores, donde una "
+"parte del código compilador puede terminar en el binario resultante. La "
+"excepción puede ser renunciar a derechos sobre porciones de código que "
+"terminan en binarios."
 
 #. type: Plain text
 #: faq.md
