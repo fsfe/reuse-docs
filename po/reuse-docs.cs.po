@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-13 12:12+0000\n"
+"PO-Revision-Date: 2022-05-01 12:09+0000\n"
 "Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/fsfe/reuse-docs/cs/"
 ">\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -962,10 +962,10 @@ msgstr ""
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "You should not edit license files. Please see [this question](#edit-license)."
 msgstr ""
-"Licenční soubory byste neměli upravovat. Viz [tato otázka](#edit-licence)."
+"Licenční soubory byste neměli upravovat. Viz [tato otázka](#edit-license)."
 
 #. type: Title ##
 #: faq.md
@@ -1023,7 +1023,7 @@ msgstr ""
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "<!-- TODO: the linked section still needs to be written.\n"
 "Some licenses, such as MIT and the BSD family of licenses, have a line that says\n"
@@ -1033,8 +1033,7 @@ msgid ""
 msgstr ""
 "<!-- TODO: je třeba ještě napsat odkazovanou sekci. \n"
 "Některé licence, například MIT a rodina licencí BSD, obsahují řádek \n"
-"\"Copyright (c) [rok] [držitel autorských práv]\". O tom, jak s těmito "
-"licencemi \n"
+"\"Copyright (c) [year] [copyright holder]\". O tom, jak s těmito licencemi \n"
 "zacházet, se dočtete v [této otázce](#mit-bsd). \n"
 "-->\n"
 
@@ -1625,7 +1624,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-#, fuzzy, markdown-text, no-wrap
+#, markdown-text, no-wrap
 msgid ""
 "The first thing you need to do is to [choose a license]({{< relref\n"
 "\"faq.md#which-license\" >}}). For this tutorial, we assume that you chose the GNU\n"
@@ -1633,7 +1632,7 @@ msgid ""
 "choosing a license, you need to put the license in your project directory.\n"
 msgstr ""
 "Nejprve je třeba [vybrat licenci]({{< relref\n"
-"\"faq.md#which-licence\" >}}). Pro tento návod předpokládáme, že jste si "
+"\"faq.md#which-license\" >}}). Pro tento návod předpokládáme, že jste si "
 "vybrali licenci GNU\n"
 "General Public License (GPL) v3.0 nebo jakoukoli novější verzi. Nestačí než "
 "jen\n"
