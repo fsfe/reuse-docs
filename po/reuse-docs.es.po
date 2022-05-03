@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-04-27 12:13+0000\n"
+"PO-Revision-Date: 2022-05-04 12:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.1-dev\n"
+"X-Generator: Weblate 4.12.1\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -853,7 +853,7 @@ msgstr "¿Cómo declaro correctamente las licencias múltiples? {#multi-licensin
 #. type: Plain text
 #: faq.md
 msgid "You should always include all licenses in the `LICENSES/` directory."
-msgstr "Siempre debe incluir todas las licencias en el directorio `LICENSES/`."
+msgstr "Siempre deben incluir todas las licencias en el directorio `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
@@ -965,23 +965,27 @@ msgstr ""
 #: faq.md
 #, no-wrap
 msgid "How do I use a custom exception? {#custom-exception}"
-msgstr ""
+msgstr "¿Cómo utilizo una excepción personalizada? {#custom-exception}"
 
 #. type: Plain text
 #: faq.md
 msgid "It is not possible to create a custom exception. Instead, you may [create a custom license](#custom-license) that embeds the exception."
 msgstr ""
+"No es posible crear una excepción personalizada. En su lugar, puede [crear "
+"una licencia personalizada](#custom-license) que incorpore la excepción."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Should I edit my license files? {#edit-license}"
-msgstr ""
+msgstr "¿Debo editar mis archivos de licencia? {#edit-license}"
 
 #. type: Plain text
 #: faq.md
 msgid "You should never edit license files. When you use an existing license, you should always copy it verbatim."
 msgstr ""
+"Nunca debe editar los archivos de licencia. Cuando utilice una licencia "
+"existente, siempre debe copiarla al pie de la letra."
 
 #. type: Plain text
 #: faq.md
@@ -993,11 +997,21 @@ msgid ""
 "about how to deal with those licenses.\n"
 "-->\n"
 msgstr ""
+"<!-- TODO: la sección vinculada aún debe escribirse.\n"
+"Algunas licencias, como MIT y la familia de licencias BSD, tienen una línea "
+"que dice\n"
+"\"Copyright (c) [year] [copyright holder]\". Consulte [esta pregunta](#mit-"
+"bsd)\n"
+"sobre cómo usar esas licencias.\n"
+"-->\n"
 
 #. type: Plain text
 #: faq.md
 msgid "There are many reasons for why you should not alter license texts, but if you do alter the texts, you should use a different SPDX identifier for this license.  See [the previous question](#custom-license)."
 msgstr ""
+"Hay muchas razones por las que no debe modificar los textos de las "
+"licencias, pero si modifica los textos, debe utilizar un identificador SPDX "
+"diferente para esta licencia.  Ver [la pregunta anterior](#custom-license)."
 
 #. type: Title ##
 #: faq.md
