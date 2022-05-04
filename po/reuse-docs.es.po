@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-05-04 12:12+0000\n"
+"PO-Revision-Date: 2022-05-05 09:05+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1018,55 +1018,79 @@ msgstr ""
 #, no-wrap
 msgid "Can I edit copyright notices and license disclaimers? {#edit-copyright-and-licensing}"
 msgstr ""
+"¿Puedo editar avisos de derechos de autor y renuncias de licencia?{#edit-"
+"copyright-and-licensing}"
 
 #. type: Plain text
 #: faq.md
 msgid "If you find out that some information is incorrect, you are free to adjust it.  Otherwise, it is usually a good idea to leave copyright notices and license disclaimers intact. But there is no one-size-fits-all answer here."
 msgstr ""
+"Si descubre que alguna información es incorrecta, es libre de corregirla.  "
+"De lo contrario, suele ser una buena idea dejar intactos las notas de "
+"derechos de autor y las renuncias de licencia. Pero no hay una respuesta "
+"única para todo."
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}"
 msgstr ""
+"¿Puedo eliminar la licencia y la información de derechos de autor del código "
+"minimizado (por ejemplo, JavaScript)? {#minified}"
 
 #. type: Plain text
 #: faq.md
 msgid "You can, but you probably should not. Many minifiers have an option that allows you to retain the header comment. If this option is present, you should use it, especially if you use a license that mandates that you include a license disclaimer."
 msgstr ""
+"Puede, pero probablemente no debería. Muchos minificadores tienen una opción "
+"que permite conservar el comentario del encabezado. Si se presenta esta "
+"opción, debe usarla, especialmente si usa una licencia que exige que incluya "
+"un descargo de responsabilidad de la licencia."
 
 #. type: Title #
 #: faq.md
 #, no-wrap
 msgid "For lawyers and legal experts {#lawyers}"
-msgstr ""
+msgstr "Para abogados y asesores legales {#lawyers}"
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "I am a lawyer and want a bill of materials {#bill-of-materials}"
-msgstr ""
+msgstr "Soy abogado y quiero una lista de materiales {#bill-of-materials}"
 
 #. type: Plain text
 #: faq.md
 msgid "Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root to create an [SPDX document](https://spdx.org/spdx-specification-21-web-version)."
 msgstr ""
+"Instale la herramienta reuse y ejecute `reuse spdx -o reuse.spdx` en la raíz "
+"del proyecto para crear un [documento SPDX](https://spdx.org/spdx-"
+"specification-21-web-version)."
 
 #. type: YAML Front Matter: title
 #: spec.md
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "REUSE Specification – Version 3.0"
-msgstr ""
+msgstr "REUSE Specification – Version 3.0"
 
 #. type: Plain text
 #: spec.md
 msgid "This specification defines a standardized method for declaring copyright and licensing for software projects. The goal of the specification is to have unambiguous, human- and machine-readable copyright and licensing information for each individual file in a project. Ideally this information is embedded into every file, so that the information is preserved when the file is copied and reused by third parties."
 msgstr ""
+"Esta especificación define un método estandarizado para declarar derechos de "
+"autor y licencias para proyectos de software. El objetivo de la "
+"especificación es tener información de derechos de autor y licencias "
+"inequívocas, legible por humanos y máquinas para cada archivo individual en "
+"un proyecto. Idealmente, esta información está incrustada en cada archivo, "
+"de modo que la información se conserve cuando el archivo sea copiado y "
+"reutilizado por terceros."
 
 #. type: Plain text
 #: spec.md
 msgid "This specification implements [IETF RFC 2119: Key words for use in RFCs to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)."
 msgstr ""
+"Esta especificación implementa [IETF RFC 2119: palabras clave para usar en "
+"RFC e indicar los Requirement Levels](https://tools.ietf.org/html/rfc2119)."
 
 #. type: Plain text
 #: spec.md
