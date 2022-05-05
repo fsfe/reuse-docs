@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-05-05 09:05+0000\n"
+"PO-Revision-Date: 2022-05-05 17:12+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1096,17 +1096,22 @@ msgstr ""
 #: spec.md
 msgid "For the revision history of this specification, please see [the change log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md)."
 msgstr ""
+"Para ver el historial de revisiones de esta especificación, consulte [el "
+"registro de cambios](https://git.fsfe.org/reuse/docs/src/branch/master/"
+"CHANGELOG.md)."
 
 #. type: Title ##
 #: spec.md
 #, no-wrap
 msgid "Definitions"
-msgstr ""
+msgstr "Definiciones"
 
 #. type: Plain text
 #: spec.md
 msgid "These are the definitions for some of the terms used in this specification:"
 msgstr ""
+"Estas son las definiciones de algunos de los términos utilizados en esta "
+"especificación:"
 
 #. type: Bullet: '- '
 #: spec.md
