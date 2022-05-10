@@ -44,6 +44,7 @@ These are the definitions for some of the terms used in this specification:
     - The files in the `.reuse/` directory in the root of the Project. This
       directory MUST contain only files relevant for the operation of the REUSE
       Tool.
+    - Symlinks and files with no data (zero-byte).
 
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
