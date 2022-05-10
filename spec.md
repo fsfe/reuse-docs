@@ -45,6 +45,10 @@ These are the definitions for some of the terms used in this specification:
       directory MUST contain only files relevant for the operation of the REUSE
       Tool.
     - Symlinks and files with no data (zero-byte).
+    - SPDX documents in their various formats as defined in the [SPDX
+      Specification, Clause
+      4.4](https://spdx.github.io/spdx-spec/conformance/#44-standard-data-format-requirements)
+      (example: `sbom.spdx.json`).
 
 - SPDX Specification --- SPDX specification, version 2.1; as available on
   <https://spdx.org/specifications>.
