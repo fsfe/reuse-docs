@@ -103,9 +103,10 @@ entirely against the purpose of REUSE: making sure that every file has a
 copyright and license tag.
 
 If you really want to exclude a file, consider using the
-[CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this
-file. By doing this, you put the file in the [public domain, or your country's
-equivalent](https://fsfe.org/freesoftware/legal/faq.html#public-domain).
+[CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file.
+By doing this, you put the file in the [public domain, or your country's
+equivalent](https://fsfe.org/freesoftware/legal/faq.html#public-domain). Also
+see the question about [uncopyrightable files](#uncopyrightable).
 
 There is one exception: License files are automatically excluded from compliance
 testing.
@@ -201,12 +202,17 @@ regular copyright and license header for this file. There is nothing that stops
 you from claiming copyright over your own works. However, a court would still
 likely find such files uncopyrightable.
 
-The alternative is to waive your copyright by using the
-[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+The alternative is to waive your copyright, for example by using the
+[CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) or the
+[Unlicense](https://unlicense.org/), or to use a weak-protective license such as
+`Apache-2.0` or `MIT`. Please note that REUSE does not have a policy or hard
+recommendations on this.
 
 It is important to note that you can only do this for your own works. If the
 file was authored by someone else, you must declare their copyright and license
 in the header.
+
+Also see the question about [excluding files](#exclude-file).
 
 ## What is a copyright holder, and what is an author? {#copyright-holder-author}
 
