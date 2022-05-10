@@ -38,6 +38,8 @@ The versions follow [semantic versioning](https://semver.org).
 
 - Remove symlinks and zero-byte files from list of Covered Files. (#101)
 
+- Remove submodules from list of Covered Files. (#99)
+
 - Clarify which license text files are needed if a SPDX license expression
   contains more than one license and/or exception. (#96)
 
