@@ -50,14 +50,14 @@ These are the definitions for some of the terms used in this specification:
       4.4](https://spdx.github.io/spdx-spec/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
 
-- SPDX Specification --- SPDX specification, version 2.1; as available on
+- SPDX Specification --- SPDX specification, version 2.2.1; as available on
   <https://spdx.org/specifications>.
 
 - SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
   examples.
 
-- SPDX License Expression --- as defined in SPDX Specification, Appendix IV, at <https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60>.
+- SPDX License Expression --- as defined in SPDX Specification, Annex D, at <https://spdx.github.io/spdx-spec/SPDX-license-expressions/>.
 
 - SPDX License List --- a list of commonly found licenses and exceptions; as
   available on <https://spdx.org/licenses/>.
@@ -79,7 +79,7 @@ license followed by an appropriate file extension (example:
 `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format.
 
 If a license does not exist in the SPDX License List, its SPDX License Identifier
-MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Section 6 available at <https://spdx.org/spdx-specification-21-web-version#h.1v1yuxt>.
+MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Clause 10 available at <https://spdx.github.io/spdx-spec/other-licensing-information-detected/>.
 
 A Project MUST NOT include License Files for licenses under which none of the
 files in the Project are licensed.
