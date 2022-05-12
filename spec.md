@@ -107,7 +107,7 @@ file's Copyright and Licensing Information.
 
 If a file is not a plain text file or does not permit the inclusion of
 comments, the comment header that declares the file's Copyright and Licensing
-Information SHOULD be in an adjacent file of the same name with the
+Information SHOULD be in an adjacent UTF-8 encoded text file of the same name with the
 additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
 
