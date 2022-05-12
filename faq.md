@@ -66,6 +66,26 @@ corresponding `.license` file, or marked in a bulk. These things are simply
 inherent to the goal of REUSE, and we hope that these eccentricities will soon
 become commonplace, such that they would no longer seem so peculiar anymore.
 
+## Why can't I just use the metadata fields in pictures, SVG, text documents etc.? {#metadata}
+
+Several file formats support the storage of metadata information within the file
+itself, and some even contain fields for copyright and license. However, we do
+not support these in REUSE for practical reasons:
+
+1. For humans and machines alike it's not always trivial to spot this
+   information. REUSE intents to make it simple to find licensing and copyright
+   information.
+
+2. Some tools redact metadata fields, for example to make files smaller or
+   remove potentially sensible personal information. This could also wipe your
+   or someone else's copyright information, and detecting this mistake is hard.
+
+3. With some file types, there are competing and unstandardised methods to store
+   metadata.
+
+This question is also related to [why we cannot use version control to record
+copyright](#vcs-copyright).
+
 <!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}
 
 TODO -->
