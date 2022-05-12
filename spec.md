@@ -129,6 +129,26 @@ An example of a comment header:
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
 
+If these tags are additionally used in the file without describing the file's
+actual license or copyright but for example as part of an output command or
+documentation, these occurences MAY be put between two comments:
+`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all tags
+within. This technique MUST NOT be used to ignore valid tags for licensing or
+copyright.
+
+An example for an ignored block:
+
+```
+# SPDX-FileCopyrightText: 2021 Jane Doe
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# REUSE-IgnoreStart
+echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
+echo "SPDX-License-Identifier: MIT" > file.txt
+# REUSE-IgnoreEnd
+```
+
 ### DEP5
 
 Alternatively, Copyright and Licensing Information MAY be associated with a
