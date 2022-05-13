@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-05-12 12:18+0000\n"
+"PO-Revision-Date: 2022-05-15 12:15+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -1737,8 +1737,8 @@ msgstr ""
 msgid "The REUSE helper tool should automatically detect binary files and therefore automatically create a corresponding `.license` file."
 msgstr ""
 "La herramienta de ayuda REUSE debería detectar automáticamente los archivos "
-"binarios y, por lo tanto, crear automáticamente un archivo `.license` "
-"correspondiente."
+"binarios y, por lo tanto, crear automáticamente el correspondiente archivo `."
+"license`."
 
 #. type: Plain text
 #: tutorial.md
@@ -1810,8 +1810,8 @@ msgstr ""
 #: tutorial.md
 msgid "However, the `download` command afterwards would allow you to download the new license automatically, so either with `reuse download CC-BY-4.0` or simply `reuse download --all`."
 msgstr ""
-"Sin embargo, el comando `download` le permitirá descargar la nueva licencia "
-"automáticamente, así que con `reuse download CC-BY-4.0` o simplemente `reuse "
+"Sin embargo, el comando `download` permitirá descargar la nueva licencia "
+"automáticamente, así con `reuse download CC-BY-4.0` o simplemente `reuse "
 "download --all`."
 
 #. type: Title ###
@@ -1871,9 +1871,8 @@ msgstr ""
 #: tutorial.md
 msgid "Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before."
 msgstr ""
-"En consecuencia, también deberá proporcionar la licencia CC0-1.0 en el "
-"directorio `LICENSES/`, al igual que la GPL-3.0-o posterior y CC-BY-4.0 "
-"anterior."
+"En consecuencia, también deberá situar la licencia CC0-1.0 en el directorio `"
+"LICENSES/`, al igual que la GPL-3.0-o posterior y CC-BY-4.0 anterior."
 
 #. type: Plain text
 #: tutorial.md
@@ -1968,8 +1967,8 @@ msgstr ""
 msgid "Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter."
 msgstr ""
 "Siga las [instrucciones de instalación](https://github.com/fsfe/reuse-"
-"tool#install) disponibles para varias plataformas. Ahora vaya al directorio "
-"del proyecto y ejecute el linter."
+"tool#install) disponibles para diferentes plataformas. Ahora vaya al "
+"directorio del proyecto y ejecute linter."
 
 #. type: Fenced code block
 #: tutorial.md
