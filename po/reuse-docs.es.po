@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-05-15 12:15+0000\n"
+"PO-Revision-Date: 2022-05-17 16:13+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -2028,15 +2028,15 @@ msgid "After going through this tutorial, you understood REUSE and the three bas
 msgstr ""
 "Después de pasar por este tutorial, ha entendido REUSE y los tres pasos "
 "básicos para licenciar adecuadamente su proyecto de software - ¡bien hecho! "
-"Pero aunque hemos cubierto algunos casos extremos, es posible que pronto je "
-"surjan más preguntas. Pero no se preocupe, ¡estamos aquí para ayudarle!:"
+"Pero aunque hemos cubierto algunos casos determinados, seguro que le "
+"surgirán más preguntas. Pero no se preocupe, ¡estamos aquí para ayudarle!:"
 
 #. type: Plain text
 #: tutorial.md
 msgid "- Our [Frequently Asked Questions](https://reuse.software/faq) covers common questions as well as extraordinary cases and will constantly be updated."
 msgstr ""
 "- Nuestras [Preguntas frecuentes] (https://reuse.software/faq) cubren "
-"preguntas comunes y casos extraordinarios y se actualizarán constantemente."
+"preguntas comunes y casos extraordinarios y se actualizan constantemente."
 
 #. type: Plain text
 #: tutorial.md
@@ -2049,34 +2049,45 @@ msgstr ""
 #: tutorial.md
 msgid "The [REUSE tool documentation](https://reuse.readthedocs.io/) describes installation and usage of the REUSE tool."
 msgstr ""
+"La [documentación de la herramienta REUSE] (https://reuse.readthedocs.io/) "
+"describe la instalación y el uso de la herramienta REUSE."
 
 #. type: Bullet: '- '
 #: tutorial.md
 msgid "Our [help for developers](https://reuse.software/dev/) lists various resources for programmers like the tool, the API, or how to include checks in CI/CD workflows."
 msgstr ""
+"Nuestra [ayuda para desarrolladores](https://reuse.software/dev/) enumera "
+"varios recursos para los programadores, como la herramienta, la API o cómo "
+"incluir comprobaciones en los flujos de trabajo de CI/CD."
 
 #. type: Plain text
 #: tutorial.md
 msgid "If none of the links above were able to answer your question, please contact us by:"
 msgstr ""
+"Si ninguno de los enlaces anteriores pudo responder a su pregunta, "
+"comuníquese con nosotros a través de:"
 
 #. type: Bullet: '- '
 #: tutorial.md
 msgid "opening an issue on [reuse-docs](https://github.com/fsfe/reuse-docs) for questions on the tutorial, FAQ or specification;"
 msgstr ""
+"abriendo una consulta en [reuse-docs](https://github.com/fsfe/reuse-docs) "
+"para preguntas en el tutorial, FAQ o especificaciones;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 msgid "opening an issue on [reuse-tool](https://github.com/fsfe/reuse-tool) for questions on the REUSE tool;"
 msgstr ""
+"abriendo una consulta en [reuse-tool](https://github.com/fsfe/reuse-tool) "
+"para preguntas sobre la herramienta REUSE;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 msgid "or [sending an email to the FSFE](https://fsfe.org/contact). Please note that we would prefer issues because they are publicly searchable for other people."
 msgstr ""
 "o [enviando un correo electrónico a la FSFE](https://fsfe.org/contact). "
-"Tenga en cuenta que preferimos los problemas porque pueden se vistos "
-"públicamente por otras personas."
+"Tenga en cuenta que preferimos las consultas porque las pueden ver "
+"públicamente otras personas."
 
 #. type: Plain text
 #: tutorial.md
