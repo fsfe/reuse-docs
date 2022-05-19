@@ -115,7 +115,16 @@ testing, you can [use a DEP5 file](#bulk-license).
 
 ## How do I exclude certain files from REUSE compliance testing? {#exclude-lines}
 
-Some files may contain commands or documentation that confuse the REUSE helper tool:
+In order to make the tool ignore a specific section containing strings that may
+falsely be detected as copyright or license statements, you can wrap it within
+the two comments `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`.
+
+Please note that this MUST NOT be used to ignore valid copyright and licensing
+information by yourself or a third party. The ignore blocks MUST only be used
+for marking blocks that may trigger false-positive detections and errors.
+
+An example for a file that contains commands or documentation that confuse the
+REUSE helper tool:
 
 ```
 # SPDX-FileCopyrightText: 2021 Jane Doe
@@ -134,8 +143,7 @@ reuse._util - ERROR - Could not parse 'MIT" > file.txt'
 reuse.project - ERROR - 'foobar.sh' holds an SPDX expression that cannot be parsed, skipping the file
 ```
 
-In order to make the tool ignore a specific section, you can wrap in within the
-two comments `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`:
+This is how the section that causes these errors can be ignored:
 
 ```
 # SPDX-FileCopyrightText: 2021 Jane Doe
@@ -147,10 +155,6 @@ echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
 echo "SPDX-License-Identifier: MIT" > file.txt
 # REUSE-IgnoreEnd
 ```
-
-Please note that this MUST NOT be used to ignore valid copyright and licensing
-information by yourself or a third party. The ignore blocks MUST only be used
-for marking blocks that may trigger false-positive detections and errors.
 
 ## Do you support a version control system other than Git? {#no-git}
 
