@@ -119,8 +119,8 @@ In order to make the tool ignore a specific section containing strings that may
 falsely be detected as copyright or license statements, you can wrap it within
 the two comments `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`.
 
-Please note that this MUST NOT be used to ignore valid copyright and licensing
-information by yourself or a third party. The ignore blocks MUST only be used
+Please note that this must not be used to ignore valid copyright and licensing
+information by yourself or a third party. The ignore blocks must only be used
 for marking blocks that may trigger false-positive detections and errors.
 
 An example for a file that contains commands or documentation that confuse the
