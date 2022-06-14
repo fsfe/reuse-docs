@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-24 12:33+0000\n"
+"PO-Revision-Date: 2022-06-18 07:18+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -274,6 +274,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
 msgstr ""
+"Wie schließe ich eine Datei von der REUSE-Konformitätsprüfung aus? {#exclude-"
+"file}"
 
 #. type: Plain text
 #: faq.md
@@ -591,7 +593,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr ""
+msgstr "Wie kopiere ich die Arbeit von jemand anders? {#copy-work}"
 
 #. type: Plain text
 #: faq.md
@@ -604,24 +606,35 @@ msgstr ""
 #, markdown-text
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
+"Wenn das Werk anders als Ihr Projekt lizenziert war, sollten Sie prüfen, ob "
+"die Lizenzen kompatibel sind, und die neuen Lizenzen zu Ihrem Projekt "
+"hinzufügen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
+"Darf ich ein Werk kopieren, das keinen Urheberrechtsvermerk oder keine "
+"Lizenz hat? {#kein-copyright-lizenz}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
+"Bevor Sie fortfahren, vergewissern Sie sich immer zuerst, ob Sie die "
+"Urheberrechts- und Lizenzinformationen an anderer Stelle finden können. "
+"Einige Projekte enthalten diese Informationen nur im Stammverzeichnis oder "
+"in ihrer README-Datei."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
+"Wenn Sie keinen Urheberrechtsvermerk finden, ist das kein Problem. Sie "
+"können den Urheberrechtsvermerk selbst hinzufügen."
 
 #. type: Plain text
 #: faq.md
@@ -633,7 +646,7 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr ""
+msgstr "Wo sonst gebe ich meine Lizenzinformationen an? {#where-else}"
 
 #. type: Plain text
 #: faq.md
