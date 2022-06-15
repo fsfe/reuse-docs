@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-08 15:15+0000\n"
+"PO-Revision-Date: 2022-06-18 07:18+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -878,7 +878,7 @@ msgstr ""
 #: faq.md
 msgid "If all the code within the file is licensed under either one license or another (for instance, all code is under GPL-2.0-only, but one function is under MIT), use separate tags `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-License-Identifier: MIT`."
 msgstr ""
-"Si todo el código dentro del archivo tiene una licencia u otra (por ejemplo, "
+"Si todo el código dentro del archivo tiene una u otra licencia (por ejemplo, "
 "todo el código está bajo GPL-2.0 solamente, pero una función está bajo MIT), "
 "use etiquetas separadas `SPDX-License-Identifier: GPL-2.0 -solamente` y "
 "`SPDX-License-Identifier: MIT`."
@@ -902,14 +902,14 @@ msgstr ""
 #: faq.md
 #, no-wrap
 msgid "TODO: Figure this one out -->\n"
-msgstr "TODO: Resuelve esto -->\n"
+msgstr "TODO: Averigue esto -->\n"
 
 #. type: Title ##
 #: faq.md
 #, no-wrap
 msgid "I only have a single license file. Should I still create a LICENSES directory? {#single-license}"
 msgstr ""
-"Tengo un solo archivo de licencia. ¿Debo seguir creando un directorio de "
+"Tengo un archivo de licencia simple. ¿Debo seguir creando un directorio de "
 "LICENCIAS? {#single-license}"
 
 #. type: Plain text
