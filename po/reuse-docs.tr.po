@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-18 07:18+0000\n"
+"PO-Revision-Date: 2022-06-20 07:21+0000\n"
 "Last-Translator: metezd <itoldyouthat@protonmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -131,7 +131,7 @@ msgstr ""
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
-"Genellikle, telif hakkı sahibi yazardır, ancak işbu hak sıklıkla yazarın "
+"Genellikle, telif hakkı sahibi yazarındır, ancak işbu hak sıklıkla yazarın "
 "işverenine devredilir. Çoğu yerde, telif hakkı kazanmak için herhangi bir "
 "şey yapmanız gerekmez. Yaratıcı bir çalışma yaptığınız anda, siz (veya "
 "işvereniniz) yaratıcı çalışmanın üzerinde o anda telif hakkı kazanırsınız."
@@ -676,42 +676,63 @@ msgstr "Telif hakkı sahibi nedir ve yazar nedir? {#copyright-holder-author}"
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
+"Bu kaynaklarda, telif hakkı sahibi ile yazar arasındaki ayrımı koruyoruz. "
+"Yazar (yaratıcı olarak da bilinir), oturup bir eser yaratan kişidir. Yazarı "
+"bir programcı, kitap yazarı veya sanatçı olarak düşünün."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
+"Telif hakkı sahibi, o eser üzerinde münhasır haklara sahip olan kişidir.  "
+"Genellikle eser sahibi ve telif hakkı sahibi aynı kişidir. Ancak, eser "
+"sahibine bir eser yaratması için işvereni tarafından ödeme yapılıyorsa, "
+"işveren genellikle telif hakkı sahibidir."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
+"Bazı ülkelerde \"yazar\" kelimesinin \"telif hakkı sahibi\" ile eşanlamlı "
+"olarak kullanıldığını unutmayın. Diğer yargı alanlarında, yazarlar telif "
+"hakkı sahibi olmasalar bile eserleri üzerinde bazı haklara sahiptirler."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
+"Tek bir kod satırını değiştirdim. Adımla birlikte bir SPDX-FileCopyrightText "
+"etiketi eklemeli miyim? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
+"Buradaki temel soru şudur: Hangi noktada kendimi bir dosya üzerinde telif "
+"hakkı sahibi olarak görmeliyim? Bu sizin takdirinize bağlıdır. Tutarlı olmak "
+"ve dokunduğunuz her dosyaya etiketi eklemek yardımcı olabilir, ancak belki "
+"de projeniz içinde bu konuda bir fikir birliğine varmak daha değerlidir."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
+"Birçok kişi tarafından düzenlenmiş bir dosyayla nasıl başa çıkabilirim? "
+"{#many-copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
+"Bazı dosyalar birçok kişi tarafından düzenlenir ve başlıkta telif hakkı "
+"sahiplerinin son derece uzun bir listesi olur. Bu estetik açıdan hoş "
+"olmayabilir, ancak yanlış değildir."
 
 #. type: Plain text
 #: faq.md
