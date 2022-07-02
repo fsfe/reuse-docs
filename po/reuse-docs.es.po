@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-18 07:18+0000\n"
+"PO-Revision-Date: 2022-07-03 10:14+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.13.1-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -86,15 +86,16 @@ msgstr ""
 
 #. type: Fenced code block
 #: faq.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "# SPDX-FileCopyrightText: [year] [copyright holder] <[email address]>\n"
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
-"# SPDX-FileCopyrightText: [year] [copyright holder] <[email address]>\n"
+"# SPDX-FileCopyrightText: [año] [propietario del derecho de autor] <["
+"dirección de correo]>\n"
 "#\n"
-"# SPDX-License-Identifier: [identifier]\n"
+"# SPDX-License-Identifier: [identificador]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
@@ -381,7 +382,7 @@ msgstr ""
 
 #. type: Fenced code block
 #: faq.md spec.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 "SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
@@ -391,7 +392,7 @@ msgid ""
 msgstr ""
 "SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 "SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
-"© Example Corporation <https://corp.example.com>\n"
+"© Corporación Ejemplo <https://corp.example.com>\n"
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 
@@ -774,7 +775,7 @@ msgstr ""
 
 #. type: Fenced code block
 #: faq.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
 "Upstream-Name: my-project\n"
@@ -791,18 +792,18 @@ msgid ""
 "License: CC0-1.0\n"
 msgstr ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
-"Upstream-Name: my-project\n"
+"Upstream-Name: mi-proyecto\n"
 "Upstream-Contact: Jane Doe <jane@example.com>\n"
-"Source: https://git.example.com/jane/my-project\n"
+"Source: https://git.example.com/jane/mi-proyecto\n"
 "\n"
 "Files: resources/img/*\n"
 "Copyright: 2017 Jane Doe <jane@example.com>\n"
-"License: CC-BY-4.0\n"
+"Licencia: CC-BY-4.0\n"
 "\n"
 "Files: resources/vid/*\n"
 "Copyright: 2017 Jane Doe <jane@example.com>\n"
 "           2017 John Doe <john@example.com>\n"
-"License: CC0-1.0\n"
+"Licencia: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
@@ -1069,9 +1070,9 @@ msgstr ""
 
 #. type: YAML Front Matter: title
 #: spec.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "REUSE Specification – Version 3.0"
-msgstr "REUSE Specification – Version 3.0"
+msgstr "Especificación REUSE – Versión 3.0"
 
 #. type: Plain text
 #: spec.md
@@ -1395,7 +1396,7 @@ msgstr "Un ejemplo de archivo DEP5:"
 
 #. type: Fenced code block
 #: spec.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
 "Upstream-Name: Project\n"
@@ -1407,13 +1408,13 @@ msgid ""
 "License: GPL-3.0-or-later\n"
 msgstr ""
 "Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
-"Upstream-Name: Project\n"
+"Upstream-Name: Proyecto\n"
 "Upstream-Contact: Jane Doe <jane@example.com>\n"
-"Source: https://example.com/jane/project\n"
+"Source: https://example.com/jane/proyecto\n"
 "\n"
 "Files: po/*\n"
 "Copyright: 2019 Translation Company\n"
-"License: GPL-3.0-or-later\n"
+"Licencia: GPL-3.0-o-posterior\n"
 
 #. type: Title ##
 #: spec.md
@@ -1629,7 +1630,7 @@ msgstr ""
 
 #. type: Fenced code block
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "/*\n"
 " * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
@@ -1640,7 +1641,7 @@ msgstr ""
 "/*\n"
 " * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 " *\n"
-" * SPDX-License-Identifier: GPL-3.0-or-later\n"
+" * SPDX-License-Identifier: GPL-3.0-o-posterior\n"
 " */\n"
 
 #. type: Plain text
@@ -1694,11 +1695,11 @@ msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
 "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-or-later\" src/main.c Makefile README.md\n"
+".0-o-posterior\" src/main.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1750,11 +1751,11 @@ msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
 "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+".0-o-posterior\" --explicit-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
@@ -1907,9 +1908,9 @@ msgstr ""
 
 #. type: Title ###
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Result"
-msgstr "Result"
+msgstr "Resultado"
 
 #. type: Plain text
 #: tutorial.md
