@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-07-06 12:17+0000\n"
+"PO-Revision-Date: 2022-07-14 12:16+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -854,7 +854,7 @@ msgstr "¿Cómo declaro correctamente las licencias múltiples? {#multi-licensin
 #. type: Plain text
 #: faq.md
 msgid "You should always include all licenses in the `LICENSES/` directory."
-msgstr "Siempre deben incluir todas las licencias en el directorio `LICENSES/`."
+msgstr "Siempre debe incluir todas las licencias en el directorio `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
