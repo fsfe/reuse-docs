@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-07-23 09:57+0000\n"
+"PO-Revision-Date: 2022-07-24 11:15+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
@@ -725,48 +725,77 @@ msgstr ""
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
+"Die Kernfrage lautet hier: Ab wann sollte ich mich als Urheberrechtinhaber "
+"einer Datei betrachten? Dies liegt in Ihrem Ermessen. Es mag sinnvoll sein, "
+"den Eintrag konsequent zu jeder von Ihnen geänderten Datei hinzuzufügen, "
+"aber es ist vielleicht sinnvoller, innerhalb Ihres Projekts einen Konsens "
+"darüber zu erzielen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
+"Wie gehe ich mit einer Datei um, die von vielen Personen bearbeitet wurde? "
+"{#many-copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
+"Manche Dateien werden von vielen Personen bearbeitet und hätten eine extrem "
+"lange Liste von Urheberrechtsinhabern in der Kopfzeile. Dies mag ästhetisch "
+"unschön sein, ist aber nicht falsch."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
 msgstr ""
+"Falls Sie nicht so viele Urheberschaftseinträge angeben möchten, umgehen "
+"einige Projekte wie Chromium dieses Problem, indem sie \"Copyright (c) 2013 "
+"The Chromium Authors\" als Urheberschaftseintrag verwenden. Sie können diese "
+"Idee übernehmen, aber dann sollten Sie eine Liste der Urheberrechtsinhaber "
+"und Autoren in einer eigenen Datei in Ihrem Projekt führen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
 msgstr ""
+"Warum kann ich nicht einfach die Versionskontrolle verwenden, um das "
+"Urheberrecht festzuhalten? {#vcs-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
 msgstr ""
+"In [einer vorherigen Frage](#copyright-holder-author) haben wir zwischen "
+"Urheberrechtsinhabern und Autoren unterschieden, die nicht immer dieselben "
+"sind. Eine Versionskontrolle erfasst typischerweise nur die Autorschaft, was "
+"sie für die Erfassung des Urheberrechts ungeeignet macht."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
 msgstr ""
+"Als weiteres Hindernis kann der Versionskontrollverlauf Fehler enthalten, "
+"und die Behebung eines solchen Fehlers das Neuschreiben des Verlaufs "
+"erfordern würde, sodass dass alle Mitwirkenden den geänderten Verlauf erneut "
+"herunterladen müssten."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
 msgstr ""
+"Ein weiterer Aspekt von Versionskontrolle ist, dass der `blame`-Befehl, der "
+"oft (falsch) verwendet wird, um die Autorschaft jeder Zeile zu bestimmen, "
+"nur den Autor des letzten Commits in dieser Zeile anzeigt, auch wenn es nur "
+"etwas triviales wie eine Tippfehlerkorrektur war."
 
 #. type: Title ##
 #: faq.md
