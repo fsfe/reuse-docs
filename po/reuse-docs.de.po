@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-18 07:18+0000\n"
+"PO-Revision-Date: 2022-07-23 09:57+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -95,6 +95,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [Jahr] [Urheberrechtsinhaber] <[E-Mail-Adresse]>\n"
+"#\n"
+"# SPDX-License-Identifier: [Kennung]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
@@ -365,10 +368,10 @@ msgid ""
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"Im Allgemeinen wird empfohlen, `SPDX-FileCopyrightText: [Jahr] [Copyright-"
-"Inhaber]\n"
+"Im Allgemeinen wird empfohlen, `SPDX-FileCopyrightText: [Jahr] "
+"[Urheberrechtsinhaber]\n"
 "<[Kontaktadresse]>` zu verwenden. Sie können die Elemente mit Ausnahme des "
-"Copyright-Inhabers weglassen,\n"
+"Urheberrechtsinhabers weglassen,\n"
 "der immer enthalten sein muss. Wir empfehlen jedoch, dass Sie alle Elemente "
 "einschließen.\n"
 
@@ -641,6 +644,11 @@ msgstr ""
 #, markdown-text
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
+"Wenn das Werk keine Lizenz hat, bedeutet dies, dass Sie nicht das Recht "
+"haben, es zu kopieren. Wenn Sie glauben, dass es sich um einen Fehler "
+"handelt und der Autor eindeutig wollte, dass Sie das Werk kopieren können, "
+"sollten Sie sich mit dem Autor in Verbindung setzen und ihn bitten, sein "
+"Werk zu lizenzieren. Dabei können Sie auf <https://reuse.software> verweisen."
 
 #. type: Title ##
 #: faq.md
@@ -653,6 +661,12 @@ msgstr "Wo sonst gebe ich meine Lizenzinformationen an? {#where-else}"
 #, markdown-text
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
+"Das Markieren jeder einzelnen Datei mit `SPDX-License-Identifier`-Einträgen "
+"ist ein wichtiger Schritt, die Lizenzinformationen Ihres Projekts eindeutig "
+"zu kommunizieren, aber es hilft zusätzlich, die Lizenzinformationen in "
+"natürlicher Sprache auszudrücken. In der README Ihres Projekts können Sie "
+"eine Zusammenfassung der Lizenzinformationen bereitstellen oder Leser "
+"einfach zu Ihrem `LICENSES/`-Verzeichnis weiterleiten."
 
 #. type: Plain text
 #: faq.md
@@ -665,30 +679,46 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
 msgstr ""
+"Was ist ein Urheberrechtsinhaber und was ist ein Autor? {#copyright-holder-"
+"author}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
+"In diesen Materialien wird zwischen Urheberrechtsinhaber und Autor "
+"unterschieden. Der Autor (auch als Schöpfer bezeichnet) ist die Person, die "
+"sich hingesetzt und ein Werk geschaffen hat. Stellen Sie sich den Autor z. "
+"B. als Programmiererin, Schriftsteller oder Künstlerin vor."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
+"Der Urheberrechtsinhaber ist die Person, die die exklusiven Rechte an dem "
+"Werk inne hat.  Oft sind der Autor und der Urheberrechtsinhaber dieselbe "
+"Person. Wenn der Autor jedoch von seinem Arbeitgeber für die Schöpfung eines "
+"Werks bezahlt wird, ist häufig der Arbeitgeber der Urheberrechtsinhaber."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
+"Beachten Sie, dass in einigen Rechtsordnungen das Wort \"Autor\" oft als "
+"Synonym für \"Urheberrechtsinhaber\" verwendet wird. In anderen "
+"Rechtssystemen behalten die Autoren gewisse Rechte an ihren Werken, auch "
+"wenn sie nicht der Urheberrechtsinhaber sind."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
+"Ich habe eine einzige Zeile Code geändert. Sollte ich einen SPDX-"
+"FileCopyrightText-Eintrag mit meinem Namen hinzufügen? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
