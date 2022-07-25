@@ -116,8 +116,9 @@ a text value, and terminated by a newline.
 
 The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice.
 
-Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY
-be used, in which case a colon is not needed.
+Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, the string `(C)`,
+the string `(c)`, or the word `Copyright` MAY be used, in which case a colon
+is not needed.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
@@ -207,6 +208,8 @@ Examples of valid copyright notices:
 SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
 SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 © Example Corporation <https://corp.example.com>
+(C) Example Corporation <https://corp.example.com>
+(c) Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
 Copyright (c) Alice
 ```
