@@ -50,7 +50,7 @@ These are the definitions for some of the terms used in this specification:
       4.4](https://spdx.github.io/spdx-spec/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
 
-- SPDX Specification --- SPDX specification, version 2.2.1; as available on
+- SPDX Specification --- SPDX specification, version 2.3; as available on
   <https://spdx.org/specifications>.
 
 - SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX
@@ -96,7 +96,8 @@ associated with any Covered File, there MUST exist a License File as defined in 
 
 Each Covered File MUST have Copyright and Licensing Information associated with
 it. There are two ways to associate Copyright and Licensing Information with a
-file.
+file. In addition, there is a way to associate Copyright and Licensing
+Information with a snippet.
 
 ### Comment headers
 
@@ -136,7 +137,7 @@ An example of a comment header:
 
 If these tags are additionally used in the file without describing the file's
 actual license or copyright but for example as part of an output command or
-documentation, these occurences MAY be put between two comments:
+documentation, these occurrences MAY be put between two comments:
 `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all tags
 within. This technique MUST NOT be used to ignore valid tags for licensing or
 copyright.
@@ -153,6 +154,35 @@ echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
 echo "SPDX-License-Identifier: MIT" > file.txt
 # REUSE-IgnoreEnd
 ```
+
+### In-line snippet comments
+
+If a copyright and/or licensing info is to apply only to a certain snippet
+instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX
+Specification, Annex H](https://spdx.github.io/spdx-spec/file-tags/)).
+
+Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its
+beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
+
+Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
+correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
+
+Example:
+
+```
+SPDX-SnippetBegin
+SPDX-License-Identifier: MIT
+SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
+
+{$snippet_code_goes_here}
+
+SPDX-SnippetEnd
+```
+
+Snippets may nest, and this is denoted by having
+`SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
+that parentheses nest in mathematical expressions. In the case of nested
+snippets, the SPDX file tags are considered to apply to the inner-most snippet.
 
 ### DEP5
 
