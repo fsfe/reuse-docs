@@ -96,7 +96,8 @@ associated with any Covered File, there MUST exist a License File as defined in 
 
 Each Covered File MUST have Copyright and Licensing Information associated with
 it. There are two ways to associate Copyright and Licensing Information with a
-file. In addition, there is a way to associate Copyright and Licensing Information with a snippet.
+file. In addition, there is a way to associate Copyright and Licensing
+Information with a snippet.
 
 ### Comment headers
 
@@ -156,11 +157,15 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 
 ### In-line snippet comments
 
-If a copyright and/or licensing info is to apply only to a certain snippet instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX Specification, Annex H](https://spdx.github.io/spdx-spec/file-tags/)).
+If a copyright and/or licensing info is to apply only to a certain snippet
+instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX
+Specification, Annex H](https://spdx.github.io/spdx-spec/file-tags/)).
 
-Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
+Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its
+beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
 
-Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
+Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
+correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
 
 Example:
 
@@ -174,7 +179,10 @@ SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
 SPDX-SnippetEnd
 ```
 
-Snippets may nest, and this is denoted by having `SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way that parentheses nest in mathematical expressions. In the case of nested snippets, the SPDX file tags are considered to apply to the inner-most snippet.
+Snippets may nest, and this is denoted by having
+`SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
+that parentheses nest in mathematical expressions. In the case of nested
+snippets, the SPDX file tags are considered to apply to the inner-most snippet.
 
 ### DEP5
 
