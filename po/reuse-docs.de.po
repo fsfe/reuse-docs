@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-07-24 11:15+0000\n"
+"PO-Revision-Date: 2022-07-31 14:18+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
@@ -246,19 +246,23 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Das Werkzeug {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Wie installiere und verwende ich das REUSE-Werkzeug? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
+"Das REUSE-Werkzeug ist eine praktische Hilfe, um Ihre Konformität mit REUSE "
+"sicherzustellen und viele damit verbundene Aufgaben automatisieren zu "
+"können. Die vollständige Dokumentation zum Werkzeug finden Sie unter "
+"<https://reuse.readthedocs.io/>. Aber die Kurzfassung ist:"
 
 #. type: Fenced code block
 #: faq.md
@@ -368,9 +372,9 @@ msgid ""
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"Im Allgemeinen wird empfohlen, `SPDX-FileCopyrightText: [Jahr] "
+"Allgemein empfehlen wir, dass Sie angeben `SPDX-FileCopyrightText: [Jahr] "
 "[Urheberrechtsinhaber]\n"
-"<[Kontaktadresse]>` zu verwenden. Sie können die Elemente mit Ausnahme des "
+"<[Kontaktadresse]>`. Sie können die Elemente mit Ausnahme des "
 "Urheberrechtsinhabers weglassen,\n"
 "der immer enthalten sein muss. Wir empfehlen jedoch, dass Sie alle Elemente "
 "einschließen.\n"
@@ -603,6 +607,12 @@ msgstr "Wie kopiere ich die Arbeit von jemand anders? {#copy-work}"
 #, markdown-text
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
+"Wenn eine andere Person ihr Werk zum Verwenden und Kopieren zur Verfügung "
+"gestellt hat, dürfen Sie dieses Werk in Ihr Projekt einbinden. Wenn Sie das "
+"Werk in eine der Dateien in Ihrem Projekt einfügen, sollten Sie eine `SPDX-"
+"FileCopyrightText`-Angabe mit dem/den Urheberrechtsinhaber(n) und eine `SPDX-"
+"License-Identifier`-Angabe für die Lizenz(en), unter der/denen das Werk zur "
+"Verfügung gestellt wurde, hinzufügen."
 
 #. type: Plain text
 #: faq.md
@@ -673,6 +683,11 @@ msgstr ""
 #, markdown-text
 msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
 msgstr ""
+"Zusätzlich erwarten viele Paket-Hosting-Seiten, dass Sie die "
+"Lizenzinformationen Ihres Pakets angeben. Beispielsweise deklariert die "
+"Datei [setup.py des REUSE-Tools](https://github.com/fsfe/reuse-tool/blob/"
+"master/setup.py) alle verwendeten Lizenzen in dem von der Python-"
+"Paketinfrastruktur erwarteten Format."
 
 #. type: Title ##
 #: faq.md
@@ -801,13 +816,18 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I bulk-license whole directories? {#bulk-license}"
-msgstr ""
+msgstr "Kann ich ganze Verzeichnisse zusammen lizensieren? {#bulk-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
 msgstr ""
+"Wenn Sie ein Verzeichnis mit vielen Dateien haben, mag es nicht einfach oder "
+"praktisch sein, die Kopfzeile jeder Datei zu bearbeiten. Das wäre zwar "
+"ideal, aber es gibt eine Alternative. Indem Sie die Datei `.reuse/dep5` im "
+"Stammverzeichnis Ihres Projekts erstellen, können Sie ein Verzeichnis als "
+"Ganzes lizenzieren. Beispiel:"
 
 #. type: Fenced code block
 #: faq.md
@@ -827,12 +847,27 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Mein-Projekt\n"
+"Upstream-Contact: Erika Mustermann <erika@example.com>\n"
+"Source: https://git.example.com/erika/mein-projekt\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Erika Mustermann <erika@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Erika Mustermann <erika@example.com>\n"
+"           2017 Max Mustermann <max@example.com>\n"
+"License: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 msgstr ""
+"Sie können [hier](https://www.debian.org/doc/packaging-manuals/"
+"copyright-format/1.0/) mehr über dieses Dateiformat von Debian lesen."
 
 #. type: Title ##
 #: faq.md
