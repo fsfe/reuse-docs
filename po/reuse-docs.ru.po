@@ -6,68 +6,84 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-08-05 10:15+0000\n"
+"Last-Translator: Vik <xasertop@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
+"ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Часто задаваемые вопросы"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "{{< toc >}}\n"
-msgstr ""
+msgstr "{{< toc >}}\n"
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr ""
+msgstr "Общее {#general}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
+"У меня мало времени. Можете ли вы дать мне самое краткое изложение? {#quick-"
+"summary}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
+"Мы хотим улучшить способ лицензирования проектов программного обеспечения. "
+"Мы предлагаем три шага для достижения этой цели:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr ""
+msgstr "1. Выберите и предоставьте лицензии {#step-1}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
+"Выберите лицензию [Free Software](https://fsfe.org/about/basics/freesoftware)"
+" для своего проекта. Найдите идентификатор SPDX вашей лицензии в [Списке "
+"лицензий SPDX](https://spdx.org/licenses/). Загрузите текст для вашей "
+"лицензии из репозитория [license-list-data](https://github.com/spdx/"
+"license-list-data/tree/master/text) и поместите его в каталог `LICENSES/` ."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
+"2. Добавьте в каждый файл информацию об авторских правах и лицензии {#step-2}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
 msgstr ""
+"Затем для всех файлов отредактируйте заголовок, чтобы он содержал следующее:"
 
 #. type: Fenced code block
 #: faq.md
