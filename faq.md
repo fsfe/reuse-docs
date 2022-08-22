@@ -152,7 +152,7 @@ REUSE helper tool:
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
-echo "SPDX-License-Identifier: MIT" > file.txt
+echo "SPDX-License-Identifier: MIT" >> file.txt
 ```
 
 The tool would complain that it cannot parse the license in the last line and it
@@ -172,7 +172,7 @@ This is how the section that causes these errors can be ignored:
 
 # REUSE-IgnoreStart
 echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
-echo "SPDX-License-Identifier: MIT" > file.txt
+echo "SPDX-License-Identifier: MIT" >> file.txt
 # REUSE-IgnoreEnd
 ```
 
