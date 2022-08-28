@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-07-14 12:16+0000\n"
+"PO-Revision-Date: 2022-08-29 17:15+0000\n"
 "Last-Translator: eulalio <eulalio@disroot.org>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
+"X-Generator: Weblate 4.14.1-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -1616,7 +1616,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< /box-tool >}}\n"
 msgstr "{{< /box-tool >}}\n"
 
@@ -1786,14 +1786,14 @@ msgstr "Después edite `cat.jpg.license` y `dog.jpg.license` para decir:"
 
 #. type: Fenced code block
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
 "\n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 msgstr ""
 "SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
-"\n"
+" \n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 
 #. type: Plain text
@@ -1858,14 +1858,14 @@ msgstr ""
 
 #. type: Fenced code block
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 "#\n"
 "# SPDX-License-Identifier: CC0-1.0\n"
 msgstr ""
 "# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
-"#\n"
+"# \n"
 "# SPDX-License-Identifier: CC0-1.0\n"
 
 #. type: Plain text
@@ -1895,15 +1895,15 @@ msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
 "\n"
 "reuse download --all\n"
 msgstr ""
 "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
-".0\" .gitignore\n"
-"\n"
+".0\" .gitignore \n"
+" \n"
 "reuse download --all\n"
 
 #. type: Title ###
@@ -1919,7 +1919,7 @@ msgstr "Su árbol de proyecto ahora se verá así:"
 
 #. type: Fenced code block
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "project/\n"
 "├── img/\n"
@@ -1937,20 +1937,20 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
-"project/\n"
-"├── img/\n"
-"│   ├── cat.jpg\n"
-"│   ├── cat.jpg.license\n"
-"│   ├── dog.jpg\n"
-"│   └── dog.jpg.license\n"
-"├── LICENSES/\n"
-"│   ├── CC0-1.0.txt\n"
-"│   ├── CC-BY-4.0.txt\n"
+"project/ \n"
+"├── img/ \n"
+"│   ├── cat.jpg \n"
+"│   ├── cat.jpg.license \n"
+"│   ├── dog.jpg \n"
+"│   └── dog.jpg.license \n"
+"├── LICENSES/ \n"
+"│   ├── CC0-1.0.txt \n"
+"│   ├── CC-BY-4.0.txt \n"
 "│   └── GPL-3.0-or-later.txt\n"
-"├── src/\n"
-"│   └── main.c\n"
-"├── .gitignore\n"
-"├── Makefile\n"
+"├── src/ \n"
+"│   └── main.c \n"
+"├── .gitignore \n"
+"├── Makefile \n"
 "└── README.md\n"
 
 #. type: Plain text
