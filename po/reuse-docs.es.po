@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-09-23 14:19+0000\n"
+"PO-Revision-Date: 2022-09-24 15:25+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: faq.md
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
-"Queremos mejorar la forma en que la gente licencia sus proyectos de "
+"Queremos mejorar la forma en que las personas licencian sus proyectos de "
 "software. Proponemos tres pasos para lograrlo:"
 
 #. type: Title ##
@@ -62,20 +62,20 @@ msgstr "1. Elegir y proporcionar licencias {#step-1}"
 #: faq.md
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
-"Elegir una licencia de [Free Software](https://fsfe.org/about/basics/"
-"freesoftware) para el proyecto. Encontrar el identificador SPDX de su "
+"Elija una licencia de [Software Libre](https://fsfe.org/about/basics/"
+"freesoftware) para su proyecto. Encuentre el identificador SPDX de su "
 "licencia en la [Lista de licencias SPDX](https://spdx.org/licenses/). "
-"Descarga el texto de su licencia del repositorio[license-list-"
-"data](https://github.com/spdx/license-list-data/tree/master/text)  y "
-"colóquelo en el directorio `LICENSES/`."
+"Descargue el texto de su licencia del repositorio [license-list-"
+"data](https://github.com/spdx/license-list-data/tree/master/text)  \n"
+"y colóquelo en el directorio `LICENSES/`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
-"2. Añada información sobre derechos de autor y licencias a cada archivo "
-"{#step-2}"
+"2. Agregue la información de los derechos de autor y las licencias a cada "
+"archivo {#step-2}"
 
 #. type: Plain text
 #: faq.md
@@ -93,8 +93,8 @@ msgid ""
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
 "# SPDX-FileCopyrightText: [año] [propietario del derecho de autor] <["
-"dirección de correo]>\n"
-"#\n"
+"dirección de correo]>  \n"
+"#  \n"
 "# SPDX-License-Identifier: [identificador]\n"
 
 #. type: Title ##
@@ -254,14 +254,14 @@ msgstr ""
 
 #. type: Fenced code block
 #: faq.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "$ pip3 install --user fsfe-reuse \n"
 "$ export PATH=~/.local/bin:$PATH\n"
 "$ reuse --help\n"
 msgstr ""
 "$ pip3 install --user fsfe-reuse \n"
-"$ export PATH=~/.local/bin:$PATH\n"
+"$ export PATH=~/.local/bin:$PATH \n"
 "$ reuse --help\n"
 
 #. type: Title ##
@@ -1278,9 +1278,9 @@ msgstr ""
 
 #. type: Title ###
 #: spec.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Comment headers"
-msgstr "Comment headers"
+msgstr "Encabezado de los comentarios"
 
 #. type: Plain text
 #: spec.md
@@ -1356,7 +1356,7 @@ msgstr ""
 
 #. type: Title ###
 #: spec.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "DEP5"
 msgstr "DEP5"
 
@@ -1591,7 +1591,7 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "{{< box-tool >}}\n"
 msgstr "{{< box-tool >}}\n"
 
