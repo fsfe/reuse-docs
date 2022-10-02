@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-09-24 15:25+0000\n"
+"PO-Revision-Date: 2022-10-03 13:24+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -29,7 +29,7 @@ msgstr "Preguntas frecuentes"
 #: faq.md
 #, no-wrap
 msgid "{{< toc >}}\n"
-msgstr "{{< toc >}}\n"
+msgstr "{{< tocado >}}\n"
 
 #. type: Title #
 #: faq.md
@@ -1509,7 +1509,7 @@ msgstr ""
 
 #. type: Fenced code block
 #: tutorial.md
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "project/\n"
 "├── img/\n"
@@ -1521,15 +1521,15 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
-"project/\n"
-"├── img/\n"
-"│   ├── cat.jpg\n"
-"│   └── dog.jpg\n"
-"├── src/\n"
-"│   └── main.c\n"
-"├── .gitignore\n"
-"├── Makefile\n"
-"└── README.md\n"
+"proyecto/ \n"
+"├── img/ \n"
+"│   ├── gato.jpg \n"
+"│   └── perro.jpg \n"
+"├── origen/ \n"
+"│   └── principal.c \n"
+"├── .gitignore \n"
+"├── Makefile \n"
+"└── LÉAME.md\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1593,7 +1593,7 @@ msgstr ""
 #: tutorial.md
 #, no-wrap
 msgid "{{< box-tool >}}\n"
-msgstr "{{< box-tool >}}\n"
+msgstr "{{< caja-herramienta >}}\n"
 
 #. type: Plain text
 #: tutorial.md
