@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-10-03 13:24+0000\n"
+"PO-Revision-Date: 2022-10-10 17:59+0000\n"
 "Last-Translator: gallegonovato <fran-carro@hotmail.es>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "es/>\n"
@@ -42,14 +42,14 @@ msgstr "General {#general}"
 #, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
-"Tengo poco tiempo. ¿Puedes hacerme un resumen lo más rápido posible? {#quick-"
-"summary}"
+"Tengo poco tiempo. ¿Puedes hacerme un resumen lo más rápido posible? "
+"{#resumen-rápido}"
 
 #. type: Plain text
 #: faq.md
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
-"Queremos mejorar la forma en que las personas licencian sus proyectos de "
+"Queremos mejorar la forma en que la gente licencia sus proyectos de "
 "software. Proponemos tres pasos para lograrlo:"
 
 #. type: Title ##
@@ -66,16 +66,16 @@ msgstr ""
 "freesoftware) para su proyecto. Encuentre el identificador SPDX de su "
 "licencia en la [Lista de licencias SPDX](https://spdx.org/licenses/). "
 "Descargue el texto de su licencia del repositorio [license-list-"
-"data](https://github.com/spdx/license-list-data/tree/master/text)  \n"
-"y colóquelo en el directorio `LICENSES/`."
+"data](https://github.com/spdx/license-list-data/tree/master/text) y "
+"colóquelo en el directorio `LICENSES/`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
-"2. Agregue la información de los derechos de autor y las licencias a cada "
-"archivo {#step-2}"
+"2. Añada la información sobre derechos de autor y licencias a cada archivo "
+"{#paso-2}"
 
 #. type: Plain text
 #: faq.md
@@ -92,9 +92,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
-"# SPDX-FileCopyrightText: [año] [propietario del derecho de autor] <["
-"dirección de correo]>  \n"
-"#  \n"
+"# SPDX-FileCopyrightText: [año] [titular de los derechos de autor] <["
+"dirección de correo electrónico]>\n"
+"#\n"
 "# SPDX-License-Identifier: [identificador]\n"
 
 #. type: Title ##
@@ -108,7 +108,8 @@ msgstr "3. Confirmar el cumplimiento de REUSE {#step-3}"
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
 "Utilice la [herramienta REUSE](https://github.com/fsfe/reuse-tool) para "
-"automatizar algunos de estos pasos y verificar si hizo todo correctamente."
+"automatizar algunos de estos pasos y comprobar si lo ha hecho todo "
+"correctamente."
 
 #. type: Title ##
 #: faq.md
@@ -824,10 +825,10 @@ msgstr ""
 #: faq.md
 msgid "The short answer is that yes, you can, but no, there is no standard way for REUSE to recognize this. If you have a small segment of a file that is licensed differently, you should list that license under a separate `SPDX-License-Identifier` tag in the header."
 msgstr ""
-"La respuesta breve es que sí, puede, pero no, no hay una forma estándar para "
-"que REUSE reconozca esto. Si tiene un pequeño segmento de un archivo que "
-"tiene una licencia diferente, debe enumerar esa licencia en una etiqueta "
-"separada `SPDX-License-Identifier` en el encabezado."
+"La respuesta corta es que sí, se puede, pero no, no hay una manera estándar "
+"para que REUSE reconozca esto. Si tiene un pequeño segmento de un archivo "
+"que tiene una licencia diferente, debe enumerar esa licencia bajo una "
+"etiqueta separada `SPDX-License-Identifier` en la cabecera."
 
 #. type: Plain text
 #: faq.md
