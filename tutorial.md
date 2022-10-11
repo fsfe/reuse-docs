@@ -34,7 +34,7 @@ project/
 If you would like to reproduce the steps in this tutorial on your own
 computer, you can clone the [example
 repository](https://github.com/fsfe/reuse-example). The branch `noncompliant`
-matches the structure above, while the `master` branch is the successful
+matches the structure above, while the `main` branch is the successful
 result of this repository.
 
 For each of these steps, you will first learn how to achieve them
