@@ -381,9 +381,9 @@ the README of your project, feel free to provide a summary of the licensing
 information, or simply redirect the reader to your `LICENSES/` directory.
 
 Additionally, many package hosting sites expect that you declare the licensing
-information of your package. For instance, the [setup.py file of the REUSE
-tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the
-licenses that it uses in the format expected by the Python packaging
+information of your package. For instance, the [pyproject.toml file of the REUSE
+tool](https://github.com/fsfe/reuse-tool/blob/master/pyproject.toml) declares
+all the licenses that it uses in the format expected by the Python packaging
 infrastructure.
 
 ## Can I bulk-license whole directories? {#bulk-license}
