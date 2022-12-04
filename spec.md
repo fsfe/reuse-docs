@@ -191,6 +191,9 @@ file through a DEP5 file. The intended use case of this method is large
 directories where including a comment header in each file (or in `.license`
 companion files) is impossible or undesirable.
 
+The [DEP5 standard governed by Debian](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)
+determines the formatting requirements.
+
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
 
