@@ -39,7 +39,7 @@ These are the definitions for some of the terms used in this specification:
     - The License Files.
     - The files belonging to the Project's version control system (example:
       `.git/`).
-    - The files ignored by the version control system (example: Files listed in
+    - The files ignored by the version control system (example: files listed in
       `.gitignore`).
     - The files in the `.reuse/` directory in the root of the Project. This
       directory MUST contain only files relevant for the operation of the REUSE
