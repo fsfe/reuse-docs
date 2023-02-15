@@ -50,6 +50,11 @@ These are the definitions for some of the terms used in this specification:
       4.4](https://spdx.github.io/spdx-spec/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
 
+- Commentable File --- a plain text file that can contain comments.
+
+- Uncommentable File --- either a plain text file that cannot contain comments
+  or a file that is not a plain text file.
+
 - SPDX Specification --- SPDX specification, version 2.3; as available on
   <https://spdx.org/specifications>.
 
@@ -101,14 +106,13 @@ Information with a snippet.
 
 ### Comment headers
 
-To implement this method, each plain text file that can contain comments MUST
+To implement this method, each Commentable File MUST
 contain comments at the top of the file (comment header) that declare that
 file's Copyright and Licensing Information.
 
-If a file is not a plain text file or does not permit the inclusion of
-comments, the comment header that declares the file's Copyright and Licensing
-Information SHOULD be in an adjacent file of the same name with the
-additional extension `.license` (example: `cat.jpg.license` if the original
+For Uncommentable Files, the comment header that declares the file's Copyright
+and Licensing Information SHOULD be in an adjacent file of the same name with
+the additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
 
 The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or
