@@ -106,7 +106,7 @@ Information with a snippet.
 
 ### Comment headers
 
-To implement this method, each Commentable File MUST
+To implement this method, each Commentable File SHOULD
 contain comments at the top of the file (comment header) that declare that
 file's Copyright and Licensing Information.
 
@@ -114,6 +114,9 @@ For Uncommentable Files, the comment header that declares the file's Copyright
 and Licensing Information SHOULD be in an adjacent file of the same name with
 the additional extension `.license` (example: `cat.jpg.license` if the original
 file is `cat.jpg`).
+
+`.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
+that comment headers be put inside Commentable Files.
 
 The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or
 more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by
