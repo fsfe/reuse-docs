@@ -7,7 +7,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 # REUSE documents
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![REUSE compliant](https://reuse.software/badge/reuse-compliant.svg)](https://reuse.software/)
+[![REUSE status](https://api.reuse.software/badge/github.com/fsfe/reuse-docs)](https://api.reuse.software/info/github.com/fsfe/reuse-docs)
 
 We're working to make managing copyrights and licenses in free and open source
 software easier. This is a collection of tutorials, FAQs and specifications to
@@ -41,13 +41,13 @@ list](https://lists.fsfe.org/mailman/listinfo/reuse).
 ### Translation
 
 Translation happens by conversion Markdown into _gettext_ using
-[po4a](https://po4a.org).  To generate the _.md_ files from the _gettext .po_
-files, run:  `po4a po/po4a.conf`.
+[po4a](https://po4a.org). To generate the _.md_ files from the _gettext .po_
+files, run: `po4a po/po4a.conf`.
 
 ### Branches
 
 The latest official specification release is in the `stable` branch, while the
-main branch (`master`) contains fixes and new and potentially breaking
+`main` branch contains fixes and new and potentially breaking
 specification changes. Typically, non-spec changes or insignificant fixes for
 the spec are "backported" to the `stable` branch.
 
