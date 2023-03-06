@@ -5,6 +5,8 @@
 title: "Frequently Asked Questions"
 ---
 
+<!-- REUSE-IgnoreStart -->
+
 This page lists common questions and their answers when dealing with licensing
 and copyright, and with the adoption of REUSE specifically. Please note that
 nothing here is legal advice.
@@ -581,3 +583,5 @@ disclaimer.
 Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root
 to create an [SPDX
 document](https://spdx.org/spdx-specification-21-web-version).
+
+<!-- REUSE-IgnoreEnd -->
