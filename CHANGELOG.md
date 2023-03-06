@@ -19,6 +19,31 @@ following sections:
 
 The versions follow [semantic versioning](https://semver.org).
 
+## Unreleased - YYYY-MM-DD
+
+### Added
+
+- Clarify which license text files are needed if a SPDX license expression
+  contains more than one license and/or exception. (#96)
+
+- Definition for Covered File and clarify for which file copyright and licensing
+  information is required. (#85, thanks @Jayman2000)
+
+- URLs to currently applicable SPDX specification. (#49)
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+- Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
+
+### Security
+
+
 ## 3.0 - 2019-08-07
 
 ### Added
