@@ -5,6 +5,8 @@
 title: "Tutorial: How to become REUSE-compliant"
 ---
 
+<!-- REUSE-IgnoreStart -->
+
 This tutorial explains the basic methods of how to make a software project
 REUSE-compliant. By the end of this document, all your files will clearly have
 their copyright and licensing marked, and you will be able to verify this using
@@ -312,3 +314,5 @@ by:
   we would prefer issues because they are publicly searchable for other people.
 
 Thank you for your valuable contribution towards making software reusable!
+
+<!-- REUSE-IgnoreEnd -->
