@@ -1,5 +1,6 @@
 <!--
 SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
+SPDX-FileCopyrightText: 2023 DB Systel GmbH
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -23,15 +24,28 @@ The versions follow [semantic versioning](https://semver.org).
 
 ### Added
 
-- Clarify which license text files are needed if a SPDX license expression
-  contains more than one license and/or exception. (#96)
+- Introduce support of in-line snippet comments using
+  `SPDX-SnippetBegin`/`SPDX-SnippetEnd`. (#107)
+
+- Introduce `REUSE-IgnoreStart`/`REUSE-IgnoreEnd` to make the REUSE helper tool
+  not consider the enclosed content for detecting copyright and licensing
+  information. (#104)
 
 - Definition for Covered File and clarify for which file copyright and licensing
   information is required. (#85, thanks @Jayman2000)
 
+- Remove SPDX documents from list of Covered Files. (#103)
+
+- Remove symlinks and zero-byte files from list of Covered Files. (#101)
+
+- Clarify which license text files are needed if a SPDX license expression
+  contains more than one license and/or exception. (#96)
+
 - URLs to currently applicable SPDX specification. (#49)
 
 ### Changed
+
+- Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
 
 ### Deprecated
 
