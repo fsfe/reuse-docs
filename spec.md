@@ -47,7 +47,7 @@ These are the definitions for some of the terms used in this specification:
     - Symlinks and files with no data (zero-byte).
     - SPDX documents in their various formats as defined in the [SPDX
       Specification, Clause
-      4.4](https://spdx.github.io/spdx-spec/conformance/#44-standard-data-format-requirements)
+      4.4](https://spdx.github.io/spdx-spec/v2.3/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
 
 - Commentable File --- a plain text file that can contain comments.
@@ -62,7 +62,7 @@ These are the definitions for some of the terms used in this specification:
   Specification. See also <https://spdx.org/ids> for a short introduction and
   examples.
 
-- SPDX License Expression --- as defined in SPDX Specification, Annex D, at <https://spdx.github.io/spdx-spec/SPDX-license-expressions/>.
+- SPDX License Expression --- as defined in SPDX Specification, Annex D, at <https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/>.
 
 - SPDX License List --- a list of commonly found licenses and exceptions; as
   available on <https://spdx.org/licenses/>.
@@ -84,7 +84,7 @@ license followed by an appropriate file extension (example:
 `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format.
 
 If a license does not exist in the SPDX License List, its SPDX License Identifier
-MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Clause 10 available at <https://spdx.github.io/spdx-spec/other-licensing-information-detected/>.
+MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Clause 10 available at <https://spdx.github.io/spdx-spec/v2.3/other-licensing-information-detected/>.
 
 A Project MUST NOT include License Files for licenses under which none of the
 files in the Project are licensed.
@@ -166,7 +166,7 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 
 If a copyright and/or licensing info is to apply only to a certain snippet
 instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX
-Specification, Annex H](https://spdx.github.io/spdx-spec/file-tags/)).
+Specification, Annex H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
 
 Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its
 beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
@@ -177,13 +177,13 @@ correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
 Example:
 
 ```
-SPDX-SnippetBegin
-SPDX-License-Identifier: MIT
-SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
+# SPDX-SnippetBegin
+# SPDX-License-Identifier: MIT
+# SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
 
 {$snippet_code_goes_here}
 
-SPDX-SnippetEnd
+# SPDX-SnippetEnd
 ```
 
 Snippets may nest, and this is denoted by having
