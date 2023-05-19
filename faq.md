@@ -135,7 +135,7 @@ testing.
 If you have an entire directory that you want to "exclude" from REUSE compliance
 testing, you can [use a DEP5 file](#bulk-license).
 
-## How do I exclude certain files from REUSE compliance testing? {#exclude-lines}
+## How do I exclude certain lines from REUSE compliance testing? {#exclude-lines}
 
 In order to make the tool ignore a specific section containing strings that may
 falsely be detected as copyright or license statements, you can wrap it within
