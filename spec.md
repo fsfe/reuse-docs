@@ -221,6 +221,18 @@ Copyright: 2019 Translation Company
 License: GPL-3.0-or-later
 ```
 
+## Order of precedence
+
+Copyright and Licensing Information is considered according to the
+following order of precedence:
+
+1. Information defined in the `.license` file.
+2. Information defined in the Commentable File.
+3. Information defined in `.reuse/dep5`.
+
+There is no merging of information from different sources. Only the
+source with the highest precedence is considered.
+
 ## Format of copyright notices
 
 A copyright notice MUST be prefixed by a tag, symbol or word denoting a
