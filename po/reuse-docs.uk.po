@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-22 18:14+0000\n"
-"Last-Translator: Artem <artem@molotov.work>\n"
+"PO-Revision-Date: 2022-01-25 17:55+0000\n"
+"Last-Translator: Ihor Hordiichuk <igor_ck@outlook.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/fsfe/"
 "reuse-docs/uk/>\n"
 "Language: uk\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.11-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -209,7 +209,7 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
-"<!-- ## Чи дійсно мені потрібно долучити ліцензію та заголовки авторських "
+"<!-- ## Чи дійсно мені потрібно включити ліцензію та заголовки авторських "
 "прав у всі файли? Чому я повинен піклуватися про це? {#why-care}\n"
 
 #. type: Plain text
@@ -366,7 +366,7 @@ msgstr ""
 "copyright holder]\n"
 "<[contact address]>`. Ви можете відмовитися від усіх елементів, окрім "
 "власника авторських прав,\n"
-"які завжди повинні бути долучені. Проте радимо долучити всі елементи.\n"
+"які завжди повинні бути включені. Проте радимо включити всі елементи.\n"
 
 #. type: Plain text
 #: faq.md
@@ -1739,8 +1739,8 @@ msgid ""
 msgstr ""
 "Тег `SPDX-FileCopyrightText` фіксує роки публікації та власника авторських "
 "прав\n"
-"на вміст файлу. Читайте докладніше [які роки публікації\n"
-"використовувати]({{< relref \"faq.md#years-copyright\" >}}) та [які існують "
+"на вміст файлу. Читайте докладніше про [які роки публікації\n"
+"використовувати]({{< relref \"faq.md#years-copyright\" >}}) і [які існують "
 "власники авторських\n"
 "прав]({{< relref \"faq.md#copyright-holder-author\" >}}) у поширених "
 "запитаннях.\n"

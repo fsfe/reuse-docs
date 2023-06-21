@@ -1,6 +1,5 @@
 <!--
 SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
-SPDX-FileCopyrightText: 2023 DB Systel GmbH
 
 SPDX-License-Identifier: CC-BY-SA-4.0
 -->
@@ -22,55 +21,27 @@ The versions follow [semantic versioning](https://semver.org).
 
 ## Unreleased - YYYY-MM-DD
 
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
 ### Added
-
-## 3.1 - 2023-06-21
-
-### Added
-
-- Definition for Commentable and Uncommentable Files. (#123, thanks @Jayman2000)
-
-- Introduce support of in-line snippet comments using
-  `SPDX-SnippetBegin`/`SPDX-SnippetEnd`. (#107)
-
-- Specify encoding of `.license` files to UTF-8. (#106, thanks @kirelagin for
-  the helpful background information)
-
-- Introduce `REUSE-IgnoreStart`/`REUSE-IgnoreEnd` to make the REUSE helper tool
-  not consider the enclosed content for detecting copyright and licensing
-  information. (#104)
-
-- Definition for Covered File and clarify for which file copyright and licensing
-  information is required. (#85, thanks @Jayman2000)
-
-- Remove SPDX documents from list of Covered Files. (#103)
-
-- Remove symlinks and zero-byte files from list of Covered Files. (#101)
-
-- Remove submodules and Meson subprojects from list of Covered Files. (#99)
 
 - Clarify which license text files are needed if a SPDX license expression
   contains more than one license and/or exception. (#96)
 
+- Definition for Covered File and clarify for which file copyright and licensing
+  information is required. (#85, thanks @Jayman2000)
+
 - URLs to currently applicable SPDX specification. (#49)
 
-- Define current order or precedence. (#131)
-  
 ### Changed
 
-- Allow `.license` files for commentable files, but strongly recommend adding
-  copyright/licensing information in header. (#123, thanks @Jayman2000)
+### Deprecated
 
-- Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
+### Removed
 
 ### Fixed
 
 - Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
+
+### Security
 
 
 ## 3.0 - 2019-08-07
