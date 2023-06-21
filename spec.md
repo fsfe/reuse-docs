@@ -219,6 +219,18 @@ Copyright: 2019 Translation Company
 License: GPL-3.0-or-later
 ```
 
+## Order of precedence
+
+Copyright and Licensing Information is considered according to the
+following order of precedence:
+
+1. Information defined in the `.license` file
+2. Information defined in the Commentable File
+3. Information defined in `.reuse/dep5`
+
+There is no merging of information from different sources. Only the
+source with the highest precedence is considered.
+
 ## Format of copyright notices
 
 A copyright notice MUST be prefixed by a tag, symbol or word denoting a
@@ -247,16 +259,3 @@ SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 Copyright 2016, 2018-2019 Joe Anybody
 Copyright (c) Alice
 ```
-
-## Order of precedence
-
-Copyright and licensing information is considered according to the
-following order of precedence:
-
-1. `.license` file
-2. Information defined in the commentable file
-3. Information defined in `.reuse/dep5`
-
-There is no merging of information. The REUSE Tool will output a warning
-is there are multiple sources of copyright and licensing information
-present and choose the one with the highest precedence.

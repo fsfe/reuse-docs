@@ -45,7 +45,7 @@ The versions follow [semantic versioning](https://semver.org).
 
 - URLs to currently applicable SPDX specification. (#49)
 
-- Define current order or precedence. (#115, #111)
+- Define current order or precedence. (#131)
 
 ### Changed
 
