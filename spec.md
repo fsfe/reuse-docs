@@ -113,9 +113,9 @@ contain comments at the top of the file (comment header) that declare that
 file's Copyright and Licensing Information.
 
 For Uncommentable Files, the comment header that declares the file's Copyright
-and Licensing Information SHOULD be in an adjacent file of the same name with
-the additional extension `.license` (example: `cat.jpg.license` if the original
-file is `cat.jpg`).
+and Licensing Information SHOULD be in an adjacent UTF-8 encoded text file of the same 
+name with the additional extension `.license` (example: `cat.jpg.license` if the 
+original file is `cat.jpg`).
 
 `.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
 that comment headers be put inside Commentable Files.

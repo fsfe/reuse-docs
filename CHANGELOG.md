@@ -29,6 +29,9 @@ The versions follow [semantic versioning](https://semver.org).
 - Introduce support of in-line snippet comments using
   `SPDX-SnippetBegin`/`SPDX-SnippetEnd`. (#107)
 
+- Specify encoding of `.license` files to UTF-8. (#106, thanks @kirelagin for
+  the helpful background information)
+
 - Introduce `REUSE-IgnoreStart`/`REUSE-IgnoreEnd` to make the REUSE helper tool
   not consider the enclosed content for detecting copyright and licensing
   information. (#104)
