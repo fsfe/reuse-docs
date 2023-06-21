@@ -135,7 +135,7 @@ testing.
 If you have an entire directory that you want to "exclude" from REUSE compliance
 testing, you can [use a DEP5 file](#bulk-license).
 
-## How do I exclude certain files from REUSE compliance testing? {#exclude-lines}
+## How do I exclude certain lines from REUSE compliance testing? {#exclude-lines}
 
 In order to make the tool ignore a specific section containing strings that may
 falsely be detected as copyright or license statements, you can wrap it within
@@ -416,16 +416,56 @@ You can read more about this file format by Debian
 
 ## Can I license only a part of a file as being under a different license? {#partial-license}
 
-The short answer is that yes, you can, but no, there is no standard way for
-REUSE to recognize this. If you have a small segment of a file that is licensed
-differently, you should list that license under a separate
-`SPDX-License-Identifier` tag in the header.
+Yes, you can. You should add in-line snippet comments if a copyright and/or
+licensing info applies to only a certain part of a file.
 
-You can use your own comments to specify which segment is separately licensed.
-For instance: "The class Foo is copied from project Bar and licensed under MIT.
-All changes are licensed under GPL-3.0-or-later."
+Such an annotated snippet block must start with `SPDX-SnippetBegin` to mark its
+beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
 
-A possible way to circumvent the problem is to extract the segment from the
+Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
+correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
+
+Example:
+
+```
+# SPDX-SnippetBegin
+# SPDX-License-Identifier: MIT
+# SPDX-SnippetCopyrightText: 2023 Jane Doe <jane@example.com>
+
+{$snippet_code_goes_here}
+
+# SPDX-SnippetEnd
+```
+
+Snippets may nest, and this is denoted by having
+`SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
+that parentheses nest in mathematical expressions. In the case of nested
+snippets, the SPDX file tags are considered to apply to the inner-most snippet. Example:
+
+```
+# SPDX-SnippetBegin
+# SPDX-License-Identifier: MIT
+# SPDX-SnippetCopyrightText: 2023 Jane Doe <jane@example.com>
+
+{$snippet_code_under_MIT}
+
+# SPDX-SnippetBegin
+# SPDX-License-Identifier: BSD-2-Clause
+# SPDX-SnippetCopyrightText: Copyright Example Company
+
+{$snippet_code_under_BSD-2-Clause}
+
+# SPDX-SnippetEnd
+
+{$more_snippet_code_under_MIT}
+
+# SPDX-SnippetEnd
+```
+
+It is also considered good practice to further specify the origin of the
+snippet, for instance by a comment like "The class Foo is copied from project Bar".
+
+A possible alternative to the problem is to extract the segment from the
 file, and to keep it in its own file.
 
 ## How do I properly declare multi-licensing? {#multi-licensing}

@@ -24,6 +24,8 @@ The versions follow [semantic versioning](https://semver.org).
 
 ### Added
 
+- Definition for Commentable and Uncommentable Files. (#123, thanks @Jayman2000)
+
 - Introduce support of in-line snippet comments using
   `SPDX-SnippetBegin`/`SPDX-SnippetEnd`. (#107)
 
@@ -41,12 +43,19 @@ The versions follow [semantic versioning](https://semver.org).
 
 - Remove symlinks and zero-byte files from list of Covered Files. (#101)
 
+- Remove submodules and Meson subprojects from list of Covered Files. (#99)
+
 - Clarify which license text files are needed if a SPDX license expression
   contains more than one license and/or exception. (#96)
 
 - URLs to currently applicable SPDX specification. (#49)
 
+- Define current order or precedence. (#131)
+
 ### Changed
+
+- Allow `.license` files for commentable files, but strongly recommend adding
+  copyright/licensing information in header. (#123, thanks @Jayman2000)
 
 - Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
 
