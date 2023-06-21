@@ -8,22 +8,22 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-05-01 12:09+0000\n"
-"Last-Translator: Jiří Podhorecký <j.podhorecky@volny.cz>\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/fsfe/reuse-docs/cs/"
-">\n"
-"Language: cs\n"
+"PO-Revision-Date: 2022-07-18 14:14+0000\n"
+"Last-Translator: Alfonso Scarpino <alfonso.scarpino@gmail.com>\n"
+"Language-Team: Italian <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
+"it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.12.1\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
 #, no-wrap
 msgid "Frequently Asked Questions"
-msgstr "Často kladené dotazy"
+msgstr "Domande Frequenti"
 
 #. type: Plain text
 #: faq.md
@@ -35,54 +35,57 @@ msgstr "{{< toc >}}\n"
 #: faq.md
 #, markdown-text, no-wrap
 msgid "General {#general}"
-msgstr "Obecné {#general}"
+msgstr "Generale {#general}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am short on time. Can you give me the quickest possible summary? {#quick-summary}"
 msgstr ""
-"Mám málo času. Můžete mi poskytnout co nejrychlejší shrnutí? {#quick-summary}"
+"Sono a corto di tempo. Puoi fornirmi il riassunto più veloce possibile? "
+"{#quick-summary}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "We want to improve the way that people license their software projects. We propose three steps to achieve this:"
 msgstr ""
-"Chceme zlepšit způsob, jakým lidé licencují své softwarové projekty. "
-"Navrhujeme tři kroky, jak toho dosáhnout:"
+"Vogliamo migliorare la modalità che le persone utilizzano per la licenza dei "
+"loro progetti software. Proponiamo tre passi per raggiungere ciò:"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "1. Choose and provide licenses {#step-1}"
-msgstr "1. Výběr a poskytnutí licencí {#step-1}"
+msgstr "1. Scegliere e fornire licenze {#step-1}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Choose a [Free Software](https://fsfe.org/about/basics/freesoftware) license for your project. Find the SPDX identifier of your license in the [SPDX License List](https://spdx.org/licenses/). Download the license text for your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES/` directory."
 msgstr ""
-"Vyberte si pro svůj projekt licenci [Free Software](https://fsfe.org/about/"
-"basics/freesoftware). V seznamu [Seznam licencí SPDX](https://spdx.org/"
-"licenses/) vyhledejte identifikátor licence SPDX. Stáhněte si text licence "
-"pro svou licenci z úložiště [license-list-data](https://github.com/spdx/"
-"license-list-data/tree/master/text) a vložte jej do adresáře `LICENSES/`."
+"Scegliete una licenza di [Software Libero](https://fsfe.org/about/basics/"
+"freesoftware) per il vostro progetto. Trovate l'identificatore SPDX della "
+"vostra licenza nell'[Elenco Licenze SPDX](https://spdx.org/licenses/). "
+"Scaricate il testo della licenza corrispondente dal deposito [license-list-"
+"data](https://github.com/spdx/license-list-data/tree/master/text) e "
+"inseritelo nell'indirizzo `LICENSES`."
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "2. Add copyright and licensing information to each file {#step-2}"
 msgstr ""
-"2. Do každého souboru přidejte informace o autorských právech a licencích "
-"{#step-2}"
+"2. Inserite le informazioni di diritto d'autore e della licenza per ogni "
+"file {#step-2}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Then, for all files, edit the header to contain the following:"
 msgstr ""
-"Poté upravte záhlaví všech souborů tak, aby obsahovalo následující údaje:"
+"Poi modificate l'intestazione di tutti i files affinchè contenga quanto "
+"segue:"
 
 #. type: Fenced code block
 #: faq.md
@@ -92,114 +95,117 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
-"# SPDX-FileCopyrightText: [rok] [držitel autorských práv] <[email address]>\n"
+"# SPDX-FileCopyrightText: [anno] [possessore di diritto d'autore] <["
+"indirizzo email]>\n"
 "#\n"
-"# SPDX-License-Identifier: [identifier]\n"
+"# SPDX-License-Identifier: [identificatore]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
 #, markdown-text, no-wrap
 msgid "3. Confirm REUSE compliance {#step-3}"
-msgstr "3. Potvrďte soulad s pravidly REUSE {#step-3}"
+msgstr "3. Confermate la conformità con REUSE {#step-3}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Use the [REUSE tool](https://github.com/fsfe/reuse-tool) to automate some of these steps, and to check whether you did everything correctly."
 msgstr ""
-"Pomocí nástroje [REUSE tool](https://github.com/fsfe/reuse-tool) můžete "
-"některé z těchto kroků automatizovat a zkontrolovat, zda jste vše provedli "
-"správně."
+"Utilizzate lo [strumento REUSE](https://github.com/fsfe/reuse-tool) per "
+"automatizzare qualche passo e per controllare se è tutto corretto."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is copyright? {#what-is-copyright}"
-msgstr "Co je to autorské právo? {#what-is-copyright}"
+msgstr "Cos'è il diritto d'autore? {#what-is-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Copyright is a legal construct that grants someone exclusive rights over a creative work. The most important exclusive right is in the name: The right to produce copies. Only the copyright holder is allowed to give new copies of their work to people."
 msgstr ""
-"Autorské právo je právní konstrukce, která někomu poskytuje výhradní práva k "
-"tvůrčímu dílu. Nejdůležitější výhradní právo je obsaženo v názvu: právo na "
-"výrobu kopií. Pouze držitel autorských práv smí poskytovat lidem nové kopie "
-"svého díla."
+"Il diritto d'autore è un costrutto giuridico che garantisce a qualcuno "
+"diritti esclusivi su di un opera creativa. Il diritto esclusivo più "
+"importante è nel nome (copyright): Il diritto a produrre copie. Solo al "
+"possessore dei diritti d'autore è concesso fornire nuove copie del proprio "
+"lavoro ad altri."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
-"Obvykle je držitelem autorských práv autor, ale často jsou autorská práva "
-"převedena na autorova zaměstnavatele. Na většině míst nemusíte pro získání "
-"autorských práv nic dělat. Jakmile vytvoříte tvůrčí dílo, okamžitě na něj "
-"získáte autorská práva vy (nebo váš zaměstnavatel)."
+"Solitamente l'autore è il possessore dei diritti d'autore, ma spesso questi "
+"diritti vengono trasferiti al suo datore di lavoro. In molti posti non è "
+"necessario fare nulla per ottenere i diritti d'autore: non appena completate "
+"un'opera creativa, a voi (o al vostro datore di lavoro) sono garantiti "
+"istantaneamente i diritti d'autore su di essa."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Creative Commons provides a better and lengthier answer in their [Frequently Asked Questions](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-matter)."
 msgstr ""
-"Creative Commons poskytuje lepší a delší odpověď ve svých [často kladených "
-"otázkách](https://creativecommons.org/faq/#what-is-copyright-and-why-does-it-"
-"matter)."
+"Creative Commons dà una risposta migliore e più descrittiva nelle loro ["
+"Domande Frequenti](https://creativecommons.org/faq/#what-is-copyright-and-"
+"why-does-it-matter)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a license? {#what-is-license}"
-msgstr "Co je to licence? {#what-is-licence}"
+msgstr "Cos'è una licenza? {#what-is-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "One problem with copyright as it pertains to software is that it makes software unshareable by default. A license changes that. A license defines the terms under which the copyright holder allows the recipient of the license to use the software."
 msgstr ""
-"Jedním z problémů autorských práv v souvislosti se softwarem je, že ve "
-"výchozím nastavení činí software nesdíleným. Licence to mění. Licence "
-"definuje podmínky, za kterých držitel autorských práv povoluje příjemci "
-"licence software používat."
+"Uno dei problemi del diritto d'autore per quanto riguarda il software è che "
+"lo rende impossibile da distribuire. Ciò cambia con una licenza. Essa "
+"definisce i termini per i quali il possessore di diritto d'autore permette "
+"al destinatario della licenza di far uso del software."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the license allows the recipient to [use, study, share and improve](https://fsfe.org/freesoftware/basics/4freedoms.html) the software, then that software is [Free Software](https://fsfe.org/about/basics/freesoftware)."
 msgstr ""
-"Pokud licence umožňuje příjemci [používat, studovat, sdílet a "
-"vylepšovat](https://fsfe.org/freesoftware/basics/4freedoms.html) software, "
-"pak se jedná o [svobodný software](https://fsfe.org/about/basics/"
+"Se la licenza permette al destinatario di [utilizzare, studiare, condividere "
+"e migliorare](https://fsfe.org/freesoftware/basics/4freedoms.html) il "
+"software, allora questo è [Software Libero](https://fsfe.org/about/basics/"
 "freesoftware)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which license should I choose? {#which-license}"
-msgstr "Jakou licenci si mám vybrat? {#which-license}"
+msgstr "Quale licenza dovrei scegliere? {#which-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Always choose a Free Software license, i.e., a license that gives the recipient the freedom to use, study, share, and improve the software. Aside from that, the license you choose is up to you.  If you are contributing to an existing project, you should release your changes under the same license as the project. Otherwise, the [Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html), [choosealicense.com](https://choosealicense.com/), and [joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-assistant-jla)  have some good recommendations. Note that these resources each emphasise a different value, and come with their own biases."
 msgstr ""
-"Vždy si vyberte licenci svobodného softwaru, tj. licenci, která příjemci "
-"poskytuje svobodu software používat, studovat, sdílet a vylepšovat. Kromě "
-"toho je volba licence na vás.  Pokud přispíváte do existujícího projektu, "
-"měli byste své změny uvolnit pod stejnou licencí jako projekt. Jinak mají ["
-"Free Software Foundation](https://www.gnu.org/licenses/license-"
-"recommendations.html), [choosealicense.com](https://choosealicense.com/) a "
-"[joinup.eu](https://joinup.ec.europa.eu/collection/eupl/joinup-licensing-"
-"assistant-jla) několik dobrých doporučení. Všimněte si, že každý z těchto "
-"zdrojů klade důraz na jinou hodnotu a přichází s vlastními předsudky."
+"Scegliete sempre una licenza per Software Libero; es. una licenza che "
+"fornisce al destinatario la libertà di utilizzare, studiare, condividere e "
+"migliorare il software. Il resto sta a voi. Se state contribuendo ad un "
+"progetto esistente, dovreste rilasciare le vostre modifiche sotto la sua "
+"stessa licenza. Altrimenti, la [Fondazione Software Libero](https://www.gnu."
+"org/licenses/license-recommendations.html), [choosealicense."
+"com](https://choosealicense.com/) e [joinup.eu](https://joinup.ec.europa.eu/"
+"collection/eupl/joinup-licensing-assistant-jla) hanno alcune utili "
+"raccomandazioni. Si noti che queste risorse enfatizzano ciascuna un valore "
+"differente e comportano propri pregiudizi."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Above all, if you value freedom, you should choose a license that makes your software [Free Software](https://fsfe.org/about/basics/freesoftware.en.html)."
 msgstr ""
-"Pokud si ceníte svobody, měli byste především zvolit licenci, která váš "
-"software zachová jako [Svobodný Software](https://fsfe.org/about/basics/"
+"Se valorizzate la libertà, dovreste soprattutto scegliere una licenza che "
+"rende il vostro software [Software Libero](https://fsfe.org/about/basics/"
 "freesoftware.en.html)."
 
 #. type: Plain text
@@ -207,8 +213,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "<!-- ## Do I really need to include the license and copyright headers in all files? Why should I care? {#why-care}\n"
 msgstr ""
-"<!-- ## Opravdu musím ve všech souborech uvádět záhlaví o licenci a "
-"autorských právech? Proč by mě to mělo zajímat? {#why-care}\n"
+"<!-- ## Devo proprio includere l'intestazione della licenza e del diritto "
+"d'autore in ogni file? Perchè dovrebbe importarmene? {#why-care}\n"
 
 #. type: Plain text
 #: faq.md
@@ -220,41 +226,42 @@ msgstr "TODO -->\n"
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is SPDX? {#what-is-spdx}"
-msgstr "Co je SPDX? {#what-is-spdx}"
+msgstr "Che cos'è SPDX? {#what-is-spdx}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "SPDX stands for [Software Package Data Exchange](https://spdx.org/). It is a project by the [Linux Foundation](https://www.linuxfoundation.org/) and the rock upon which REUSE is built. SPDX defines a standardized way to share copyright and licensing information between projects and people. Most importantly for REUSE, SPDX maintains the [SPDX License List](https://spdx.org/licenses/), which defines standardized identifiers for a lot of licenses."
 msgstr ""
-"SPDX znamená [Software Package Data Exchange](https://spdx.org/). Jedná se o "
-"projekt nadace [Linux Foundation](https://www.linuxfoundation.org/), na němž "
-"je postaven systém REUSE. SPDX definuje standardizovaný způsob sdílení "
-"informací o autorských právech a licencích mezi projekty a lidmi. Pro REUSE "
-"je nejdůležitější, že SPDX spravuje [SPDX License List](https://spdx.org/"
-"licenses/), který definuje standardizované identifikátory pro mnoho licencí."
+"SPDX significa [Software Package Data Exchange](https://spdx.org/). E' un "
+"progetto della [Fondazione Linux](https://www.linuxfoundation.org/) e la "
+"pietra sulla quale si è costituito REUSE. SPDX indica una modalità "
+"predefinita con la quale condividere informazioni di diritto d'autore e di "
+"licenza tra progetti e persone. Per REUSE, principalmente, SPDX mantiene l'["
+"Elenco Licenze SPDX](https://spdx.org/licenses/), il quale definisce degli "
+"identificatori predefiniti per molte licenze."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr "Nástroj {#tool}"
+msgstr "Lo strumento {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr "Jak nainstalovat a používat nástroj REUSE? {#install-tool}"
+msgstr "Come installo ed utilizzo lo strumento REUSE? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
-"Nástroj REUSE je praktický pomocník, který dokáže ověřit soulad s nařízením "
-"REUSE a zautomatizovat mnoho přilehlých úloh. Úplnou dokumentaci k nástroji "
-"najdete na adrese <https://reuse.readthedocs.io/>. Ve zkratce je to ale "
-"následující:"
+"Lo strumento REUSE è un alleato utile che può verificare se conformate con "
+"REUSE e automatizzare molti dei compiti adiacenti. Potete trovare l'intera "
+"documentazione per lo strumento a <https://reuse.readthedocs.io/>. Ma in "
+"breve sarebbe:"
 
 #. type: Fenced code block
 #: faq.md
@@ -272,119 +279,124 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
-msgstr "Jak vyloučím soubor z testování shody REUSE? {#exclude-file}"
+msgstr ""
+"Come posso escludere un file dalla prova di conformità REUSE? {#exclude-file}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the file is a build artifact and you use Git, simply make sure that the file is covered by your `.gitignore` file."
 msgstr ""
-"Pokud je soubor artefaktem sestavení a používáte systém Git, jednoduše se "
-"ujistěte, že je soubor zahrnut v souboru `.gitignore`."
+"Se il file è un artefatto di costruzione e utilizzate Git, semplicemente "
+"assicuratevi che questo sia coperto dal vostro file `.gitignore`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Otherwise, you cannot exclude files from REUSE compliance testing. It would go entirely against the purpose of REUSE: making sure that every file has a copyright and license tag."
 msgstr ""
-"V opačném případě nelze soubory z testování shody s nařízením REUSE "
-"vyloučit. To by bylo zcela v rozporu s účelem systému REUSE: zajistit, aby "
-"každý soubor obsahoval značku autorských práv a licence."
+"Altrimenti, non potete escludere i files dalla prova di conformità REUSE. "
+"Ciò andrebbe totalmente contro all'obiettivo di REUSE: assicurarsi che ogni "
+"file abbia un'etichetta di diritto d'autore e di licenza."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you really want to exclude a file, consider using the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license for this file. By doing this, you put the file in the public domain, or your country's equivalent."
 msgstr ""
-"Pokud chcete soubor opravdu vyloučit, zvažte, zda pro něj nepoužít licenci "
-"[CC0](https://creativecommons.org/publicdomain/zero/1.0/). Tímto postupem "
-"soubor zařadíte do veřejné domény nebo jejího ekvivalentu ve vaší zemi."
+"Se volete veramente escludere un file, considerate l'uso di una licenza "
+"[CC0](https://creativecommons.org/publicdomain/zero/1.0/) per questo file. "
+"Così, dunque, affidate il file al dominio pubblico, o l'equivalente nel "
+"vostro paese."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There is one exception: License files are automatically excluded from compliance testing."
 msgstr ""
-"Existuje jedna výjimka: Licenční soubory jsou automaticky vyloučeny z "
-"testování shody."
+"Vi è un'eccezione: I files della licenza sono automaticamente esclusi dalla "
+"prova di conformità."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have an entire directory that you want to \"exclude\" from REUSE compliance testing, you can [use a DEP5 file](#bulk-license)."
 msgstr ""
-"Pokud máte celý adresář, který chcete \"vyloučit\" z testování shody REUSE, "
-"můžete [použít soubor DEP5](#bulk-license)."
+"Se possedete un'intero indirizzo che desiderate \"escudere\" dalla prova di "
+"conformità REUSE, potete [utilizzare un file DEP5 file](#bulk-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do you support a version control system other than Git? {#no-git}"
-msgstr "Podporujete jiný systém správy verzí než Git? {#no-git}"
+msgstr "Supportate un sistema di controllo versioni diverso da Git? {#no-git}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Currently we do not, but please [get in touch](https://github.com/fsfe/reuse-tool/issues)."
 msgstr ""
-"V současné době ne, ale prosím [kontaktujte nás](https://github.com/fsfe/"
+"Attualmente no, ma vi preghiamo di [contattarci](https://github.com/fsfe/"
 "reuse-tool/issues)."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Licensing and compliance {#licensing}"
-msgstr "Licencování a dodržování předpisů {#licensing}"
+msgstr "Licenze e conformità {#licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## Which licenses are compatible? {#compatible-licenses} -->\n"
-msgstr "<!-- ## Které licence jsou kompatibilní? {#compatible-licenses} -->\n"
+msgstr "<!-- ## Quali sono le licenze compatibili? {#compatible-licenses} -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Is there a standard format for declaring copyright? {#standard-copyright}"
 msgstr ""
-"Existuje standardní formát pro prohlášení o autorských právech? {#standard-"
+"Esiste un formato predefinito per dichiarare il diritto d'autore? {#standard-"
 "copyright}"
 
 #. type: Plain text
 #: faq.md
-#, markdown-text, no-wrap
+#, fuzzy, markdown-text, no-wrap
 msgid ""
 "Generally, we recommend that you use `SPDX-FileCopyrightText: [year] [copyright holder]\n"
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"Obecně doporučujeme používat `SPDX-FileCopyrightText: [year] [copyright "
-"holder]\n"
-"<[contact address]>`. Můžete se rozhodnout vynechat položky kromě držitele "
-"autorských práv,\n"
-"který musí být uveden vždy. Doporučujeme však zahrnout všechny položky.\n"
+"Generalmente, consigliamo l'uso di `SPDX-FileCopyrightText: [anno] ["
+"possessore dei diritti d'autore]\n"
+"<[contatto]>`. Potete scegliere di rimuovere degli elementi eccetto il "
+"possessore dei diritti d'autore,\n"
+"che è necessario includere sempre. Tuttavia, vi raccomandiamo di includere "
+"tutti i campi.\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification includes a section on the exact format of the copyright notice. See [the specification](/spec) and [the next question](#copyright-symbol)."
 msgstr ""
-"Specifikace obsahuje oddíl o přesném formátu oznámení o autorských právech. "
-"Viz [the specification](/spec) a [the next question](#copyright-symbol)."
+"Le specifiche presentano una sezione con formato identico a quello "
+"dell'avviso di diritto d'autore. Vedasi [le specifiche](/spec) e [la "
+"prossima domanda](#copyright-symbol)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I use SPDX-FileCopyrightText, Copyright, or ©? {#copyright-symbol}"
 msgstr ""
-"Mám použít SPDX-FileCopyrightText, Copyright nebo ©? {#copyright-symbol}"
+"E' meglio utilizzare SPDX-FileCopyrightText, Copyright, oppure ©? "
+"{#copyright-symbol}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The specification lists the following copyright notices as valid:"
 msgstr ""
-"Ve specifikaci jsou uvedena následující platná oznámení o autorských právech:"
+"Le specifiche elencano i seguenti avvisi di diritto d'autore come validi:"
 
 #. type: Fenced code block
 #: faq.md spec.md
@@ -398,7 +410,7 @@ msgid ""
 msgstr ""
 "SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
 "SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>\n"
-"© Example Corporation <https://corp.example.com>\n"
+"© Corporatione Esempio <https://corp.example.com>\n"
 "Copyright 2016, 2018-2019 Joe Anybody\n"
 "Copyright (c) Alice\n"
 
@@ -407,393 +419,290 @@ msgstr ""
 #, markdown-text
 msgid "Out of those, the first two are highly recommended. The others exist primarily to be compatible with existing conventions."
 msgstr ""
-"Z těchto lze vřele doporučit první dva. Ostatní existují především proto, "
-"aby byly kompatibilní se stávajícími konvencemi."
+"Di quelli, i primi due sono caldamente consigliati. Gli altri esistono "
+"principalmente per garantire compatibilità con le convenzioni vigenti."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Link to another question about © -->\n"
-msgstr "<!-- TODO: Odkaz na další otázku týkající se © -->\n"
+msgstr "<!-- TODO: Collegamento ad un'altra domanda sul © -->\n"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which years do I include in the copyright statement? {#years-copyright}"
 msgstr ""
-"Které roky mám uvést v prohlášení o autorských právech? {#years-copyright}"
+"Quali anni devo includere nella dichiarazione di diritto d'autore? {#years-"
+"copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Generally, there are four options for you to choose:"
-msgstr "Obecně si můžete vybrat ze čtyř možností:"
+msgstr "Generalmente, puoi scegliere tra quattro opzioni:"
 
 #. type: Bullet: '1. '
 #: faq.md
 #, markdown-text
 msgid "The year of initial publication."
-msgstr "Rok prvního zveřejnění."
+msgstr "L'anno della pubblicazione iniziale."
 
 #. type: Bullet: '2. '
 #: faq.md
 #, markdown-text
 msgid "The year of the latest publication."
-msgstr "Rok posledního zveřejnění."
+msgstr "L'anno della pubblicazione più recente."
 
 #. type: Bullet: '3. '
 #: faq.md
 #, markdown-text
 msgid "All years of publications, either as range (e.g., 2017-2019) or as separate entries (e.g., 2017, 2018, 2019)."
 msgstr ""
-"Všechny roky zveřejnění, buď jako rozsah (např. 2017-2019), nebo jako "
-"samostatné položky (např. 2017, 2018, 2019)."
+"Tutti gli anni di pubblicazione, sia come intervallo (es., 2017-2019) che "
+"come elementi distinti (es., 2017, 2018, 2019)."
 
 #. type: Bullet: '4. '
 #: faq.md
 #, markdown-text
 msgid "Do not include any year."
-msgstr "Neuvádějte žádný rok."
+msgstr "Non specificare l'anno."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Which option you choose is ultimately up to you."
-msgstr "Kterou možnost si vyberete, záleží nakonec na vás."
+msgstr "Scegliete l'opzione che preferite."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Do I need to include both GPL-3.0-or-later and GPL-3.0-only in my repository? {#gpl-plus}"
 msgstr ""
-"Musím do svého repozitáře zahrnout jak GPL-3.0-or-later, tak GPL-3.0-only? "
-"{#gpl-plus}"
+"Devo specificare sia GPL-3.0-o-ulteriore che GPL-3.0-unicamente nel mio "
+"deposito? {#gpl-plus}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Members of the GPL family are listed separately in the SPDX License List as -only and -or-later, even though the license texts are identical. If you have code under only one of these licenses, we recommend that you only include that one license."
 msgstr ""
-"Členové rodiny GPL jsou v seznamu licencí SPDX uvedeni zvlášť jako -only a "
-"-or-later, i když texty licencí jsou totožné. Pokud máte kód pouze pod "
-"jednou z těchto licencí, doporučujeme uvést pouze tuto licenci."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have code under both an -only license and an -or-later license, we recommend that you include both licenses separately."
 msgstr ""
-"Pokud máte kód pod licencí -only i pod licencí -or-later, doporučujeme uvést "
-"obě licence zvlášť."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What are license exceptions and what do I do with them? {#license-exceptions}"
-msgstr "Jaké jsou licenční výjimky a co s nimi mám dělat? {#licence-exceptions}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
-"Licenční výjimky jsou dodatky nebo změny licence, které často umožňují "
-"určité použití kódu, které by podle původní licence nebylo povoleno. Často "
-"se používá u překladačů, kde se část kódu překladače může dostat do výsledné "
-"binární verze. Výjimka se může vzdát práv na části kódu, které skončí v "
-"binárních souborech."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
-"S výjimkami se zachází téměř stejně jako s licencemi. Chcete-li zkombinovat "
-"licenci s výjimkou, označte soubor následující značkou: `SPDX-Licence-"
-"Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr "Na které soubory se vztahují autorská práva? {#what-is-copyrightable}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
-"Všechny soubory, které jsou původními autorskými díly, podléhají autorským "
-"právům. V podstatě, pokud někdo sedí a píše na klávesnici své vlastní "
-"originální myšlenky, pak má autorská práva k výstupu. Běžnými příklady jsou "
-"zdrojové kódy, dokumentace, zvukové záznamy a video."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
 msgstr ""
-"Existují však i okrajové případy. Například program `print(\"Ahoj, REUSE!\")`"
-" pravděpodobně nesplňuje hranici originality. Podobně tuto hranici nemusí "
-"splňovat ani datové a konfigurační soubory."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What to do with uncopyrightable files? {#uncopyrightable}"
 msgstr ""
-"Co dělat se soubory, na které se nevztahují autorská práva? "
-"{#uncopyrightable}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are two things that you can do with such a file to make sure that its copyright and licensing is recorded. The first option is to simply use your regular copyright and license header for this file. There is nothing that stops you from claiming copyright over your own works. However, a court would still likely find such files uncopyrightable."
 msgstr ""
-"S takovým souborem můžete udělat dvě věci, abyste se ujistili, že jsou "
-"zaznamenána jeho autorská práva a licence. První možností je jednoduše "
-"použít pro tento soubor běžnou hlavičku s autorskými právy a licencí. Nic "
-"vám nebrání v tom, abyste si nárokovali autorská práva na svá vlastní díla. "
-"Soud by však takové soubory stejně pravděpodobně shledal jako "
-"neautorizovatelné."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The alternative is to waive your copyright by using the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license."
 msgstr ""
-"Alternativou je vzdát se autorských práv pomocí licence [CC0-1."
-"0](https://creativecommons.org/publicdomain/zero/1.0/)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is important to note that you can only do this for your own works. If the file was authored by someone else, you must declare their copyright and license in the header."
 msgstr ""
-"Je důležité si uvědomit, že to můžete udělat pouze pro své vlastní práce. "
-"Pokud je autorem souboru někdo jiný, musíte v záhlaví uvést jeho autorská "
-"práva a licenci."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr "Jak mohu kopírovat cizí práci? {#copy-work}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
-"Pokud vám někdo jiný poskytl svou práci k použití a kopírování, můžete jeho "
-"práci začlenit do svého projektu. Když vložíte dílo do některého ze souborů "
-"ve svém projektu, měli byste přidat značku `SPDX-FileCopyrightText` pro "
-"držitele autorských práv a značku `SPDX-License-Identifier` pro licenci "
-"(licence), pod kterou bylo dílo zpřístupněno."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
-"Pokud byla práce licencována jinak než váš projekt, měli byste ověřit, zda "
-"jsou licence kompatibilní, a přidat nové licence do projektu."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
-"Mohu zkopírovat dílo, které není opatřeno poznámkou o autorských právech "
-"nebo licencí? {#no-copyright-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
-"Než začnete, vždy se nejprve ujistěte, že informace o autorských právech a "
-"licencích najdete jinde. Některé projekty obsahují tyto informace pouze v "
-"kořenovém adresáři nebo v souboru README."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
-"Pokud nenajdete žádné upozornění na autorská práva, není to problém. "
-"Oznámení o autorských právech můžete přidat sami."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
-"Pokud dílo nemá licenci, znamená to, že nemáte právo ho kopírovat. Pokud se "
-"domníváte, že se jedná o chybu a autor zjevně chtěl, abyste toto dílo mohli "
-"kopírovat, měli byste autora kontaktovat a požádat ho o poskytnutí licence. "
-"Neváhejte je odkázat na adresu <https://reuse.software>."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr "Kam jinam mohu vložit údaje o své licenci? {#where-else}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
-"Označení všech jednotlivých souborů značkami `SPDX-License-Identifier` "
-"přispívá k jednoznačnému sdělení licenčních informací vašeho projektu, ale "
-"pomáhá také sdělit licenční informace v přirozeném jazyce. V README svého "
-"projektu můžete uvést shrnutí licenčních informací nebo jednoduše "
-"přesměrovat čtenáře do adresáře `LICENSES/`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
 msgstr ""
-"Kromě toho mnoho hostingových webů očekává, že uvedete licenční informace o "
-"svém balíčku. Například soubor [setup.py nástroje REUSE](https://github.com/"
-"fsfe/reuse-tool/blob/master/setup.py) deklaruje všechny licence, které "
-"používá, ve formátu očekávaném balíčkovací infrastrukturou Pythonu."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
-msgstr "Co je držitel autorských práv a co je autor? {#copyright-holder-author}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
-"V těchto zdrojích rozlišujeme mezi držitelem autorských práv a autorem. "
-"Autor (také známý jako tvůrce) je osoba, která se posadila a vytvořila dílo. "
-"Představte si autora jako programátora, spisovatele nebo umělce."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
-"Držitelem autorských práv je osoba, která má k danému dílu výhradní práva.  "
-"Často je autor a držitel autorských práv jedna a tatáž osoba. Pokud je však "
-"autor za vytvoření díla placen svým zaměstnavatelem, je často držitelem "
-"autorských práv zaměstnavatel."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
-"Mějte na paměti, že v některých jurisdikcích se slovo \"autor\" často "
-"používá jako synonymum pro \"držitele autorských práv\". V jiných "
-"jurisdikcích si autoři zachovávají určitá práva ke svému dílu, i když nejsou "
-"držiteli autorských práv."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
-"Změnil jsem jediný řádek kódu. Mám přidat značku SPDX-FileCopyrightText se "
-"svým jménem? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
-"Základní otázka zní: V jakém okamžiku se mám považovat za držitele "
-"autorských práv k souboru? To záleží na vašem uvážení. Možná pomůže být "
-"důsledný a přidávat značku ke každému souboru, kterého se dotknete, ale "
-"možná je cennější dosáhnout v této otázce konsenzu v rámci vašeho projektu."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
-"Jak se vypořádat se souborem, který upravovalo mnoho lidí? {#many-copyright-"
-"statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
-"Některé soubory jsou upravovány mnoha lidmi a v záhlaví je uveden velmi "
-"dlouhý seznam držitelů autorských práv. To může být esteticky nepříjemné, "
-"ale není to nesprávné."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
 msgstr ""
-"Pokud se nechcete zabývat tolika upozorněními na autorská práva, některé "
-"projekty, jako například Chromium, tento problém obcházejí tím, že jako "
-"značku autorských práv používají \"Copyright (c) 2013 The Chromium Authors\""
-". Můžete o tom uvažovat, ale pak byste měli mít seznam držitelů autorských "
-"práv a autorů v samostatném souboru ve svém projektu."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
 msgstr ""
-"Proč nemohu k záznamu autorských práv použít jen kontrolu verzí? {#vcs-"
-"copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
 msgstr ""
-"V [předchozí otázce](#copyright-holder-author) jsme rozlišovali mezi "
-"držiteli autorských práv a autory, což není vždy totéž. Kontrola verzí "
-"obvykle zaznamenává pouze autorství, což ji činí nevhodnou pro úkol "
-"zaznamenávat autorská práva."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
 msgstr ""
-"Další překážkou je, že historie správy verzí může obsahovat chyby a oprava "
-"takové chyby by vyžadovala přepsání historie, což by způsobilo, že by "
-"všichni přispěvatelé museli znovu stáhnout nový kmen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
 msgstr ""
-"Dalším problémem správy verzí je, že příkaz `blame`, který se obvykle "
-"(nesprávně) používá ke zjištění autorství řádek po řádku, zobrazuje pouze "
-"autora poslední revize v daném řádku, i když šlo jen o něco tak triviálního, "
-"jako je oprava překlepu."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I bulk-license whole directories? {#bulk-license}"
-msgstr "Mohu hromadně licencovat celé adresáře? {#bulk-license}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
 msgstr ""
-"Pokud máte adresář obsahující mnoho souborů, nemusí být snadné nebo "
-"praktické upravovat každý soubor tak, aby obsahoval hlavičku. I když by to "
-"bylo ideální, existuje alternativa. Vytvořením souboru `.reuse/dep5` v "
-"kořenovém adresáři projektu můžete adresář hromadně licencovat. Příklad:"
 
 #. type: Fenced code block
 #: faq.md
@@ -813,213 +722,150 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
-"Formát: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
-"Upstream-Name: my-project\n"
-"Upstream-Contact: Jane Doe <jane@example.com>\n"
-"Zdroj: https://git.example.com/jane/my-project\n"
-"\n"
-"Soubory: resources/img/*\n"
-"Copyright: 2017 Jane Doe <jane@example.com>\n"
-"Licence: CC-BY-4.0\n"
-"\n"
-"Soubory: resources/vid/*\n"
-"Autorská práva: 2017 Jane Doe <jane@example.com>\n"
-"           2017 John Doe <john@example.com>\n"
-"Licence: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 msgstr ""
-"Více informací o tomto formátu souborů si můžete přečíst v Debianu "
-"[zde](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I license only a part of a file as being under a different license? {#partial-license}"
 msgstr ""
-"Mohu licencovat pouze část souboru jako soubor s jinou licencí? {#partial-"
-"license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The short answer is that yes, you can, but no, there is no standard way for REUSE to recognize this. If you have a small segment of a file that is licensed differently, you should list that license under a separate `SPDX-License-Identifier` tag in the header."
 msgstr ""
-"Krátká odpověď zní: ano, můžete, ale ne, neexistuje žádný standardní způsob, "
-"jak to REUSE rozpozná. Pokud máte malý segment souboru, který je licencován "
-"jinak, měli byste tuto licenci uvést pod samostatným tagem `SPDX-License-"
-"Identifier` v záhlaví."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can use your own comments to specify which segment is separately licensed.  For instance: \"The class Foo is copied from project Bar and licensed under MIT.  All changes are licensed under GPL-3.0-or-later.\""
 msgstr ""
-"Můžete použít vlastní komentáře a určit, který segment je licencován "
-"samostatně.  Například: \"Třída Foo je zkopírována z projektu Bar a "
-"licencována pod MIT.  Všechny změny jsou licencovány pod licencí GPL-3.0-or-"
-"later.\""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A possible way to circumvent the problem is to extract the segment from the file, and to keep it in its own file."
 msgstr ""
-"Možným způsobem, jak tento problém obejít, je vyjmout segment ze souboru a "
-"ponechat jej ve vlastním souboru."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I properly declare multi-licensing? {#multi-licensing}"
-msgstr "Jak správně nahlásit multilicenci? {#multi-licensing}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should always include all licenses in the `LICENSES/` directory."
-msgstr "Všechny licence byste měli vždy zahrnout do adresáře `LICENSES/`."
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The correct SPDX license expression that applies to the file depends on the intent. If all the code within is licensed under multiple licenses, and the licensee can choose under which license they consume the work, use `SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1-or-later`, as parts of Firefox do."
 msgstr ""
-"Správný licenční výraz SPDX, který se na soubor vztahuje, závisí na záměru. "
-"Pokud je veškerý kód uvnitř souboru licencován pod více licencemi a "
-"nabyvatel licence si může vybrat, pod kterou licencí dílo spotřebuje, "
-"použijte `SPDX-License-Identifier: MPL-1.1 OR GPL-2.0-or-later OR LGPL-2.1"
-"-or-later`, jak to dělají části Firefoxu."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If all the code within the file is licensed under multiple licenses, and the user must comply with all licenses simultaneously, use `SPDX-License-Identifier: LGPL-2.0-or-later AND AML`, as can be found in Simple DirectMedia Layer (SDL)."
 msgstr ""
-"Pokud je veškerý kód v souboru licencován pod více licencemi a uživatel musí "
-"dodržovat všechny licence současně, použijte `SPDX-License-Identifier: A AML`"
-", jak lze nalézt v Simple DirectMedia Layer (SDL)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If all the code within the file is licensed under either one license or another (for instance, all code is under GPL-2.0-only, but one function is under MIT), use separate tags `SPDX-License-Identifier: GPL-2.0-only` and `SPDX-License-Identifier: MIT`."
 msgstr ""
-"Pokud je veškerý kód v souboru licencován pod jednou nebo druhou licencí ("
-"například veškerý kód je pouze pod GPL-2.0, ale jedna funkce je pod MIT), "
-"použijte samostatné značky `SPDX-License-Identifier: GPL-2.0-only` a `SPDX-"
-"License-Identifier: MIT`."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about SPDX expressions [on the SPDX wiki](https://wiki.spdx.org/view/LicenseExpressionFAQ)."
 msgstr ""
-"Více informací o výrazech SPDX si můžete přečíst [na wiki SPDX](https://wiki."
-"spdx.org/view/LicenseExpressionFAQ)."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- ## How to deal with MIT/BSD licenses which include copyright information themselves? {#mit-bsd}\n"
 msgstr ""
-"<!-- ## Jak se vypořádat s licencemi MIT/BSD, které samy o sobě obsahují "
-"informace o autorských právech? {#mit-bsd}\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "TODO: Figure this one out -->\n"
-msgstr "TODO: Vyřešit tento problém -->\n"
+msgstr ""
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I only have a single license file. Should I still create a LICENSES directory? {#single-license}"
 msgstr ""
-"Mám pouze jeden licenční soubor. Mám ještě vytvořit adresář LICENSES? "
-"{#single-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Yes. This may seem extraneous, but it prevents future confusion when differently licensed code is adopted. By keeping all licenses in a single directory, it is easy for a user of your program to find all the licenses they need to comply with in the blink of an eye."
 msgstr ""
-"Ano. Může se to zdát zbytečné, ale zabrání to budoucím zmatkům, až bude "
-"přijat kód s jinou licencí. Díky tomu, že jsou všechny licence uloženy v "
-"jediném adresáři, může uživatel vašeho programu snadno mrknutím oka najít "
-"všechny licence, které musí dodržovat."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Should I put comment headers in my license files? {#header-in-license}"
 msgstr ""
-"Mám do licenčních souborů vkládat hlavičky s komentáři? {#header-in-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should not edit license files. Please see [this question](#edit-license)."
 msgstr ""
-"Licenční soubory byste neměli upravovat. Viz [tato otázka](#edit-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I use a license that is not on the SPDX License List? {#custom-license}"
 msgstr ""
-"Jak mohu použít licenci, která není na seznamu licencí SPDX? {#custom-"
-"license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text, no-wrap
 msgid "<!-- TODO: Explain that the user probably shouldn't use a custom license -->\n"
 msgstr ""
-"<!-- TODO: Vysvětlete, že uživatel by pravděpodobně neměl používat vlastní "
-"licenci -->\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have a custom or modified license that does not appear in the SPDX License List, place your license in the file `LICENSES/LicenseRef-MyLicense.txt`. By naming your license as such, tools that speak SPDX will still be able to recognise your license."
 msgstr ""
-"Pokud máte vlastní nebo upravenou licenci, která není uvedena v seznamu "
-"licencí SPDX, umístěte svou licenci do souboru `LICENSES/LicenseRef-MyLicense"
-".txt`. Pokud svou licenci takto pojmenujete, budou nástroje, které mluví "
-"jazykem SPDX, schopny vaši licenci rozpoznat."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I use a custom exception? {#custom-exception}"
-msgstr "Jak mohu použít vlastní výjimku? {#custom-exception}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is not possible to create a custom exception. Instead, you may [create a custom license](#custom-license) that embeds the exception."
 msgstr ""
-"Není možné vytvořit vlastní výjimku. Místo toho můžete [vytvořit vlastní "
-"licenci](#custom-license), která vloží výjimku."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Should I edit my license files? {#edit-license}"
-msgstr "Mám upravit své licenční soubory? {#edit-license}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You should never edit license files. When you use an existing license, you should always copy it verbatim."
 msgstr ""
-"Licenční soubory byste nikdy neměli upravovat. Pokud používáte existující "
-"licenci, měli byste ji vždy doslovně zkopírovat."
 
 #. type: Plain text
 #: faq.md
@@ -1031,369 +877,270 @@ msgid ""
 "about how to deal with those licenses.\n"
 "-->\n"
 msgstr ""
-"<!-- TODO: je třeba ještě napsat odkazovanou sekci. \n"
-"Některé licence, například MIT a rodina licencí BSD, obsahují řádek \n"
-"\"Copyright (c) [year] [copyright holder]\". O tom, jak s těmito licencemi \n"
-"zacházet, se dočtete v [této otázce](#mit-bsd). \n"
-"-->\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are many reasons for why you should not alter license texts, but if you do alter the texts, you should use a different SPDX identifier for this license.  See [the previous question](#custom-license)."
 msgstr ""
-"Existuje mnoho důvodů, proč byste neměli měnit texty licencí, ale pokud je "
-"měníte, měli byste pro tuto licenci použít jiný identifikátor SPDX.  Viz ["
-"předchozí otázka](#custom-license)."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I edit copyright notices and license disclaimers? {#edit-copyright-and-licensing}"
 msgstr ""
-"Mohu upravovat upozornění na autorská práva a prohlášení o vyloučení "
-"licence? {#edit-copyright-and-licensing}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you find out that some information is incorrect, you are free to adjust it.  Otherwise, it is usually a good idea to leave copyright notices and license disclaimers intact. But there is no one-size-fits-all answer here."
 msgstr ""
-"Pokud zjistíte, že některé informace jsou nesprávné, můžete je upravit.  V "
-"opačném případě je obvykle dobré ponechat oznámení o autorských právech a "
-"prohlášení o vyloučení licence nedotčená. Neexistuje však žádná univerzální "
-"odpověď."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I remove the license and copyright information from minified code (e.g., JavaScript)? {#minified}"
 msgstr ""
-"Mohu z minifikovaného kódu (např. JavaScriptu) odstranit informace o licenci "
-"a autorských právech? {#minified}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can, but you probably should not. Many minifiers have an option that allows you to retain the header comment. If this option is present, you should use it, especially if you use a license that mandates that you include a license disclaimer."
 msgstr ""
-"Můžete, ale pravděpodobně byste neměli. Mnoho minifierů má možnost, která "
-"umožňuje zachovat komentář v záhlaví. Pokud je tato možnost k dispozici, "
-"měli byste ji použít, zejména pokud používáte licenci, která nařizuje "
-"zahrnout zřeknutí se licence."
 
 #. type: Title #
 #: faq.md
 #, markdown-text, no-wrap
 msgid "For lawyers and legal experts {#lawyers}"
-msgstr "Pro právníky a právní experty {#lawyers}"
+msgstr ""
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I am a lawyer and want a bill of materials {#bill-of-materials}"
-msgstr "Jsem právník a chci seznam materiálů {#bill-of-materials}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Install the reuse tool and run `reuse spdx -o reuse.spdx` in the project root to create an [SPDX document](https://spdx.org/spdx-specification-21-web-version)."
 msgstr ""
-"Nainstalujte nástroj pro opakované použití a spusťte `reuse spdx -o reuse."
-"spdx` v kořenovém adresáři projektu pro vytvoření dokumentu "
-"[SPDX](https://spdx.org/spdx-specification-21-web-version)."
 
 #. type: YAML Front Matter: title
 #: spec.md
 #, no-wrap
 msgid "REUSE Specification – Version 3.0"
-msgstr "Specifikace REUSE - verze 3.0"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "This specification defines a standardized method for declaring copyright and licensing for software projects. The goal of the specification is to have unambiguous, human- and machine-readable copyright and licensing information for each individual file in a project. Ideally this information is embedded into every file, so that the information is preserved when the file is copied and reused by third parties."
 msgstr ""
-"Tato specifikace definuje standardizovanou metodu pro deklarování autorských "
-"práv a licencí pro softwarové projekty. Cílem specifikace je jednoznačné, "
-"lidsky i strojově čitelné informace o autorských právech a licencích pro "
-"každý jednotlivý soubor v projektu. V ideálním případě jsou tyto informace "
-"vloženy do každého souboru, aby byly zachovány i při kopírování a dalším "
-"použití souboru třetími stranami."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "This specification implements [IETF RFC 2119: Key words for use in RFCs to Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)."
 msgstr ""
-"Tato specifikace implementuje [IETF RFC 2119: Key words for use in RFCs to "
-"Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119)."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "For the revision history of this specification, please see [the change log](https://git.fsfe.org/reuse/docs/src/branch/master/CHANGELOG.md)."
 msgstr ""
-"Historie revizí této specifikace je uvedena v [change log](https://git.fsfe."
-"org/reuse/docs/src/branch/master/CHANGELOG.md)."
 
 #. type: Title ##
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Definitions"
-msgstr "Definice"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "These are the definitions for some of the terms used in this specification:"
-msgstr "Toto jsou definice některých pojmů použitých v této specifikaci:"
+msgstr ""
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "Project --- any unit of content that can be associated with a distribution of software. Typically, a Project is composed of one or more files. Also sometimes called a package."
 msgstr ""
-"Projekt --- jakákoli jednotka obsahu, která může být spojena s distribucí "
-"softwaru. Projekt se obvykle skládá z jednoho nebo více souborů. Někdy se "
-"také nazývá balíček."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "- License File --- a file containing the text of a license."
-msgstr "- Licenční soubor --- soubor obsahující text licence."
+msgstr ""
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "Copyright and Licensing Information --- the information that lists the copyright holders of a file or work, and describes under which licenses the file or work is made available."
 msgstr ""
-"Informace o autorských právech a licencích --- informace, které uvádějí "
-"držitele autorských práv k souboru nebo dílu a popisují, pod jakými "
-"licencemi je soubor nebo dílo zpřístupněno."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "SPDX Specification --- SPDX specification, version 2.1; as available on <https://spdx.org/specifications>."
 msgstr ""
-"Specifikace SPDX --- Specifikace SPDX, verze 2.1; k dispozici na "
-"<https://spdx.org/specifications>."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX Specification. See also <https://spdx.org/ids> for a short introduction and examples."
 msgstr ""
-"Identifikátor licence SPDX --- Zkrácený identifikátor SPDX, jak je definován "
-"ve specifikaci SPDX. Viz také <https://spdx.org/ids>, kde najdete krátký "
-"úvod a příklady."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "- SPDX License Expression --- as defined in SPDX Specification, Appendix IV, at <https://spdx.org/spdx-specification-21-web-version#h.jxpfx0ykyb60>."
 msgstr ""
-"- Vyjádření licence SPDX --- podle definice ve specifikaci SPDX, dodatek IV, "
-"na adrese <https://spdx.org/spdx-specification-21-web-version#h."
-"jxpfx0ykyb60>."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "SPDX License List --- a list of commonly found licenses and exceptions; as available on <https://spdx.org/licenses/>."
 msgstr ""
-"Seznam licencí SPDX --- seznam běžně používaných licencí a výjimek; k "
-"dispozici na <https://spdx.org/licenses/>."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "DEP5 --- [Machine-readable `debian/copyright` file, Version 1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).  Where the REUSE Specification and DEP5 state different things, the REUSE Specification takes precedence. Specifically in the case of the `Copyright` and `License` tags."
 msgstr ""
-"DEP5 --- [Strojově čitelný soubor `debian/copyright`, verze 1.0](https://www."
-"debian.org/doc/packaging-manuals/copyright-format/1.0/).  Pokud specifikace "
-"REUSE a DEP5 uvádějí různé věci, má přednost specifikace REUSE. Konkrétně v "
-"případě značek `Copyright` a `License`."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "REUSE Tool --- helper tool for compliance with this Specification; available at <https://github.com/fsfe/reuse-tool>."
 msgstr ""
-"REUSE Tool --- pomocný nástroj pro dodržování této specifikace; k dispozici "
-"na adrese <https://github.com/fsfe/reuse-tool>."
 
 #. type: Title ##
 #: spec.md
 #, markdown-text, no-wrap
 msgid "License files"
-msgstr "Licenční soubory"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "A Project MUST include a License File for every license under which files in the Project are licensed."
 msgstr ""
-"Projekt MUSÍ obsahovat licenční soubor pro každou licenci, pod kterou jsou "
-"soubory v projektu licencovány."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Each License File MUST be placed in the `LICENSES/` directory in the root of the Project. The name of the License File MUST be the SPDX License Identifier of the license followed by an appropriate file extension (example: `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format."
 msgstr ""
-"Každý licenční soubor MUSÍ být umístěn v adresáři `LICENSES/` v kořenovém "
-"adresáři projektu. Název licenčního souboru MUSÍ být identifikátor licence "
-"SPDX, za kterým následuje příslušná přípona souboru (například: `LICENSES/"
-"GPL-3.0-or-later.txt`). Licenční soubor MUSÍ být v prostém textovém formátu."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "If a license does not exist in the SPDX License List, its SPDX License Identifier MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Section 6 available at <https://spdx.org/spdx-specification-21-web-version#h.1v1yuxt>."
 msgstr ""
-"Pokud licence v seznamu licencí SPDX neexistuje, její identifikátor licence "
-"SPDX MUSÍ být `LicenseRef-[idstring]`, jak je definováno ve specifikaci "
-"SPDX, část 6, která je k dispozici na adrese <https://spdx.org/spdx-"
-"specification-21-web-version#h.1v1yuxt>."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "A Project MUST NOT include License Files for licenses under which none of the files in the Project are licensed."
 msgstr ""
-"Projekt NESMÍ obsahovat licenční soubory pro licence, pod kterými není "
-"licencován žádný ze souborů v projektu."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Everything that applies to licenses in this section also applies to license exceptions, with the exception that it is NOT possible to have a license exception that does not exist in the SPDX License List."
 msgstr ""
-"Vše, co platí pro licence v této části, platí také pro výjimky z licencí s "
-"tou výjimkou, že NENÍ možné mít výjimku z licence, která neexistuje v "
-"seznamu licencí SPDX."
 
 #. type: Title ##
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Copyright and Licensing Information"
-msgstr "Informace o autorských právech a licencích"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Each file in the Project MUST have Copyright and Licensing Information associated with it, except the following files:"
 msgstr ""
-"Ke každému souboru v projektu MUSÍ být přiřazeny informace o autorských "
-"právech a licencích, s výjimkou následujících souborů:"
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "- The License Files."
-msgstr "- Licenční soubory."
+msgstr ""
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files belonging to the Project's version control system (example: `.git/`)."
-msgstr "Soubory patřící do systému správy verzí projektu (příklad: `.git/`)."
+msgstr ""
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files ignored by the version control system (example: Files listed in `.gitignore`)."
 msgstr ""
-"Soubory ignorované systémem správy verzí (příklad: Soubory uvedené v souboru "
-"`.gitignore`)."
 
 #. type: Bullet: '- '
 #: spec.md
 #, markdown-text
 msgid "The files in the `.reuse/` directory in the root of the Project. This directory MUST contain only files relevant for the operation of the REUSE Tool."
 msgstr ""
-"Soubory v adresáři `.reuse/` v kořenovém adresáři projektu. Tento adresář "
-"MUSÍ obsahovat pouze soubory důležité pro provoz nástroje REUSE."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "There are two ways to associate Copyright and Licensing Information with a file."
 msgstr ""
-"Informace o autorských právech a licencích lze k souboru přiřadit dvěma "
-"způsoby."
 
 #. type: Title ###
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Comment headers"
-msgstr "Záhlaví komentářů"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "To implement this method, each plain text file that can contain comments MUST contain comments at the top of the file (comment header) that declare that file's Copyright and Licensing Information."
 msgstr ""
-"Pro implementaci této metody musí každý textový soubor, který může obsahovat "
-"komentáře, MUSÍ obsahovat komentáře v horní části souboru (záhlaví komentáře)"
-", které deklarují autorská práva a licenční informace daného souboru."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "If a file is not a plain text file or does not permit the inclusion of comments, the comment header that declares the file's Copyright and Licensing Information SHOULD be in an adjacent file of the same name with the additional extension `.license` (example: `cat.jpg.license` if the original file is `cat.jpg`)."
 msgstr ""
-"Pokud soubor není prostým textovým souborem nebo neumožňuje vkládání "
-"komentářů, záhlaví komentáře, které deklaruje autorská práva a licenční "
-"informace souboru, MUSÍ být v sousedním souboru stejného jména s dodatečnou "
-"příponou `.license` (příklad: `cat.jpg.license`, pokud je původní soubor `cat"
-".jpg`)."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by a text value, and terminated by a newline."
 msgstr ""
-"Záhlaví komentáře MUSÍ obsahovat jednu nebo více značek `SPDX-"
-"FileCopyrightText` a jednu nebo více značek `SPDX-License-Identifier`. Za "
-"značkou následuje dvojtečka, za ní textová hodnota a je ukončena novým "
-"řádkem."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice."
 msgstr ""
-"Za značkou `SPDX-FileCopyrightText` MUSÍ následovat upozornění na autorská "
-"práva."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY be used, in which case a colon is not needed."
 msgstr ""
-"Místo značky `SPDX-FileCopyrightText` lze použít symbol `©` nebo slovo "
-"`Copyright`; v takovém případě není dvojtečka nutná."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License Expression describing the licensing of the file (example: `SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections of the file are licensed differently, a different `SPDX-License-Identifier` tag MUST be included for each section."
 msgstr ""
-"Za značkou `SPDX-License-Identifier` MUSÍ následovat platné vyjádření "
-"licence SPDX popisující licencování souboru (příklad: `SPDX-License-"
-"Identifier: GPL-3.0-or-later OR Apache-2.0`). Pokud jsou jednotlivé části "
-"souboru licencovány odlišně, MUSÍ být pro každou část uveden jiný tag `SPDX-"
-"License-Identifier`."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "An example of a comment header:"
-msgstr "Příklad záhlaví komentáře:"
+msgstr ""
 
 #. type: Fenced code block
 #: spec.md
@@ -1404,54 +1151,42 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: GPL-3.0-or-later\n"
 msgstr ""
-"# SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>\n"
-"# SPDX-FileCopyrightText: 2019 Příklad Společnosti\n"
-"#\n"
-"# SPDX-License-Identifier: GPL-3.0-or-later\n"
 
 #. type: Title ###
 #: spec.md
 #, markdown-text, no-wrap
 msgid "DEP5"
-msgstr "DEP5"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Alternatively, Copyright and Licensing Information MAY be associated with a file through a DEP5 file. The intended use case of this method is large directories where including a comment header in each file (or in `.license` companion files) is impossible or undesirable."
 msgstr ""
-"Informace o autorských právech a licencích mohou být k souboru přiřazeny "
-"také prostřednictvím souboru DEP5. Předpokládaným případem použití této "
-"metody jsou rozsáhlé adresáře, kde je zahrnutí záhlaví komentáře do každého "
-"souboru (nebo do doprovodných souborů `.license`) nemožné nebo nežádoucí."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the root of the Project (i.e. `.reuse/dep5`)."
 msgstr ""
-"Soubor DEP5 MUSÍ být pojmenován `dep5` a uložen v adresáři `.reuse/` v "
-"kořenovém adresáři projektu (tj. `.reuse/dep5`)."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The `License` tag MUST be followed by a valid SPDX License Expression describing the licensing of the associated files."
 msgstr ""
-"Za značkou `License` MUSÍ následovat platné vyjádření licence SPDX "
-"popisující licencování přidružených souborů."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The `Copyright` tag MUST be followed by a copyright notice."
-msgstr "Za značkou `Copyright` MUSÍ následovat upozornění na autorská práva."
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "An example of a DEP5 file:"
-msgstr "Příklad souboru DEP5:"
+msgstr ""
 
 #. type: Fenced code block
 #: spec.md
@@ -1466,116 +1201,90 @@ msgid ""
 "Copyright: 2019 Translation Company\n"
 "License: GPL-3.0-or-later\n"
 msgstr ""
-"Formát: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
-"Upstream-Name: Projekt\n"
-"Upstream-Contact: Jane Doe <jane@example.com>\n"
-"Zdroj: https://example.com/jane/project\n"
-"\n"
-"Soubory: po/*\n"
-"Autorská práva: 2019 Překladatelská společnost\n"
-"Licence: GPL-3.0-or-later\n"
 
 #. type: Title ##
 #: spec.md
 #, markdown-text, no-wrap
 msgid "Format of copyright notices"
-msgstr "Formát oznámení o autorských právech"
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "A copyright notice MUST be prefixed by a tag, symbol or word denoting a copyright notice as described in this specification."
 msgstr ""
-"Oznámení o autorských právech MUSÍ být opatřeno předponou, symbolem nebo "
-"slovem označujícím oznámení o autorských právech, jak je popsáno v této "
-"specifikaci."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The copyright notice MUST contain the name of the copyright holder. The copyright notice SHOULD contain the year of publication and the contact address of the copyright holder. The order of these items SHOULD be: year, name, contact address."
 msgstr ""
-"Oznámení o autorských právech MUSÍ obsahovat jméno držitele autorských práv. "
-"Oznámení o autorských právech MUSÍ obsahovat rok vydání a kontaktní adresu "
-"držitele autorských práv. Pořadí těchto položek MUSÍ být následující: rok, "
-"jméno, kontaktní adresa."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The year of publication MAY be a single year, multiple years, or a span of years."
-msgstr "Rok vydání MŮŽE být jeden rok, více let nebo období několika let."
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "The copyright holder MAY be an individual, list of individuals, group, legal entity, or any other descriptor by which one can easily identify the copyright holder(s)."
 msgstr ""
-"Držitelem autorských práv MŮŽE být fyzická osoba, seznam fyzických osob, "
-"skupina, právnická osoba nebo jakýkoli jiný deskriptor, podle kterého lze "
-"snadno identifikovat držitele autorských práv."
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Any contact address SHOULD be in between angle brackets."
-msgstr "Jakákoli kontaktní adresa by měla být v hranatých závorkách."
+msgstr ""
 
 #. type: Plain text
 #: spec.md
 #, markdown-text
 msgid "Examples of valid copyright notices:"
-msgstr "Příklady platných upozornění na autorská práva:"
+msgstr ""
 
 #. type: YAML Front Matter: title
 #: tutorial.md
 #, no-wrap
 msgid "Tutorial: How to become REUSE-compliant"
-msgstr "Výukový program: Jak se stát kompatibilním s REUSE"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "This tutorial explains the basic methods of how to make a software project REUSE-compliant. By the end of this document, all your files will clearly have their copyright and licensing marked, and you will be able to verify this using the REUSE helper tool."
 msgstr ""
-"Tento výukový kurz vysvětluje základní metody, jak zajistit, aby byl "
-"softwarový projekt v souladu s REUSE. Na konci tohoto dokumentu budou "
-"všechny vaše soubory jasně označeny autorskými právy a licencemi a budete si "
-"to moci ověřit pomocí pomocného nástroje REUSE."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Making your project REUSE-compliant can be done in three simple steps:"
 msgstr ""
-"Uvést svůj projekt do souladu s pravidly REUSE lze ve třech jednoduchých "
-"krocích:"
 
 #. type: Bullet: '1. '
 #: tutorial.md
 #, markdown-text
 msgid "Choose and provide licenses"
-msgstr "Výběr a poskytnutí licencí"
+msgstr ""
 
 #. type: Bullet: '2. '
 #: tutorial.md
 #, markdown-text
 msgid "Add copyright and license information to each file"
-msgstr "Přidání informací o autorských právech a licenci ke každému souboru"
+msgstr ""
 
 #. type: Bullet: '3. '
 #: tutorial.md
 #, markdown-text
 msgid "Confirm REUSE compliance"
-msgstr "Potvrzení souladu s předpisy REUSE"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "For the purpose of this tutorial, we will assume that the directory of your project looks like this:"
 msgstr ""
-"Pro účely tohoto návodu budeme předpokládat, že adresář vašeho projektu "
-"vypadá takto:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1591,36 +1300,18 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
-"project/\n"
-"├── img/\n"
-"│   ├── cat.jpg\n"
-"│   └── dog.jpg\n"
-"├── src/\n"
-"│   └── main.c\n"
-"├── .gitignore\n"
-"├── Makefile\n"
-"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If you would like to reproduce the steps in this tutorial on your own computer, you can clone the [example repository](https://github.com/fsfe/reuse-example). The branch `noncompliant` matches the structure above, while the `master` branch is the successful result of this repository."
 msgstr ""
-"Pokud chcete kroky v tomto návodu zopakovat na vlastním počítači, můžete si "
-"naklonovat [úložiště příkladů](https://github.com/fsfe/reuse-example). Větev "
-"`noncompliant` odpovídá výše uvedené struktuře, zatímco větev `master` je "
-"úspěšným výsledkem tohoto úložiště."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "For each of these steps, you will first learn how to achieve them manually. However, the [REUSE helper tool](https://github.com/fsfe/reuse-tool) supports you with most tasks, and the necessary commands will be listed as well in the collapsible boxes. We recommend to first understand the basic principle before just executing the tool's commands."
 msgstr ""
-"U každého z těchto kroků se nejprve dozvíte, jak jej provést ručně. S "
-"většinou úkolů vám však pomůže pomocný nástroj [REUSE helper "
-"tool](https://github.com/fsfe/reuse-tool), jehož potřebné příkazy budou "
-"uvedeny také ve sbalitelných rámečcích. Doporučujeme nejprve pochopit "
-"základní princip a teprve poté provádět příkazy nástroje."
 
 #. type: Plain text
 #: tutorial.md
@@ -1631,75 +1322,48 @@ msgid ""
 "General Public License (GPL) v3.0 or any later version. More than simply\n"
 "choosing a license, you need to put the license in your project directory.\n"
 msgstr ""
-"Nejprve je třeba [vybrat licenci]({{< relref\n"
-"\"faq.md#which-license\" >}}). Pro tento návod předpokládáme, že jste si "
-"vybrali licenci GNU\n"
-"General Public License (GPL) v3.0 nebo jakoukoli novější verzi. Nestačí než "
-"jen\n"
-"výběr licence, musíte licenci umístit do adresáře projektu.\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You find your license in the [SPDX License List](https://spdx.org/licenses/).  SPDX is an open standard for communicating license and copyright information.  Each license is uniquely identified by a shortform [SPDX License Identifier](https://spdx.org/licenses). The SPDX License Identifier for your chosen license is GPL-3.0-or-later."
 msgstr ""
-"Svou licenci najdete v [Seznamu licencí SPDX](https://spdx.org/licenses/).  "
-"SPDX je otevřený standard pro sdělování informací o licencích a autorských "
-"právech.  Každá licence je jednoznačně identifikována zkrácenou formou [SPDX "
-"License Identifier](https://spdx.org/licenses). Identifikátor licence SPDX "
-"pro zvolenou licenci je GPL-3.0-or-later."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You create a `LICENSES` directory in your project root which will contain all the licenses that you use in your project. You then download your license from the [license-list-data](https://github.com/spdx/license-list-data/tree/master/text)  repository and put it in the `LICENSES` directory. The name of the license should be its SPDX License Identifier followed by a file extension (in this example, GPL-3.0-or-later.txt)."
 msgstr ""
-"V kořenovém adresáři projektu vytvoříte adresář `LICENSES`, který bude "
-"obsahovat všechny licence, které v projektu používáte. Poté stáhnete licenci "
-"z úložiště [license-list-data](https://github.com/spdx/license-list-data/"
-"tree/master/text) a vložíte ji do adresáře `LICENSES`. Název licence by měl "
-"být její identifikátor licence SPDX následovaný příponou souboru (v tomto "
-"příkladu GPL-3.0-or-later.txt)."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< box-tool >}}\n"
-msgstr "{{< box-tool >}}\n"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You can initialise your project using `reuse init`. In an interactive dialogue you can define certain properties of your project and also one or multiple licenses. At the end, these licenses will be automatically downloaded to the correct location."
 msgstr ""
-"Projekt můžete inicializovat pomocí `reuse init`. V interaktivním dialogu "
-"můžete definovat určité vlastnosti projektu a také jednu nebo více licencí. "
-"Na konci se tyto licence automaticky stáhnou do správného umístění."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The `reuse download` command enables you to download a specific license. `reuse download GPL-3.0-or-later` would fulfil the task described in the manual instructions above. Running `reuse download --all` automatically downloads all licenses which the REUSE helper tool detects as being used in your project."
 msgstr ""
-"Příkaz `použít znovu` umožňuje stáhnout konkrétní licenci. Příkaz `reuse "
-"download GPL-3.0-or-later` by splnil úkol popsaný v manuálu výše. Příkaz `"
-"reuse download --all` automaticky stáhne všechny licence, které pomocný "
-"nástroj REUSE rozpozná jako použité ve vašem projektu."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "{{< /box-tool >}}\n"
-msgstr "{{< /box-tool >}}\n"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Now that you have a license, you need to indicate in the relevant files that these files fall under that license. You edit the comment header of `src/main.c` as such:"
 msgstr ""
-"Nyní, když máte licenci, musíte v příslušných souborech uvést, že tyto "
-"soubory spadají pod tuto licenci. Upravíte tak záhlaví komentáře v souboru `"
-"src/main.c`:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1711,11 +1375,6 @@ msgid ""
 " * SPDX-License-Identifier: GPL-3.0-or-later\n"
 " */\n"
 msgstr ""
-"/*\n"
-" * SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
-" *\n"
-" * SPDX-License-Identifier: GPL-3.0-or-later\n"
-" */\n"
 
 #. type: Plain text
 #: tutorial.md
@@ -1726,146 +1385,102 @@ msgid ""
 "use]({{< relref \"faq.md#years-copyright\" >}}) and [what copyright holders\n"
 "are]({{< relref \"faq.md#copyright-holder-author\" >}}) in the FAQ.\n"
 msgstr ""
-"Značka `SPDX-FileCopyrightText` zaznamenává roky vydání a držitele "
-"autorských práv k souboru\n"
-"obsah souboru. Více informací o tom, [které roky vydání do\n"
-"použít]({{< relref \"faq.md#years-copyright\" >}}) a [o držitelích "
-"autorských práv\n"
-"jsou]({{< relref \"faq.md#copyright-holder-author\" >}}) ve FAQ.\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The `SPDX-License-Identifier` tag is followed by a [valid SPDX License Expression](https://spdx.org/specifications), typically just the SPDX License Identifier of the license."
 msgstr ""
-"Za značkou `SPDX-License-Identifier` následuje [platné vyjádření licence "
-"SPDX](https://spdx.org/specifications), obvykle pouze identifikátor licence "
-"SPDX."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Each file must always contain these two tags in the header. You are allowed to use the tags multiple times if you have multiple copyright holders or licenses."
 msgstr ""
-"Každý soubor musí vždy obsahovat tyto dvě značky v záhlaví. Pokud máte více "
-"držitelů autorských práv nebo licencí, můžete tyto značky použít vícekrát."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "In the example project, you also edit `Makefile` and `README.md` using this header information, but of course with corresponding comment syntax."
 msgstr ""
-"V ukázkovém projektu také upravíte `Makefile` a `README.md` pomocí těchto "
-"hlavičkových informací, ale samozřejmě s odpovídající syntaxí komentářů."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
 msgstr ""
-"Příkaz `reuse addheader` vám pomůže přidat do souborů informace o licencích "
-"a autorských právech. Pro výše uvedenou úlohu by tuto úlohu splnil "
-"následující příkaz:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-or-later\" src/main.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
 msgstr ""
-"Další možnosti, například styly komentářů a šablony, naleznete v dokumentaci "
-"[nástroje addheader](https://reuse.readthedocs.io/en/stable/usage."
-"html#addheader)"
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Binary and uncommentable files"
-msgstr "Binární a nekomentovatelné soubory"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You also want to license your image files under GPL-3.0-or-later.  Unfortunately, images and other binary files do not have comment headers that one can easily edit. Other examples include automatically generated files and certain data and configuration files for which comments are non-trivial."
 msgstr ""
-"Chcete také licencovat své soubory obrázků pod licencí GPL-3.0 nebo "
-"pozdější.  Obrázky a další binární soubory bohužel nemají hlavičky s "
-"komentáři, které by bylo možné snadno upravovat. Dalšími příklady jsou "
-"automaticky generované soubory a některé datové a konfigurační soubory, u "
-"kterých je komentář netriviální."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "There is a simple trick to circumvent this. Create the files `cat.jpg.license` and `dog.jpg.license`, each containing the same information about license and copyright holder as above."
 msgstr ""
-"Existuje jednoduchý trik, jak tento problém obejít. Vytvořte soubory `cat.jpg"
-".license` a `dog.jpg.license`, z nichž každý bude obsahovat stejné informace "
-"o licenci a držiteli autorských práv jako výše."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The REUSE helper tool should automatically detect binary files and therefore automatically create a corresponding `.license` file."
 msgstr ""
-"Pomocný nástroj REUSE by měl automaticky detekovat binární soubory a "
-"automaticky vytvořit odpovídající soubor `.license`."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
 msgstr ""
-"Pokud tomu tak není, nebo pokud chcete tuto povinnost vynutit, přidejte do "
-"příkazu addheader argument `--explicit-license`. Příkaz pro výše uvedenou "
-"úlohu tedy může vypadat takto:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
 msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Change licensing information"
-msgstr "Změna licenčních informací"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You discover that the photos of the cat and the dog were not licensed under the GPL at all, but under Creative Commons Attribution 4.0 International, owned by Max Mehl."
 msgstr ""
-"Zjistíte, že fotografie kočky a psa nebyly vůbec licencovány pod GPL, ale "
-"pod licencí Creative Commons Attribution 4.0 International, kterou vlastní "
-"Max Mehl."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The SPDX License Identifier of this license is CC-BY-4.0. You create the file `LICENSES/CC-BY-4.0.txt`, following the same steps you used for GPL-3.0-or-later."
 msgstr ""
-"Identifikátor licence SPDX této licence je CC-BY-4.0. Soubor `LICENSES/CC-"
-"BY-4.0.txt` vytvoříte stejným postupem jako v případě licence GPL-3.0-or-"
-"later."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You then edit `cat.jpg.license` and `dog.jpg.license` to say:"
 msgstr ""
-"Poté upravíte soubory `cat.jpg.license` a `dog.jpg.license` tak, aby "
-"obsahovaly:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1875,72 +1490,48 @@ msgid ""
 "\n"
 "SPDX-License-Identifier: CC-BY-4.0\n"
 msgstr ""
-"SPDX-FileCopyrightText: 2019 Max Mehl <max.mehl@fsfe.org>\n"
-"\n"
-"SPDX-License-Identifier: CC-BY-4.0\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
 msgstr ""
-"Nástroj zatím neposkytuje způsob, jak nahradit stávající informace o "
-"autorských právech a licencích v souladu s nařízením REUSE. Spuštění příkazu "
-"`addheader` by nenahradilo, ale rozšířilo by soubory `.license` o dva další "
-"řádky uvádějící autorská práva Maxe Mehla a licenci CC-BY-4.0. Ty byste tedy "
-"museli aktualizovat ručně."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "However, the `download` command afterwards would allow you to download the new license automatically, so either with `reuse download CC-BY-4.0` or simply `reuse download --all`."
 msgstr ""
-"Následný příkaz `download` by však umožnil automatické stažení nové licence, "
-"takže buď pomocí `reuse download CC-BY-4.0`, nebo jednoduše `reuse download "
-"--all`."
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Build artifacts"
-msgstr "artefakty Sestavení"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "When you compile your program, you generate some build artifacts, such as `src/main.o`.  You do not need to provide any licensing information for those files.  Just use your `.gitignore` file to ignore these build artifacts.  The REUSE tool will respect the contents of `.gitignore`."
 msgstr ""
-"Při kompilaci programu se vygenerují některé artefakty sestavení, například `"
-"src/main.o`.  U těchto souborů nemusíte uvádět žádné licenční informace.  "
-"Stačí použít soubor `.gitignore` a tyto artefakty sestavení ignorovat.  "
-"Nástroj REUSE bude obsah souboru `.gitignore` respektovat."
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Insignificant files"
-msgstr "Nevýznamné soubory"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "You probably will have files in your project that you do not find particularly copyrightable, for example configuration files such as `.gitignore`. Intuitively you may not want to license these files, but the fundamental idea of REUSE is that all your files will clearly have their copyright and licensing marked."
 msgstr ""
-"Pravděpodobně budete mít ve svém projektu soubory, které nepovažujete za "
-"zvlášť chráněné autorskými právy, například konfigurační soubory jako `."
-"gitignore`. Intuitivně možná nebudete chtít tyto soubory licencovat, ale "
-"základní myšlenka REUSE spočívá v tom, že všechny vaše soubory budou jasně "
-"označeny autorskými právy a licencí."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If you do not exercise any copyright over this file, you can use the [CC0 license](https://creativecommons.org/publicdomain/zero/1.0/). This is functionally identical to putting the file in the public domain. Edit the file to contain:"
 msgstr ""
-"Pokud na tento soubor neuplatňujete žádná autorská práva, můžete použít "
-"licenci [CC0](https://creativecommons.org/publicdomain/zero/1.0/). Ta je "
-"funkčně totožná s uvedením souboru jako public domain. Upravte soubor tak, "
-"aby obsahoval:"
 
 #. type: Fenced code block
 #: tutorial.md
@@ -1950,17 +1541,12 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: CC0-1.0\n"
 msgstr ""
-"# SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>\n"
-"#\n"
-"# SPDX-License-Identifier: CC0-1.0\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Consequently, you will have to provide the CC0-1.0 license in the `LICENSES/` directory as well, just like the GPL-3.0-or-later and CC-BY-4.0 before."
 msgstr ""
-"V důsledku toho budete muset v adresáři `LICENSES/` uvést také licenci CC0-"
-"1.0, stejně jako dříve GPL-3.0-or-later a CC-BY-4.0."
 
 #. type: Plain text
 #: tutorial.md
@@ -1969,17 +1555,12 @@ msgid ""
 "More information about copyrightable files can be found in the [REUSE FAQ]({{< relref\n"
 "\"faq.md#what-is-copyrightable\" >}}).\n"
 msgstr ""
-"Další informace o souborech podléhajících autorským právům naleznete v ["
-"REUSE FAQ]({{< relref\n"
-"\"faq.md#what-is-copyrightable\" >}}).\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
 msgstr ""
-"Stejně jako dříve splní výše uvedený krok kombinace příkazů `addheader` a "
-"`download`:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
@@ -1989,22 +1570,18 @@ msgid ""
 "\n"
 "reuse download --all\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
-".0\" .gitignore\n"
-"\n"
-"reuse download --all\n"
 
 #. type: Title ###
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Result"
-msgstr "Výsledek"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Your project tree will now look like this:"
-msgstr "Váš projektový strom bude nyní vypadat takto:"
+msgstr ""
 
 #. type: Fenced code block
 #: tutorial.md
@@ -2026,41 +1603,18 @@ msgid ""
 "├── Makefile\n"
 "└── README.md\n"
 msgstr ""
-"project/\n"
-"├── img/\n"
-"│   ├── cat.jpg\n"
-"│   ├── cat.jpg.license\n"
-"│   ├── dog.jpg\n"
-"│   └── dog.jpg.license\n"
-"├── LICENSES/\n"
-"│   ├── CC0-1.0.txt\n"
-"│   ├── CC-BY-4.0.txt\n"
-"│   └── GPL-3.0-or-later.txt\n"
-"├── src/\n"
-"│   └── main.c\n"
-"├── .gitignore\n"
-"├── Makefile\n"
-"└── README.md\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Now that you have marked all files with their copyright and licensing, it is time to check whether you did not miss anything. To do this, we provide a helper tool for you to use. You can read the [full documentation](https://reuse.readthedocs.io/), or read the quick steps below."
 msgstr ""
-"Nyní, když jste označili všechny soubory s uvedením jejich autorských práv a "
-"licencí, je čas zkontrolovat, zda jste nic nepřehlédli. K tomu vám nabízíme "
-"pomocný nástroj, který můžete použít. Můžete si přečíst [úplnou "
-"dokumentaci](https://reuse.readthedocs.io/) nebo si přečíst níže uvedený "
-"stručný postup."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Follow the [installation instructions](https://github.com/fsfe/reuse-tool#install) available for multiple platforms. Now go to the project directory and run the linter."
 msgstr ""
-"Postupujte podle [instalačních pokynů](https://github.com/fsfe/reuse-"
-"tool#install), které jsou k dispozici pro více platforem. Nyní přejděte do "
-"adresáře projektu a spusťte linter."
 
 #. type: Fenced code block
 #: tutorial.md
@@ -2082,116 +1636,75 @@ msgid ""
 "\n"
 "Congratulations! Your project is compliant with version 3.0 of the REUSE Specification :-)\n"
 msgstr ""
-"$ cd path/to/project/\n"
-"$ reuse lint\n"
-"# SUMMARY\n"
-"\n"
-"* Špatné licence:\n"
-"* Zastaralé licence:\n"
-"* Licence bez přípony souboru:\n"
-"* Chybějící licence:\n"
-"* Nepoužité licence:\n"
-"* Použité licence: CC-BY-4.0, CC0-1.0, GPL-3.0-nebo pozdější\n"
-"* Chyby při čtení: 0\n"
-"* Soubory s informacemi o autorských právech: 6 / 6\n"
-"* Soubory s informacemi o licenci: 6 / 6\n"
-"\n"
-"Gratulujeme! Váš projekt je v souladu s verzí 3.0 specifikace REUSE :-)\n"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "As you can see in the last line, the tool confirms that your project is compliant with REUSE now! To learn what the different sections mean, please have a look at the [documentation of the lint command](https://reuse.readthedocs.io/en/stable/usage.html#lint)."
 msgstr ""
-"Jak vidíte na posledním řádku, nástroj potvrdí, že váš projekt je nyní v "
-"souladu s REUSE! Chcete-li se dozvědět, co jednotlivé sekce znamenají, "
-"podívejte se do [dokumentace příkazu lint](https://reuse.readthedocs.io/en/"
-"stable/usage.html#lint)."
 
 #. type: Title ##
 #: tutorial.md
 #, markdown-text, no-wrap
 msgid "Getting help"
-msgstr "Získání pomoci"
+msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "After going through this tutorial, you understood REUSE and the three basic steps to properly license your software project – well done! But although we have covered a few edge cases, you might run into more questions soon. But don't worry, we are here to help!:"
 msgstr ""
-"Po projití tohoto tutoriálu jste pochopili REUSE a tři základní kroky pro "
-"správné licencování vašeho softwarového projektu - dobrá práce! Ale přestože "
-"jsme se zabývali několika okrajovými případy, možná brzy narazíte na další "
-"otázky. Ale nebojte se, jsme tu, abychom vám pomohli!:"
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "- Our [Frequently Asked Questions](https://reuse.software/faq) covers common questions as well as extraordinary cases and will constantly be updated."
 msgstr ""
-"- Naše [Často kladené otázky](https://reuse.software/faq) se týkají běžných "
-"otázek i mimořádných případů a budou průběžně aktualizovány."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "- The full [REUSE specification](https://reuse.software/spec) formally describes REUSE and the methods to become compliant."
 msgstr ""
-"- Úplná specifikace [REUSE](https://reuse.software/spec) formálně popisuje "
-"REUSE a metody pro dosažení shody."
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "The [REUSE tool documentation](https://reuse.readthedocs.io/) describes installation and usage of the REUSE tool."
 msgstr ""
-"Instalaci a použití nástroje REUSE popisuje [dokumentace k nástroji "
-"REUSE](https://reuse.readthedocs.io/)."
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "Our [help for developers](https://reuse.software/dev/) lists various resources for programmers like the tool, the API, or how to include checks in CI/CD workflows."
 msgstr ""
-"V naší [nápovědě pro vývojáře](https://reuse.software/dev/) jsou uvedeny "
-"různé zdroje pro programátory, jako je nástroj, rozhraní API nebo jak "
-"zahrnout kontroly do pracovních postupů CI/CD."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "If none of the links above were able to answer your question, please contact us by:"
 msgstr ""
-"Pokud vám žádný z výše uvedených odkazů nedokázal odpovědět na vaši otázku, "
-"kontaktujte nás:"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "opening an issue on [reuse-docs](https://github.com/fsfe/reuse-docs) for questions on the tutorial, FAQ or specification;"
 msgstr ""
-"založením problému na [reuse-docs](https://github.com/fsfe/reuse-docs) pro "
-"dotazy týkající se tutoriálu, FAQ nebo specifikace;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "opening an issue on [reuse-tool](https://github.com/fsfe/reuse-tool) for questions on the REUSE tool;"
 msgstr ""
-"založením problému na [reuse-docs](https://github.com/fsfe/reuse-docs) pro "
-"dotazy týkající se tutoriálu, FAQ nebo specifikace;"
 
 #. type: Bullet: '- '
 #: tutorial.md
 #, markdown-text
 msgid "or [sending an email to the FSFE](https://fsfe.org/contact). Please note that we would prefer issues because they are publicly searchable for other people."
 msgstr ""
-"nebo [zasláním e-mailu na adresu FSFE](https://fsfe.org/contact). Vezměte "
-"prosím na vědomí, že bychom upřednostňovali vydání, protože jsou veřejně "
-"vyhledatelná pro další osoby."
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
 msgid "Thank you for your valuable contribution towards making software reusable!"
-msgstr "Děkujeme vám za váš cenný příspěvek k opakovanému použití softwaru!"
+msgstr ""
