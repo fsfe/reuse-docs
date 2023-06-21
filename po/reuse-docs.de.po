@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2021-07-24 12:33+0000\n"
+"PO-Revision-Date: 2022-07-31 14:18+0000\n"
 "Last-Translator: Johannes Keyser <joke@fsfe.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "de/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.2-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -95,6 +95,9 @@ msgid ""
 "#\n"
 "# SPDX-License-Identifier: [identifier]\n"
 msgstr ""
+"# SPDX-FileCopyrightText: [Jahr] [Urheberrechtsinhaber] <[E-Mail-Adresse]>\n"
+"#\n"
+"# SPDX-License-Identifier: [Kennung]\n"
 
 #. type: Title ##
 #: faq.md tutorial.md
@@ -243,19 +246,23 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "The tool {#tool}"
-msgstr ""
+msgstr "Das Werkzeug {#tool}"
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I install and use the REUSE tool? {#install-tool}"
-msgstr ""
+msgstr "Wie installiere und verwende ich das REUSE-Werkzeug? {#install-tool}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The REUSE tool is a handy companion that can verify your compliance with REUSE and automate a lot of adjacent tasks. You can find the full documentation for the tool at <https://reuse.readthedocs.io/>. But the short of it is:"
 msgstr ""
+"Das REUSE-Werkzeug ist eine praktische Hilfe, um Ihre Konformität mit REUSE "
+"sicherzustellen und viele damit verbundene Aufgaben automatisieren zu "
+"können. Die vollständige Dokumentation zum Werkzeug finden Sie unter "
+"<https://reuse.readthedocs.io/>. Aber die Kurzfassung ist:"
 
 #. type: Fenced code block
 #: faq.md
@@ -274,6 +281,8 @@ msgstr ""
 #, markdown-text, no-wrap
 msgid "How do I exclude a file from REUSE compliance testing? {#exclude-file}"
 msgstr ""
+"Wie schließe ich eine Datei von der REUSE-Konformitätsprüfung aus? {#exclude-"
+"file}"
 
 #. type: Plain text
 #: faq.md
@@ -363,10 +372,10 @@ msgid ""
 "<[contact address]>`. You may choose to drop items except the copyright holder,\n"
 "which must always be included. We recommend that you include all items, however.\n"
 msgstr ""
-"Im Allgemeinen wird empfohlen, `SPDX-FileCopyrightText: [Jahr] [Copyright-"
-"Inhaber]\n"
-"<[Kontaktadresse]>` zu verwenden. Sie können die Elemente mit Ausnahme des "
-"Copyright-Inhabers weglassen,\n"
+"Allgemein empfehlen wir, dass Sie angeben `SPDX-FileCopyrightText: [Jahr] "
+"[Urheberrechtsinhaber]\n"
+"<[Kontaktadresse]>`. Sie können die Elemente mit Ausnahme des "
+"Urheberrechtsinhabers weglassen,\n"
 "der immer enthalten sein muss. Wir empfehlen jedoch, dass Sie alle Elemente "
 "einschließen.\n"
 
@@ -591,151 +600,234 @@ msgstr ""
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr ""
+msgstr "Wie kopiere ich die Arbeit von jemand anders? {#copy-work}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
+"Wenn eine andere Person ihr Werk zum Verwenden und Kopieren zur Verfügung "
+"gestellt hat, dürfen Sie dieses Werk in Ihr Projekt einbinden. Wenn Sie das "
+"Werk in eine der Dateien in Ihrem Projekt einfügen, sollten Sie eine `SPDX-"
+"FileCopyrightText`-Angabe mit dem/den Urheberrechtsinhaber(n) und eine `SPDX-"
+"License-Identifier`-Angabe für die Lizenz(en), unter der/denen das Werk zur "
+"Verfügung gestellt wurde, hinzufügen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
+"Wenn das Werk anders als Ihr Projekt lizenziert war, sollten Sie prüfen, ob "
+"die Lizenzen kompatibel sind, und die neuen Lizenzen zu Ihrem Projekt "
+"hinzufügen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
+"Darf ich ein Werk kopieren, das keinen Urheberrechtsvermerk oder keine "
+"Lizenz hat? {#kein-copyright-lizenz}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
+"Bevor Sie fortfahren, vergewissern Sie sich immer zuerst, ob Sie die "
+"Urheberrechts- und Lizenzinformationen an anderer Stelle finden können. "
+"Einige Projekte enthalten diese Informationen nur im Stammverzeichnis oder "
+"in ihrer README-Datei."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
+"Wenn Sie keinen Urheberrechtsvermerk finden, ist das kein Problem. Sie "
+"können den Urheberrechtsvermerk selbst hinzufügen."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
+"Wenn das Werk keine Lizenz hat, bedeutet dies, dass Sie nicht das Recht "
+"haben, es zu kopieren. Wenn Sie glauben, dass es sich um einen Fehler "
+"handelt und der Autor eindeutig wollte, dass Sie das Werk kopieren können, "
+"sollten Sie sich mit dem Autor in Verbindung setzen und ihn bitten, sein "
+"Werk zu lizenzieren. Dabei können Sie auf <https://reuse.software> verweisen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr ""
+msgstr "Wo sonst gebe ich meine Lizenzinformationen an? {#where-else}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
+"Das Markieren jeder einzelnen Datei mit `SPDX-License-Identifier`-Einträgen "
+"ist ein wichtiger Schritt, die Lizenzinformationen Ihres Projekts eindeutig "
+"zu kommunizieren, aber es hilft zusätzlich, die Lizenzinformationen in "
+"natürlicher Sprache auszudrücken. In der README Ihres Projekts können Sie "
+"eine Zusammenfassung der Lizenzinformationen bereitstellen oder Leser "
+"einfach zu Ihrem `LICENSES/`-Verzeichnis weiterleiten."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
 msgstr ""
+"Zusätzlich erwarten viele Paket-Hosting-Seiten, dass Sie die "
+"Lizenzinformationen Ihres Pakets angeben. Beispielsweise deklariert die "
+"Datei [setup.py des REUSE-Tools](https://github.com/fsfe/reuse-tool/blob/"
+"master/setup.py) alle verwendeten Lizenzen in dem von der Python-"
+"Paketinfrastruktur erwarteten Format."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
 msgstr ""
+"Was ist ein Urheberrechtsinhaber und was ist ein Autor? {#copyright-holder-"
+"author}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
+"In diesen Materialien wird zwischen Urheberrechtsinhaber und Autor "
+"unterschieden. Der Autor (auch als Schöpfer bezeichnet) ist die Person, die "
+"sich hingesetzt und ein Werk geschaffen hat. Stellen Sie sich den Autor z. "
+"B. als Programmiererin, Schriftsteller oder Künstlerin vor."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
+"Der Urheberrechtsinhaber ist die Person, die die exklusiven Rechte an dem "
+"Werk inne hat.  Oft sind der Autor und der Urheberrechtsinhaber dieselbe "
+"Person. Wenn der Autor jedoch von seinem Arbeitgeber für die Schöpfung eines "
+"Werks bezahlt wird, ist häufig der Arbeitgeber der Urheberrechtsinhaber."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
+"Beachten Sie, dass in einigen Rechtsordnungen das Wort \"Autor\" oft als "
+"Synonym für \"Urheberrechtsinhaber\" verwendet wird. In anderen "
+"Rechtssystemen behalten die Autoren gewisse Rechte an ihren Werken, auch "
+"wenn sie nicht der Urheberrechtsinhaber sind."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
+"Ich habe eine einzige Zeile Code geändert. Sollte ich einen SPDX-"
+"FileCopyrightText-Eintrag mit meinem Namen hinzufügen? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
+"Die Kernfrage lautet hier: Ab wann sollte ich mich als Urheberrechtinhaber "
+"einer Datei betrachten? Dies liegt in Ihrem Ermessen. Es mag sinnvoll sein, "
+"den Eintrag konsequent zu jeder von Ihnen geänderten Datei hinzuzufügen, "
+"aber es ist vielleicht sinnvoller, innerhalb Ihres Projekts einen Konsens "
+"darüber zu erzielen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
+"Wie gehe ich mit einer Datei um, die von vielen Personen bearbeitet wurde? "
+"{#many-copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
+"Manche Dateien werden von vielen Personen bearbeitet und hätten eine extrem "
+"lange Liste von Urheberrechtsinhabern in der Kopfzeile. Dies mag ästhetisch "
+"unschön sein, ist aber nicht falsch."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you would rather not deal with having so many copyright notices, some projects such as Chromium circumvent this problem by using \"Copyright (c) 2013 The Chromium Authors\" as their copyright tag. You may consider doing this, but then you should keep a list of copyright holders and authors in a separate file in your project."
 msgstr ""
+"Falls Sie nicht so viele Urheberschaftseinträge angeben möchten, umgehen "
+"einige Projekte wie Chromium dieses Problem, indem sie \"Copyright (c) 2013 "
+"The Chromium Authors\" als Urheberschaftseintrag verwenden. Sie können diese "
+"Idee übernehmen, aber dann sollten Sie eine Liste der Urheberrechtsinhaber "
+"und Autoren in einer eigenen Datei in Ihrem Projekt führen."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Why can't I just use version control to record copyright? {#vcs-copyright}"
 msgstr ""
+"Warum kann ich nicht einfach die Versionskontrolle verwenden, um das "
+"Urheberrecht festzuhalten? {#vcs-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In [a previous question](#copyright-holder-author), we distinguished between copyright holders and authors, which are not always the same. Version control typically only records authorship, which makes it unsuitable for the task of recording copyright."
 msgstr ""
+"In [einer vorherigen Frage](#copyright-holder-author) haben wir zwischen "
+"Urheberrechtsinhabern und Autoren unterschieden, die nicht immer dieselben "
+"sind. Eine Versionskontrolle erfasst typischerweise nur die Autorschaft, was "
+"sie für die Erfassung des Urheberrechts ungeeignet macht."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Another obstacle is that version control history may contain errors, and fixing such an error would require rewriting the history, causing all contributors to have to re-download the new trunk."
 msgstr ""
+"Als weiteres Hindernis kann der Versionskontrollverlauf Fehler enthalten, "
+"und die Behebung eines solchen Fehlers das Neuschreiben des Verlaufs "
+"erfordern würde, sodass dass alle Mitwirkenden den geänderten Verlauf erneut "
+"herunterladen müssten."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "A further issue with version control is that the `blame` command that is typically (mis)used to find authorship line-by-line shows only the author of the last commit in that line, even if it was just something as trivial as fixing a typo."
 msgstr ""
+"Ein weiterer Aspekt von Versionskontrolle ist, dass der `blame`-Befehl, der "
+"oft (falsch) verwendet wird, um die Autorschaft jeder Zeile zu bestimmen, "
+"nur den Autor des letzten Commits in dieser Zeile anzeigt, auch wenn es nur "
+"etwas triviales wie eine Tippfehlerkorrektur war."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I bulk-license whole directories? {#bulk-license}"
-msgstr ""
+msgstr "Kann ich ganze Verzeichnisse zusammen lizensieren? {#bulk-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you have a directory containing many files, it may not be easy or practical to edit every file to contain a header. While doing this would be ideal, there is an alternative. By creating the file `.reuse/dep5` in the root of your project, you can bulk-license a directory. Example:"
 msgstr ""
+"Wenn Sie ein Verzeichnis mit vielen Dateien haben, mag es nicht einfach oder "
+"praktisch sein, die Kopfzeile jeder Datei zu bearbeiten. Das wäre zwar "
+"ideal, aber es gibt eine Alternative. Indem Sie die Datei `.reuse/dep5` im "
+"Stammverzeichnis Ihres Projekts erstellen, können Sie ein Verzeichnis als "
+"Ganzes lizenzieren. Beispiel:"
 
 #. type: Fenced code block
 #: faq.md
@@ -755,12 +847,27 @@ msgid ""
 "           2017 John Doe <john@example.com>\n"
 "License: CC0-1.0\n"
 msgstr ""
+"Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/\n"
+"Upstream-Name: Mein-Projekt\n"
+"Upstream-Contact: Erika Mustermann <erika@example.com>\n"
+"Source: https://git.example.com/erika/mein-projekt\n"
+"\n"
+"Files: resources/img/*\n"
+"Copyright: 2017 Erika Mustermann <erika@example.com>\n"
+"License: CC-BY-4.0\n"
+"\n"
+"Files: resources/vid/*\n"
+"Copyright: 2017 Erika Mustermann <erika@example.com>\n"
+"           2017 Max Mustermann <max@example.com>\n"
+"License: CC0-1.0\n"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "You can read more about this file format by Debian [here](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/)."
 msgstr ""
+"Sie können [hier](https://www.debian.org/doc/packaging-manuals/"
+"copyright-format/1.0/) mehr über dieses Dateiformat von Debian lesen."
 
 #. type: Title ##
 #: faq.md
