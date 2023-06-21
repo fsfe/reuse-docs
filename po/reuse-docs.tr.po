@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: translators@lists.fsfe.org\n"
 "POT-Creation-Date: 2020-08-19 12:43+0200\n"
-"PO-Revision-Date: 2022-06-20 07:21+0000\n"
-"Last-Translator: metezd <itoldyouthat@protonmail.com>\n"
+"PO-Revision-Date: 2021-10-24 11:38+0000\n"
+"Last-Translator: Barış Güvenkaya <bguvenkaya@tutanota.de>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/fsfe/reuse-docs/"
 "tr/>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.9-dev\n"
 
 #. type: YAML Front Matter: title
 #: faq.md
@@ -131,7 +131,7 @@ msgstr ""
 #, markdown-text
 msgid "Usually the author is the copyright holder, but often copyright is transferred to the author's employer. In most places, you do not need to do anything to gain copyright. As soon as you make a creative work, you (or your employer) instantly gain copyright over it."
 msgstr ""
-"Genellikle, telif hakkı sahibi yazarındır, ancak işbu hak sıklıkla yazarın "
+"Genellikle, telif hakkı sahibi yazardır, ancak işbu hak sıklıkla yazarın "
 "işverenine devredilir. Çoğu yerde, telif hakkı kazanmak için herhangi bir "
 "şey yapmanız gerekmez. Yaratıcı bir çalışma yaptığınız anda, siz (veya "
 "işvereniniz) yaratıcı çalışmanın üzerinde o anda telif hakkı kazanırsınız."
@@ -501,238 +501,162 @@ msgstr ""
 #, markdown-text
 msgid "License exceptions are additions or alterations to a license that often work to permit a certain use of the code that wouldn't be allowed under the original license. It is often used by compilers, where a portion of compiler code may end up in the resulting binary. The exception may waive rights over portions of code that end up in binaries."
 msgstr ""
-"Lisans istisnaları, genellikle orijinal lisans altında izin verilmeyen kodun "
-"belirli bir kullanımına izin vermek için çalışan bir lisansa yapılan "
-"eklemeler veya değişikliklerdir. Genellikle derleyiciler tarafından "
-"kullanılır, burada derleyici kodunun bir kısmı ortaya çıkan ikili dosyada "
-"yer alabilir. İstisna, ikili dosyalarda yer alan kod bölümleri üzerindeki "
-"haklardan feragat edebilir."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Exceptions are treated almost identically to licenses. In order to combine a license with an exception, you mark a file with the following tag: `SPDX-License-Identifier: GPL-3.0-or-later WITH GCC-exception-3.1`."
 msgstr ""
-"İstisnalar neredeyse lisanslarla aynı şekilde ele alınır. Bir lisansı bir "
-"istisna ile birleştirmek için, bir dosyayı aşağıdaki etiketle işaretlersiniz:"
-" `SPDX-License-Identifier: GCC-exception-3.1 ile GPL-3.0-or-later`."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Which files are copyrightable? {#what-is-copyrightable}"
-msgstr "Hangi dosyalar telif hakkına tabidir? {#what-is-copyrightable}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "All files that are original works of authorship are copyrightable. In essence, if someone sat down typing their own original thoughts on a keyboard, then that person holds copyright over the output. Common examples are source code, documentation, audio, and video."
 msgstr ""
-"Yazarın özgün çalışmaları olan tüm dosyalar telif hakkına tabidir. Özünde, "
-"eğer birisi oturup kendi özgün düşüncelerini bir klavyeye yazıyorsa, o kişi "
-"çıktı üzerinde telif hakkına sahiptir. Yaygın örnekler kaynak kodu, "
-"dokümantasyon, ses ve videodur."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are some edge cases, however. For instance, the program `print(\"Hello, REUSE!\")` probably does not meet the threshold of originality. Similarly, data files and configuration files may not meet that threshold either."
 msgstr ""
-"Bununla birlikte, bazı istisnai durumlar da vardır. Örneğin, `print(\"Hello, "
-"REUSE!\")` programı muhtemelen özgünlük eşiğini karşılamamaktadır. Benzer "
-"şekilde, veri dosyaları ve yapılandırma dosyaları da bu eşiği "
-"karşılamayabilir."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What to do with uncopyrightable files? {#uncopyrightable}"
-msgstr "Telif hakkı olmayan dosyalarla ne yapılmalı? {#uncopyrightable}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "There are two things that you can do with such a file to make sure that its copyright and licensing is recorded. The first option is to simply use your regular copyright and license header for this file. There is nothing that stops you from claiming copyright over your own works. However, a court would still likely find such files uncopyrightable."
 msgstr ""
-"Telif hakkı ve lisansının kaydedildiğinden emin olmak için böyle bir "
-"dosyayla yapabileceğiniz iki şey vardır. İlk seçenek, bu dosya için normal "
-"telif hakkı ve lisans başlığınızı kullanmaktır. Kendi çalışmalarınız "
-"üzerinde telif hakkı talep etmenizi engelleyen hiçbir şey yoktur. Ancak, bir "
-"mahkeme bu tür dosyaları büyük olasılıkla telif hakkına aykırı bulacaktır."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The alternative is to waive your copyright by using the [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) license."
 msgstr ""
-"Alternatif olarak [CC0-1.0](https://creativecommons.org/publicdomain/zero/1."
-"0/) lisansını kullanarak telif hakkınızdan feragat edebilirsiniz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "It is important to note that you can only do this for your own works. If the file was authored by someone else, you must declare their copyright and license in the header."
 msgstr ""
-"Bunu sadece kendi çalışmalarınız için yapabileceğinizi unutmamanız "
-"önemlidir. Dosya başka biri tarafından yazılmışsa, başlıkta telif hakkını ve "
-"lisansını beyan etmeniz gerekir."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I copy someone else's work? {#copy-work}"
-msgstr "Başka birinin çalışmasını nasıl kopyalarım? {#copy-work}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If someone else has made their work available for you to use and copy, you can incorporate their work into your project. When you put the work in one of the files in your project, you should add an `SPDX-FileCopyrightText` tag for the copyright holder(s) and an `SPDX-License-Identifier` tag for the license(s) under which the work was made available."
 msgstr ""
-"Başka biri çalışmalarını kullanmanız ve kopyalamanız için kullanıma "
-"sunmuşsa, çalışmalarını projenize dahil edebilirsiniz. Çalışmayı "
-"projenizdeki dosyalardan birine koyduğunuzda, telif hakkı sahibi/sahipleri "
-"için bir `SPDX-FileCopyrightText` etiketi ve çalışmanın kullanıma sunulduğu "
-"lisans(lar) için bir `SPDX-License-Identifier` etiketi eklemelisiniz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work was licensed differently from your project, you should verify whether the licenses are compatible, and add the new licenses to your project."
 msgstr ""
-"Çalışma projenizden farklı bir şekilde lisanslanmışsa, lisansların uyumlu "
-"olup olmadığını doğrulamalı ve yeni lisansları projenize eklemelisiniz."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Can I copy a work that has no copyright notice or license? {#no-copyright-license}"
 msgstr ""
-"Telif hakkı bildirimi veya lisansı olmayan bir ürünü kopyalayabilir miyim? "
-"{#no-copyright-license}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Before you proceed, always first make sure that you can find the copyright and licensing information elsewhere. Some projects only include this information in the root directory or in their README file."
 msgstr ""
-"Devam etmeden önce, her zaman telif hakkı ve lisans bilgilerini başka bir "
-"yerde bulabileceğinizden emin olun. Bazı projeler bu bilgileri yalnızca kök "
-"dizinde veya README dosyasında içerir."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If you can find no copyright notice, then that is no problem. You can add the copyright notice yourself."
 msgstr ""
-"Herhangi bir telif hakkı bildirimi bulamazsanız, bu sorun değildir. Telif "
-"hakkı bildirimini kendiniz ekleyebilirsiniz."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "If the work has no license, then that means that you do not have the right to copy it. If you believe that this is a mistake and the author clearly meant for you to be able to copy this work, you should contact the author and ask them to license their work. Feel free to refer them to <https://reuse.software>."
 msgstr ""
-"Ürünün lisansı yoksa, bu onu kopyalama hakkına sahip olmadığınız anlamına "
-"gelir. Bunun bir hata olduğunu ve yazarın açıkça bu çalışmayı "
-"kopyalayabilmenizi istediğini düşünüyorsanız, yazarla iletişime geçmeli ve "
-"çalışmalarını lisanslamasını talep etmelisiniz. Onları <https://"
-"reuse.software> adresine yönlendirmekten çekinmeyin."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "Where else do I put my license information? {#where-else}"
-msgstr "Lisans bilgilerimi başka nereye koyabilirim? {#where-else}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Marking all individual files with `SPDX-License-Identifier` tags goes a long way towards unambiguously communicating the license information of your project, but it helps to communicate the license information in natural language as well. In the README of your project, feel free to provide a summary of the licensing information, or simply redirect the reader to your `LICENSES/` directory."
 msgstr ""
-"Tüm dosyaları `SPDX-License-Identifier` etiketleri ile işaretlemek, "
-"projenizin lisans bilgilerini açık bir şekilde iletmek için uzun bir yol kat "
-"eder, ancak lisans bilgilerini doğal dilde de iletmeye yardımcı olur. "
-"Projenizin README bölümünde, lisans bilgilerinin bir özetini sunmaktan "
-"çekinmeyin veya okuyucuyu `LICENSES/` dizininize yönlendirin."
 
 #. type: Plain text
 #: faq.md
-#, fuzzy, markdown-text
+#, markdown-text
 msgid "Additionally, many package hosting sites expect that you declare the licensing information of your package. For instance, the [setup.py file of the REUSE tool](https://github.com/fsfe/reuse-tool/blob/master/setup.py) declares all the licenses that it uses in the format expected by the Python packaging infrastructure."
 msgstr ""
-"Ayrıca birçok paket barındırma sitesi paketinizin lisans bilgilerini beyan "
-"etmenizi bekler. Örneğin, REUSE aracının [setup.py dosyası] (https://github."
-"com/fsfe/reuse-tool/blob/master/setup.py) kullandığı tüm lisansları Python "
-"paketleme altyapısının beklediği biçimde beyan eder."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "What is a copyright holder, and what is an author? {#copyright-holder-author}"
-msgstr "Telif hakkı sahibi nedir ve yazar nedir? {#copyright-holder-author}"
+msgstr ""
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "In these resources, we maintain a distinction between the copyright holder and the author. The author (also known as creator) is the person who sat down and created a work. Think of the author as a programmer, writer, or artist."
 msgstr ""
-"Bu kaynaklarda, telif hakkı sahibi ile yazar arasındaki ayrımı koruyoruz. "
-"Yazar (yaratıcı olarak da bilinir), oturup bir eser yaratan kişidir. Yazarı "
-"bir programcı, kitap yazarı veya sanatçı olarak düşünün."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The copyright holder is the person who has the exclusive rights over that work.  Often the author and the copyright holder are the same. However, if the author is being paid by their employer to create a work, the employer is often the copyright holder."
 msgstr ""
-"Telif hakkı sahibi, o eser üzerinde münhasır haklara sahip olan kişidir.  "
-"Genellikle eser sahibi ve telif hakkı sahibi aynı kişidir. Ancak, eser "
-"sahibine bir eser yaratması için işvereni tarafından ödeme yapılıyorsa, "
-"işveren genellikle telif hakkı sahibidir."
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Keep in mind that in some jurisdictions, the word \"author\" is often used as a synonym for \"copyright holder\". In other jurisdictions, authors maintain some rights over their work even if they are not the copyright holder."
 msgstr ""
-"Bazı ülkelerde \"yazar\" kelimesinin \"telif hakkı sahibi\" ile eşanlamlı "
-"olarak kullanıldığını unutmayın. Diğer yargı alanlarında, yazarlar telif "
-"hakkı sahibi olmasalar bile eserleri üzerinde bazı haklara sahiptirler."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "I changed a single line of code. Should I add an SPDX-FileCopyrightText tag with my name? {#when-copyright}"
 msgstr ""
-"Tek bir kod satırını değiştirdim. Adımla birlikte bir SPDX-FileCopyrightText "
-"etiketi eklemeli miyim? {#when-copyright}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "The core question here is: At what point should I consider myself a copyright holder over a file? This is up to your discretion. It might help to be consistent and add the tag to every file you touch, but it is perhaps more valuable to reach a consensus about this within your project."
 msgstr ""
-"Buradaki temel soru şudur: Hangi noktada kendimi bir dosya üzerinde telif "
-"hakkı sahibi olarak görmeliyim? Bu sizin takdirinize bağlıdır. Tutarlı olmak "
-"ve dokunduğunuz her dosyaya etiketi eklemek yardımcı olabilir, ancak belki "
-"de projeniz içinde bu konuda bir fikir birliğine varmak daha değerlidir."
 
 #. type: Title ##
 #: faq.md
 #, markdown-text, no-wrap
 msgid "How do I deal with a file that has been edited by many people? {#many-copyright-statements}"
 msgstr ""
-"Birçok kişi tarafından düzenlenmiş bir dosyayla nasıl başa çıkabilirim? "
-"{#many-copyright-statements}"
 
 #. type: Plain text
 #: faq.md
 #, markdown-text
 msgid "Some files are edited by many people and would have an extremely long list of copyright holders in the header. This may be aesthetically unpleasing, but is not incorrect."
 msgstr ""
-"Bazı dosyalar birçok kişi tarafından düzenlenir ve başlıkta telif hakkı "
-"sahiplerinin son derece uzun bir listesi olur. Bu estetik açıdan hoş "
-"olmayabilir, ancak yanlış değildir."
 
 #. type: Plain text
 #: faq.md
