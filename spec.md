@@ -247,3 +247,16 @@ SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 Copyright 2016, 2018-2019 Joe Anybody
 Copyright (c) Alice
 ```
+
+## Order of precedence
+
+Copyright and licensing information is considered according to the
+following order of precedence:
+
+1. `.license` file
+2. Information defined in the commentable file
+3. Information defined in `.reuse/dep5`
+
+There is no merging of information. The REUSE Tool will output a warning
+is there are multiple sources of copyright and licensing information
+present and choose the one with the highest precedence.

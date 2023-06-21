@@ -45,6 +45,8 @@ The versions follow [semantic versioning](https://semver.org).
 
 - URLs to currently applicable SPDX specification. (#49)
 
+- Define current order or precedence. (#115, #111)
+
 ### Changed
 
 - Allow `.license` files for commentable files, but strongly recommend adding
