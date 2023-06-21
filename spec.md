@@ -41,8 +41,8 @@ These are the definitions for some of the terms used in this specification:
       `.git/`).
     - The files ignored by the version control system (example: files listed in
       `.gitignore`).
-    - Submodules of the Project's version control system. Each submodule is
-      understood as a separate Project.
+    - Submodules of the Project's version control system and Meson subprojects.
+      Each submodule and Meson subproject is understood as a separate Project.
     - The files in the `.reuse/` directory in the root of the Project. This
       directory MUST contain only files relevant for the operation of the REUSE
       Tool.
