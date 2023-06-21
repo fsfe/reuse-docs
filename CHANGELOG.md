@@ -22,6 +22,15 @@ The versions follow [semantic versioning](https://semver.org).
 
 ## Unreleased - YYYY-MM-DD
 
+### Changed
+### Deprecated
+### Removed
+### Fixed
+### Security
+### Added
+
+## 3.1 - 2023-06-21
+
 ### Added
 
 - Definition for Commentable and Uncommentable Files. (#123, thanks @Jayman2000)
@@ -59,15 +68,9 @@ The versions follow [semantic versioning](https://semver.org).
 
 - Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
 
-### Deprecated
-
-### Removed
-
 ### Fixed
 
 - Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
-
-### Security
 
 
 ## 3.0 - 2019-08-07
