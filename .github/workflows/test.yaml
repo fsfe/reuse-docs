@@ -1,0 +1,35 @@
+# SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V. <https://fsfe.org>
+# SPDX-FileCopyrightText: 2022 Carmen Bianca Bakker <carmenbianca@fsfe.org>
+# SPDX-FileCopyrightText: 2023 Coop IT Easy SC <https://coopiteasy.be>
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: Test suites
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  prettier:
+    runs-on: ubuntu-20.04
+    container: node:latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install prettier
+        run: npm install prettier@2.7.1
+      - name: Run prettier
+        run: npx prettier --check .
+
+  reuse:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+      - name: Install dependencies
+        run: pip install reuse
+      - name: Test REUSE compliance
+        run: reuse lint
