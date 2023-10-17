@@ -227,15 +227,17 @@ License: GPL-3.0-or-later
 
 ## Order of precedence
 
-Copyright and Licensing Information is considered according to the
-following order of precedence:
+If a Commentable File contains Copyright and Licensing Information but also has
+an adjacent `.license` file, then the Copyright and Licensing Information
+defined in the `.license` file takes precedence, and the Commentable File's
+contents are ignored.
 
-1. Information defined in the `.license` file.
-2. Information defined in the Commentable File.
-3. Information defined in `.reuse/dep5`.
-
-There is no merging of information from different sources. Only the
-source with the highest precedence is considered.
+Copyright and Licensing Information defined in `.reuse/dep5` is aggregated with
+the Copyright and Licensing Information found in the Covered Files or in their
+adjacent `.license` files. For clarity, this means that if the SPDX License
+Expressions in a file's comment header and in the section for that file in
+`.reuse/dep5` do not agree with each other, then both SPDX License Expressions
+will apply to the file.
 
 ## Format of Copyright Notices
 
