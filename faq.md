@@ -341,6 +341,7 @@ that software is [Free Software](https://fsfe.org/about/basics/freesoftware).
 Always choose a Free Software license, i.e., a license that gives the recipient
 the freedom to use, study, share, and improve the software. Aside from that, the
 license you choose is up to you.
+
 If you are contributing to an existing project, you should release your
 changes under the same license as the project. Otherwise, the [Free Software
 Foundation](https://www.gnu.org/licenses/license-recommendations.html),
