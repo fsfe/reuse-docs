@@ -35,6 +35,9 @@ These are the definitions for some of the terms used in this specification:
   copyright holders of a file or work, and describes under which licenses the
   file or work is made available.
 
+- Copyright Notice --- a line of text that conveys copyright of a copyright
+  holder.
+
 - Covered File --- any file in a Project, except for
     - The License Files.
     - The files belonging to the Project's version control system (example:
@@ -117,21 +120,16 @@ contain comments at the top of the file (comment header) that declare that
 file's Copyright and Licensing Information.
 
 For Uncommentable Files, the comment header that declares the file's Copyright
-and Licensing Information SHOULD be in an adjacent UTF-8 encoded text file of the same 
+and Licensing Information MUST be in an adjacent UTF-8 encoded text file of the same 
 name with the additional extension `.license` (example: `cat.jpg.license` if the 
 original file is `cat.jpg`).
 
 `.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
 that comment headers be put inside Commentable Files.
 
-The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or
-more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by
-a text value, and terminated by a newline.
-
-The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice.
-
-Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY
-be used, in which case a colon is not needed.
+The comment header MUST contain one or more Copyright Notices and one or more
+`SPDX-License-Identifier` tag-value pairs. A tag is followed by a colon,
+followed by a text value, and terminated by a newline.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
@@ -143,7 +141,7 @@ An example of a comment header:
 
 ```
 # SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>
-# SPDX-FileCopyrightText: 2019 Example Company
+# SPDX-FileCopyrightText: 2019 Example NGO
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
@@ -179,7 +177,7 @@ Such an annotated Snippet block MUST start with `SPDX-SnippetBegin` to mark its
 beginning and end with `SPDX-SnippetEnd` to mark the Snippet's end.
 
 Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
-correct copyright notice in a Snippet is `SPDX-SnippetCopyrightText`.
+correct SPDX copyright tag in a Snippet is `SPDX-SnippetCopyrightText`.
 
 Example:
 
@@ -211,7 +209,8 @@ root of the Project (i.e. `.reuse/dep5`).
 The `License` tag MUST be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
-The `Copyright` tag MUST be followed by a copyright notice.
+The `Copyright` tag MUST be followed by a Copyright Notice. The prefix of the
+Copyright Notice MAY be omitted.
 
 An example of a DEP5 file:
 
@@ -238,12 +237,21 @@ following order of precedence:
 There is no merging of information from different sources. Only the
 source with the highest precedence is considered.
 
-## Format of copyright notices
+## Format of Copyright Notices
 
-A copyright notice MUST be prefixed by a tag, symbol or word denoting a
-copyright notice as described in this specification.
+A Copyright Notice MUST start with a tag, word or symbol (collectively:
+prefixes) from the following list:
 
-The copyright notice MUST contain the name of the copyright holder. The
+- `SPDX-FileCopyrightText` (or `SPDX-SnippetCopyrightText` in Snippets)
+- Copyright
+- ©
+
+It is RECOMMENDED to use the `SPDX-FileCopyrightText` tag. You MAY add '(C)',
+'(c)' or '©' after the prefix.
+
+A Copyright Notice MUST be terminated by a newline.
+
+The Copyright Notice MUST contain the name of the copyright holder. The
 copyright notice SHOULD contain the year of publication and the contact address
 of the copyright holder. The order of these items SHOULD be: year, name, contact
 address.
@@ -251,18 +259,21 @@ address.
 The year of publication MAY be a single year, multiple years, or a span of
 years.
 
-The copyright holder MAY be an individual, list of individuals, group, legal
-entity, or any other descriptor by which one can easily identify the
-copyright holder(s).
+The copyright holder SHOULD be an individual, list of individuals, group, legal
+entity, or any other descriptor by which one can easily identify the copyright
+holder(s).
 
 Any contact address SHOULD be in between angle brackets.
 
-Examples of valid copyright notices:
+You MAY add any further information to the Copyright Notice.
+
+Examples of valid Copyright Notices:
 
 ```
 SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
 SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
+SPDX-SnippetCopyrightText: (C) Example Cooperative <info@coop.example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
-Copyright (c) Alice
+Copyright (c) Alice, some rights reserved
 ```
