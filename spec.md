@@ -98,9 +98,10 @@ Everything that applies to licenses in this section also applies to license
 exceptions, with the exception that it is NOT possible to have a license
 exception that does not exist in the SPDX License List.
 
-For avoidance of doubt, in practice this means that for every license and exception
-that is part of any SPDX License Expression in any Copyright and Licensing Information
-associated with any Covered File, there MUST exist a License File as defined in this section.
+For avoidance of doubt, in practice this means that for every license and
+exception that is part of any SPDX License Expression in any Copyright and
+Licensing Information associated with any Covered File, there MUST exist a
+License File as defined in this section.
 
 ## Copyright and Licensing Information
 
