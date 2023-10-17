@@ -149,11 +149,11 @@ An example of a comment header:
 ```
 
 If these tags are additionally used in the file without describing the file's
-actual license or copyright but for example as part of an output command or
-documentation, these occurrences MAY be put between two comments:
-`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all tags
-within. This technique MUST NOT be used to ignore valid tags for licensing or
-copyright.
+actual license or copyright (for example: as part of an output command or
+documentation), these occurrences SHOULD be put between two comments:
+`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all
+Copyright and Licensing Information between these comments. This technique MUST
+NOT be used to ignore valid Copyright and Licensing Information.
 
 An example for an ignored block:
 
