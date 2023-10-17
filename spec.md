@@ -54,6 +54,9 @@ These are the definitions for some of the terms used in this specification:
 
 - Commentable File --- a plain text file that can contain comments.
 
+- Snippet --- a portion of text in a Commentable File to which different
+  Copyright and Licensing Information applies.
+
 - Uncommentable File --- either a plain text file that cannot contain comments
   or a file that is not a plain text file.
 
@@ -104,7 +107,7 @@ associated with any Covered File, there MUST exist a License File as defined in 
 Each Covered File MUST have Copyright and Licensing Information associated with
 it. There are two ways to associate Copyright and Licensing Information with a
 file. In addition, there is a way to associate Copyright and Licensing
-Information with a snippet.
+Information with a Snippet.
 
 ### Comment headers
 
@@ -164,17 +167,18 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 # REUSE-IgnoreEnd
 ```
 
-### In-line snippet comments
+### In-line Snippet comments
 
-If a copyright and/or licensing info is to apply only to a certain snippet
-instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX
-Specification, Annex H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
+If some Copyright and Licensing Information is to apply only to a certain
+Snippet instead of the whole Commentable File, SPDX snippet tags MUST be used
+(as defined in [SPDX Specification, Annex
+H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
 
-Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its
-beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
+Such an annotated Snippet block MUST start with `SPDX-SnippetBegin` to mark its
+beginning and end with `SPDX-SnippetEnd` to mark the Snippet's end.
 
 Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
-correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
+correct copyright notice in a Snippet is `SPDX-SnippetCopyrightText`.
 
 Example:
 
@@ -191,7 +195,7 @@ Example:
 Snippets may nest, and this is denoted by having
 `SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
 that parentheses nest in mathematical expressions. In the case of nested
-snippets, the SPDX file tags are considered to apply to the inner-most snippet.
+Snippets, the SPDX snippet tags are considered to apply to the inner-most Snippet.
 
 ### DEP5
 
