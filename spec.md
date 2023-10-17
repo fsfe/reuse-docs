@@ -5,7 +5,7 @@
 title: "REUSE Specification – Version 3.2"
 ---
 
-This specification defines a standardized method for declaring copyright and
+This specification defines a standardised method for declaring copyright and
 licensing for software projects. The goal of the specification is to have
 unambiguous, human- and machine-readable copyright and licensing information for
 each individual file in a project. Ideally this information is embedded into
