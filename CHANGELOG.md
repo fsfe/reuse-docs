@@ -50,7 +50,7 @@ The versions follow [semantic versioning](https://semver.org).
 
 - URLs to currently applicable SPDX specification. (#49)
 
-- Define current order or precedence. (#131)
+- Define an order or precedence. (formerly #131, overhauled in #133)
   
 ### Changed
 
@@ -62,6 +62,8 @@ The versions follow [semantic versioning](https://semver.org).
 ### Fixed
 
 - Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
+
+- Improved definition of Copyright Notices. (#133)
 
 ## 3.1 - 2023-06-21 [YANKED]
 
