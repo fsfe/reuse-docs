@@ -20,16 +20,7 @@ following sections:
 
 The versions follow [semantic versioning](https://semver.org).
 
-## Unreleased - YYYY-MM-DD
-
-### Changed
-### Deprecated
-### Removed
-### Fixed
-### Security
-### Added
-
-## 3.1 - 2023-06-21
+## 3.2 - YYYY-MM-DD
 
 ### Added
 
@@ -72,6 +63,10 @@ The versions follow [semantic versioning](https://semver.org).
 
 - Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
 
+## 3.1 - 2023-06-21 [YANKED]
+
+This version was yanked soon after release after a new definition of the order
+of precedence broke compatibility.
 
 ## 3.0 - 2019-08-07
 
