@@ -168,33 +168,28 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 
 ### In-line Snippet comments
 
-If some Copyright and Licensing Information is to apply only to a certain
-Snippet instead of the whole Commentable File, SPDX snippet tags MUST be used
-(as defined in [SPDX Specification, Annex
+If some Copyright and Licensing Information inside of a Commentable File is to
+apply only to a certain Snippet instead of the whole file, SPDX snippet tags
+MUST be used for that Snippet (as defined in [SPDX Specification, Annex
 H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
+This means that Copyright Notices inside of Snippets MUST be prefixed with
+`SPDX-SnippetCopyrightText`.
 
-Such an annotated Snippet block MUST start with `SPDX-SnippetBegin` to mark its
-beginning and end with `SPDX-SnippetEnd` to mark the Snippet's end.
+Like with comment headers, the SPDX snippet tags SHOULD be commented.
 
-Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
-correct SPDX copyright tag in a Snippet is `SPDX-SnippetCopyrightText`.
+A Snippet SHOULD contain both a Copyright Notice and an SPDX License Expression.
 
 Example:
 
 ```
 # SPDX-SnippetBegin
-# SPDX-License-Identifier: MIT
 # SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
+# SPDX-License-Identifier: MIT
 
-{$snippet_code_goes_here}
+print("Hello, world!")
 
 # SPDX-SnippetEnd
 ```
-
-Snippets may nest, and this is denoted by having
-`SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
-that parentheses nest in mathematical expressions. In the case of nested
-Snippets, the SPDX snippet tags are considered to apply to the inner-most Snippet.
 
 ### DEP5
 
