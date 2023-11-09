@@ -180,9 +180,9 @@ echo "SPDX-License-Identifier: MIT" >> file.txt
 
 ## Do you support a version control system other than Git? {#no-git}
 
-Yes, the helper tool also supports [Mercurial](https://www.mercurial-scm.org/).
-If you miss another version control system, please consider creating an issue
-or ideally a pull request in the [tool's
+Yes, the helper tool also supports [Mercurial](https://www.mercurial-scm.org/)
+and [Pijul](https://pijul.org/). If you miss another version control system,
+please consider creating an issue or ideally a pull request in the [tool's
 repository](https://github.com/fsfe/reuse-tool).
 
 # Copyright {#copyright}
