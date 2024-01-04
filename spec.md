@@ -22,7 +22,7 @@ log](https://git.fsfe.org/reuse/docs/src/branch/stable/CHANGELOG.md).
 
 These are the definitions for some of the terms used in this specification:
 
-- REUSE Tool --- helper tool for compliance with this Specification; available
+- REUSE Tool --- helper tool for compliance with this specification; available
   at <https://github.com/fsfe/reuse-tool>.
 
 - Project --- any unit of content that can be associated with a distribution of
