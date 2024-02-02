@@ -356,6 +356,7 @@ Examples of valid Copyright Notices:
 SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
 SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
 SPDX-FileCopyrightText: Contributors to Example Project <https://project.example.com>
+SPDX-FileCopyrightText: 2023 Alice Hack and (other) contributors to Project X <https://git.example.com/alicehack/projectx/CONTRIBUTORS.md>
 SPDX-SnippetCopyrightText: (C) Example Cooperative <info@coop.example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
