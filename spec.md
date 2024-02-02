@@ -112,9 +112,15 @@ License File as defined in this section.
 ## Copyright and Licensing Information
 
 Each Covered File MUST have Copyright and Licensing Information associated with
-it. There are two ways to associate Copyright and Licensing Information with a
-file. In addition, there is a way to associate Copyright and Licensing
-Information with a Snippet.
+it. You can associate Copyright and Licensing Information with a file in the
+following ways:
+
+- Comment headers
+- REUSE.toml
+- DEP5
+
+Additionally, you can associate Copyright and Licensing Information with
+Snippets inside of files.
 
 ### Comment headers
 
@@ -148,26 +154,6 @@ An example of a comment header:
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
 
-If these tags are additionally used in the file without describing the file's
-actual license or copyright (for example: as part of an output command or
-documentation), these occurrences SHOULD be put between two comments:
-`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all
-Copyright and Licensing Information between these comments. This technique MUST
-NOT be used to ignore valid Copyright and Licensing Information.
-
-An example for an ignored block:
-
-```
-# SPDX-FileCopyrightText: 2021 Jane Doe
-#
-# SPDX-License-Identifier: GPL-3.0-or-later
-
-# REUSE-IgnoreStart
-echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
-echo "SPDX-License-Identifier: MIT" > file.txt
-# REUSE-IgnoreEnd
-```
-
 ### In-line Snippet comments
 
 If some Copyright and Licensing Information inside of a Commentable File is to
@@ -191,6 +177,28 @@ Example:
 print("Hello, world!")
 
 # SPDX-SnippetEnd
+```
+
+### Ignore block
+
+If Copyright and Licensing Information is declared in a file without describing
+the file's or Snippet's actual license or copyright (for example: as part of an
+output command or documentation), these occurrences SHOULD be put between two
+comments: `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores
+all Copyright and Licensing Information between these comments. This technique
+MUST NOT be used to ignore valid Copyright and Licensing Information.
+
+An example for an ignored block:
+
+```
+# SPDX-FileCopyrightText: 2021 Jane Doe
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# REUSE-IgnoreStart
+echo "SPDX-FileCopyrightText: $(date +'%Y') John Doe" > file.txt
+echo "SPDX-License-Identifier: MIT" > file.txt
+# REUSE-IgnoreEnd
 ```
 
 ### REUSE.toml
