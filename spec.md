@@ -36,7 +36,8 @@ These are the definitions for some of the terms used in this specification:
   file or work is made available.
 
 - Copyright Notice --- a line of text that conveys copyright of a copyright
-  holder.
+  holder. Its format is defined in the [Format of Copyright
+  Notices](#format-of-copyright-notices) section.
 
 - Covered File --- any file in a Project, except for
     - The License Files.
