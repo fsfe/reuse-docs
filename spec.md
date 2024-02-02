@@ -239,9 +239,9 @@ Licensing Information to zero or more Covered Files. It has the following keys:
 
   - `closest`, the default value when `precedence` is not defined. This is an
     instruction to use the Copyright and Licensing Information inside of the
-    Covered Files or their `.license` files, if available. If no such
-    Information is found, then the Information inside the closest REUSE.toml
-    that covers the File is associated. This is effectively a fallback.
+    Covered Files, if available. If no such Information is found, then the
+    Information inside the closest REUSE.toml that covers the File is
+    associated. This is effectively a fallback.
 
   - `aggregate`. This is an instruction to always associate the Copyright and
     Licensing Information defined in the table with the table's Covered Files.
@@ -308,14 +308,15 @@ License: GPL-3.0-or-later
 If a Commentable File contains Copyright and Licensing Information but also has
 an adjacent `.license` file, then the Copyright and Licensing Information
 defined in the `.license` file takes precedence, and the Commentable File's
-contents are ignored.
+contents are ignored. For all intents and purposes, this counts as the
+`.license` file's Copyright and Licensing Information being inside the
+Commentable File.
 
 Copyright and Licensing Information defined in `.reuse/dep5` is aggregated with
-the Copyright and Licensing Information found in the Covered Files or in their
-adjacent `.license` files. For clarity, this means that if the SPDX License
-Expressions in a file's comment header and in the section for that file in
-`.reuse/dep5` do not agree with each other, then both SPDX License Expressions
-will apply to the file.
+the Copyright and Licensing Information found in the Covered Files. For clarity,
+this means that if the SPDX License Expressions in a file's comment header and
+in the section for that file in `.reuse/dep5` do not agree with each other, then
+both SPDX License Expressions will apply to the file.
 
 The order of precedence for REUSE.toml files is described in the respective
 section, and is managed using the `precedence` key.
