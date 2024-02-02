@@ -136,9 +136,7 @@ followed by a text value, and terminated by a newline.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
-`SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections
-of the file are licensed differently, a different `SPDX-License-Identifier` tag
-MUST be included for each section.
+`SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`).
 
 An example of a comment header:
 
