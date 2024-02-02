@@ -117,14 +117,15 @@ Information with a Snippet.
 
 ### Comment headers
 
-To implement this method, each Commentable File SHOULD
-contain comments at the top of the file (comment header) that declare that
-file's Copyright and Licensing Information.
+To implement this method, a Commentable File MUST declare the file's Copyright
+and Licensing Information in a comment header. The Information SHOULD be as
+close to the top of the top of the file as possible in a comment header. The
+Commentable File SHOULD use UTF-8 encoding.
 
 For Uncommentable Files, the comment header that declares the file's Copyright
-and Licensing Information MUST be in an adjacent UTF-8 encoded text file of the same 
-name with the additional extension `.license` (example: `cat.jpg.license` if the 
-original file is `cat.jpg`).
+and Licensing Information MUST be in an adjacent text file of the same name with
+the additional extension `.license` (example: `cat.jpg.license` if the original
+file is `cat.jpg`). The adjacent file SHOULD use UTF-8 encoding.
 
 `.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
 that comment headers be put inside Commentable Files.
