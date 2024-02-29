@@ -271,8 +271,8 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   table's Covered Files.
 
 If a Covered File is covered by multiple `[[annotations]]` tables in the same
-REUSE.toml file, then exclusively the last table in the file is used for that
-Covered File.
+REUSE.toml file, then exclusively the last matching table in the file is used
+for that Covered File.
 
 An example of a REUSE.toml file:
 
