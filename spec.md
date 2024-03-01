@@ -249,9 +249,10 @@ Licensing Information to zero or more Covered Files. It has the following keys:
     instruction to associate the Copyright and Licensing Information inside of
     the Covered Files, if available. If no such Information is found, then the
     Information inside the table of the closest REUSE.toml that covers the File
-    is associated. If a table in a closer REUSE.toml file has the `toml`
-    precedence for the same File, then that precedence is applied, and `closest`
-    is ignored. This is effectively a fallback.
+    is associated. This algorithm is applied separately for copyright and for
+    licensing. If a table in a closer REUSE.toml file has the `toml` precedence
+    for the same File, then that precedence is applied, and `closest` is
+    ignored. This is effectively a fallback.
 
   - `aggregate`. This is an instruction to always associate the Copyright and
     Licensing Information defined in the table with the table's Covered Files.
@@ -262,13 +263,17 @@ Licensing Information to zero or more Covered Files. It has the following keys:
     ignore any other Information that is closer to the Files. The table in the
     REUSE.toml that is the closest to the root of the Project is authoritative.
 
-- `SPDX-FileCopyrightText` (REQUIRED), a string or list of strings. Each string
+- `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
   MUST be a Copyright Notice to be associated with the table's Covered Files.
   The prefix of the Copyright Notice MAY be omitted.
 
-- `SPDX-License-Identifier` (REQUIRED), a string or list of strings. Each string
+- `SPDX-License-Identifier` (OPTIONAL), a string or list of strings. Each string
   MUST be a valid SPDX License Expression describing the licensing of the
   table's Covered Files.
+
+Although the keys to associate Copyright and Licensing Information with the
+Covered File are OPTIONAL, the complete Information MUST still be associated
+with the File in some fashion.
 
 If a Covered File is covered by multiple `[[annotations]]` tables in the same
 REUSE.toml file, then exclusively the last matching table in the file is used
