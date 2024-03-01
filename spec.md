@@ -245,20 +245,21 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   - `closest`, the default value when `precedence` is not defined. This is an
     instruction to associate the Copyright and Licensing Information inside of
     the Covered Files, if available. If no such Information is found, then the
-    Information inside the table of the closest `REUSE.toml` that covers the File
-    is associated. This algorithm is applied separately for copyright and for
-    licensing. If a table in a closer `REUSE.toml` file has the `toml` precedence
-    for the same File, then that precedence is applied, and `closest` is
-    ignored. This is effectively a fallback.
+    Information inside the table of the closest `REUSE.toml` that covers the
+    File is associated. This algorithm is applied separately for copyright and
+    for licensing. If a table for the same File in a closer `REUSE.toml` file
+    has the `override` precedence, then that precedence is applied, and
+    `closest` is ignored. This is effectively a fallback.
 
   - `aggregate`. This is an instruction to always associate the Copyright and
     Licensing Information defined in the table with the table's Covered Files.
     Subsequently, the `closest` logic is also applied.
 
-  - `toml`. This is an instruction to associate the Copyright and Licensing
+  - `override`. This is an instruction to associate the Copyright and Licensing
     Information defined in the table with the table's Covered Files, and to
     ignore any other Information that is closer to the Files. The table in the
-    `REUSE.toml` that is the closest to the root of the Project is authoritative.
+    `REUSE.toml` that is the closest to the root of the Project is
+    authoritative.
 
 - `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
   MUST be a Copyright Notice to be associated with the table's Covered Files.
