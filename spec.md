@@ -119,6 +119,8 @@ following ways:
 - REUSE.toml
 - DEP5
 
+REUSE.toml and DEP5 are mutually exclusive. You MUST NOT use both simulaneously.
+
 Additionally, you can associate Copyright and Licensing Information with
 Snippets inside of files.
 
