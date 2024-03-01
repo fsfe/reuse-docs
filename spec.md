@@ -206,22 +206,22 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 ### REUSE.toml
 
 Copyright and Licensing Information MAY be associated with a file through a
-REUSE.toml file. The intended use case of this method is large directories where
+`REUSE.toml` file. The intended use case of this method is large directories where
 including a comment header in each file (or in `.license` companion files) is
 impossible or undesirable.
 
-A REUSE.toml file MAY be located in any directory, and can cover files that are
-within its directory or deeper. You MAY have multiple REUSE.toml files in
+A `REUSE.toml` file MAY be located in any directory, and can cover files that are
+within its directory or deeper. You MAY have multiple `REUSE.toml` files in
 different directories.
 
 The `version` key (REQUIRED) MUST have an integer value representing the schema
-version of the file. This specification describes version 1 of REUSE.toml.
+version of the file. This specification describes version 1 of `REUSE.toml`.
 
 Each `[[annotations]]` table represents an association of Copyright and
 Licensing Information to zero or more Covered Files. It has the following keys:
 
 - `path` (REQUIRED), a string or list of strings of paths relative to the
-  REUSE.toml file's directory. Each path is a path to a Covered File with which
+  `REUSE.toml` file's directory. Each path is a path to a Covered File with which
   to associate the table's Copyright and Licensing Information. A path MAY fail
   to resolve to a file in the Project. A path MAY use globbing. These are the
   globbing and matching rules:
@@ -239,16 +239,16 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   - `\` is an escape character.
 
 - `precedence` (OPTIONAL), a literal string. It determines the order of
-  precedence for Copyright and Licensing Information between the REUSE.toml file
-  and Covered Files in the table, and between multiple REUSE.toml files if they
+  precedence for Copyright and Licensing Information between the `REUSE.toml` file
+  and Covered Files in the table, and between multiple `REUSE.toml` files if they
   both contain Information for the same Covered File. Available values are:
 
   - `closest`, the default value when `precedence` is not defined. This is an
     instruction to associate the Copyright and Licensing Information inside of
     the Covered Files, if available. If no such Information is found, then the
-    Information inside the table of the closest REUSE.toml that covers the File
+    Information inside the table of the closest `REUSE.toml` that covers the File
     is associated. This algorithm is applied separately for copyright and for
-    licensing. If a table in a closer REUSE.toml file has the `toml` precedence
+    licensing. If a table in a closer `REUSE.toml` file has the `toml` precedence
     for the same File, then that precedence is applied, and `closest` is
     ignored. This is effectively a fallback.
 
@@ -259,7 +259,7 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   - `toml`. This is an instruction to associate the Copyright and Licensing
     Information defined in the table with the table's Covered Files, and to
     ignore any other Information that is closer to the Files. The table in the
-    REUSE.toml that is the closest to the root of the Project is authoritative.
+    `REUSE.toml` that is the closest to the root of the Project is authoritative.
 
 - `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
   MUST be a Copyright Notice to be associated with the table's Covered Files.
@@ -274,10 +274,10 @@ Covered File are OPTIONAL, the complete Information MUST still be associated
 with the File in some fashion.
 
 If a Covered File is covered by multiple `[[annotations]]` tables in the same
-REUSE.toml file, then exclusively the last matching table in the file is used
+`REUSE.toml` file, then exclusively the last matching table in the file is used
 for that Covered File.
 
-An example of a REUSE.toml file:
+An example of a `REUSE.toml` file:
 
 ```toml
 version = 1
@@ -292,7 +292,7 @@ SPDX-License-Identifier = "GPL-3.0-or-later"
 ### DEP5 (Deprecated)
 
 Copyright and Licensing Information MAY be associated with a file through a DEP5
-file, but you SHOULD create a REUSE.toml file instead.
+file, but you SHOULD create a `REUSE.toml` file instead.
 
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
@@ -331,7 +331,7 @@ this means that if the SPDX License Expressions in a file's comment header and
 in the section for that file in `.reuse/dep5` do not agree with each other, then
 both SPDX License Expressions will apply to the file.
 
-The order of precedence for REUSE.toml files is described in the respective
+The order of precedence for `REUSE.toml` files is described in the respective
 section, and is managed using the `precedence` key.
 
 ## Format of Copyright Notices
