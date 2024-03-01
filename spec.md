@@ -238,10 +238,6 @@ Licensing Information to zero or more Covered Files. It has the following keys:
 
   - `\` is an escape character.
 
-  - If the path does not contain directory separators (`/`), then any file in
-    the REUSE.toml file's directory or subdirectories that matches the glob or
-    file name is matched.
-
 - `precedence` (OPTIONAL), a literal string. It determines the order of
   precedence for Copyright and Licensing Information between the REUSE.toml file
   and Covered Files in the table, and between multiple REUSE.toml files if they
