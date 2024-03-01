@@ -2,10 +2,10 @@
 # SPDX-FileCopyrightText: 2019 Free Software Foundation Europe e.V.
 # SPDX-License-Identifier: CC-BY-SA-4.0
 
-title: "REUSE Specification – Version 3.1"
+title: "REUSE Specification – Version 3.2"
 ---
 
-This specification defines a standardized method for declaring copyright and
+This specification defines a standardised method for declaring copyright and
 licensing for software projects. The goal of the specification is to have
 unambiguous, human- and machine-readable copyright and licensing information for
 each individual file in a project. Ideally this information is embedded into
@@ -22,7 +22,7 @@ log](https://git.fsfe.org/reuse/docs/src/branch/stable/CHANGELOG.md).
 
 These are the definitions for some of the terms used in this specification:
 
-- REUSE Tool --- helper tool for compliance with this Specification; available
+- REUSE Tool --- helper tool for compliance with this specification; available
   at <https://github.com/fsfe/reuse-tool>.
 
 - Project --- any unit of content that can be associated with a distribution of
@@ -34,6 +34,10 @@ These are the definitions for some of the terms used in this specification:
 - Copyright and Licensing Information --- the information that lists the
   copyright holders of a file or work, and describes under which licenses the
   file or work is made available.
+
+- Copyright Notice --- a line of text that conveys copyright of a copyright
+  holder. Its format is defined in the [Format of Copyright
+  Notices](#format-of-copyright-notices) section.
 
 - Covered File --- any file in a Project, except for
     - The License Files.
@@ -51,8 +55,13 @@ These are the definitions for some of the terms used in this specification:
       Specification, Clause
       4.4](https://spdx.github.io/spdx-spec/v2.3/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
+    - `COPYING` and `LICENSE`. These files typically contain license texts. They
+      are ignored by the REUSE specification for compatibility reasons.
 
 - Commentable File --- a plain text file that can contain comments.
+
+- Snippet --- a portion of text in a Commentable File to which different
+  Copyright and Licensing Information applies.
 
 - Uncommentable File --- either a plain text file that cannot contain comments
   or a file that is not a plain text file.
@@ -95,61 +104,91 @@ Everything that applies to licenses in this section also applies to license
 exceptions, with the exception that it is NOT possible to have a license
 exception that does not exist in the SPDX License List.
 
-For avoidance of doubt, in practice this means that for every license and exception
-that is part of any SPDX License Expression in any Copyright and Licensing Information
-associated with any Covered File, there MUST exist a License File as defined in this section.
+For avoidance of doubt, in practice this means that for every license and
+exception that is part of any SPDX License Expression in any Copyright and
+Licensing Information associated with any Covered File, there MUST exist a
+License File as defined in this section.
 
 ## Copyright and Licensing Information
 
 Each Covered File MUST have Copyright and Licensing Information associated with
-it. There are two ways to associate Copyright and Licensing Information with a
-file. In addition, there is a way to associate Copyright and Licensing
-Information with a snippet.
+it. You can associate Copyright and Licensing Information with a file in the
+following ways:
+
+- Comment headers
+- REUSE.toml
+- DEP5
+
+REUSE.toml and DEP5 are mutually exclusive. You MUST NOT use both simulaneously.
+
+Additionally, you can associate Copyright and Licensing Information with
+Snippets inside of files.
 
 ### Comment headers
 
-To implement this method, each Commentable File SHOULD
-contain comments at the top of the file (comment header) that declare that
-file's Copyright and Licensing Information.
+To implement this method, a Commentable File MUST declare the file's Copyright
+and Licensing Information in a comment header. The Information SHOULD be as
+close to the top of the top of the file as possible in a comment header. The
+Commentable File SHOULD use UTF-8 encoding.
 
 For Uncommentable Files, the comment header that declares the file's Copyright
-and Licensing Information SHOULD be in an adjacent UTF-8 encoded text file of the same 
-name with the additional extension `.license` (example: `cat.jpg.license` if the 
-original file is `cat.jpg`).
+and Licensing Information MUST be in an adjacent text file of the same name with
+the additional extension `.license` (example: `cat.jpg.license` if the original
+file is `cat.jpg`). The adjacent file SHOULD use UTF-8 encoding.
 
 `.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
 that comment headers be put inside Commentable Files.
 
-The comment header MUST contain one or more `SPDX-FileCopyrightText` tags, and one or
-more `SPDX-License-Identifier` tags. A tag is followed by a colon, followed by
-a text value, and terminated by a newline.
-
-The `SPDX-FileCopyrightText` tag MUST be followed by a copyright notice.
-
-Instead of the `SPDX-FileCopyrightText` tag, the symbol `©`, or the word `Copyright` MAY
-be used, in which case a colon is not needed.
+The comment header MUST contain one or more Copyright Notices and one or more
+`SPDX-License-Identifier` tag-value pairs. A tag is followed by a colon,
+followed by a text value, and terminated by a newline.
 
 The `SPDX-License-Identifier` tag MUST be followed by a valid SPDX License
 Expression describing the licensing of the file (example:
-`SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`). If separate sections
-of the file are licensed differently, a different `SPDX-License-Identifier` tag
-MUST be included for each section.
+`SPDX-License-Identifier: GPL-3.0-or-later OR Apache-2.0`).
 
 An example of a comment header:
 
 ```
 # SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>
-# SPDX-FileCopyrightText: 2019 Example Company
+# SPDX-FileCopyrightText: 2019 Example NGO
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
 
-If these tags are additionally used in the file without describing the file's
-actual license or copyright but for example as part of an output command or
-documentation, these occurrences MAY be put between two comments:
-`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all tags
-within. This technique MUST NOT be used to ignore valid tags for licensing or
-copyright.
+### In-line Snippet comments
+
+If some Copyright and Licensing Information inside of a Commentable File is to
+apply only to a certain Snippet instead of the whole file, SPDX snippet tags
+MUST be used for that Snippet (as defined in [SPDX Specification, Annex
+H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
+This means that Copyright Notices inside of Snippets MUST be prefixed with
+`SPDX-SnippetCopyrightText`.
+
+Like with comment headers, the SPDX snippet tags SHOULD be commented.
+
+A Snippet SHOULD contain both a Copyright Notice and an SPDX License Expression.
+
+Example:
+
+```
+# SPDX-SnippetBegin
+# SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
+# SPDX-License-Identifier: MIT
+
+print("Hello, world!")
+
+# SPDX-SnippetEnd
+```
+
+### Ignore block
+
+If Copyright and Licensing Information is declared in a file without describing
+the file's or Snippet's actual license or copyright (for example: as part of an
+output command or documentation), these occurrences SHOULD be put between two
+comments: `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores
+all Copyright and Licensing Information between these comments. This technique
+MUST NOT be used to ignore valid Copyright and Licensing Information.
 
 An example for an ignored block:
 
@@ -164,41 +203,96 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 # REUSE-IgnoreEnd
 ```
 
-### In-line snippet comments
+### REUSE.toml
 
-If a copyright and/or licensing info is to apply only to a certain snippet
-instead of the whole file, SPDX snippet tags SHOULD be used (as defined in [SPDX
-Specification, Annex H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
+Copyright and Licensing Information MAY be associated with a file through a
+`REUSE.toml` file. The intended use case of this method is large directories where
+including a comment header in each file (or in `.license` companion files) is
+impossible or undesirable.
 
-Such an annotated snippet block MUST start with `SPDX-SnippetBegin` to mark its
-beginning and end with `SPDX-SnippetEnd` to mark the snippet's end.
+A `REUSE.toml` file MAY be located in any directory, and can cover files that are
+within its directory or deeper. You MAY have multiple `REUSE.toml` files in
+different directories.
 
-Do note that SPDX snippet tags MUST start with `SPDX-Snippet`, meaning that the
-correct copyright notice in a snippet is `SPDX-SnippetCopyrightText`.
+The `version` key (REQUIRED) MUST have an integer value representing the schema
+version of the file. This specification describes version 1 of `REUSE.toml`.
 
-Example:
+Each `[[annotations]]` table represents an association of Copyright and
+Licensing Information to zero or more Covered Files. It has the following keys:
 
+- `path` (REQUIRED), a string or list of strings representing paths. A path
+  SHOULD resolve to one or more Covered Files relative to the `REUSE.toml`
+  file's directory. A path MAY use globbing to match several Covered Files in a
+  single expression. These are the globbing and matching rules:
+
+  - `*` matches everything except slashes, including `.` prefixes.
+
+  - `**` matches zero or more directories, including `.` prefixes.
+
+  - `?` matches any single character except a slash.
+
+  - `[seq]` matches any character in the sequence.
+
+  - `[!seq]` matches any character not in the sequence.
+
+  - `\` is an escape character.
+
+- `precedence` (OPTIONAL), a literal string. It determines the order of
+  precedence for Copyright and Licensing Information between the `REUSE.toml` file
+  and Covered Files in the table, and between multiple `REUSE.toml` files if they
+  both contain Information for the same Covered File. Available values are:
+
+  - `closest`, the default value when `precedence` is not defined. This is an
+    instruction to associate the Copyright and Licensing Information inside of
+    the Covered Files, if available. If no such Information is found, then the
+    Information inside the table of the closest `REUSE.toml` that covers the
+    File is associated. This algorithm is applied separately for copyright and
+    for licensing. If a table for the same File in a closer `REUSE.toml` file
+    has the `override` precedence, then that precedence is applied, and
+    `closest` is ignored. This is effectively a fallback.
+
+  - `aggregate`. This is an instruction to always associate the Copyright and
+    Licensing Information defined in the table with the table's Covered Files.
+    Subsequently, the `closest` logic is also applied.
+
+  - `override`. This is an instruction to associate the Copyright and Licensing
+    Information defined in the table with the table's Covered Files, and to
+    ignore any other Information that is closer to the Files. The table in the
+    `REUSE.toml` that is the closest to the root of the Project is
+    authoritative.
+
+- `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
+  MUST be a Copyright Notice to be associated with the table's Covered Files.
+  The prefix of the Copyright Notice MAY be omitted.
+
+- `SPDX-License-Identifier` (OPTIONAL), a string or list of strings. Each string
+  MUST be a valid SPDX License Expression describing the licensing of the
+  table's Covered Files.
+
+Although the keys to associate Copyright and Licensing Information with the
+Covered File are OPTIONAL, the complete Information MUST still be associated
+with the File in some fashion.
+
+If a Covered File is covered by multiple `[[annotations]]` tables in the same
+`REUSE.toml` file, then exclusively the last matching table in the file is used
+for that Covered File.
+
+An example of a `REUSE.toml` file:
+
+```toml
+version = 1
+
+[[annotations]]
+path = ["po/*.po", "po/*.pot"]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2019 Translation Company"
+SPDX-License-Identifier = "GPL-3.0-or-later"
 ```
-# SPDX-SnippetBegin
-# SPDX-License-Identifier: MIT
-# SPDX-SnippetCopyrightText: 2022 Jane Doe <jane@example.com>
 
-{$snippet_code_goes_here}
+### DEP5 (Deprecated)
 
-# SPDX-SnippetEnd
-```
-
-Snippets may nest, and this is denoted by having
-`SPDX-SnippetBegin`/`SPDX-SnippetEnd` pairs within other pairs, in the same way
-that parentheses nest in mathematical expressions. In the case of nested
-snippets, the SPDX file tags are considered to apply to the inner-most snippet.
-
-### DEP5
-
-Alternatively, Copyright and Licensing Information MAY be associated with a
-file through a DEP5 file. The intended use case of this method is large
-directories where including a comment header in each file (or in `.license`
-companion files) is impossible or undesirable.
+Copyright and Licensing Information MAY be associated with a file through a DEP5
+file, but you SHOULD create a `REUSE.toml` file instead.
 
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
@@ -206,7 +300,8 @@ root of the Project (i.e. `.reuse/dep5`).
 The `License` tag MUST be followed by a valid SPDX License Expression describing
 the licensing of the associated files.
 
-The `Copyright` tag MUST be followed by a copyright notice.
+The `Copyright` tag MUST be followed by a Copyright Notice. The prefix of the
+Copyright Notice MAY be omitted.
 
 An example of a DEP5 file:
 
@@ -223,22 +318,37 @@ License: GPL-3.0-or-later
 
 ## Order of precedence
 
-Copyright and Licensing Information is considered according to the
-following order of precedence:
+If a Commentable File contains Copyright and Licensing Information but also has
+an adjacent `.license` file, then the Copyright and Licensing Information
+defined in the `.license` file takes precedence, and the Commentable File's
+contents are ignored. For all intents and purposes, this counts as the
+`.license` file's Copyright and Licensing Information being inside the
+Commentable File.
 
-1. Information defined in the `.license` file.
-2. Information defined in the Commentable File.
-3. Information defined in `.reuse/dep5`.
+Copyright and Licensing Information defined in `.reuse/dep5` is aggregated with
+the Copyright and Licensing Information found in the Covered Files. For clarity,
+this means that if the SPDX License Expressions in a file's comment header and
+in the section for that file in `.reuse/dep5` do not agree with each other, then
+both SPDX License Expressions will apply to the file.
 
-There is no merging of information from different sources. Only the
-source with the highest precedence is considered.
+The order of precedence for `REUSE.toml` files is described in the respective
+section, and is managed using the `precedence` key.
 
-## Format of copyright notices
+## Format of Copyright Notices
 
-A copyright notice MUST be prefixed by a tag, symbol or word denoting a
-copyright notice as described in this specification.
+A Copyright Notice MUST start with a tag, word or symbol (collectively:
+prefixes) from the following list:
 
-The copyright notice MUST contain the name of the copyright holder. The
+- `SPDX-FileCopyrightText` (or `SPDX-SnippetCopyrightText` in Snippets)
+- Copyright
+- ©
+
+It is RECOMMENDED to use the `SPDX-FileCopyrightText` tag. You MAY add '(C)',
+'(c)' or '©' after the prefix.
+
+A Copyright Notice MUST be terminated by a newline.
+
+The Copyright Notice MUST contain the name of the copyright holder. The
 copyright notice SHOULD contain the year of publication and the contact address
 of the copyright holder. The order of these items SHOULD be: year, name, contact
 address.
@@ -246,18 +356,23 @@ address.
 The year of publication MAY be a single year, multiple years, or a span of
 years.
 
-The copyright holder MAY be an individual, list of individuals, group, legal
-entity, or any other descriptor by which one can easily identify the
-copyright holder(s).
+The copyright holder SHOULD be an individual, list of individuals, group, legal
+entity, or any other descriptor by which one can easily identify the copyright
+holder(s).
 
 Any contact address SHOULD be in between angle brackets.
 
-Examples of valid copyright notices:
+You MAY add any further information to the Copyright Notice.
+
+Examples of valid Copyright Notices:
 
 ```
 SPDX-FileCopyrightText: 2019 Jane Doe <jane@example.com>
 SPDX-FileCopyrightText: © 2019 John Doe <joe@example.com>
+SPDX-FileCopyrightText: Contributors to Example Project <https://project.example.com>
+SPDX-FileCopyrightText: 2023 Alice Hack and (other) contributors to Project X <https://git.example.com/alicehack/projectx/CONTRIBUTORS.md>
+SPDX-SnippetCopyrightText: (C) Example Cooperative <info@coop.example.com>
 © Example Corporation <https://corp.example.com>
 Copyright 2016, 2018-2019 Joe Anybody
-Copyright (c) Alice
+Copyright (c) Alice, some rights reserved
 ```
