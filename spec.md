@@ -220,11 +220,10 @@ version of the file. This specification describes version 1 of `REUSE.toml`.
 Each `[[annotations]]` table represents an association of Copyright and
 Licensing Information to zero or more Covered Files. It has the following keys:
 
-- `path` (REQUIRED), a string or list of strings of paths relative to the
-  `REUSE.toml` file's directory. Each path is a path to a Covered File with which
-  to associate the table's Copyright and Licensing Information. A path MAY fail
-  to resolve to a file in the Project. A path MAY use globbing. These are the
-  globbing and matching rules:
+- `path` (REQUIRED), a string or list of strings representing paths. A path
+  SHOULD resolve to one or more Covered Files relative to the `REUSE.toml`
+  file's directory. A path MAY use globbing to match several Covered Files in a
+  single expression. These are the globbing and matching rules:
 
   - `*` matches everything except slashes, including `.` prefixes.
 
