@@ -226,9 +226,9 @@ Licensing Information to zero or more Covered Files. It has the following keys:
 
   - `*` matches everything except slashes, including `.` prefixes.
 
-  - `**` matches everything including slashes.
+  - `**` matches zero or more directories, including `.` prefixes.
 
-  - `?` matches any single character.
+  - `?` matches any single character except a slash.
 
   - `[seq]` matches any character in the sequence.
 
