@@ -1688,26 +1688,26 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
+msgid "The `reuse annotate` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
 msgstr ""
-"La orden `reuse addheader` ayuda a agregar información de licencia y "
+"La orden `reuse annotate` ayuda a agregar información de licencia y "
 "derechos de autor a sus archivos. Para la tarea anterior, haría el trabajo "
 "la siguiente orden:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
-msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
+msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+"reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
 ".0-o-posterior\" src/main.c Makefile README.md\n"
 
 #. type: Plain text
 #: tutorial.md
-msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
+msgid "Please see the [tool's documentation about annotate](https://reuse.readthedocs.io/en/stable/usage.html#annotate)  for more options like comment styles and templates"
 msgstr ""
-"Consulte la [documentación de la herramienta sobre addheader](https://reuse."
-"readthedocs.io/en/stable/usage.html#addheader)  para obtener más opciones, "
+"Consulte la [documentación de la herramienta sobre annotate](https://reuse."
+"readthedocs.io/en/stable/usage.html#annotate)  para obtener más opciones, "
 "como estilos de comentarios y plantillas"
 
 #. type: Title ###
@@ -1744,19 +1744,19 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
+msgid "If it does not, or if you would like to enforce this, add the `--force-dot-license` argument to the annotate command. So the command for the above task may look like this:"
 msgstr ""
 "Si no es así, o si desea aplicar esto, agregue el argumento `--explicit-"
-"license` al comando addheader. Entonces, la orden para la tarea anterior se "
+"license` al comando annotate. Entonces, la orden para la tarea anterior se "
 "puede ver así:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
-msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --force-dot-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-o-posterior\" --explicit-license img/cat.jpg img/dog.jpg\n"
+"reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
+".0-o-posterior\" --force-dot-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
@@ -1799,11 +1799,11 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
+msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `annotate` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
 msgstr ""
 "La herramienta a partir de ahora no proporciona una forma de reemplazar la "
 "información existente de REUSE compatible de licencia y derechos de autor. "
-"Una ejecución del comando `addheader` no reemplazaría sino que ampliaría los "
+"Una ejecución del comando `annotate` no reemplazaría sino que ampliaría los "
 "archivos `.license` con dos líneas adicionales que indican los derechos de "
 "autor de Max Mehl y la licencia CC-BY-4.0. Por lo tanto, tendría que "
 "actualizarlos manualmente."
@@ -1889,20 +1889,20 @@ msgstr ""
 
 #. type: Plain text
 #: tutorial.md
-msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
+msgid "As before, a combination of the `annotate` and `download` commands will fulfil the above step:"
 msgstr ""
-"Como antes, una combinación de los comandos `addheader` y `download` "
+"Como antes, una combinación de los comandos `annotate` y `download` "
 "cumplirá el paso anterior:"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
 msgid ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
+"reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
 "\n"
 "reuse download --all\n"
 msgstr ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
+"reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1"
 ".0\" .gitignore \n"
 " \n"
 "reuse download --all\n"

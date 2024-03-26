@@ -113,16 +113,16 @@ header information, but of course with corresponding comment syntax.
 
 {{< box-tool >}}
 
-The `reuse addheader` command helps with adding licensing and copyright
+The `reuse annotate` command helps with adding licensing and copyright
 information to your files. For the task above, the following command
 would do the job:
 
 ```bash
-reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" src/main.c Makefile README.md
+reuse annotate --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" src/main.c Makefile README.md
 ```
 
 Please see the [tool's documentation about
-addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)
+annotate](https://reuse.readthedocs.io/en/stable/usage.html#annotate)
 for more options like comment styles and templates
 
 {{< /box-tool >}}
@@ -144,11 +144,11 @@ The REUSE helper tool should automatically detect binary files and
 therefore automatically create a corresponding `.license` file.
 
 If it does not, or if you would like to enforce this, add the
-`--force-dot-license` argument to the addheader command. So the command
+`--force-dot-license` argument to the annotate command. So the command
 for the above task may look like this:
 
 ```bash
-reuse addheader --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --force-dot-license img/cat.jpg img/dog.jpg
+reuse annotate --copyright="Jane Doe <jane@example.com>" --license="GPL-3.0-or-later" --force-dot-license img/cat.jpg img/dog.jpg
 ```
 
 {{< /box-tool >}}
@@ -175,7 +175,7 @@ SPDX-License-Identifier: CC-BY-4.0
 
 The tool as of now does not provide a way to replace existing
 REUSE-compliant copyright and licensing information. A run of
-the `addheader` command would not replace but extend the `.license`
+the `annotate` command would not replace but extend the `.license`
 files with two additional lines stating the copyright of Max Mehl and
 the CC-BY-4.0 license. So you would have to update these manually.
 
@@ -218,10 +218,10 @@ More information about copyrightable files can be found in the [REUSE FAQ]({{< r
 
 {{< box-tool >}}
 
-As before, a combination of the `addheader` and `download` commands will fulfil the above step:
+As before, a combination of the `annotate` and `download` commands will fulfil the above step:
 
 ```bash
-reuse addheader --copyright="Jane Doe <jane@example.com>" --license="CC0-1.0" .gitignore
+reuse annotate --copyright="Jane Doe <jane@example.com>" --license="CC0-1.0" .gitignore
 
 reuse download --all
 ```
