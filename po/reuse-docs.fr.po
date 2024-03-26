@@ -1907,19 +1907,19 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the annotate command. So the command for the above task may look like this:"
+msgid "If it does not, or if you would like to enforce this, add the `--force-dot-license` argument to the annotate command. So the command for the above task may look like this:"
 msgstr ""
 "Si ce n'est pas le cas, ou si vous souhaitez appliquer cela, ajoutez "
-"l'argument `--explicit-license` à la commande annotate. Ainsi, la commande "
+"l'argument `--force-dot-license` à la commande annotate. Ainsi, la commande "
 "pour la tâche ci-dessus peut ressembler à ceci :"
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
-msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --force-dot-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
 "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3"
-".0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+".0-or-later\" --force-dot-license img/cat.jpg img/dog.jpg\n"
 
 #. type: Title ###
 #: tutorial.md
