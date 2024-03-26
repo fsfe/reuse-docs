@@ -1306,19 +1306,19 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "The `reuse addheader` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
+msgid "The `reuse annotate` command helps with adding licensing and copyright information to your files. For the task above, the following command would do the job:"
 msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
-msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
+msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" src/main.c Makefile README.md\n"
 msgstr ""
 
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "Please see the [tool's documentation about addheader](https://reuse.readthedocs.io/en/stable/usage.html#addheader)  for more options like comment styles and templates"
+msgid "Please see the [tool's documentation about annotate](https://reuse.readthedocs.io/en/stable/usage.html#annotate)  for more options like comment styles and templates"
 msgstr ""
 
 #. type: Title ###
@@ -1348,13 +1348,13 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the addheader command. So the command for the above task may look like this:"
+msgid "If it does not, or if you would like to enforce this, add the `--explicit-license` argument to the annotate command. So the command for the above task may look like this:"
 msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
-msgid "reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
+msgid "reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"GPL-3.0-or-later\" --explicit-license img/cat.jpg img/dog.jpg\n"
 msgstr ""
 
 #. type: Title ###
@@ -1393,7 +1393,7 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `addheader` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
+msgid "The tool as of now does not provide a way to replace existing REUSE-compliant copyright and licensing information. A run of the `annotate` command would not replace but extend the `.license` files with two additional lines stating the copyright of Max Mehl and the CC-BY-4.0 license. So you would have to update these manually."
 msgstr ""
 
 #. type: Plain text
@@ -1458,14 +1458,14 @@ msgstr ""
 #. type: Plain text
 #: tutorial.md
 #, markdown-text
-msgid "As before, a combination of the `addheader` and `download` commands will fulfil the above step:"
+msgid "As before, a combination of the `annotate` and `download` commands will fulfil the above step:"
 msgstr ""
 
 #. type: Fenced code block (bash)
 #: tutorial.md
 #, no-wrap
 msgid ""
-"reuse addheader --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
+"reuse annotate --copyright=\"Jane Doe <jane@example.com>\" --license=\"CC0-1.0\" .gitignore\n"
 "\n"
 "reuse download --all\n"
 msgstr ""
