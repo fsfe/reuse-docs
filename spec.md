@@ -7,10 +7,10 @@ title: "REUSE Specification – Version 3.2"
 
 This specification defines a standardised method for declaring copyright and
 licensing for software projects. The goal of the specification is to have
-unambiguous, human- and machine-readable copyright and licensing information for
-each individual file in a project. Ideally this information is embedded into
-every file, so that the information is preserved when the file is copied and
-reused by third parties.
+comprehensive, unambiguous, human- and machine-readable copyright and licensing
+information for each individual file in a project. Ideally this information is
+embedded into every file, so that the information is preserved when the file is
+copied and reused by third parties.
 
 This specification implements [IETF RFC 2119: Key words for use in RFCs to
 Indicate Requirement Levels](https://tools.ietf.org/html/rfc2119).
