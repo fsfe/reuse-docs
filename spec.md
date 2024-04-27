@@ -313,7 +313,7 @@ Upstream-Name: Project
 Upstream-Contact: Jane Doe <jane@example.com>
 Source: https://example.com/jane/project
 
-Files: po/*
+Files: po/*.po po/*.pot
 Copyright: 2019 Translation Company
 License: GPL-3.0-or-later
 ```
