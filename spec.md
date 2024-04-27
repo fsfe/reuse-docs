@@ -118,9 +118,10 @@ following ways:
 
 - Comment headers
 - REUSE.toml
-- DEP5
+- DEP5 (deprecated)
 
-REUSE.toml and DEP5 are mutually exclusive. You MUST NOT use both simulaneously.
+REUSE.toml and DEP5 are mutually exclusive. You MUST NOT use both
+simultaneously.
 
 Additionally, you can associate Copyright and Licensing Information with
 Snippets inside of files.
