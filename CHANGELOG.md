@@ -51,7 +51,9 @@ The versions follow [semantic versioning](https://semver.org).
 - URLs to currently applicable SPDX specification. (#49)
 
 - Define an order or precedence. (formerly #131, overhauled in #133)
-  
+
+- REUSE.toml definition added. (#133)
+
 ### Changed
 
 - Allow `.license` files for commentable files, but strongly recommend adding
@@ -59,11 +61,16 @@ The versions follow [semantic versioning](https://semver.org).
 
 - Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
 
+- DEP5 deprecated. (#133)
+
 ### Fixed
 
 - Minor typos and grammar mistakes. Thanks @jlovejoy and @Jayman2000!
 
 - Improved definition of Copyright Notices. (#133)
+
+- `COPYING` and `LICENSE` are now marked as ignored, when they were already
+  ignored by the tool since its inception. (#133)
 
 ## 3.1 - 2023-06-21 [YANKED]
 
