@@ -158,7 +158,7 @@ An example of a comment header:
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
 
-### In-line Snippet comments
+#### In-line Snippet comments
 
 If some Copyright and Licensing Information inside of a Commentable File is to
 apply only to a certain Snippet instead of the whole file, SPDX snippet tags
@@ -183,7 +183,7 @@ print("Hello, world!")
 # SPDX-SnippetEnd
 ```
 
-### Ignore block
+#### Ignore block
 
 If Copyright and Licensing Information is declared in a file without describing
 the file's or Snippet's actual license or copyright (for example: as part of an
