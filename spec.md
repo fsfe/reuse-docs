@@ -227,9 +227,9 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   file's directory. A path MAY use globbing to match several Covered Files in a
   single expression. These are the globbing and matching rules:
 
-  - `*` matches everything except slashes, including `.` prefixes.
+  - `*` matches everything except slashes.
 
-  - `**` matches zero or more directories, including `.` prefixes.
+  - `**` matches everything including slashes.
 
   - `?` matches any single character except a slash.
 
