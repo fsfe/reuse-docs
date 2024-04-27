@@ -55,8 +55,9 @@ These are the definitions for some of the terms used in this specification:
       Specification, Clause
       4.4](https://spdx.github.io/spdx-spec/v2.3/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
-    - `COPYING` and `LICENSE`. These files typically contain license texts. They
-      are ignored by the REUSE specification for compatibility reasons.
+    - `COPYING` and `LICENSE`, with or without file extensions. These files
+      typically contain license texts. They are ignored by the REUSE
+      specification for compatibility reasons.
 
 - Commentable File --- a plain text file that can contain comments.
 
