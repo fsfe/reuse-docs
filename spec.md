@@ -304,10 +304,12 @@ SPDX-FileCopyrightText = "2019 Translation Company"
 SPDX-License-Identifier = "GPL-3.0-or-later"
 ```
 
-### DEP5 (Deprecated)
+### DEP5 (deprecated)
 
 Copyright and Licensing Information MAY be associated with a file through a DEP5
-file, but you SHOULD create a `REUSE.toml` file instead.
+file, but you SHOULD create a `REUSE.toml` file instead. The DEP5 file is
+deprecated, meaning that it is expected to disappear from a future iteration of
+this specification.
 
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
