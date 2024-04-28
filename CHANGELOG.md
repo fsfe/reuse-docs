@@ -20,6 +20,22 @@ following sections:
 
 The versions follow [semantic versioning](https://semver.org).
 
+<!--
+## Unreleased - YYYY-MM-DD
+
+### Added
+
+### Changed
+
+### Deprecated
+
+### Removed
+
+### Fixed
+
+### Security
+-->
+
 ## 3.2 - YYYY-MM-DD
 
 ### Added
