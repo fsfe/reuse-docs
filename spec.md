@@ -157,7 +157,7 @@ An example of a comment header:
 
 ```
 # SPDX-FileCopyrightText: 2016, 2018-2019 Jane Doe <jane@example.com>
-# SPDX-FileCopyrightText: 2019 Example NGO
+# SPDX-FileCopyrightText: 2019 Example Organisation
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 ```
