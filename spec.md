@@ -97,7 +97,8 @@ If a license does not exist in the SPDX License List, its SPDX License Identifie
 MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Clause 10 available at <https://spdx.github.io/spdx-spec/v2.3/other-licensing-information-detected/>.
 
 A Project MUST NOT include License Files for licenses under which none of the
-files in the Project are licensed.
+files in the Project are licensed. The `LICENSES/` directory MUST NOT include
+any other files.
 
 Everything that applies to licenses in this section also applies to license
 exceptions, with the exception that it is NOT possible to have a license
