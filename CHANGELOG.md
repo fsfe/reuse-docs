@@ -64,6 +64,9 @@ The versions follow [semantic versioning](https://semver.org).
 - Allow `.license` files for commentable files, but strongly recommend adding
   copyright/licensing information in header. (#123, thanks @Jayman2000)
 - Bump referenced SPDX version to 2.3, and update links. (#103) (#107)
+
+### Deprecated
+
 - DEP5 deprecated. (#133)
 
 ### Fixed
