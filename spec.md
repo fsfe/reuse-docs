@@ -24,21 +24,16 @@ These are the definitions for some of the terms used in this specification:
 
 - REUSE Tool --- helper tool for compliance with this specification; available
   at <https://github.com/fsfe/reuse-tool>.
-
 - Project --- any unit of content that can be associated with a distribution of
   software. Typically, a Project is composed of one or more files. Also
   sometimes called a package.
-
 - License File --- a file containing the text of a license.
-
 - Copyright and Licensing Information --- the information that lists the
   copyright holders of a file or work, and describes under which licenses the
   file or work is made available.
-
 - Copyright Notice --- a line of text that conveys copyright of a copyright
   holder. Its format is defined in the [Format of Copyright
   Notices](#format-of-copyright-notices) section.
-
 - Covered File --- any file in a Project, except for
     - The License Files.
     - `COPYING` and `LICENSE`, with or without file extensions.
@@ -56,27 +51,20 @@ These are the definitions for some of the terms used in this specification:
       Specification, Clause
       4.4](https://spdx.github.io/spdx-spec/v2.3/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
-
 - Commentable File --- a plain text file that can contain comments.
-
 - Snippet --- a portion of text in a Commentable File to which different
   Copyright and Licensing Information applies.
-
 - Uncommentable File --- either a plain text file that cannot contain comments
   or a file that is not a plain text file.
-
 - SPDX Specification --- SPDX specification, version 2.3; as available on
   <https://spdx.org/specifications>.
-
 - SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
   examples.
-
-- SPDX License Expression --- as defined in SPDX Specification, Annex D, at <https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/>.
-
+- SPDX License Expression --- as defined in SPDX Specification, Annex D, at
+  <https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/>.
 - SPDX License List --- a list of commonly found licenses and exceptions; as
   available on <https://spdx.org/licenses/>.
-
 - DEP5 --- [Machine-readable `debian/copyright` file, Version
   1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).
   Where the REUSE Specification and DEP5 state different things, the REUSE
@@ -236,22 +224,17 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   Covered Files relative to the `REUSE.toml` file's directory. A path MAY use
   globbing to match several Covered Files in a single expression. These are the
   globbing and matching rules:
-
   - `*` matches everything except forward slashes (i.e. path separators).
-
   - `**` and `**/` match everything including forward slashes (i.e. path
     separators).
-
   - In order to escape an asterisk and include it verbatim, prefix it with `\\`.
     You cannot prefix it with `\` because that is invalid TOML. In order to
     include a backslash verbatim, use `\\\\`. `\\` followed by any other
     character is functionally equal to just typing that character.
-
 - `precedence` (OPTIONAL), a literal string. It determines the order of
   precedence for Copyright and Licensing Information between the `REUSE.toml` file
   and Covered Files in the table, and between multiple `REUSE.toml` files if they
   both contain Information for the same Covered File. Available values are:
-
   - `closest`, the default value when `precedence` is not defined. This is an
     instruction to associate the Copyright and Licensing Information inside of
     the Covered Files, if available. If no such Information is found, then the
@@ -260,21 +243,17 @@ Licensing Information to zero or more Covered Files. It has the following keys:
     for licensing. If a table for the same File in a closer `REUSE.toml` file
     has the `override` precedence, then that precedence is applied, and
     `closest` is ignored. This is effectively a fallback.
-
   - `aggregate`. This is an instruction to always associate the Copyright and
     Licensing Information defined in the table with the table's Covered Files.
     Subsequently, the `closest` logic is also applied.
-
   - `override`. This is an instruction to associate the Copyright and Licensing
     Information defined in the table with the table's Covered Files, and to
     ignore any other Information that is closer to the Files. The table in the
     `REUSE.toml` that is the closest to the root of the Project is
     authoritative.
-
 - `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
   MUST be a Copyright Notice to be associated with the table's Covered Files.
   The prefix of the Copyright Notice MAY be omitted.
-
 - `SPDX-License-Identifier` (OPTIONAL), a string or list of strings. Each string
   MUST be a valid SPDX License Expression describing the licensing of the
   table's Covered Files.
