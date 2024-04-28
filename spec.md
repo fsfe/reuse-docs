@@ -41,6 +41,7 @@ These are the definitions for some of the terms used in this specification:
 
 - Covered File --- any file in a Project, except for
     - The License Files.
+    - `COPYING` and `LICENSE`, with or without file extensions.
     - The files belonging to the Project's version control system (example:
       `.git/`).
     - The files ignored by the version control system (example: files listed in
@@ -55,9 +56,6 @@ These are the definitions for some of the terms used in this specification:
       Specification, Clause
       4.4](https://spdx.github.io/spdx-spec/v2.3/conformance/#44-standard-data-format-requirements)
       (example: `sbom.spdx.json`).
-    - `COPYING` and `LICENSE`, with or without file extensions. These files
-      typically contain license texts. They are ignored by the REUSE
-      specification for compatibility reasons.
 
 - Commentable File --- a plain text file that can contain comments.
 
@@ -109,6 +107,11 @@ For avoidance of doubt, in practice this means that for every license and
 exception that is part of any SPDX License Expression in any Copyright and
 Licensing Information associated with any Covered File, there MUST exist a
 License File as defined in this section.
+
+You MAY include a `COPYING` or `LICENSE` file (with or without file extensions)
+in your project for compliance with other standards, conventions, or tools.
+These files MAY contain a copy of the license text, a summary of your licensing,
+or anything else. These files are ignored by the REUSE Tool.
 
 ## Copyright and Licensing Information
 
