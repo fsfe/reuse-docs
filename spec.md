@@ -280,6 +280,9 @@ Licensing Information to zero or more Covered Files. It has the following keys:
   MUST be a valid SPDX License Expression describing the licensing of the
   table's Covered Files.
 
+You MAY include other keys and tables to convey additional information. Their
+semantics are not defined by this specification.
+
 Although the keys to associate Copyright and Licensing Information with the
 Covered File are OPTIONAL, the complete Information MUST still be associated
 with the File in some fashion.
