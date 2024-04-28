@@ -132,6 +132,11 @@ Snippets inside of files.
 
 ### Comment headers
 
+Wherever possible, you SHOULD attempt to use comment headers to convey a file's
+Copyright and Licensing Information. Compared to other methods, comment headers
+are more explicit and their associated Information is more resistant to being
+moved or copied.
+
 To implement this method, a Commentable File MUST declare the file's Copyright
 and Licensing Information in a comment header. The Information SHOULD be as
 close to the top of the top of the file as possible in a comment header. The
