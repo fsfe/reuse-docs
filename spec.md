@@ -242,12 +242,13 @@ to zero or more Covered Files. It has the following keys:
   contain Licensing Information for the same Covered File. Available values are:
   - `closest`, the default value when `precedence` is not defined. This is an
     instruction to associate the Licensing Information inside of the Covered
-    Files, if available. If no such Licensing Information is found, then the
-    Licensing Information inside the table of the closest `REUSE.toml` that
-    covers the File is associated. This algorithm is applied separately for
-    copyright and for licensing. If a table for the same File in a closer
-    `REUSE.toml` file has the `override` precedence, then that precedence is
-    applied, and `closest` is ignored. This is effectively a fallback.
+    Files (or its adjacent `.license` file), if available. If no such Licensing
+    Information is found, then the Licensing Information inside the table of the
+    closest `REUSE.toml` that covers the File is associated. This algorithm is
+    applied separately for copyright and for licensing. If a table for the same
+    File in a closer `REUSE.toml` file has the `override` precedence, then that
+    precedence is applied, and `closest` is ignored. This is effectively a
+    fallback.
   - `aggregate`. This is an instruction to always associate the Licensing
     Information defined in the table with the table's Covered Files.
     Subsequently, the `closest` logic is also applied.
