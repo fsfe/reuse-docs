@@ -224,7 +224,9 @@ to zero or more Covered Files. It has the following keys:
 
 - `path` (REQUIRED), a string or list of strings representing paths. A path MUST
   use forward slashes as path separators. A path SHOULD resolve to one or more
-  Covered Files relative to the `REUSE.toml` file's directory. A path MAY use
+  Covered Files relative to the `REUSE.toml` file's directory. A path that
+  resolves to a non-existent or non-Covered File is ignored. A path MUST point
+  to a location in the `REUSE.toml` file's directory or deeper. A path MAY use
   globbing to match several Covered Files in a single expression. These are the
   globbing and matching rules:
   - `*` matches everything except forward slashes (i.e. path separators).
