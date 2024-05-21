@@ -28,9 +28,9 @@ These are the definitions for some of the terms used in this specification:
   software. Typically, a Project is composed of one or more files. Also
   sometimes called a package.
 - License File --- a file containing the text of a license.
-- Copyright and Licensing Information --- the information that lists the
-  copyright holders of a file or work, and describes under which licenses the
-  file or work is made available.
+- Licensing Information --- the information that lists the copyright holders of
+  a file or work, and describes under which licenses the file or work is made
+  available.
 - Copyright Notice --- a line of text that conveys copyright of a copyright
   holder. Its format is defined in the [Format of Copyright
   Notices](#format-of-copyright-notices) section.
@@ -53,7 +53,7 @@ These are the definitions for some of the terms used in this specification:
       (example: `sbom.spdx.json`).
 - Commentable File --- a plain text file that can contain comments.
 - Snippet --- a portion of text in a Commentable File to which different
-  Copyright and Licensing Information applies.
+  Licensing Information applies.
 - Uncommentable File --- either a plain text file that cannot contain comments
   or a file that is not a plain text file.
 - SPDX Specification --- SPDX specification, version 2.3; as available on
@@ -76,13 +76,15 @@ These are the definitions for some of the terms used in this specification:
 A Project MUST include a License File for every license under which Covered
 Files are licensed.
 
-Each License File MUST be placed in the `LICENSES/` directory in the root of
-the Project. The name of the License File MUST be the SPDX License Identifier of the
+Each License File MUST be placed in the `LICENSES/` directory in the root of the
+Project. The name of the License File MUST be the SPDX License Identifier of the
 license followed by an appropriate file extension (example:
 `LICENSES/GPL-3.0-or-later.txt`). The License File MUST be in plain text format.
 
-If a license does not exist in the SPDX License List, its SPDX License Identifier
-MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification, Clause 10 available at <https://spdx.github.io/spdx-spec/v2.3/other-licensing-information-detected/>.
+If a license does not exist in the SPDX License List, its SPDX License
+Identifier MUST be `LicenseRef-[idstring]` as defined by the SPDX Specification,
+Clause 10 available at
+<https://spdx.github.io/spdx-spec/v2.3/other-licensing-information-detected/>.
 
 A Project MUST NOT include License Files for licenses under which none of the
 files in the Project are licensed. The `LICENSES/` directory MUST NOT include
@@ -93,20 +95,19 @@ exceptions, with the exception that it is NOT possible to have a license
 exception that does not exist in the SPDX License List.
 
 For avoidance of doubt, in practice this means that for every license and
-exception that is part of any SPDX License Expression in any Copyright and
-Licensing Information associated with any Covered File, there MUST exist a
-License File as defined in this section.
+exception that is part of any SPDX License Expression in any Licensing
+Information associated with any Covered File, there MUST exist a License File as
+defined in this section.
 
 You MAY include a `COPYING` or `LICENSE` file (with or without file extensions)
 in your project for compliance with other standards, conventions, or tools.
 These files MAY contain a copy of the license text, a summary of your licensing,
 or anything else. These files are ignored by the REUSE Tool.
 
-## Copyright and Licensing Information
+## Licensing Information
 
-Each Covered File MUST have Copyright and Licensing Information associated with
-it. You can associate Copyright and Licensing Information with a file in the
-following ways:
+Each Covered File MUST have Licensing Information associated with it. You can
+associate Licensing Information with a file in the following ways:
 
 - Comment headers
 - REUSE.toml
@@ -115,25 +116,25 @@ following ways:
 REUSE.toml and DEP5 are mutually exclusive. You MUST NOT use both
 simultaneously.
 
-Additionally, you can associate Copyright and Licensing Information with
-Snippets inside of files.
+Additionally, you can associate Licensing Information with Snippets inside of
+files.
 
 ### Comment headers
 
 Wherever possible, you SHOULD attempt to use comment headers to convey a file's
-Copyright and Licensing Information. Compared to other methods, comment headers
-are more explicit and their associated Information is more resistant to being
+Licensing Information. Compared to other methods, comment headers are more
+explicit and their associated Licensing Information is more resistant to being
 moved or copied.
 
-To implement this method, a Commentable File MUST declare the file's Copyright
-and Licensing Information in a comment header. The Information SHOULD be as
-close to the top of the top of the file as possible in a comment header. The
-Commentable File SHOULD use UTF-8 encoding.
+To implement this method, a Commentable File MUST declare the file's Licensing
+Information in a comment header. The Licensing Information SHOULD be as close to
+the top of the top of the file as possible in a comment header. The Commentable
+File SHOULD use UTF-8 encoding.
 
-For Uncommentable Files, the comment header that declares the file's Copyright
-and Licensing Information MUST be in an adjacent text file of the same name with
-the additional extension `.license` (example: `cat.jpg.license` if the original
-file is `cat.jpg`). The adjacent file SHOULD use UTF-8 encoding.
+For Uncommentable Files, the comment header that declares the file's Licensing
+Information MUST be in an adjacent text file of the same name with the
+additional extension `.license` (example: `cat.jpg.license` if the original file
+is `cat.jpg`). The adjacent file SHOULD use UTF-8 encoding.
 
 `.license` files MAY be used with Commentable Files, but it is still RECOMMENDED
 that comment headers be put inside Commentable Files.
@@ -157,9 +158,9 @@ An example of a comment header:
 
 #### In-line Snippet comments
 
-Sometimes Copyright and Licensing Information only applies to a certain Snippet
-instead of the whole Commentable File. For these cases SPDX snippet tags MUST be
-used for that Snippet (as defined in [SPDX Specification, Annex
+Sometimes Licensing Information only applies to a certain Snippet instead of the
+whole Commentable File. For these cases SPDX snippet tags MUST be used for that
+Snippet (as defined in [SPDX Specification, Annex
 H](https://spdx.github.io/spdx-spec/v2.3/file-tags/#h3-snippet-tags-format)).
 This means that Copyright Notices inside of Snippets MUST be prefixed with
 `SPDX-SnippetCopyrightText`.
@@ -182,12 +183,12 @@ print("Hello, world!")
 
 #### Ignore block
 
-If Copyright and Licensing Information is declared in a file without describing
-the file's or Snippet's actual license or copyright (for example: as part of an
-output command or documentation), these occurrences SHOULD be put between two
-comments: `REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores
-all Copyright and Licensing Information between these comments. This technique
-MUST NOT be used to ignore valid Copyright and Licensing Information.
+If Licensing Information is declared in a file without describing the file's or
+Snippet's actual license or copyright (for example: as part of an output command
+or documentation), these occurrences SHOULD be put between two comments:
+`REUSE-IgnoreStart` and `REUSE-IgnoreEnd`. The REUSE Tool then ignores all
+Licensing Information between these comments. This technique MUST NOT be used to
+ignore valid Licensing Information.
 
 An example for an ignored block:
 
@@ -204,7 +205,7 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 
 ### REUSE.toml
 
-Copyright and Licensing Information MAY be associated with a file through a
+Licensing Information MAY be associated with a file through a
 `REUSE.toml` file. The intended use case of this method is large directories where
 including a comment header in each file (or in `.license` companion files) is
 impossible or undesirable.
@@ -216,8 +217,8 @@ different directories.
 The `version` key (REQUIRED) MUST have an integer value representing the schema
 version of the file. This specification describes version 1 of `REUSE.toml`.
 
-Each `[[annotations]]` table represents an association of Copyright and
-Licensing Information to zero or more Covered Files. It has the following keys:
+Each `[[annotations]]` table represents an association of Licensing Information
+to zero or more Covered Files. It has the following keys:
 
 - `path` (REQUIRED), a string or list of strings representing paths. A path MUST
   use forward slashes as path separators. A path SHOULD resolve to one or more
@@ -232,23 +233,23 @@ Licensing Information to zero or more Covered Files. It has the following keys:
     include a backslash verbatim, use `\\\\`. `\\` followed by any other
     character is functionally equal to just typing that character.
 - `precedence` (OPTIONAL), a literal string. It determines the order of
-  precedence for Copyright and Licensing Information between the `REUSE.toml` file
-  and Covered Files in the table, and between multiple `REUSE.toml` files if they
-  both contain Information for the same Covered File. Available values are:
+  precedence for Licensing Information between the `REUSE.toml` file and Covered
+  Files in the table, and between multiple `REUSE.toml` files if they both
+  contain Licensing Information for the same Covered File. Available values are:
   - `closest`, the default value when `precedence` is not defined. This is an
-    instruction to associate the Copyright and Licensing Information inside of
-    the Covered Files, if available. If no such Information is found, then the
-    Information inside the table of the closest `REUSE.toml` that covers the
-    File is associated. This algorithm is applied separately for copyright and
-    for licensing. If a table for the same File in a closer `REUSE.toml` file
-    has the `override` precedence, then that precedence is applied, and
-    `closest` is ignored. This is effectively a fallback.
-  - `aggregate`. This is an instruction to always associate the Copyright and
-    Licensing Information defined in the table with the table's Covered Files.
+    instruction to associate the Licensing Information inside of the Covered
+    Files, if available. If no such Licensing Information is found, then the
+    Licensing Information inside the table of the closest `REUSE.toml` that
+    covers the File is associated. This algorithm is applied separately for
+    copyright and for licensing. If a table for the same File in a closer
+    `REUSE.toml` file has the `override` precedence, then that precedence is
+    applied, and `closest` is ignored. This is effectively a fallback.
+  - `aggregate`. This is an instruction to always associate the Licensing
+    Information defined in the table with the table's Covered Files.
     Subsequently, the `closest` logic is also applied.
-  - `override`. This is an instruction to associate the Copyright and Licensing
-    Information defined in the table with the table's Covered Files, and to
-    ignore any other Information that is closer to the Files. The table in the
+  - `override`. This is an instruction to associate the Licensing Information
+    defined in the table with the table's Covered Files, and to ignore any other
+    Licensing Information that is closer to the Files. The table in the
     `REUSE.toml` that is the closest to the root of the Project is
     authoritative.
 - `SPDX-FileCopyrightText` (OPTIONAL), a string or list of strings. Each string
@@ -261,9 +262,9 @@ Licensing Information to zero or more Covered Files. It has the following keys:
 You MAY include other keys and tables to convey additional information. Their
 semantics are not defined by this specification.
 
-Although the keys to associate Copyright and Licensing Information with the
-Covered File are OPTIONAL, the complete Information MUST still be associated
-with the File in some fashion.
+Although the keys to associate Licensing Information with the Covered File are
+OPTIONAL, the complete Licensing Information MUST still be associated with the
+File in some fashion.
 
 If a Covered File is covered by multiple `[[annotations]]` tables in the same
 `REUSE.toml` file, then exclusively the last matching table in the file is used
@@ -283,10 +284,9 @@ SPDX-License-Identifier = "GPL-3.0-or-later"
 
 ### DEP5 (deprecated)
 
-Copyright and Licensing Information MAY be associated with a file through a DEP5
-file, but you SHOULD create a `REUSE.toml` file instead. The DEP5 file is
-deprecated, meaning that it is expected to disappear from a future iteration of
-this specification.
+Licensing Information MAY be associated with a file through a DEP5 file, but you
+SHOULD create a `REUSE.toml` file instead. The DEP5 file is deprecated, meaning
+that it is expected to disappear from a future iteration of this specification.
 
 The DEP5 file MUST be named `dep5` and stored in the `.reuse/` directory in the
 root of the Project (i.e. `.reuse/dep5`).
@@ -312,18 +312,17 @@ License: GPL-3.0-or-later
 
 ## Order of precedence
 
-If a Commentable File contains Copyright and Licensing Information but also has
-an adjacent `.license` file, then the Copyright and Licensing Information
-defined in the `.license` file takes precedence, and the Commentable File's
-contents are ignored. For all intents and purposes, this counts as the
-`.license` file's Copyright and Licensing Information being inside the
-Commentable File.
+If a Commentable File contains Licensing Information but also has an adjacent
+`.license` file, then the Licensing Information defined in the `.license` file
+takes precedence, and the Commentable File's contents are ignored. For all
+intents and purposes, this counts as the `.license` file's Licensing Information
+being inside the Commentable File.
 
-Copyright and Licensing Information defined in `.reuse/dep5` is aggregated with
-the Copyright and Licensing Information found in the Covered Files. For clarity,
-this means that if the SPDX License Expressions in a file's comment header and
-in the section for that file in `.reuse/dep5` do not agree with each other, then
-both SPDX License Expressions will apply to the file.
+Licensing Information defined in `.reuse/dep5` is aggregated with the Licensing
+Information found in the Covered Files. For clarity, this means that if the SPDX
+License Expressions in a file's comment header and in the section for that file
+in `.reuse/dep5` do not agree with each other, then both SPDX License
+Expressions will apply to the file.
 
 The order of precedence for `REUSE.toml` files is described in the respective
 section, and is managed using the `precedence` key.
