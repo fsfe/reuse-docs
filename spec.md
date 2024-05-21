@@ -344,7 +344,7 @@ prefixes) from the following list:
 It is RECOMMENDED to use the `SPDX-FileCopyrightText` tag. You MAY add '(C)',
 '(c)' or '©' after the prefix.
 
-A Copyright Notice MUST be terminated by a newline.
+In Commentable Files, a Copyright Notice is terminated by a newline.
 
 The Copyright Notice MUST contain the name of the copyright holder. The
 copyright notice SHOULD contain the year of publication and the contact address
