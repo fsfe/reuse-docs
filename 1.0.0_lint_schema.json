@@ -1,0 +1,176 @@
+{
+    "$schema": "https://reuse.software/schemas/1.0.0_lint_schema.json",
+    "$ref": "#/definitions/Result",
+    "definitions": {
+        "Result": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "lint_version": {
+                    "type": "string"
+                },
+                "reuse_spec_version": {
+                    "type": "string"
+                },
+                "reuse_tool_version": {
+                    "type": "string"
+                },
+                "files": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/File"
+                    }
+                },
+                "non_compliant": {
+                    "$ref": "#/definitions/NonCompliant"
+                },
+                "summary": {
+                    "$ref": "#/definitions/Summary"
+                }
+            },
+            "required": [
+                "files",
+                "lint_version",
+                "non_compliant",
+                "reuse_spec_version",
+                "reuse_tool_version",
+                "summary"
+            ],
+            "title": "Welcome"
+        },
+        "File": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "path": {
+                    "type": "string"
+                },
+                "copyrights": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Copyright"
+                    }
+                },
+                "licenses": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Copyright"
+                    }
+                }
+            },
+            "required": ["copyrights", "licenses", "path"],
+            "title": "File"
+        },
+        "Copyright": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "value": {
+                    "type": "string"
+                },
+                "source": {
+                    "type": "string"
+                }
+            },
+            "required": ["source", "value"],
+            "title": "Copyright"
+        },
+        "NonCompliant": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "missing_licenses": {
+                    "$ref": "#/definitions/MissingLicenses"
+                },
+                "unused_licenses": {
+                    "type": "array",
+                    "items": {}
+                },
+                "deprecated_licenses": {
+                    "type": "array",
+                    "items": {}
+                },
+                "bad_licenses": {
+                    "$ref": "#/definitions/BadLicenses"
+                },
+                "licenses_without_extension": {
+                    "$ref": "#/definitions/LicensesWithoutExtension"
+                },
+                "missing_copyright_info": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "missing_licensing_info": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "read_errors": {
+                    "type": "array",
+                    "items": {}
+                }
+            },
+            "required": [
+                "bad_licenses",
+                "deprecated_licenses",
+                "licenses_without_extension",
+                "missing_copyright_info",
+                "missing_licenses",
+                "missing_licensing_info",
+                "read_errors",
+                "unused_licenses"
+            ],
+            "title": "NonCompliant"
+        },
+        "BadLicenses": {
+            "type": "object",
+            "additionalProperties": { "type": "object" },
+            "title": "BadLicenses"
+        },
+        "LicensesWithoutExtension": {
+            "type": "object",
+            "additionalProperties": { "type": "object" },
+            "title": "LicensesWithoutExtension"
+        },
+        "MissingLicenses": {
+            "type": "object",
+            "additionalProperties": { "type": "object" },
+            "title": "MissingLicenses"
+        },
+        "Summary": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "used_licenses": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "files_total": {
+                    "type": "integer"
+                },
+                "files_with_copyright_info": {
+                    "type": "integer"
+                },
+                "files_with_licensing_info": {
+                    "type": "integer"
+                },
+                "compliant": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "compliant",
+                "files_total",
+                "files_with_copyright_info",
+                "files_with_licensing_info",
+                "used_licenses"
+            ],
+            "title": "Summary"
+        }
+    }
+}
