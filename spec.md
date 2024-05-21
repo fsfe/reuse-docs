@@ -56,7 +56,7 @@ These are the definitions for some of the terms used in this specification:
   Licensing Information applies.
 - Uncommentable File --- either a plain text file that cannot contain comments
   or a file that is not a plain text file.
-- SPDX Specification --- SPDX specification, version 2.3; as available on
+- SPDX Specification --- SPDX specification, version 2.3; as available at
   <https://spdx.org/specifications>.
 - SPDX License Identifier --- SPDX short-form identifier, as defined in SPDX
   Specification. See also <https://spdx.org/ids> for a short introduction and
@@ -65,11 +65,13 @@ These are the definitions for some of the terms used in this specification:
   <https://spdx.github.io/spdx-spec/v2.3/SPDX-license-expressions/>.
 - SPDX License List --- a list of commonly found licenses and exceptions; as
   available on <https://spdx.org/licenses/>.
-- DEP5 --- [Machine-readable `debian/copyright` file, Version
-  1.0](https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/).
-  Where the REUSE Specification and DEP5 state different things, the REUSE
+- DEP5 --- Machine-readable `debian/copyright` file, Version 1.0; as available
+  at <https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/>. Where
+  the REUSE Specification and DEP5 state different things, the REUSE
   Specification takes precedence. Specifically in the case of the `Copyright`
   and `License` tags.
+- TOML --- A configuration file format as available at
+  <https://toml.io/en/v1.0.0>.
 
 ## License Files
 
@@ -205,10 +207,10 @@ echo "SPDX-License-Identifier: MIT" > file.txt
 
 ### REUSE.toml
 
-Licensing Information MAY be associated with a file through a
-`REUSE.toml` file. The intended use case of this method is large directories where
-including a comment header in each file (or in `.license` companion files) is
-impossible or undesirable.
+Licensing Information MAY be associated with a file through a `REUSE.toml` file,
+which MUST be a valid TOML file. The intended use case of this method is large
+directories where including a comment header in each file (or in `.license`
+companion files) is impossible or undesirable.
 
 A `REUSE.toml` file MAY be located in any directory, and can cover files that are
 within its directory or deeper. You MAY have multiple `REUSE.toml` files in
