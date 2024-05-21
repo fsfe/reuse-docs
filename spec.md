@@ -35,7 +35,7 @@ These are the definitions for some of the terms used in this specification:
   holder. Its format is defined in the [Format of Copyright
   Notices](#format-of-copyright-notices) section.
 - Covered File --- any file in a Project, except for
-    - The License Files.
+    - The License Files stored in the `LICENSES/` directory.
     - `COPYING` and `LICENSE`, with or without file extensions.
     - The files belonging to the Project's version control system (example:
       `.git/`).
